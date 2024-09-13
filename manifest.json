@@ -1,0 +1,13 @@
+{
+  "version": "0.0.1",
+  "scripts": {
+    "ILST": {
+      "helloWorld": {
+        "desc": "Hello world",
+        "data": "function(){ alert(\"Hello world\") }()",
+        "hidden": false,
+        "path": "./helloWorld"
+      }
+    }
+  }
+}
