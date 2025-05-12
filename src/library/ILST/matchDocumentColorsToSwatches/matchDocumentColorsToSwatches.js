@@ -4,7 +4,7 @@ var CONFIG = {
   },
   path: {
     debug:
-      "/Users/ag001864/Documents/Dev/Adobe Scripts/agScripts/src/library/ILST/screenPrint/colorDebug.json",
+      "/Users/ag001864/Documents/Dev/Adobe Scripts/agScripts/src/library/ILST/matchDocumentColorsToSwatches/colorDebug.json",
   },
 };
 RGBColor.prototype.create = function (red, green, blue) {
@@ -21219,7 +21219,12 @@ function init() {
   // alert(match.name);
   var colorList = getUniqueColorsInDocument();
   writeFile(CONFIG.path.debug, JSON.stringify(colorList));
-  alert("Done");
+
+  for (var i = 0; i < colorList.length; i++) {
+    var temp = colorList[i];
+    unfoldColorValue(temp);
+  }
+  // alert("Done");
 }
 
 function writeFile(path, data) {
@@ -21228,6 +21233,18 @@ function writeFile(path, data) {
   tmp.open("w");
   tmp.write(data);
   tmp.close();
+}
+
+function unfoldColorValue(colorString) {
+  var colorRX = /color\([^\)]*\)/i;
+  //
+  if (colorRX.test(colorString)) {
+    var suffix = colorString.match(colorRX)[0];
+    var colorType = colorString.replace(suffix, "").toUpperCase();
+    alert("Match found: " + colorType);
+  } else {
+    alert("No match for " + colorString);
+  }
 }
 
 function getUniqueColorsInDocument(ignoreLocked) {
@@ -21252,6 +21269,18 @@ function getUniqueColorsInDocument(ignoreLocked) {
     }
   }
   return colorList;
+}
+
+function colorInList(color, list) {
+  var isFound = false;
+  for (var i = 0; i < list.length; i++) {
+    var cc = list[i];
+    if (JSON.stringify(cc) == JSON.stringify(color)) {
+      isFound = true;
+      break;
+    }
+  }
+  return isFound;
 }
 
 function abs(number) {
@@ -21292,6 +21321,47 @@ function findClosestRGB(targetRGB, rgbArray) {
     source: targetRGB,
     match: closestColor,
   };
+}
+
+function getColorValue(item) {
+  var str = item + "";
+  if (/rgb/i.test(str)) {
+    return {
+      red: item.red,
+      green: item.green,
+      blue: item.blue,
+      typename: "RGBColor",
+      uuid: item.uuid,
+    };
+  } else if (/cmyk/i.test(str)) {
+    return {
+      cyan: item.cyan,
+      magenta: item.magenta,
+      yellow: item.yellow,
+      black: item.black,
+      typename: "CMYKColor",
+      uuid: item.uuid,
+    };
+  } else if (/gray/i.test(str)) {
+    return {
+      typename: "multiColor",
+      uuid: item.uuid,
+    };
+  } else if (/no/i.test(str)) {
+    return {
+      typename: "noColor",
+      uuid: item.uuid,
+    };
+  } else if (/spot/i.test(str) && item.spot) {
+    return {
+      cyan: item.spot.color.cyan,
+      magenta: item.spot.color.magenta,
+      yellow: item.spot.color.yellow,
+      black: item.spot.color.black,
+      typename: "SpotColor",
+      uuid: item.uuid,
+    };
+  }
 }
 
 init();
