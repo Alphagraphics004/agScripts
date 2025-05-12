@@ -1,4 +1,236 @@
-[
+var assetDoc = null;
+var templateDoc = null;
+
+var defaultConfig = {
+  options: {
+    runBaseActions: true,
+    compileColorsToGroups: true,
+    expandUniteColors: true,
+    assignSwatchColors: true,
+    areaThreshold: 8,
+  },
+  createUnderbase: false,
+  position: {
+    value: "Center Chest",
+    y: "TOP",
+    x: "CENTER",
+    topY: "1.6528",
+    centerX: "8.7697",
+  },
+  size: {
+    template: "STANDARD",
+    x: "",
+    y: "",
+  },
+  render: {
+    fileName: "568068 - Cubing Gaming Club - Center Chest",
+  },
+  path: {
+    jobFolder:
+      "/Users/ag001864/Documents/AG Resources/Apparel/Screen Print/0 - Sandbox",
+    workingFolder:
+      "/Users/ag001864/Documents/AG Resources/Apparel/Screen Print/0 - Sandbox",
+    toPressFolder: "",
+    templates: {
+      standard:
+        "/Volumes/Apparel/Screen Print Templates/SPYDER SEPS TEMPLATE.ait",
+      youth:
+        "/Volumes/Apparel/Screen Print Templates/SPYDER YOUTH SEPS TEMPLATE.ait",
+    },
+    assetFile:
+      "/Users/ag001864/Documents/AG Resources/Apparel/Screen Print/2 - Sample Start File/GCUCubingClub_Back.eps",
+    bxSwatchesFile:
+      "/Users/ag001864/Documents/AG Resources/Apparel/Screen Print/0 - Utils/BX SP Swatch - 2025.ase",
+    pantoneSwatchesFile:
+      "/Users/ag001864/Documents/AG Resources/Apparel/Screen Print/0 - Utils/PANTONE+ Solid Coated-V3.acb",
+    debugLog:
+      "/Users/ag001864/Documents/Dev/Adobe Scripts/agScripts/src/library/ILST/screenPrint/debug.json",
+  },
+};
+
+"object" != typeof JSON && (JSON = {}),
+  (function () {
+    "use strict";
+    var rx_one = /^[\],:{}\s]*$/,
+      rx_two = /\\(?:["\\\/bfnrt]|u[0-9a-fA-F]{4})/g,
+      rx_three =
+        /"[^"\\\n\r]*"|true|false|null|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?/g,
+      rx_four = /(?:^|:|,)(?:\s*\[)+/g,
+      rx_escapable =
+        /[\\"\u0000-\u001f\u007f-\u009f\u00ad\u0600-\u0604\u070f\u17b4\u17b5\u200c-\u200f\u2028-\u202f\u2060-\u206f\ufeff\ufff0-\uffff]/g,
+      rx_dangerous =
+        /[\u0000\u00ad\u0600-\u0604\u070f\u17b4\u17b5\u200c-\u200f\u2028-\u202f\u2060-\u206f\ufeff\ufff0-\uffff]/g,
+      gap,
+      indent,
+      meta,
+      rep;
+    function f(t) {
+      return t < 10 ? "0" + t : t;
+    }
+    function this_value() {
+      return this.valueOf();
+    }
+    function quote(t) {
+      return (
+        (rx_escapable.lastIndex = 0),
+        rx_escapable.test(t)
+          ? '"' +
+            t.replace(rx_escapable, function (t) {
+              var e = meta[t];
+              return "string" == typeof e
+                ? e
+                : "\\u" + ("0000" + t.charCodeAt(0).toString(16)).slice(-4);
+            }) +
+            '"'
+          : '"' + t + '"'
+      );
+    }
+    function str(t, e) {
+      var r,
+        n,
+        o,
+        u,
+        f,
+        a = gap,
+        i = e[t];
+      switch (
+        (i &&
+          "object" == typeof i &&
+          "function" == typeof i.toJSON &&
+          (i = i.toJSON(t)),
+        "function" == typeof rep && (i = rep.call(e, t, i)),
+        typeof i)
+      ) {
+        case "string":
+          return quote(i);
+        case "number":
+          return isFinite(i) ? String(i) : "null";
+        case "boolean":
+        case "null":
+          return String(i);
+        case "object":
+          if (!i) return "null";
+          if (
+            ((gap += indent),
+            (f = []),
+            "[object Array]" === Object.prototype.toString.apply(i))
+          ) {
+            for (u = i.length, r = 0; r < u; r += 1) f[r] = str(r, i) || "null";
+            return (
+              (o =
+                0 === f.length
+                  ? "[]"
+                  : gap
+                  ? "[\n" + gap + f.join(",\n" + gap) + "\n" + a + "]"
+                  : "[" + f.join(",") + "]"),
+              (gap = a),
+              o
+            );
+          }
+          if (rep && "object" == typeof rep)
+            for (u = rep.length, r = 0; r < u; r += 1)
+              "string" == typeof rep[r] &&
+                (o = str((n = rep[r]), i)) &&
+                f.push(quote(n) + (gap ? ": " : ":") + o);
+          else
+            for (n in i)
+              Object.prototype.hasOwnProperty.call(i, n) &&
+                (o = str(n, i)) &&
+                f.push(quote(n) + (gap ? ": " : ":") + o);
+          return (
+            (o =
+              0 === f.length
+                ? "{}"
+                : gap
+                ? "{\n" + gap + f.join(",\n" + gap) + "\n" + a + "}"
+                : "{" + f.join(",") + "}"),
+            (gap = a),
+            o
+          );
+      }
+    }
+    "function" != typeof Date.prototype.toJSON &&
+      ((Date.prototype.toJSON = function () {
+        return isFinite(this.valueOf())
+          ? this.getUTCFullYear() +
+              "-" +
+              f(this.getUTCMonth() + 1) +
+              "-" +
+              f(this.getUTCDate()) +
+              "T" +
+              f(this.getUTCHours()) +
+              ":" +
+              f(this.getUTCMinutes()) +
+              ":" +
+              f(this.getUTCSeconds()) +
+              "Z"
+          : null;
+      }),
+      (Boolean.prototype.toJSON = this_value),
+      (Number.prototype.toJSON = this_value),
+      (String.prototype.toJSON = this_value)),
+      "function" != typeof JSON.stringify &&
+        ((meta = {
+          "\b": "\\b",
+          "\t": "\\t",
+          "\n": "\\n",
+          "\f": "\\f",
+          "\r": "\\r",
+          '"': '\\"',
+          "\\": "\\\\",
+        }),
+        (JSON.stringify = function (t, e, r) {
+          var n;
+          if (((gap = ""), (indent = ""), "number" == typeof r))
+            for (n = 0; n < r; n += 1) indent += " ";
+          else "string" == typeof r && (indent = r);
+          if (
+            ((rep = e),
+            e &&
+              "function" != typeof e &&
+              ("object" != typeof e || "number" != typeof e.length))
+          )
+            throw new Error("JSON.stringify");
+          return str("", { "": t });
+        })),
+      "function" != typeof JSON.parse &&
+        (JSON.parse = function (text, reviver) {
+          var j;
+          function walk(t, e) {
+            var r,
+              n,
+              o = t[e];
+            if (o && "object" == typeof o)
+              for (r in o)
+                Object.prototype.hasOwnProperty.call(o, r) &&
+                  (void 0 !== (n = walk(o, r)) ? (o[r] = n) : delete o[r]);
+            return reviver.call(t, e, o);
+          }
+          if (
+            ((text = String(text)),
+            (rx_dangerous.lastIndex = 0),
+            rx_dangerous.test(text) &&
+              (text = text.replace(rx_dangerous, function (t) {
+                return (
+                  "\\u" + ("0000" + t.charCodeAt(0).toString(16)).slice(-4)
+                );
+              })),
+            rx_one.test(
+              text
+                .replace(rx_two, "@")
+                .replace(rx_three, "]")
+                .replace(rx_four, "")
+            ))
+          )
+            return (
+              (j = eval("(" + text + ")")),
+              "function" == typeof reviver ? walk({ "": j }, "") : j
+            );
+          throw new SyntaxError("JSON.parse");
+        });
+  })();
+
+var swatchList = [
   {
     name: "BX SP Swatch - 2025",
     date: "04/30/2025",
@@ -20871,53 +21103,6 @@
   },
 ];
 
-var assetDoc = null;
-var templateDoc = null;
-
-var defaultConfig = {
-  options: {
-    runBaseActions: true,
-    compileColorsToGroups: true,
-    expandUniteColors: true,
-    assignSwatchColors: true,
-  },
-  createUnderbase: false,
-  position: {
-    value: "Center Chest",
-    y: "TOP",
-    x: "CENTER",
-    topY: "1.6528",
-    centerX: "8.7697",
-  },
-  size: {
-    template: "STANDARD",
-    x: "",
-    y: "",
-  },
-  render: {
-    fileName: "568068 - Cubing Gaming Club - Center Chest",
-  },
-  path: {
-    jobFolder:
-      "/Users/ag001864/Documents/AG Resources/Apparel/Screen Print/0 - Sandbox",
-    workingFolder:
-      "/Users/ag001864/Documents/AG Resources/Apparel/Screen Print/0 - Sandbox",
-    toPressFolder: "",
-    templates: {
-      standard:
-        "/Volumes/Apparel/Screen Print Templates/SPYDER SEPS TEMPLATE.ait",
-      youth:
-        "/Volumes/Apparel/Screen Print Templates/SPYDER YOUTH SEPS TEMPLATE.ait",
-    },
-    assetFile:
-      "/Users/ag001864/Documents/AG Resources/Apparel/Screen Print/2 - Sample Start File/GCUCubingClub_Back.eps",
-    bxSwatchesFile:
-      "/Users/ag001864/Documents/AG Resources/Apparel/Screen Print/0 - Utils/BX SP Swatch - 2025.ase",
-    pantoneSwatchesFile:
-      "/Users/ag001864/Documents/AG Resources/Apparel/Screen Print/0 - Utils/PANTONE+ Solid Coated-V3.acb",
-  },
-};
-
 var templateUUIDs = [
   "677",
   "676",
@@ -21053,6 +21238,12 @@ Array.prototype.includes = function (item) {
   for (var i = 0; i < this.length; i++) if (this[i] == item) return true;
   return false;
 };
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find
+Array.prototype.find = function (callback) {
+  for (var i = 0; i < this.length; i++)
+    if (callback(this[i], i, this)) return this[i];
+  return null;
+};
 
 function init() {
   // Prevent any automated action from creating a pop up that relies on the user confirming any dialog
@@ -21071,8 +21262,13 @@ function init() {
   //
   saveDocument();
   //
-  // Paste and do positioning here
+  lockAllPathItems();
   //
+  pasteArtwork();
+  //
+  groupAndFixPositioning();
+  //
+  var list = deduceColorList();
   // Gather all pageItems here, excluding list UUIDs above
   //
   // Gather all colors here
@@ -21089,6 +21285,188 @@ function init() {
   //
   // Save document again, then export as To Press PDF file
   //
+  unloadActions();
+}
+
+function getTopMostParentNotDocument(item) {
+  if (
+    item.parent &&
+    /item/i.test(item.typename) &&
+    !/layer/i.test(item.typename)
+  )
+    return getTopMostParentNotDocument(item.parent);
+  else return item;
+}
+
+function getTopMostGroupNotLocked(layerItem) {
+  var list = layerItem.groupItems;
+  if (!list || !list.length) {
+    alert("Short circuit self");
+    return layerItem;
+  }
+  var result = null;
+  for (var i = 0; i < list.length; i++) {
+    var item = list[i];
+    if (item.locked) continue;
+    else {
+      result = item;
+      break;
+    }
+  }
+  return result;
+}
+
+function groupAndFixPositioning() {
+  try {
+    // Immediately try to group this
+    app.executeMenuCommand("group");
+    // Clear and retrigger selection
+    app.selection = null;
+    app.executeMenuCommand("selectall");
+    //
+    // But this doesn't seem to be working, so just grab the layer, then grab it's only unlocked group
+    var parentItem = getTopMostParentNotDocument(app.selection[0]);
+    var groupRootItem = getTopMostGroupNotLocked(parentItem);
+    // And set the top to the arbitrary pixel amount for our guide at base template
+    groupRootItem.top = -185;
+
+    // Unless I explicitly set only the group, it seems to align all the contents as well
+    app.selection = null;
+    groupRootItem.selected = true;
+    runAction("Center Align X");
+    //
+    // Then destroy the positioning group:
+    app.executeMenuCommand("ungroup");
+    //
+    return true;
+  } catch (err) {
+    //
+    alert(err);
+  }
+}
+
+function pasteArtwork() {
+  try {
+    app.executeMenuCommand("paste");
+  } catch (err) {
+    //
+    alert(err);
+  }
+}
+
+function lockAllPathItems() {
+  //
+  try {
+    app.executeMenuCommand("selectall");
+    app.executeMenuCommand("lock");
+  } catch (err) {
+    //
+    alert(err);
+  }
+}
+
+function colorInList(color, list) {
+  var isFound = false;
+  for (var i = 0; i < list.length; i++) {
+    var cc = list[i];
+    if (JSON.stringify(cc) == JSON.stringify(color)) {
+      isFound = true;
+      break;
+    }
+  }
+  return isFound;
+}
+
+function getColorValue(item) {
+  var str = item + "";
+  if (/rgb/i.test(str)) {
+    return {
+      red: item.red,
+      green: item.green,
+      blue: item.blue,
+      typename: "RGBColor",
+      uuid: item.uuid,
+    };
+  } else if (/cmyk/i.test(str)) {
+    return {
+      cyan: item.cyan,
+      magenta: item.magenta,
+      yellow: item.yellow,
+      black: item.black,
+      typename: "CMYKColor",
+      uuid: item.uuid,
+    };
+  } else if (/gray/i.test(str)) {
+    return {
+      typename: "multiColor",
+      uuid: item.uuid,
+    };
+  } else if (/no/i.test(str)) {
+    return {
+      typename: "noColor",
+      uuid: item.uuid,
+    };
+  } else if (/spot/i.test(str) && item.spot) {
+    return {
+      cyan: item.spot.color.cyan,
+      magenta: item.spot.color.magenta,
+      yellow: item.spot.color.yellow,
+      black: item.spot.color.black,
+      typename: "SpotColor",
+      uuid: item.uuid,
+    };
+  }
+}
+
+function getSimplifiedColorValue(item) {
+  //
+}
+
+function abs(number) {
+  return number > 0 ? number : number * -1;
+}
+
+function clearSelection() {
+  var temp = app.selection;
+  app.selection = null;
+  return temp;
+}
+
+function deduceColorList() {
+  var colorList = [];
+  // Should ignore anything that's locked
+  var list = app.activeDocument.pathItems;
+  for (var i = 0; i < list.length; i++) {
+    var item = list[i];
+    if (item.locked) continue;
+    if (templateUUIDs.includes(item.uuid)) continue;
+    // Must have a fill color, and must be closed to prevent artifacts with faulty fill colors
+    if (item.filled && item.closed) {
+      var cc = item.fillColor;
+      if (
+        !colorInList(getColorValue(cc), colorList) &&
+        cc &&
+        cc + "" !== "null" &&
+        abs(item.area) > defaultConfig.options.areaThreshold
+      ) {
+        colorList.push(getColorValue(cc));
+      } else continue;
+    }
+    //
+  }
+  if (defaultConfig.path.debugLog) {
+    writeFile(defaultConfig.path.debugLog, JSON.stringify(colorList));
+  }
+  return colorList;
+}
+
+function unlockAllPathItems() {
+  try {
+    app.executeMenuCommand("unlockAll");
+  } catch (err) {
+    //
+    alert(err);
+  }
 }
 
 function saveDocument() {
@@ -21111,6 +21489,7 @@ function saveDocument() {
 function correctAssetPositioningAndSizing() {
   //
   var pointValue = new UnitValue(defaultConfig.size.y, "in");
+  alert(pointValue);
   // pointValue.convert("px");
   // var offsetValue = pointValue.value / app.activeDocument.scaleFactor;
   // annoObject.position = [
@@ -21148,6 +21527,36 @@ function loadSwatches() {
   //
 }
 
+function runAction(actionName) {
+  try {
+    app.doScript(actionName, "Apparel", false);
+    return true;
+  } catch (err) {
+    alert(err);
+    return false;
+  }
+}
+
+function findColor(col) {
+  var isFound = false;
+  isFound = findColorInSwatchLibrary(col, "BX SP Swatch - 2025");
+  // If we didn't find it in BPX swatches
+  if (!isFound) {
+    // Then try again for Pantone libraries
+    isFound = findColorInSwatchLibrary(col, "PANTONE+ Solid Coated-V3");
+  }
+  // And if we find it in either one of those, we'll match it with a UUID for selection on action afterwards
+  if (isFound) {
+    //
+  }
+}
+
+function findColorInSwatchLibrary(col, libraryName) {
+  var targetLibrary = swatchList.find(function (library) {
+    return library.name == libraryName;
+  });
+}
+
 function mergeSameColorsAction() {
   try {
     app.doScript("Select and Merge Same Color", "Apparel", false);
@@ -21160,7 +21569,7 @@ function mergeSameColorsAction() {
 
 function loadActions() {
   var actionStr =
-    "/version 3 /name [ 7 4170706172656c ] /isOpen 1 /actionCount 2 /action-1 { /name [ 27 53656c65637420616e64204d657267652053616d6520436f6c6f72 ] /keyIndex 0 /colorIndex 0 /isOpen 1 /eventCount 5 /event-1 { /useRulersIn1stQuadrant 0 /internalName (ai_plugin_find) /localizedName [ 8 53656c6563743a20 ] /isOpen 0 /isOn 1 /hasDialog 0 /parameterCount 1 /parameter-1 { /key 1851878757 /showInPalette 4294967295 /type (enumerated) /name [ 15 53616d652046696c6c20436f6c6f72 ] /value 3 } } /event-2 { /useRulersIn1stQuadrant 0 /internalName (adobe_makeCompound) /localizedName [ 18 4d616b6520436f6d706f756e642050617468 ] /isOpen 0 /isOn 1 /hasDialog 0 /parameterCount 0 } /event-3 { /useRulersIn1stQuadrant 0 /internalName (ai_plugin_pathfinder) /localizedName [ 10 5061746866696e646572 ] /isOpen 0 /isOn 1 /hasDialog 0 /parameterCount 1 /parameter-1 { /key 1851878757 /showInPalette 4294967295 /type (enumerated) /name [ 3 416464 ] /value 0 } } /event-4 { /useRulersIn1stQuadrant 0 /internalName (adobe_ungroup) /localizedName [ 7 556e67726f7570 ] /isOpen 0 /isOn 1 /hasDialog 0 /parameterCount 0 } /event-5 { /useRulersIn1stQuadrant 0 /internalName (adobe_makeCompound) /localizedName [ 18 4d616b6520436f6d706f756e642050617468 ] /isOpen 0 /isOn 1 /hasDialog 0 /parameterCount 0 } } /action-2 { /name [ 23 43726561746520556e64657262617365204f6666736574 ] /keyIndex 0 /colorIndex 5 /isOpen 0 /eventCount 3 /event-1 { /useRulersIn1stQuadrant 0 /internalName (ai_plugin_offset) /localizedName [ 11 4f66667365742050617468 ] /isOpen 0 /isOn 1 /hasDialog 1 /showDialog 0 /parameterCount 3 /parameter-1 { /key 1868985204 /showInPalette 4294967295 /type (unit real) /value -0.3024 /unit 592476268 } /parameter-2 { /key 1835627634 /showInPalette 4294967295 /type (real) /value 4.0 } /parameter-3 { /key 1785623664 /showInPalette 4294967295 /type (enumerated) /name [ 5 526f756e64 ] /value 0 } } /event-2 { /useRulersIn1stQuadrant 0 /internalName (adobe_sendToBack) /localizedName [ 12 53656e6420746f204261636b ] /isOpen 0 /isOn 1 /hasDialog 0 /parameterCount 0 } /event-3 { /useRulersIn1stQuadrant 0 /internalName (ai_plugin_swatches) /localizedName [ 8 5377617463686573 ] /isOpen 0 /isOn 1 /hasDialog 0 /parameterCount 1 /parameter-1 { /key 1937204072 /showInPalette 4294967295 /type (ustring) /value [ 9 556e64657262617365 ] } } }";
+    "/version 3 /name [ 7 4170706172656c ] /isOpen 1 /actionCount 3 /action-1 { /name [ 27 53656c65637420616e64204d657267652053616d6520436f6c6f72 ] /keyIndex 0 /colorIndex 0 /isOpen 0 /eventCount 5 /event-1 { /useRulersIn1stQuadrant 0 /internalName (ai_plugin_find) /localizedName [ 8 53656c6563743a20 ] /isOpen 0 /isOn 1 /hasDialog 0 /parameterCount 1 /parameter-1 { /key 1851878757 /showInPalette 4294967295 /type (enumerated) /name [ 15 53616d652046696c6c20436f6c6f72 ] /value 3 } } /event-2 { /useRulersIn1stQuadrant 0 /internalName (adobe_makeCompound) /localizedName [ 18 4d616b6520436f6d706f756e642050617468 ] /isOpen 0 /isOn 1 /hasDialog 0 /parameterCount 0 } /event-3 { /useRulersIn1stQuadrant 0 /internalName (ai_plugin_pathfinder) /localizedName [ 10 5061746866696e646572 ] /isOpen 0 /isOn 1 /hasDialog 0 /parameterCount 1 /parameter-1 { /key 1851878757 /showInPalette 4294967295 /type (enumerated) /name [ 3 416464 ] /value 0 } } /event-4 { /useRulersIn1stQuadrant 0 /internalName (adobe_ungroup) /localizedName [ 7 556e67726f7570 ] /isOpen 0 /isOn 1 /hasDialog 0 /parameterCount 0 } /event-5 { /useRulersIn1stQuadrant 0 /internalName (adobe_makeCompound) /localizedName [ 18 4d616b6520436f6d706f756e642050617468 ] /isOpen 0 /isOn 1 /hasDialog 0 /parameterCount 0 } } /action-2 { /name [ 23 43726561746520556e64657262617365204f6666736574 ] /keyIndex 0 /colorIndex 5 /isOpen 0 /eventCount 3 /event-1 { /useRulersIn1stQuadrant 0 /internalName (ai_plugin_offset) /localizedName [ 11 4f66667365742050617468 ] /isOpen 0 /isOn 1 /hasDialog 1 /showDialog 0 /parameterCount 3 /parameter-1 { /key 1868985204 /showInPalette 4294967295 /type (unit real) /value -0.3024 /unit 592476268 } /parameter-2 { /key 1835627634 /showInPalette 4294967295 /type (real) /value 4.0 } /parameter-3 { /key 1785623664 /showInPalette 4294967295 /type (enumerated) /name [ 5 526f756e64 ] /value 0 } } /event-2 { /useRulersIn1stQuadrant 0 /internalName (adobe_sendToBack) /localizedName [ 12 53656e6420746f204261636b ] /isOpen 0 /isOn 1 /hasDialog 0 /parameterCount 0 } /event-3 { /useRulersIn1stQuadrant 0 /internalName (ai_plugin_swatches) /localizedName [ 8 5377617463686573 ] /isOpen 0 /isOn 1 /hasDialog 0 /parameterCount 1 /parameter-1 { /key 1937204072 /showInPalette 4294967295 /type (ustring) /value [ 9 556e64657262617365 ] } } } /action-3 { /name [ 14 43656e74657220416c69676e2058 ] /keyIndex 0 /colorIndex 0 /isOpen 0 /eventCount 1 /event-1 { /useRulersIn1stQuadrant 0 /internalName (ai_plugin_alignPalette) /localizedName [ 9 416c69676e6d656e74 ] /isOpen 0 /isOn 1 /hasDialog 0 /parameterCount 1 /parameter-1 { /key 1954115685 /showInPalette 4294967295 /type (enumerated) /name [ 23 486f72697a6f6e74616c20416c69676e2043656e746572 ] /value 2 } } }";
   createAction(actionStr);
   function createAction(str) {
     var f = new File("~/ApparelActions.aia");
@@ -21174,6 +21583,14 @@ function loadActions() {
 
 function unloadActions() {
   app.unloadAction("Apparel", "");
+}
+
+function writeFile(path, data) {
+  var tmp = File(path);
+  tmp.encoding = "UTF8";
+  tmp.open("w");
+  tmp.write(data);
+  tmp.close();
 }
 
 function compileNonTemplateItemsToGroups() {

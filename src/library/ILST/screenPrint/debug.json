@@ -1,0 +1,17 @@
+[
+  { "cyan": 0, "magenta": 0, "yellow": 0, "black": 0, "typename": "CMYKColor" },
+  {
+    "cyan": 0,
+    "magenta": 98.828125,
+    "yellow": 100,
+    "black": 0,
+    "typename": "CMYKColor"
+  },
+  {
+    "cyan": 87.890625,
+    "magenta": 76.5625,
+    "yellow": 0,
+    "black": 0,
+    "typename": "CMYKColor"
+  }
+]
