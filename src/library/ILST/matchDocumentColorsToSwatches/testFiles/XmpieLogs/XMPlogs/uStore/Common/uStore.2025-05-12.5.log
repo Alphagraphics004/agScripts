@@ -1,0 +1,120 @@
+2025/05/12 10:43:00
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[6932]:	Info
+XMPieClearingTaskWS start.
+
+----------------------------------------
+
+2025/05/12 11:43:01
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[60360]:	Info
+XMPieClearingTaskWS start.
+
+----------------------------------------
+
+2025/05/12 12:35:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[556]:	Info
+Method: HandleEvent 
+Parameters: keyPoint=StateTransition, xParameters=System.Xml.XmlDocument, mallID=1,  
+
+----------------------------------------
+
+2025/05/12 12:35:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[556]:	Info
+The following action rule is executed for event StateTransition: MallId=1, UserId=0, RuleName=Auto-Launch XM Campaigns, RuleDesc=, FilterPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, ActionPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, EventId=3, ActionRuleId=67, FilterPluginId=603, ActionPluginId=602, IsSystemRule=False, StatusId=1,  
+
+----------------------------------------
+
+2025/05/12 12:35:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[556]:	Info
+The following action rule is executed for event StateTransition: MallId=1, UserId=0, RuleName=Order Pending to Prepare, RuleDesc=, FilterPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, ActionPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, EventId=3, ActionRuleId=10000, FilterPluginId=10244, ActionPluginId=10243, IsSystemRule=False, StatusId=1,  
+
+----------------------------------------
+
+2025/05/12 12:35:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[556]:	Info
+The following action rule is executed for event StateTransition: MallId=1, UserId=0, RuleName=Ready to Produce and Process, RuleDesc=, FilterPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, ActionPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, EventId=3, ActionRuleId=10001, FilterPluginId=10246, ActionPluginId=10245, IsSystemRule=False, StatusId=1,  
+
+----------------------------------------
+
+2025/05/12 12:35:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[556]:	Info
+The following action rule is executed for event StateTransition: MallId=1, UserId=0, RuleName=Order Move after delivery step 1, RuleDesc=, FilterPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, ActionPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, EventId=3, ActionRuleId=10002, FilterPluginId=10340, ActionPluginId=10339, IsSystemRule=False, StatusId=1,  
+
+----------------------------------------
+
+2025/05/12 12:35:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[556]:	Info
+The following action rule is executed for event StateTransition: MallId=1, UserId=0, RuleName=Order move after delivered step 2, RuleDesc=, FilterPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, ActionPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, EventId=3, ActionRuleId=10003, FilterPluginId=10342, ActionPluginId=10341, IsSystemRule=False, StatusId=1,  
+
+----------------------------------------
+
+2025/05/12 12:43:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[54500]:	Info
+XMPieClearingTaskWS start.
+
+----------------------------------------
+
+2025/05/12 12:48:25
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[39556]:	Info
+DummyFolder is \\fsag\uStore_MT2_FR33\Maintenance\GDPRCleanerDummyFiles\
+
+----------------------------------------
+
+2025/05/12 12:48:25
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[39556]:	Info
+Dummy files 'dummy.doc, dummy.docx, dummy.eps, dummy.jpeg, dummy.jpg, dummy.pdf, dummy.png, dummy.ppt, dummy.pptx' have added.
+
+----------------------------------------
+
+2025/05/12 13:48:27
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57524]:	Info
+DummyFolder is \\fsag\uStore_MT2_FR33\Maintenance\GDPRCleanerDummyFiles\
+
+----------------------------------------
+
+2025/05/12 13:48:27
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57524]:	Info
+Dummy files 'dummy.doc, dummy.docx, dummy.eps, dummy.jpeg, dummy.jpg, dummy.pdf, dummy.png, dummy.ppt, dummy.pptx' have added.
+
+----------------------------------------
+
+2025/05/12 14:43:07
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[38368]:	Info
+XMPieClearingTaskWS start.
+
+----------------------------------------
+
+2025/05/12 14:48:28
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[29932]:	Info
+DummyFolder is \\fsag\uStore_MT2_FR33\Maintenance\GDPRCleanerDummyFiles\
+
+----------------------------------------
+
+2025/05/12 14:48:28
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[29932]:	Info
+Dummy files 'dummy.doc, dummy.docx, dummy.eps, dummy.jpeg, dummy.jpg, dummy.pdf, dummy.png, dummy.ppt, dummy.pptx' have added.
+
+----------------------------------------
+
+2025/05/12 15:43:08
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[56604]:	Info
+XMPieClearingTaskWS start.
+
+----------------------------------------
+

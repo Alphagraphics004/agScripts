@@ -1,0 +1,78 @@
+2025/05/12 15:48:29
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[45532]:	Info
+DummyFolder is \\fsag\uStore_MT2_FR33\Maintenance\GDPRCleanerDummyFiles\
+
+----------------------------------------
+
+2025/05/12 15:48:29
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[45532]:	Info
+Dummy files 'dummy.doc, dummy.docx, dummy.eps, dummy.jpeg, dummy.jpg, dummy.pdf, dummy.png, dummy.ppt, dummy.pptx' have added.
+
+----------------------------------------
+
+2025/05/12 16:43:09
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[29952]:	Info
+XMPieClearingTaskWS start.
+
+----------------------------------------
+
+2025/05/12 18:33:36
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[55856]:	Info
+Method: HandleEvent 
+Parameters: keyPoint=StateTransition, xParameters=System.Xml.XmlDocument, mallID=1,  
+
+----------------------------------------
+
+2025/05/12 18:33:36
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[55856]:	Info
+The following action rule is executed for event StateTransition: MallId=1, UserId=0, RuleName=Auto-Launch XM Campaigns, RuleDesc=, FilterPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, ActionPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, EventId=3, ActionRuleId=67, FilterPluginId=603, ActionPluginId=602, IsSystemRule=False, StatusId=1,  
+
+----------------------------------------
+
+2025/05/12 18:33:36
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[55856]:	Info
+The following action rule is executed for event StateTransition: MallId=1, UserId=0, RuleName=Order Pending to Prepare, RuleDesc=, FilterPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, ActionPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, EventId=3, ActionRuleId=10000, FilterPluginId=10244, ActionPluginId=10243, IsSystemRule=False, StatusId=1,  
+
+----------------------------------------
+
+2025/05/12 18:33:36
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[55856]:	Info
+The following action rule is executed for event StateTransition: MallId=1, UserId=0, RuleName=Ready to Produce and Process, RuleDesc=, FilterPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, ActionPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, EventId=3, ActionRuleId=10001, FilterPluginId=10246, ActionPluginId=10245, IsSystemRule=False, StatusId=1,  
+
+----------------------------------------
+
+2025/05/12 18:33:36
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[55856]:	Info
+The following action rule is executed for event StateTransition: MallId=1, UserId=0, RuleName=Order Move after delivery step 1, RuleDesc=, FilterPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, ActionPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, EventId=3, ActionRuleId=10002, FilterPluginId=10340, ActionPluginId=10339, IsSystemRule=False, StatusId=1,  
+
+----------------------------------------
+
+2025/05/12 18:33:36
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[55856]:	Info
+The following action rule is executed for event StateTransition: MallId=1, UserId=0, RuleName=Order move after delivered step 2, RuleDesc=, FilterPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, ActionPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, EventId=3, ActionRuleId=10003, FilterPluginId=10342, ActionPluginId=10341, IsSystemRule=False, StatusId=1,  
+
+----------------------------------------
+
+2025/05/12 18:48:32
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[18628]:	Info
+DummyFolder is \\fsag\uStore_MT2_FR33\Maintenance\GDPRCleanerDummyFiles\
+
+----------------------------------------
+
+2025/05/12 18:48:32
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[18628]:	Info
+Dummy files 'dummy.doc, dummy.docx, dummy.eps, dummy.jpeg, dummy.jpg, dummy.pdf, dummy.png, dummy.ppt, dummy.pptx' have added.
+
+----------------------------------------
+

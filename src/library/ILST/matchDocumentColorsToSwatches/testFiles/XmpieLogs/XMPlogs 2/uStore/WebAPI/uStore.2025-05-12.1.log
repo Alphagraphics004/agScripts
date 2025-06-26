@@ -1,0 +1,4668 @@
+2025/05/12 09:48:38
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[13888]:	Error
+WebAPI.TokenValidator.ValidateToken: Security Token '83b5a8cf30474692825c4e251f222ce19a1b7a8225e0ae0a8032119a937e79a5' doesn't exist
+
+----------------------------------------
+
+2025/05/12 09:48:38
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[13888]:	Fatal
+WebAPI error occured.
+Request: Method: GET, URL: https://us717.agstorefront.com/uStoreRestApi/v1/store
+Exception: uStore.Common.BLL.Exceptions.AccessDeniedException: Exception of type 'uStore.Common.BLL.Exceptions.AccessDeniedException' was thrown.
+   at uStore.WebAPI.Validators.TokenValidator.ValidateToken(String securityTokenID)
+   at uStore.WebAPI.AuthorizationValidator.ValidateToken()
+   at uStore.WebAPI.TokenAuthorizationFilterAttribute.OnAuthorization(HttpActionContext actionContext)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.OnAuthorizationAsync(HttpActionContext actionContext, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+TypeName: AccessDenied
+uStore.Common.BLL.Exceptions.AccessDeniedException: Exception of type 'uStore.Common.BLL.Exceptions.AccessDeniedException' was thrown.
+   at uStore.WebAPI.Validators.TokenValidator.ValidateToken(String securityTokenID)
+   at uStore.WebAPI.AuthorizationValidator.ValidateToken()
+   at uStore.WebAPI.TokenAuthorizationFilterAttribute.OnAuthorization(HttpActionContext actionContext)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.OnAuthorizationAsync(HttpActionContext actionContext, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+TypeName: AccessDenied
+
+----------------------------------------
+
+2025/05/12 10:08:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[13888]:	Info
+Method: GetCart 
+Parameters: storeID=8, customerID=7439,  
+
+----------------------------------------
+
+2025/05/12 10:08:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[13888]:	Info
+Cart order ID is 27201
+
+----------------------------------------
+
+2025/05/12 10:08:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[13888]:	Info
+Method: AddOrderProduct 
+Parameters: orderID=27201, productID=7843, quantity=1, isDisplayAsDraft=,  
+
+----------------------------------------
+
+2025/05/12 10:08:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[13888]:	Info
+Added Order Product with ID 36625
+
+----------------------------------------
+
+2025/05/12 10:08:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[13888]:	Info
+Method: AddOrderProduct 
+Parameters: orderID=27201, productID=7840, quantity=1, isDisplayAsDraft=False,  
+
+----------------------------------------
+
+2025/05/12 10:08:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[13888]:	Info
+Added Order Product with ID 36626
+
+----------------------------------------
+
+2025/05/12 10:08:48
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[13888]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=21468, orderProductID=36626, dialValue= , optionID=29145, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:08:48
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[13888]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:08:48
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[13888]:	Info
+Method: AddDialValue 
+Parameters: dialID=21468, orderProductID=36626, dialValue= , optionID=29145, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:08:48
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[13888]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:08:48
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[13888]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=21469, orderProductID=36626, dialValue=True, optionID=29146, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:08:48
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[13888]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:08:48
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[13888]:	Info
+Method: AddDialValue 
+Parameters: dialID=21469, orderProductID=36626, dialValue=True, optionID=29146, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:08:48
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[13888]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:08:48
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[13888]:	Info
+Method: AddOrderProduct 
+Parameters: orderID=27201, productID=7841, quantity=1, isDisplayAsDraft=False,  
+
+----------------------------------------
+
+2025/05/12 10:08:48
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[13888]:	Info
+Added Order Product with ID 36627
+
+----------------------------------------
+
+2025/05/12 10:08:48
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[13888]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=21480, orderProductID=36627, dialValue= , optionID=29159, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:08:48
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[13888]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:08:48
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[13888]:	Info
+Method: AddDialValue 
+Parameters: dialID=21480, orderProductID=36627, dialValue= , optionID=29159, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:08:48
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[13888]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:08:48
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[13888]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=21481, orderProductID=36627, dialValue=True, optionID=29160, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:08:48
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[13888]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:08:48
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[13888]:	Info
+Method: AddDialValue 
+Parameters: dialID=21481, orderProductID=36627, dialValue=True, optionID=29160, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:08:48
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[13888]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:08:49
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20088]:	Info
+Method: ExecuteNonXML 
+Parameters: orderProductID=36625, productId=7843, numRecipients=1, numCopies=1, recipientListPrice=0, deliveryMethodID=3, deliveryPrice=0, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32],  
+
+----------------------------------------
+
+2025/05/12 10:08:49
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20088]:	Info
+DefaultPricingEngine -> ExecuteNonXML propertyValueDict parameter number of items: 2
+
+----------------------------------------
+
+2025/05/12 10:08:49
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20088]:	Info
+DefaultPricingEngine -> ExecuteNonXML allPropertyValues parameter number of items: 2
+
+----------------------------------------
+
+2025/05/12 10:08:49
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20088]:	Info
+DefaultPricingEngine -> ExecuteNonXML totalPrice result: 0.00000
+
+----------------------------------------
+
+2025/05/12 10:08:49
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20088]:	Info
+DefaultPricingEngine -> ExecuteNonXML pricePerRecipient result: 0.00000
+
+----------------------------------------
+
+2025/05/12 10:08:49
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20088]:	Info
+DefaultPricingEngine -> ExecuteNonXML productSubtotal result: 0.00000
+
+----------------------------------------
+
+2025/05/12 10:08:49
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20088]:	Info
+DefaultPricingEngine -> ExecuteNonXML isCalculated result: True
+
+----------------------------------------
+
+2025/05/12 10:08:49
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20088]:	Info
+Method: ExecuteNonXML 
+Parameters: orderProductID=36626, productId=7840, numRecipients=1, numCopies=1, recipientListPrice=0, deliveryMethodID=1, deliveryPrice=0, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32],  
+
+----------------------------------------
+
+2025/05/12 10:08:49
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20088]:	Info
+DefaultPricingEngine -> ExecuteNonXML propertyValueDict parameter number of items: 2
+
+----------------------------------------
+
+2025/05/12 10:08:49
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20088]:	Info
+DefaultPricingEngine -> ExecuteNonXML allPropertyValues parameter number of items: 2
+
+----------------------------------------
+
+2025/05/12 10:08:49
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20088]:	Info
+DefaultPricingEngine -> ExecuteNonXML totalPrice result: 9.00000
+
+----------------------------------------
+
+2025/05/12 10:08:49
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20088]:	Info
+DefaultPricingEngine -> ExecuteNonXML pricePerRecipient result: 9.00000
+
+----------------------------------------
+
+2025/05/12 10:08:49
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20088]:	Info
+DefaultPricingEngine -> ExecuteNonXML productSubtotal result: 9.00000
+
+----------------------------------------
+
+2025/05/12 10:08:49
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20088]:	Info
+DefaultPricingEngine -> ExecuteNonXML isCalculated result: True
+
+----------------------------------------
+
+2025/05/12 10:08:49
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20088]:	Info
+Method: ExecuteNonXML 
+Parameters: orderProductID=36627, productId=7841, numRecipients=1, numCopies=1, recipientListPrice=0, deliveryMethodID=1, deliveryPrice=0, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32],  
+
+----------------------------------------
+
+2025/05/12 10:08:49
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20088]:	Info
+DefaultPricingEngine -> ExecuteNonXML propertyValueDict parameter number of items: 2
+
+----------------------------------------
+
+2025/05/12 10:08:49
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20088]:	Info
+DefaultPricingEngine -> ExecuteNonXML allPropertyValues parameter number of items: 2
+
+----------------------------------------
+
+2025/05/12 10:08:49
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20088]:	Info
+DefaultPricingEngine -> ExecuteNonXML totalPrice result: 0.00000
+
+----------------------------------------
+
+2025/05/12 10:08:49
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20088]:	Info
+DefaultPricingEngine -> ExecuteNonXML pricePerRecipient result: 0.00000
+
+----------------------------------------
+
+2025/05/12 10:08:49
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20088]:	Info
+DefaultPricingEngine -> ExecuteNonXML productSubtotal result: 0.00000
+
+----------------------------------------
+
+2025/05/12 10:08:49
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20088]:	Info
+DefaultPricingEngine -> ExecuteNonXML isCalculated result: True
+
+----------------------------------------
+
+2025/05/12 10:29:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[30424]:	Info
+Method: GetCart 
+Parameters: storeID=8, customerID=7439,  
+
+----------------------------------------
+
+2025/05/12 10:29:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[30424]:	Info
+Cart order ID is 27201
+
+----------------------------------------
+
+2025/05/12 10:29:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[30424]:	Info
+Method: AddOrderProduct 
+Parameters: orderID=27201, productID=7843, quantity=1, isDisplayAsDraft=,  
+
+----------------------------------------
+
+2025/05/12 10:29:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[30424]:	Info
+Added Order Product with ID 36628
+
+----------------------------------------
+
+2025/05/12 10:29:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[30424]:	Info
+Method: AddOrderProduct 
+Parameters: orderID=27201, productID=7840, quantity=1, isDisplayAsDraft=False,  
+
+----------------------------------------
+
+2025/05/12 10:29:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[30424]:	Info
+Added Order Product with ID 36629
+
+----------------------------------------
+
+2025/05/12 10:29:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[30424]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=21468, orderProductID=36629, dialValue= , optionID=29145, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:29:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[30424]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:29:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[30424]:	Info
+Method: AddDialValue 
+Parameters: dialID=21468, orderProductID=36629, dialValue= , optionID=29145, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:29:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[30424]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:29:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[30424]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=21469, orderProductID=36629, dialValue=True, optionID=29146, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:29:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[30424]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:29:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[30424]:	Info
+Method: AddDialValue 
+Parameters: dialID=21469, orderProductID=36629, dialValue=True, optionID=29146, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:29:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[30424]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:29:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[30424]:	Info
+Method: AddOrderProduct 
+Parameters: orderID=27201, productID=7841, quantity=1, isDisplayAsDraft=False,  
+
+----------------------------------------
+
+2025/05/12 10:29:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[30424]:	Info
+Added Order Product with ID 36630
+
+----------------------------------------
+
+2025/05/12 10:29:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[30424]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=21480, orderProductID=36630, dialValue= , optionID=29159, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:29:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[30424]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:29:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[30424]:	Info
+Method: AddDialValue 
+Parameters: dialID=21480, orderProductID=36630, dialValue= , optionID=29159, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:29:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[30424]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:29:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[30424]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=21481, orderProductID=36630, dialValue=True, optionID=29160, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:29:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[30424]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:29:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[30424]:	Info
+Method: AddDialValue 
+Parameters: dialID=21481, orderProductID=36630, dialValue=True, optionID=29160, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:29:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[30424]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:29:48
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[21872]:	Info
+Method: ExecuteNonXML 
+Parameters: orderProductID=36628, productId=7843, numRecipients=1, numCopies=1, recipientListPrice=0, deliveryMethodID=3, deliveryPrice=0, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32],  
+
+----------------------------------------
+
+2025/05/12 10:29:48
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[21872]:	Info
+DefaultPricingEngine -> ExecuteNonXML propertyValueDict parameter number of items: 2
+
+----------------------------------------
+
+2025/05/12 10:29:48
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[21872]:	Info
+DefaultPricingEngine -> ExecuteNonXML allPropertyValues parameter number of items: 2
+
+----------------------------------------
+
+2025/05/12 10:29:48
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[21872]:	Info
+DefaultPricingEngine -> ExecuteNonXML totalPrice result: 0.00000
+
+----------------------------------------
+
+2025/05/12 10:29:48
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[21872]:	Info
+DefaultPricingEngine -> ExecuteNonXML pricePerRecipient result: 0.00000
+
+----------------------------------------
+
+2025/05/12 10:29:48
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[21872]:	Info
+DefaultPricingEngine -> ExecuteNonXML productSubtotal result: 0.00000
+
+----------------------------------------
+
+2025/05/12 10:29:48
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[21872]:	Info
+DefaultPricingEngine -> ExecuteNonXML isCalculated result: True
+
+----------------------------------------
+
+2025/05/12 10:29:48
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[21872]:	Info
+Method: ExecuteNonXML 
+Parameters: orderProductID=36629, productId=7840, numRecipients=1, numCopies=1, recipientListPrice=0, deliveryMethodID=1, deliveryPrice=0, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32],  
+
+----------------------------------------
+
+2025/05/12 10:29:48
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[21872]:	Info
+DefaultPricingEngine -> ExecuteNonXML propertyValueDict parameter number of items: 2
+
+----------------------------------------
+
+2025/05/12 10:29:48
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[21872]:	Info
+DefaultPricingEngine -> ExecuteNonXML allPropertyValues parameter number of items: 2
+
+----------------------------------------
+
+2025/05/12 10:29:48
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[21872]:	Info
+DefaultPricingEngine -> ExecuteNonXML totalPrice result: 9.00000
+
+----------------------------------------
+
+2025/05/12 10:29:48
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[21872]:	Info
+DefaultPricingEngine -> ExecuteNonXML pricePerRecipient result: 9.00000
+
+----------------------------------------
+
+2025/05/12 10:29:48
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[21872]:	Info
+DefaultPricingEngine -> ExecuteNonXML productSubtotal result: 9.00000
+
+----------------------------------------
+
+2025/05/12 10:29:48
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[21872]:	Info
+DefaultPricingEngine -> ExecuteNonXML isCalculated result: True
+
+----------------------------------------
+
+2025/05/12 10:29:48
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[21872]:	Info
+Method: ExecuteNonXML 
+Parameters: orderProductID=36630, productId=7841, numRecipients=1, numCopies=1, recipientListPrice=0, deliveryMethodID=1, deliveryPrice=0, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32],  
+
+----------------------------------------
+
+2025/05/12 10:29:48
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[21872]:	Info
+DefaultPricingEngine -> ExecuteNonXML propertyValueDict parameter number of items: 2
+
+----------------------------------------
+
+2025/05/12 10:29:48
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[21872]:	Info
+DefaultPricingEngine -> ExecuteNonXML allPropertyValues parameter number of items: 2
+
+----------------------------------------
+
+2025/05/12 10:29:48
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[21872]:	Info
+DefaultPricingEngine -> ExecuteNonXML totalPrice result: 0.00000
+
+----------------------------------------
+
+2025/05/12 10:29:48
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[21872]:	Info
+DefaultPricingEngine -> ExecuteNonXML pricePerRecipient result: 0.00000
+
+----------------------------------------
+
+2025/05/12 10:29:48
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[21872]:	Info
+DefaultPricingEngine -> ExecuteNonXML productSubtotal result: 0.00000
+
+----------------------------------------
+
+2025/05/12 10:29:48
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[21872]:	Info
+DefaultPricingEngine -> ExecuteNonXML isCalculated result: True
+
+----------------------------------------
+
+2025/05/12 10:33:59
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[11736]:	Info
+Method: GetCart 
+Parameters: storeID=8, customerID=10659,  
+
+----------------------------------------
+
+2025/05/12 10:33:59
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[11736]:	Info
+Cart order ID is -1
+
+----------------------------------------
+
+2025/05/12 10:33:59
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[11736]:	Info
+Method: AddCart 
+Parameters: storeID=8, customerID=10659,  
+
+----------------------------------------
+
+2025/05/12 10:33:59
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[11736]:	Info
+Added cart with ID 27202
+
+----------------------------------------
+
+2025/05/12 10:33:59
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[11736]:	Info
+Method: AddOrderProduct 
+Parameters: orderID=27202, productID=6766, quantity=10, isDisplayAsDraft=,  
+
+----------------------------------------
+
+2025/05/12 10:33:59
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[11736]:	Info
+Added Order Product with ID 36631
+
+----------------------------------------
+
+2025/05/12 10:33:59
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[11736]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=19962, orderProductID=36631, dialValue= , optionID=22782, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:33:59
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[11736]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:33:59
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[11736]:	Info
+Method: AddDialValue 
+Parameters: dialID=19962, orderProductID=36631, dialValue= , optionID=22782, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:33:59
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[11736]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:33:59
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[11736]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=19963, orderProductID=36631, dialValue=True, optionID=22783, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:33:59
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[11736]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:33:59
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[11736]:	Info
+Method: AddDialValue 
+Parameters: dialID=19963, orderProductID=36631, dialValue=True, optionID=22783, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:33:59
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[11736]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:33:59
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57760]:	Info
+ExcelPricingEngine -> ExecuteNonXMLForVariableNumCopies Method. orderProductID=36631, productId=6766, numCopies=40, numRecipients=1, recipientListPrice=0, deliveryMethodID=1,deliveryPrice=0
+
+----------------------------------------
+
+2025/05/12 10:33:59
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57760]:	Info
+Method: GetCustomizationDialValueList 
+Parameters: orderProductId=36631,  
+
+----------------------------------------
+
+2025/05/12 10:33:59
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57760]:	Info
+Method: GetOrderProductDetails 
+Parameters: orderProductId=36631,  
+
+----------------------------------------
+
+2025/05/12 10:34:00
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57760]:	Info
+Return Value: StatusID=1, DocumentType=Static, FileSubmissionDocument=, PropertyValueList=System.Collections.Generic.List`1[uStore.PluginSDK.PricingEngine.IPropertyValuePricingItem], ForbidOrderProductHandlingStatusChange=False, ParentOrderProductID=, ParentOrderProduct=, OrderProductID=36631, OrderProductUniqueID=c6ab6256-e6b2-4296-8063-d82fed8b02df, OrderID=27202, ProductID=6766, ManufacturerID=, IsChecked=, SubmissionListID=, ExecutionPriorityID=1, QuantityPerRecipient=10, NumRecipients=1, TotalQuantity=10, ProductPriceID=-1, PricePerRecipient=0.00000, ProductUnitPrice=0, RecipientType=RecipientNone, RecipientListID=0, ReplacedRecipientListID=, CurrentRecipientListID=0, RecipientDataSourceID=0, RecipientFilterID=0, RecipientDataSourceTableID=0, IsDraft=True, IsSavedDraft=False, IsDisplayAsDraft=True, SaveForLaterDisplayInCart=False, IsKitItem=False, QuantityPerKit=, KitOrderProductID=, DraftDescription=, ExtraParamsXML=, DateAdded=5/12/2025 10:33:59 AM, DateModified=5/12/2025 10:33:59 AM, OrderHandlingStatusID=-1, UProduceHandlingJobID=-1, SubmissionQueue=Pending, SubmissionQueueForPendingRL=PendingRecipientList_Print, RecipientListModelID=0, RecipientListModelSelectionXML=, DocumentXML=, PaymentMethodId=0, AggregationCriteria=, JobGroupID=1, DocAggregationCriteria=, FlatCSVXFilePath=, UProduceHandlingFlatJobID=-1, DeliveryMethod=Shipping, DeliveryMethodID=1, DeliveryServiceId=-1, DeliverySelectionXml=, JobID=0, ProofStatus=0, ProductPriceSubtotal=-1.00000, ProductPriceSubtotalForDiscount=-1.00000, ProductPriceSubtotalForDisplay=-1.00000, RecipientListPrice=0, DeliveryPrice=0.00000, TotalPrice=0.00000, ImpersonatorUserID=, ProductUnitID=1, ApprovalRejectNotes=, ApprovalResubmittedOrderID=, SelectedRecipientListModel=uStore.Common.BLL.RecipientListModel.RecipientListModel, ProductWeight=-1, NormalizedProductWeight=-1, ProductWeightUnitID=-1, TaxGroupID=1, Product=uStore.Common.BLL.StaticProduct, Cost=0.00000, PrepressWorkflowID=, AllCopiesProcessed=, CustomerNickName=, IsNicknameSetByCustomer=, UseColor=True, IsPurl=False, ReorderedFromOrderProductID=, ReorderedFromOrderID=, ModifiedFromOrderID=, PricingOutputXML=, TotalNumberOfPages=, ForceDisplayInOrderQueue=, CampaignID=-1, StoreId=8, UserId=10659, IncludeSubtotalInOrderProduct=False, RecipientListGdprDeleted=, GdprFilesDeleted=False, ReorderType=, DeductedInventory=0,  
+
+----------------------------------------
+
+2025/05/12 10:34:00
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57760]:	Info
+Return Value: OrderProductID=36631, OrderID=27202, ProductID=6766, QuantityPerRecipient=10, NumRecipients=1, TotalQuantity=10, ProductUnitPrice=0, PricePerRecipient=0.00000, ProductPriceSubtotal=-1.00000, TotalPrice=0.00000, RecipientListID=-1, RecipientListGdprDeleted=False, RecipientDataSourceID=-1, RecipientFilterID=-1, RecipientDataSourceTableID=-1, IsDraft=True, IsSavedDraft=False, ExtraParamsXml=, DateAdded=5/12/2025 10:33:59 AM, OrderQueueID=-1, UproduceJobID=-1, StatusID=1, RecipientListModelID=-1, DocumentXml=, AggregationCriteria=, JobGroupID=1, DocAggregationCriteria=, FlatCsvxFilePath=, UproduceHandlingFlatJobID=-1, DeliveryMethod=1, DeliveryServiceID=-1, DeliveryPrice=0.00000, ParentOrderProductID=-1, Cost=0.00000, CircleInfo=, StoreID=8,  
+
+----------------------------------------
+
+2025/05/12 10:34:00
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57760]:	Info
+GetCustomizationDialValueList returned 0 dial values
+
+----------------------------------------
+
+2025/05/12 10:34:00
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57760]:	Info
+Method: GetCustomizationStepList 
+Parameters: productId=6766, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 10:34:00
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57760]:	Info
+Method: GetProduct 
+Parameters: productId=6766, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 10:34:00
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57760]:	Info
+Return Value: ProductID=6766, StoreID=8, Name=3928-1013 - Medical Group Patient Packet Booklets, ShortDescrition=Patient packet information with perforated info sheets, Description=Patient packet information with perforated info sheets, HasPricing=True, EnableRecipientListModels=False, CreatedDate=12/5/2024 1:16:52 PM, CreatedLoginSessionID=-1, ModifiedDate=4/28/2025 11:33:46 AM, ModifiedLoginSessionID=-1, DisplayOrder=0, StatusID=1, PricingModelID=1, ExternalID=, EnableUedit=False, UeditHelpText=, UeditCustomerDisplayMode=-1, UeditCustomerViewMode=-1, EnableProofApproval=False, ProofApprovalText=, ProofApprovalError=, IsDeliveryManualProductAmount=True, DefaultProofType=0, DocumentID=6766, KeyWords=, EnableProofGeneration=False, TopNavigationButtonsVisible=True, ShowShortDesc=True, ShowMinPrice=False, ProductNameDisplayID=-1, CatalogNumber=3928-1013, UeditFontsUseSelected=False, ProductProfileID=-1, TaxGroupID=1,  
+
+----------------------------------------
+
+2025/05/12 10:34:00
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57760]:	Info
+Method: GetCustomizationWizardDetailsByDocID 
+Parameters: docID=6766,  
+
+----------------------------------------
+
+2025/05/12 10:34:00
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57760]:	Info
+GetCustomizationStepList returned 0 steps
+
+----------------------------------------
+
+2025/05/12 10:34:00
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57760]:	Info
+Method: GetInfoFromExcel 
+Parameters: fileName=\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_6766.xlsx, excelEngineInputProperties=uStore.Common.BLL.OfficeTools.ExcelEngineInputProperties, debugDirectory=\\fsag\uStore_MT2_FR33\ExcelPricingEngine\DEBUG_Product_6766,  
+
+----------------------------------------
+
+2025/05/12 10:34:01
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57760]:	Info
+XMPuStoreOfficeService ExcelPricing -> SaveDebugFile: Deleted debug file from: \\fsag\uStore_MT2_FR33\ExcelPricingEngine\DEBUG_Product_6766
+
+----------------------------------------
+
+2025/05/12 10:34:01
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57760]:	Info
+XMPuStoreOfficeService ExcelPricing -> SaveDebugFile: Saving Excel debug file \\fsag\uStore_MT2_FR33\ExcelPricingEngine\DEBUG_Product_6766\6766_05-12-2025 10.34.01.1524.xlsx
+
+----------------------------------------
+
+2025/05/12 10:34:01
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57760]:	Info
+ExcelPricingEngine -> ExecuteNonXMLForVariableNumCopies, isCalculated:True totalPrice: 9, productSubtotal:9
+
+----------------------------------------
+
+2025/05/12 10:34:07
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[47508]:	Info
+Method: GetCart 
+Parameters: storeID=8, customerID=10659,  
+
+----------------------------------------
+
+2025/05/12 10:34:07
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[47508]:	Info
+Cart order ID is 27202
+
+----------------------------------------
+
+2025/05/12 10:34:07
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[47508]:	Info
+ExcelPricingEngine -> ExecuteNonXMLForVariableNumCopies Method. orderProductID=36631, productId=6766, numCopies=40, numRecipients=1, recipientListPrice=0, deliveryMethodID=1,deliveryPrice=0.00000
+
+----------------------------------------
+
+2025/05/12 10:34:07
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[47508]:	Info
+Method: GetCustomizationDialValueList 
+Parameters: orderProductId=36631,  
+
+----------------------------------------
+
+2025/05/12 10:34:07
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[47508]:	Info
+Method: GetOrderProductDetails 
+Parameters: orderProductId=36631,  
+
+----------------------------------------
+
+2025/05/12 10:34:07
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[47508]:	Info
+Return Value: StatusID=1, DocumentType=Static, FileSubmissionDocument=, PropertyValueList=System.Collections.Generic.List`1[uStore.PluginSDK.PricingEngine.IPropertyValuePricingItem], ForbidOrderProductHandlingStatusChange=False, ParentOrderProductID=, ParentOrderProduct=, OrderProductID=36631, OrderProductUniqueID=c6ab6256-e6b2-4296-8063-d82fed8b02df, OrderID=27202, ProductID=6766, ManufacturerID=, IsChecked=, SubmissionListID=, ExecutionPriorityID=1, QuantityPerRecipient=40, NumRecipients=1, TotalQuantity=10, ProductPriceID=-1, PricePerRecipient=0.00000, ProductUnitPrice=0, RecipientType=RecipientNone, RecipientListID=0, ReplacedRecipientListID=, CurrentRecipientListID=0, RecipientDataSourceID=0, RecipientFilterID=0, RecipientDataSourceTableID=0, IsDraft=True, IsSavedDraft=False, IsDisplayAsDraft=True, SaveForLaterDisplayInCart=False, IsKitItem=False, QuantityPerKit=, KitOrderProductID=, DraftDescription=, ExtraParamsXML=, DateAdded=5/12/2025 10:33:59 AM, DateModified=5/12/2025 10:34:07 AM, OrderHandlingStatusID=-1, UProduceHandlingJobID=-1, SubmissionQueue=Pending, SubmissionQueueForPendingRL=PendingRecipientList_Print, RecipientListModelID=0, RecipientListModelSelectionXML=, DocumentXML=, PaymentMethodId=0, AggregationCriteria=, JobGroupID=1, DocAggregationCriteria=, FlatCSVXFilePath=, UProduceHandlingFlatJobID=-1, DeliveryMethod=Shipping, DeliveryMethodID=1, DeliveryServiceId=-1, DeliverySelectionXml=, JobID=0, ProofStatus=0, ProductPriceSubtotal=-1.00000, ProductPriceSubtotalForDiscount=-1.00000, ProductPriceSubtotalForDisplay=-1.00000, RecipientListPrice=0, DeliveryPrice=0.00000, TotalPrice=0.00000, ImpersonatorUserID=, ProductUnitID=1, ApprovalRejectNotes=, ApprovalResubmittedOrderID=, SelectedRecipientListModel=uStore.Common.BLL.RecipientListModel.RecipientListModel, ProductWeight=-1, NormalizedProductWeight=-1, ProductWeightUnitID=-1, TaxGroupID=1, Product=uStore.Common.BLL.StaticProduct, Cost=0.00000, PrepressWorkflowID=, AllCopiesProcessed=, CustomerNickName=, IsNicknameSetByCustomer=, UseColor=True, IsPurl=False, ReorderedFromOrderProductID=, ReorderedFromOrderID=, ModifiedFromOrderID=, PricingOutputXML=, TotalNumberOfPages=, ForceDisplayInOrderQueue=, CampaignID=-1, StoreId=8, UserId=10659, IncludeSubtotalInOrderProduct=False, RecipientListGdprDeleted=, GdprFilesDeleted=False, ReorderType=, DeductedInventory=0,  
+
+----------------------------------------
+
+2025/05/12 10:34:07
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[47508]:	Info
+Return Value: OrderProductID=36631, OrderID=27202, ProductID=6766, QuantityPerRecipient=40, NumRecipients=1, TotalQuantity=10, ProductUnitPrice=0, PricePerRecipient=0.00000, ProductPriceSubtotal=-1.00000, TotalPrice=0.00000, RecipientListID=-1, RecipientListGdprDeleted=False, RecipientDataSourceID=-1, RecipientFilterID=-1, RecipientDataSourceTableID=-1, IsDraft=True, IsSavedDraft=False, ExtraParamsXml=, DateAdded=5/12/2025 10:33:59 AM, OrderQueueID=-1, UproduceJobID=-1, StatusID=1, RecipientListModelID=-1, DocumentXml=, AggregationCriteria=, JobGroupID=1, DocAggregationCriteria=, FlatCsvxFilePath=, UproduceHandlingFlatJobID=-1, DeliveryMethod=1, DeliveryServiceID=-1, DeliveryPrice=0.00000, ParentOrderProductID=-1, Cost=0.00000, CircleInfo=, StoreID=8,  
+
+----------------------------------------
+
+2025/05/12 10:34:07
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[47508]:	Info
+GetCustomizationDialValueList returned 0 dial values
+
+----------------------------------------
+
+2025/05/12 10:34:07
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[47508]:	Info
+Method: GetCustomizationStepList 
+Parameters: productId=6766, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 10:34:07
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[47508]:	Info
+Method: GetProduct 
+Parameters: productId=6766, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 10:34:07
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[47508]:	Info
+Return Value: ProductID=6766, StoreID=8, Name=3928-1013 - Medical Group Patient Packet Booklets, ShortDescrition=Patient packet information with perforated info sheets, Description=Patient packet information with perforated info sheets, HasPricing=True, EnableRecipientListModels=False, CreatedDate=12/5/2024 1:16:52 PM, CreatedLoginSessionID=-1, ModifiedDate=4/28/2025 11:33:46 AM, ModifiedLoginSessionID=-1, DisplayOrder=0, StatusID=1, PricingModelID=1, ExternalID=, EnableUedit=False, UeditHelpText=, UeditCustomerDisplayMode=-1, UeditCustomerViewMode=-1, EnableProofApproval=False, ProofApprovalText=, ProofApprovalError=, IsDeliveryManualProductAmount=True, DefaultProofType=0, DocumentID=6766, KeyWords=, EnableProofGeneration=False, TopNavigationButtonsVisible=True, ShowShortDesc=True, ShowMinPrice=False, ProductNameDisplayID=-1, CatalogNumber=3928-1013, UeditFontsUseSelected=False, ProductProfileID=-1, TaxGroupID=1,  
+
+----------------------------------------
+
+2025/05/12 10:34:07
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[47508]:	Info
+Method: GetCustomizationWizardDetailsByDocID 
+Parameters: docID=6766,  
+
+----------------------------------------
+
+2025/05/12 10:34:07
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[47508]:	Info
+GetCustomizationStepList returned 0 steps
+
+----------------------------------------
+
+2025/05/12 10:34:07
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[47508]:	Info
+ExcelPricingEngine -> ExecuteNonXMLForVariableNumCopies, isCalculated:True totalPrice: 9.00000, productSubtotal:9
+
+----------------------------------------
+
+2025/05/12 10:34:26
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20848]:	Info
+Method: GetCart 
+Parameters: storeID=8, customerID=10659,  
+
+----------------------------------------
+
+2025/05/12 10:34:26
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20848]:	Info
+Cart order ID is 27202
+
+----------------------------------------
+
+2025/05/12 10:34:26
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20848]:	Info
+Method: AddOrderProduct 
+Parameters: orderID=27202, productID=6801, quantity=50, isDisplayAsDraft=,  
+
+----------------------------------------
+
+2025/05/12 10:34:26
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20848]:	Info
+Added Order Product with ID 36632
+
+----------------------------------------
+
+2025/05/12 10:34:26
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20848]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=20225, orderProductID=36632, dialValue= , optionID=23503, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:34:26
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20848]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:34:26
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20848]:	Info
+Method: AddDialValue 
+Parameters: dialID=20225, orderProductID=36632, dialValue= , optionID=23503, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:34:26
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20848]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:34:26
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20848]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=20226, orderProductID=36632, dialValue=True, optionID=23504, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:34:26
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20848]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:34:26
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20848]:	Info
+Method: AddDialValue 
+Parameters: dialID=20226, orderProductID=36632, dialValue=True, optionID=23504, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:34:26
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20848]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:34:26
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20848]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=20227, orderProductID=36632, dialValue=, optionID=, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:34:26
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20848]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:34:26
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20848]:	Info
+Method: AddDialValue 
+Parameters: dialID=20227, orderProductID=36632, dialValue=, optionID=, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:34:26
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20848]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:34:27
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[18536]:	Info
+Method: GetCustomizationWizardDetailsByDocID 
+Parameters: docID=6801,  
+
+----------------------------------------
+
+2025/05/12 10:34:28
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[26352]:	Info
+Method: ExecuteNonXML 
+Parameters: orderProductID=36632, productId=6801, numRecipients=1, numCopies=50, recipientListPrice=0, deliveryMethodID=1, deliveryPrice=0, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32],  
+
+----------------------------------------
+
+2025/05/12 10:34:28
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[26352]:	Info
+DefaultPricingEngine -> ExecuteNonXML propertyValueDict parameter number of items: 2
+
+----------------------------------------
+
+2025/05/12 10:34:28
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[26352]:	Info
+DefaultPricingEngine -> ExecuteNonXML allPropertyValues parameter number of items: 3
+
+----------------------------------------
+
+2025/05/12 10:34:28
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[26352]:	Info
+DefaultPricingEngine -> ExecuteNonXML totalPrice result: 41.60000
+
+----------------------------------------
+
+2025/05/12 10:34:28
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[26352]:	Info
+DefaultPricingEngine -> ExecuteNonXML pricePerRecipient result: 41.60000
+
+----------------------------------------
+
+2025/05/12 10:34:28
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[26352]:	Info
+DefaultPricingEngine -> ExecuteNonXML productSubtotal result: 41.60000
+
+----------------------------------------
+
+2025/05/12 10:34:28
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[26352]:	Info
+DefaultPricingEngine -> ExecuteNonXML isCalculated result: True
+
+----------------------------------------
+
+2025/05/12 10:34:49
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50480]:	Info
+Method: GetCustomizationWizardDetailsByDocID 
+Parameters: docID=6801,  
+
+----------------------------------------
+
+2025/05/12 10:34:49
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50480]:	Info
+Method: GetCustomizationWizardDetailsByDocID 
+Parameters: docID=6801,  
+
+----------------------------------------
+
+2025/05/12 10:34:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20936]:	Info
+Method: ExecuteNonXML 
+Parameters: orderProductID=36632, productId=6801, numRecipients=1, numCopies=50, recipientListPrice=0, deliveryMethodID=1, deliveryPrice=0, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32],  
+
+----------------------------------------
+
+2025/05/12 10:34:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20936]:	Info
+DefaultPricingEngine -> ExecuteNonXML propertyValueDict parameter number of items: 1
+
+----------------------------------------
+
+2025/05/12 10:34:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20936]:	Info
+DefaultPricingEngine -> ExecuteNonXML allPropertyValues parameter number of items: 1
+
+----------------------------------------
+
+2025/05/12 10:34:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20936]:	Info
+DefaultPricingEngine -> ExecuteNonXML totalPrice result: 41.60000
+
+----------------------------------------
+
+2025/05/12 10:34:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20936]:	Info
+DefaultPricingEngine -> ExecuteNonXML pricePerRecipient result: 41.60000
+
+----------------------------------------
+
+2025/05/12 10:34:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20936]:	Info
+DefaultPricingEngine -> ExecuteNonXML productSubtotal result: 41.60000
+
+----------------------------------------
+
+2025/05/12 10:34:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20936]:	Info
+DefaultPricingEngine -> ExecuteNonXML isCalculated result: True
+
+----------------------------------------
+
+2025/05/12 10:35:01
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15636]:	Info
+Method: GetCustomizationWizardDetailsByDocID 
+Parameters: docID=6801,  
+
+----------------------------------------
+
+2025/05/12 10:35:01
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15636]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=20226, orderProductID=36632, dialValue=True, optionID=23504, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:35:01
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15636]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:35:01
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15636]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=20227, orderProductID=36632, dialValue=Leslie Chambers, optionID=31729, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:35:01
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15636]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:35:01
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15636]:	Info
+Method: GetCustomizationWizardDetailsByDocID 
+Parameters: docID=6801,  
+
+----------------------------------------
+
+2025/05/12 10:35:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20936]:	Info
+Method: GetCustomizationWizardDetailsByDocID 
+Parameters: docID=6801,  
+
+----------------------------------------
+
+2025/05/12 10:35:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20936]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=20226, orderProductID=36632, dialValue=True, optionID=23504, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:35:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20936]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:35:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20936]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=20227, orderProductID=36632, dialValue=Leslie Chambers, optionID=31729, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:35:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20936]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:35:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20936]:	Info
+Method: GetCustomizationWizardDetailsByDocID 
+Parameters: docID=6801,  
+
+----------------------------------------
+
+2025/05/12 10:35:05
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[47092]:	Info
+Method: GetCart 
+Parameters: storeID=8, customerID=10659,  
+
+----------------------------------------
+
+2025/05/12 10:35:05
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[47092]:	Info
+Cart order ID is 27202
+
+----------------------------------------
+
+2025/05/12 10:35:05
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[47092]:	Info
+Method: ExecuteNonXML 
+Parameters: orderProductID=36632, productId=6801, numRecipients=1, numCopies=50, recipientListPrice=0, deliveryMethodID=1, deliveryPrice=0.00000, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32],  
+
+----------------------------------------
+
+2025/05/12 10:35:05
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[47092]:	Info
+DefaultPricingEngine -> ExecuteNonXML propertyValueDict parameter number of items: 3
+
+----------------------------------------
+
+2025/05/12 10:35:05
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[47092]:	Info
+DefaultPricingEngine -> ExecuteNonXML allPropertyValues parameter number of items: 3
+
+----------------------------------------
+
+2025/05/12 10:35:05
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[47092]:	Info
+DefaultPricingEngine -> ExecuteNonXML totalPrice result: 41.60000
+
+----------------------------------------
+
+2025/05/12 10:35:05
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[47092]:	Info
+DefaultPricingEngine -> ExecuteNonXML pricePerRecipient result: 41.60000
+
+----------------------------------------
+
+2025/05/12 10:35:05
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[47092]:	Info
+DefaultPricingEngine -> ExecuteNonXML productSubtotal result: 41.60000
+
+----------------------------------------
+
+2025/05/12 10:35:05
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[47092]:	Info
+DefaultPricingEngine -> ExecuteNonXML isCalculated result: True
+
+----------------------------------------
+
+2025/05/12 10:39:37
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[34968]:	Info
+Method: GetCart 
+Parameters: storeID=8, customerID=7439,  
+
+----------------------------------------
+
+2025/05/12 10:39:37
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[34968]:	Info
+Cart order ID is 27201
+
+----------------------------------------
+
+2025/05/12 10:39:37
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[34968]:	Info
+Method: AddOrderProduct 
+Parameters: orderID=27201, productID=6801, quantity=50, isDisplayAsDraft=,  
+
+----------------------------------------
+
+2025/05/12 10:39:37
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[34968]:	Info
+Added Order Product with ID 36633
+
+----------------------------------------
+
+2025/05/12 10:39:37
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[34968]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=20225, orderProductID=36633, dialValue= , optionID=23503, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:39:37
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[34968]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:39:37
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[34968]:	Info
+Method: AddDialValue 
+Parameters: dialID=20225, orderProductID=36633, dialValue= , optionID=23503, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:39:37
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[34968]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:39:37
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[34968]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=20226, orderProductID=36633, dialValue=True, optionID=23504, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:39:37
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[34968]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:39:37
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[34968]:	Info
+Method: AddDialValue 
+Parameters: dialID=20226, orderProductID=36633, dialValue=True, optionID=23504, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:39:37
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[34968]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:39:37
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[34968]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=20227, orderProductID=36633, dialValue=, optionID=, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:39:37
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[34968]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:39:37
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[34968]:	Info
+Method: AddDialValue 
+Parameters: dialID=20227, orderProductID=36633, dialValue=, optionID=, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:39:37
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[34968]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:39:38
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[56528]:	Info
+Method: GetCustomizationWizardDetailsByDocID 
+Parameters: docID=6801,  
+
+----------------------------------------
+
+2025/05/12 10:39:39
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[42964]:	Info
+Method: ExecuteNonXML 
+Parameters: orderProductID=36633, productId=6801, numRecipients=1, numCopies=50, recipientListPrice=0, deliveryMethodID=1, deliveryPrice=0, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32],  
+
+----------------------------------------
+
+2025/05/12 10:39:39
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[42964]:	Info
+DefaultPricingEngine -> ExecuteNonXML propertyValueDict parameter number of items: 2
+
+----------------------------------------
+
+2025/05/12 10:39:39
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[42964]:	Info
+DefaultPricingEngine -> ExecuteNonXML allPropertyValues parameter number of items: 3
+
+----------------------------------------
+
+2025/05/12 10:39:39
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[42964]:	Info
+DefaultPricingEngine -> ExecuteNonXML totalPrice result: 41.60000
+
+----------------------------------------
+
+2025/05/12 10:39:39
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[42964]:	Info
+DefaultPricingEngine -> ExecuteNonXML pricePerRecipient result: 41.60000
+
+----------------------------------------
+
+2025/05/12 10:39:39
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[42964]:	Info
+DefaultPricingEngine -> ExecuteNonXML productSubtotal result: 41.60000
+
+----------------------------------------
+
+2025/05/12 10:39:39
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[42964]:	Info
+DefaultPricingEngine -> ExecuteNonXML isCalculated result: True
+
+----------------------------------------
+
+2025/05/12 10:45:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27988]:	Info
+Method: GetCart 
+Parameters: storeID=8, customerID=10659,  
+
+----------------------------------------
+
+2025/05/12 10:45:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27988]:	Info
+Cart order ID is -1
+
+----------------------------------------
+
+2025/05/12 10:45:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27988]:	Info
+Method: AddCart 
+Parameters: storeID=8, customerID=10659,  
+
+----------------------------------------
+
+2025/05/12 10:45:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27988]:	Info
+Added cart with ID 27204
+
+----------------------------------------
+
+2025/05/12 10:45:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27988]:	Info
+Method: AddOrderProduct 
+Parameters: orderID=27204, productID=7843, quantity=1, isDisplayAsDraft=,  
+
+----------------------------------------
+
+2025/05/12 10:45:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27988]:	Info
+Added Order Product with ID 36634
+
+----------------------------------------
+
+2025/05/12 10:45:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27988]:	Info
+Method: AddOrderProduct 
+Parameters: orderID=27204, productID=7840, quantity=1, isDisplayAsDraft=False,  
+
+----------------------------------------
+
+2025/05/12 10:45:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27988]:	Info
+Added Order Product with ID 36635
+
+----------------------------------------
+
+2025/05/12 10:45:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27988]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=21468, orderProductID=36635, dialValue= , optionID=29145, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:45:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27988]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:45:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27988]:	Info
+Method: AddDialValue 
+Parameters: dialID=21468, orderProductID=36635, dialValue= , optionID=29145, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:45:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27988]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:45:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27988]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=21469, orderProductID=36635, dialValue=True, optionID=29146, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:45:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27988]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:45:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27988]:	Info
+Method: AddDialValue 
+Parameters: dialID=21469, orderProductID=36635, dialValue=True, optionID=29146, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:45:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27988]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:45:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27988]:	Info
+Method: AddOrderProduct 
+Parameters: orderID=27204, productID=7841, quantity=1, isDisplayAsDraft=False,  
+
+----------------------------------------
+
+2025/05/12 10:45:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27988]:	Info
+Added Order Product with ID 36636
+
+----------------------------------------
+
+2025/05/12 10:45:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27988]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=21480, orderProductID=36636, dialValue= , optionID=29159, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:45:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27988]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:45:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27988]:	Info
+Method: AddDialValue 
+Parameters: dialID=21480, orderProductID=36636, dialValue= , optionID=29159, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:45:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27988]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:45:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27988]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=21481, orderProductID=36636, dialValue=True, optionID=29160, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:45:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27988]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:45:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27988]:	Info
+Method: AddDialValue 
+Parameters: dialID=21481, orderProductID=36636, dialValue=True, optionID=29160, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:45:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27988]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:45:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57760]:	Info
+Method: ExecuteNonXML 
+Parameters: orderProductID=36634, productId=7843, numRecipients=1, numCopies=1, recipientListPrice=0, deliveryMethodID=3, deliveryPrice=0, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32],  
+
+----------------------------------------
+
+2025/05/12 10:45:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57760]:	Info
+DefaultPricingEngine -> ExecuteNonXML propertyValueDict parameter number of items: 2
+
+----------------------------------------
+
+2025/05/12 10:45:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57760]:	Info
+DefaultPricingEngine -> ExecuteNonXML allPropertyValues parameter number of items: 2
+
+----------------------------------------
+
+2025/05/12 10:45:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57760]:	Info
+DefaultPricingEngine -> ExecuteNonXML totalPrice result: 0.00000
+
+----------------------------------------
+
+2025/05/12 10:45:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57760]:	Info
+DefaultPricingEngine -> ExecuteNonXML pricePerRecipient result: 0.00000
+
+----------------------------------------
+
+2025/05/12 10:45:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57760]:	Info
+DefaultPricingEngine -> ExecuteNonXML productSubtotal result: 0.00000
+
+----------------------------------------
+
+2025/05/12 10:45:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57760]:	Info
+DefaultPricingEngine -> ExecuteNonXML isCalculated result: True
+
+----------------------------------------
+
+2025/05/12 10:45:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57760]:	Info
+Method: ExecuteNonXML 
+Parameters: orderProductID=36635, productId=7840, numRecipients=1, numCopies=1, recipientListPrice=0, deliveryMethodID=1, deliveryPrice=0, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32],  
+
+----------------------------------------
+
+2025/05/12 10:45:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57760]:	Info
+DefaultPricingEngine -> ExecuteNonXML propertyValueDict parameter number of items: 2
+
+----------------------------------------
+
+2025/05/12 10:45:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57760]:	Info
+DefaultPricingEngine -> ExecuteNonXML allPropertyValues parameter number of items: 2
+
+----------------------------------------
+
+2025/05/12 10:45:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57760]:	Info
+DefaultPricingEngine -> ExecuteNonXML totalPrice result: 9.00000
+
+----------------------------------------
+
+2025/05/12 10:45:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57760]:	Info
+DefaultPricingEngine -> ExecuteNonXML pricePerRecipient result: 9.00000
+
+----------------------------------------
+
+2025/05/12 10:45:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57760]:	Info
+DefaultPricingEngine -> ExecuteNonXML productSubtotal result: 9.00000
+
+----------------------------------------
+
+2025/05/12 10:45:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57760]:	Info
+DefaultPricingEngine -> ExecuteNonXML isCalculated result: True
+
+----------------------------------------
+
+2025/05/12 10:45:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57760]:	Info
+Method: ExecuteNonXML 
+Parameters: orderProductID=36636, productId=7841, numRecipients=1, numCopies=1, recipientListPrice=0, deliveryMethodID=1, deliveryPrice=0, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32],  
+
+----------------------------------------
+
+2025/05/12 10:45:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57760]:	Info
+DefaultPricingEngine -> ExecuteNonXML propertyValueDict parameter number of items: 2
+
+----------------------------------------
+
+2025/05/12 10:45:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57760]:	Info
+DefaultPricingEngine -> ExecuteNonXML allPropertyValues parameter number of items: 2
+
+----------------------------------------
+
+2025/05/12 10:45:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57760]:	Info
+DefaultPricingEngine -> ExecuteNonXML totalPrice result: 0.00000
+
+----------------------------------------
+
+2025/05/12 10:45:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57760]:	Info
+DefaultPricingEngine -> ExecuteNonXML pricePerRecipient result: 0.00000
+
+----------------------------------------
+
+2025/05/12 10:45:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57760]:	Info
+DefaultPricingEngine -> ExecuteNonXML productSubtotal result: 0.00000
+
+----------------------------------------
+
+2025/05/12 10:45:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57760]:	Info
+DefaultPricingEngine -> ExecuteNonXML isCalculated result: True
+
+----------------------------------------
+
+2025/05/12 10:47:18
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27820]:	Info
+Method: GetCart 
+Parameters: storeID=8, customerID=7439,  
+
+----------------------------------------
+
+2025/05/12 10:47:18
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27820]:	Info
+Cart order ID is 27201
+
+----------------------------------------
+
+2025/05/12 10:47:18
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27820]:	Info
+Method: AddOrderProduct 
+Parameters: orderID=27201, productID=7843, quantity=1, isDisplayAsDraft=,  
+
+----------------------------------------
+
+2025/05/12 10:47:18
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27820]:	Info
+Added Order Product with ID 36637
+
+----------------------------------------
+
+2025/05/12 10:47:18
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27820]:	Info
+Method: AddOrderProduct 
+Parameters: orderID=27201, productID=7840, quantity=1, isDisplayAsDraft=False,  
+
+----------------------------------------
+
+2025/05/12 10:47:18
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27820]:	Info
+Added Order Product with ID 36638
+
+----------------------------------------
+
+2025/05/12 10:47:18
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27820]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=21468, orderProductID=36638, dialValue= , optionID=29145, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:47:18
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27820]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:47:18
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27820]:	Info
+Method: AddDialValue 
+Parameters: dialID=21468, orderProductID=36638, dialValue= , optionID=29145, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:47:18
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27820]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:47:18
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27820]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=21469, orderProductID=36638, dialValue=True, optionID=29146, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:47:18
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27820]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:47:18
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27820]:	Info
+Method: AddDialValue 
+Parameters: dialID=21469, orderProductID=36638, dialValue=True, optionID=29146, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:47:18
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27820]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:47:18
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27820]:	Info
+Method: AddOrderProduct 
+Parameters: orderID=27201, productID=7841, quantity=1, isDisplayAsDraft=False,  
+
+----------------------------------------
+
+2025/05/12 10:47:18
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27820]:	Info
+Added Order Product with ID 36639
+
+----------------------------------------
+
+2025/05/12 10:47:18
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27820]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=21480, orderProductID=36639, dialValue= , optionID=29159, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:47:18
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27820]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:47:18
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27820]:	Info
+Method: AddDialValue 
+Parameters: dialID=21480, orderProductID=36639, dialValue= , optionID=29159, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:47:18
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27820]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:47:18
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27820]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=21481, orderProductID=36639, dialValue=True, optionID=29160, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:47:18
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27820]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:47:18
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27820]:	Info
+Method: AddDialValue 
+Parameters: dialID=21481, orderProductID=36639, dialValue=True, optionID=29160, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:47:18
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27820]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:47:19
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[10256]:	Info
+Method: ExecuteNonXML 
+Parameters: orderProductID=36637, productId=7843, numRecipients=1, numCopies=1, recipientListPrice=0, deliveryMethodID=3, deliveryPrice=0, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32],  
+
+----------------------------------------
+
+2025/05/12 10:47:19
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[10256]:	Info
+DefaultPricingEngine -> ExecuteNonXML propertyValueDict parameter number of items: 2
+
+----------------------------------------
+
+2025/05/12 10:47:19
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[10256]:	Info
+DefaultPricingEngine -> ExecuteNonXML allPropertyValues parameter number of items: 2
+
+----------------------------------------
+
+2025/05/12 10:47:19
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[10256]:	Info
+DefaultPricingEngine -> ExecuteNonXML totalPrice result: 0.00000
+
+----------------------------------------
+
+2025/05/12 10:47:19
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[10256]:	Info
+DefaultPricingEngine -> ExecuteNonXML pricePerRecipient result: 0.00000
+
+----------------------------------------
+
+2025/05/12 10:47:19
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[10256]:	Info
+DefaultPricingEngine -> ExecuteNonXML productSubtotal result: 0.00000
+
+----------------------------------------
+
+2025/05/12 10:47:19
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[10256]:	Info
+DefaultPricingEngine -> ExecuteNonXML isCalculated result: True
+
+----------------------------------------
+
+2025/05/12 10:47:19
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[10256]:	Info
+Method: ExecuteNonXML 
+Parameters: orderProductID=36638, productId=7840, numRecipients=1, numCopies=1, recipientListPrice=0, deliveryMethodID=1, deliveryPrice=0, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32],  
+
+----------------------------------------
+
+2025/05/12 10:47:19
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[10256]:	Info
+DefaultPricingEngine -> ExecuteNonXML propertyValueDict parameter number of items: 2
+
+----------------------------------------
+
+2025/05/12 10:47:19
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[10256]:	Info
+DefaultPricingEngine -> ExecuteNonXML allPropertyValues parameter number of items: 2
+
+----------------------------------------
+
+2025/05/12 10:47:19
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[10256]:	Info
+DefaultPricingEngine -> ExecuteNonXML totalPrice result: 9.00000
+
+----------------------------------------
+
+2025/05/12 10:47:19
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[10256]:	Info
+DefaultPricingEngine -> ExecuteNonXML pricePerRecipient result: 9.00000
+
+----------------------------------------
+
+2025/05/12 10:47:19
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[10256]:	Info
+DefaultPricingEngine -> ExecuteNonXML productSubtotal result: 9.00000
+
+----------------------------------------
+
+2025/05/12 10:47:19
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[10256]:	Info
+DefaultPricingEngine -> ExecuteNonXML isCalculated result: True
+
+----------------------------------------
+
+2025/05/12 10:47:19
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[10256]:	Info
+Method: ExecuteNonXML 
+Parameters: orderProductID=36639, productId=7841, numRecipients=1, numCopies=1, recipientListPrice=0, deliveryMethodID=1, deliveryPrice=0, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32],  
+
+----------------------------------------
+
+2025/05/12 10:47:19
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[10256]:	Info
+DefaultPricingEngine -> ExecuteNonXML propertyValueDict parameter number of items: 2
+
+----------------------------------------
+
+2025/05/12 10:47:19
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[10256]:	Info
+DefaultPricingEngine -> ExecuteNonXML allPropertyValues parameter number of items: 2
+
+----------------------------------------
+
+2025/05/12 10:47:19
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[10256]:	Info
+DefaultPricingEngine -> ExecuteNonXML totalPrice result: 0.00000
+
+----------------------------------------
+
+2025/05/12 10:47:19
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[10256]:	Info
+DefaultPricingEngine -> ExecuteNonXML pricePerRecipient result: 0.00000
+
+----------------------------------------
+
+2025/05/12 10:47:19
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[10256]:	Info
+DefaultPricingEngine -> ExecuteNonXML productSubtotal result: 0.00000
+
+----------------------------------------
+
+2025/05/12 10:47:19
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[10256]:	Info
+DefaultPricingEngine -> ExecuteNonXML isCalculated result: True
+
+----------------------------------------
+
+2025/05/12 10:49:16
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[26296]:	Info
+Method: GetCart 
+Parameters: storeID=8, customerID=10659,  
+
+----------------------------------------
+
+2025/05/12 10:49:16
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[26296]:	Info
+Cart order ID is 27204
+
+----------------------------------------
+
+2025/05/12 10:49:16
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[26296]:	Info
+Method: AddOrderProduct 
+Parameters: orderID=27204, productID=7843, quantity=1, isDisplayAsDraft=,  
+
+----------------------------------------
+
+2025/05/12 10:49:16
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[26296]:	Info
+Added Order Product with ID 36640
+
+----------------------------------------
+
+2025/05/12 10:49:16
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[26296]:	Info
+Method: AddOrderProduct 
+Parameters: orderID=27204, productID=7840, quantity=1, isDisplayAsDraft=False,  
+
+----------------------------------------
+
+2025/05/12 10:49:16
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[26296]:	Info
+Added Order Product with ID 36641
+
+----------------------------------------
+
+2025/05/12 10:49:16
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[26296]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=21468, orderProductID=36641, dialValue= , optionID=29145, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:49:16
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[26296]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:49:16
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[26296]:	Info
+Method: AddDialValue 
+Parameters: dialID=21468, orderProductID=36641, dialValue= , optionID=29145, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:49:16
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[26296]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:49:16
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[26296]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=21469, orderProductID=36641, dialValue=True, optionID=29146, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:49:16
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[26296]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:49:16
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[26296]:	Info
+Method: AddDialValue 
+Parameters: dialID=21469, orderProductID=36641, dialValue=True, optionID=29146, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:49:16
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[26296]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:49:16
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[26296]:	Info
+Method: AddOrderProduct 
+Parameters: orderID=27204, productID=7841, quantity=1, isDisplayAsDraft=False,  
+
+----------------------------------------
+
+2025/05/12 10:49:16
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[26296]:	Info
+Added Order Product with ID 36642
+
+----------------------------------------
+
+2025/05/12 10:49:16
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[26296]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=21480, orderProductID=36642, dialValue= , optionID=29159, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:49:16
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[26296]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:49:16
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[26296]:	Info
+Method: AddDialValue 
+Parameters: dialID=21480, orderProductID=36642, dialValue= , optionID=29159, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:49:16
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[26296]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:49:16
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[26296]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=21481, orderProductID=36642, dialValue=True, optionID=29160, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:49:16
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[26296]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:49:16
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[26296]:	Info
+Method: AddDialValue 
+Parameters: dialID=21481, orderProductID=36642, dialValue=True, optionID=29160, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:49:16
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[26296]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:49:17
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[25592]:	Info
+Method: ExecuteNonXML 
+Parameters: orderProductID=36640, productId=7843, numRecipients=1, numCopies=1, recipientListPrice=0, deliveryMethodID=3, deliveryPrice=0, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32],  
+
+----------------------------------------
+
+2025/05/12 10:49:17
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[25592]:	Info
+DefaultPricingEngine -> ExecuteNonXML propertyValueDict parameter number of items: 2
+
+----------------------------------------
+
+2025/05/12 10:49:17
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[25592]:	Info
+DefaultPricingEngine -> ExecuteNonXML allPropertyValues parameter number of items: 2
+
+----------------------------------------
+
+2025/05/12 10:49:17
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[25592]:	Info
+DefaultPricingEngine -> ExecuteNonXML totalPrice result: 0.00000
+
+----------------------------------------
+
+2025/05/12 10:49:17
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[25592]:	Info
+DefaultPricingEngine -> ExecuteNonXML pricePerRecipient result: 0.00000
+
+----------------------------------------
+
+2025/05/12 10:49:17
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[25592]:	Info
+DefaultPricingEngine -> ExecuteNonXML productSubtotal result: 0.00000
+
+----------------------------------------
+
+2025/05/12 10:49:17
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[25592]:	Info
+DefaultPricingEngine -> ExecuteNonXML isCalculated result: True
+
+----------------------------------------
+
+2025/05/12 10:49:17
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[25592]:	Info
+Method: ExecuteNonXML 
+Parameters: orderProductID=36641, productId=7840, numRecipients=1, numCopies=1, recipientListPrice=0, deliveryMethodID=1, deliveryPrice=0, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32],  
+
+----------------------------------------
+
+2025/05/12 10:49:17
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[25592]:	Info
+DefaultPricingEngine -> ExecuteNonXML propertyValueDict parameter number of items: 2
+
+----------------------------------------
+
+2025/05/12 10:49:17
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[25592]:	Info
+DefaultPricingEngine -> ExecuteNonXML allPropertyValues parameter number of items: 2
+
+----------------------------------------
+
+2025/05/12 10:49:17
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[25592]:	Info
+DefaultPricingEngine -> ExecuteNonXML totalPrice result: 9.00000
+
+----------------------------------------
+
+2025/05/12 10:49:17
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[25592]:	Info
+DefaultPricingEngine -> ExecuteNonXML pricePerRecipient result: 9.00000
+
+----------------------------------------
+
+2025/05/12 10:49:17
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[25592]:	Info
+DefaultPricingEngine -> ExecuteNonXML productSubtotal result: 9.00000
+
+----------------------------------------
+
+2025/05/12 10:49:17
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[25592]:	Info
+DefaultPricingEngine -> ExecuteNonXML isCalculated result: True
+
+----------------------------------------
+
+2025/05/12 10:49:17
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[25592]:	Info
+Method: ExecuteNonXML 
+Parameters: orderProductID=36642, productId=7841, numRecipients=1, numCopies=1, recipientListPrice=0, deliveryMethodID=1, deliveryPrice=0, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32],  
+
+----------------------------------------
+
+2025/05/12 10:49:17
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[25592]:	Info
+DefaultPricingEngine -> ExecuteNonXML propertyValueDict parameter number of items: 2
+
+----------------------------------------
+
+2025/05/12 10:49:17
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[25592]:	Info
+DefaultPricingEngine -> ExecuteNonXML allPropertyValues parameter number of items: 2
+
+----------------------------------------
+
+2025/05/12 10:49:17
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[25592]:	Info
+DefaultPricingEngine -> ExecuteNonXML totalPrice result: 0.00000
+
+----------------------------------------
+
+2025/05/12 10:49:17
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[25592]:	Info
+DefaultPricingEngine -> ExecuteNonXML pricePerRecipient result: 0.00000
+
+----------------------------------------
+
+2025/05/12 10:49:17
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[25592]:	Info
+DefaultPricingEngine -> ExecuteNonXML productSubtotal result: 0.00000
+
+----------------------------------------
+
+2025/05/12 10:49:17
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[25592]:	Info
+DefaultPricingEngine -> ExecuteNonXML isCalculated result: True
+
+----------------------------------------
+
+2025/05/12 10:53:26
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[8900]:	Info
+Method: GetCart 
+Parameters: storeID=8, customerID=9565,  
+
+----------------------------------------
+
+2025/05/12 10:53:26
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[8900]:	Info
+Cart order ID is 27169
+
+----------------------------------------
+
+2025/05/12 10:53:26
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[8900]:	Info
+Method: AddOrderProduct 
+Parameters: orderID=27169, productID=7849, quantity=25, isDisplayAsDraft=,  
+
+----------------------------------------
+
+2025/05/12 10:53:26
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[8900]:	Info
+Added Order Product with ID 36643
+
+----------------------------------------
+
+2025/05/12 10:53:26
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[8900]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=21532, orderProductID=36643, dialValue= , optionID=29776, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:53:26
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[8900]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:53:26
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[8900]:	Info
+Method: AddDialValue 
+Parameters: dialID=21532, orderProductID=36643, dialValue= , optionID=29776, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:53:26
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[8900]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:53:26
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[8900]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=21533, orderProductID=36643, dialValue=True, optionID=29777, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:53:26
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[8900]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:53:26
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[8900]:	Info
+Method: AddDialValue 
+Parameters: dialID=21533, orderProductID=36643, dialValue=True, optionID=29777, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:53:26
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[8900]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:53:26
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[8900]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=21538, orderProductID=36643, dialValue=NC, optionID=29766, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:53:26
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[8900]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:53:26
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[8900]:	Info
+Method: AddDialValue 
+Parameters: dialID=21538, orderProductID=36643, dialValue=NC, optionID=29766, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:53:26
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[8900]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:53:27
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[39208]:	Info
+Method: GetCustomizationWizardDetailsByDocID 
+Parameters: docID=7849,  
+
+----------------------------------------
+
+2025/05/12 10:53:27
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27988]:	Info
+Method: ExecuteNonXML 
+Parameters: orderProductID=36643, productId=7849, numRecipients=1, numCopies=25, recipientListPrice=0, deliveryMethodID=1, deliveryPrice=0, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32],  
+
+----------------------------------------
+
+2025/05/12 10:53:27
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27988]:	Info
+DefaultPricingEngine -> ExecuteNonXML propertyValueDict parameter number of items: 3
+
+----------------------------------------
+
+2025/05/12 10:53:27
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27988]:	Info
+DefaultPricingEngine -> ExecuteNonXML allPropertyValues parameter number of items: 3
+
+----------------------------------------
+
+2025/05/12 10:53:27
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27988]:	Info
+DefaultPricingEngine -> ExecuteNonXML totalPrice result: 31.50000
+
+----------------------------------------
+
+2025/05/12 10:53:27
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27988]:	Info
+DefaultPricingEngine -> ExecuteNonXML pricePerRecipient result: 31.50000
+
+----------------------------------------
+
+2025/05/12 10:53:27
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27988]:	Info
+DefaultPricingEngine -> ExecuteNonXML productSubtotal result: 31.50000
+
+----------------------------------------
+
+2025/05/12 10:53:27
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27988]:	Info
+DefaultPricingEngine -> ExecuteNonXML isCalculated result: True
+
+----------------------------------------
+
+2025/05/12 10:53:31
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[17344]:	Info
+Method: ExecuteNonXML 
+Parameters: orderProductID=36643, productId=7849, numRecipients=1, numCopies=100, recipientListPrice=0, deliveryMethodID=1, deliveryPrice=0, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32],  
+
+----------------------------------------
+
+2025/05/12 10:53:31
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[17344]:	Info
+DefaultPricingEngine -> ExecuteNonXML propertyValueDict parameter number of items: 1
+
+----------------------------------------
+
+2025/05/12 10:53:31
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[17344]:	Info
+DefaultPricingEngine -> ExecuteNonXML allPropertyValues parameter number of items: 1
+
+----------------------------------------
+
+2025/05/12 10:53:31
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[17344]:	Info
+DefaultPricingEngine -> ExecuteNonXML totalPrice result: 101.78000
+
+----------------------------------------
+
+2025/05/12 10:53:31
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[17344]:	Info
+DefaultPricingEngine -> ExecuteNonXML pricePerRecipient result: 101.78000
+
+----------------------------------------
+
+2025/05/12 10:53:31
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[17344]:	Info
+DefaultPricingEngine -> ExecuteNonXML productSubtotal result: 101.78000
+
+----------------------------------------
+
+2025/05/12 10:53:31
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[17344]:	Info
+DefaultPricingEngine -> ExecuteNonXML isCalculated result: True
+
+----------------------------------------
+
+2025/05/12 10:53:38
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[992]:	Info
+Method: GetCustomizationWizardDetailsByDocID 
+Parameters: docID=7849,  
+
+----------------------------------------
+
+2025/05/12 10:53:38
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[992]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=21533, orderProductID=36643, dialValue=True, optionID=29777, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:53:38
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[992]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:53:38
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[992]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=21538, orderProductID=36643, dialValue=NC, optionID=29766, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:53:38
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[992]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:53:39
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[992]:	Info
+Method: GetCustomizationWizardDetailsByDocID 
+Parameters: docID=7849,  
+
+----------------------------------------
+
+2025/05/12 10:53:39
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[1252]:	Info
+Method: GetCustomizationWizardDetailsByDocID 
+Parameters: docID=7849,  
+
+----------------------------------------
+
+2025/05/12 10:53:39
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[1252]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=21533, orderProductID=36643, dialValue=True, optionID=29777, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:53:39
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[1252]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:53:39
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[1252]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=21538, orderProductID=36643, dialValue=NC, optionID=29766, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:53:39
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[1252]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:53:39
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[1252]:	Info
+Method: GetCustomizationWizardDetailsByDocID 
+Parameters: docID=7849,  
+
+----------------------------------------
+
+2025/05/12 10:53:40
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[36612]:	Info
+Method: GetCart 
+Parameters: storeID=8, customerID=9565,  
+
+----------------------------------------
+
+2025/05/12 10:53:40
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[36612]:	Info
+Cart order ID is 27169
+
+----------------------------------------
+
+2025/05/12 10:53:40
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[36612]:	Info
+Method: ExecuteNonXML 
+Parameters: orderProductID=36643, productId=7849, numRecipients=1, numCopies=100, recipientListPrice=0, deliveryMethodID=1, deliveryPrice=0.00000, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32],  
+
+----------------------------------------
+
+2025/05/12 10:53:40
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[36612]:	Info
+DefaultPricingEngine -> ExecuteNonXML propertyValueDict parameter number of items: 3
+
+----------------------------------------
+
+2025/05/12 10:53:40
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[36612]:	Info
+DefaultPricingEngine -> ExecuteNonXML allPropertyValues parameter number of items: 3
+
+----------------------------------------
+
+2025/05/12 10:53:40
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[36612]:	Info
+DefaultPricingEngine -> ExecuteNonXML totalPrice result: 101.78000
+
+----------------------------------------
+
+2025/05/12 10:53:40
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[36612]:	Info
+DefaultPricingEngine -> ExecuteNonXML pricePerRecipient result: 101.78000
+
+----------------------------------------
+
+2025/05/12 10:53:40
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[36612]:	Info
+DefaultPricingEngine -> ExecuteNonXML productSubtotal result: 101.78000
+
+----------------------------------------
+
+2025/05/12 10:53:40
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[36612]:	Info
+DefaultPricingEngine -> ExecuteNonXML isCalculated result: True
+
+----------------------------------------
+
+2025/05/12 10:53:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[14644]:	Info
+Method: GetCart 
+Parameters: storeID=8, customerID=9565,  
+
+----------------------------------------
+
+2025/05/12 10:53:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[14644]:	Info
+Cart order ID is 27169
+
+----------------------------------------
+
+2025/05/12 10:53:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[14644]:	Info
+Method: AddOrderProduct 
+Parameters: orderID=27169, productID=7849, quantity=25, isDisplayAsDraft=,  
+
+----------------------------------------
+
+2025/05/12 10:53:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[14644]:	Info
+Added Order Product with ID 36644
+
+----------------------------------------
+
+2025/05/12 10:53:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[14644]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=21532, orderProductID=36644, dialValue= , optionID=29776, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:53:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[14644]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:53:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[14644]:	Info
+Method: AddDialValue 
+Parameters: dialID=21532, orderProductID=36644, dialValue= , optionID=29776, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:53:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[14644]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:53:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[14644]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=21533, orderProductID=36644, dialValue=True, optionID=29777, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:53:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[14644]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:53:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[14644]:	Info
+Method: AddDialValue 
+Parameters: dialID=21533, orderProductID=36644, dialValue=True, optionID=29777, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:53:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[14644]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:53:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[14644]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=21538, orderProductID=36644, dialValue=NC, optionID=29766, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:53:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[14644]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:53:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[14644]:	Info
+Method: AddDialValue 
+Parameters: dialID=21538, orderProductID=36644, dialValue=NC, optionID=29766, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:53:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[14644]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:53:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[22316]:	Info
+Method: GetCustomizationWizardDetailsByDocID 
+Parameters: docID=7849,  
+
+----------------------------------------
+
+2025/05/12 10:53:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15636]:	Info
+Method: ExecuteNonXML 
+Parameters: orderProductID=36644, productId=7849, numRecipients=1, numCopies=25, recipientListPrice=0, deliveryMethodID=1, deliveryPrice=0, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32],  
+
+----------------------------------------
+
+2025/05/12 10:53:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15636]:	Info
+DefaultPricingEngine -> ExecuteNonXML propertyValueDict parameter number of items: 3
+
+----------------------------------------
+
+2025/05/12 10:53:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15636]:	Info
+DefaultPricingEngine -> ExecuteNonXML allPropertyValues parameter number of items: 3
+
+----------------------------------------
+
+2025/05/12 10:53:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15636]:	Info
+DefaultPricingEngine -> ExecuteNonXML totalPrice result: 31.50000
+
+----------------------------------------
+
+2025/05/12 10:53:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15636]:	Info
+DefaultPricingEngine -> ExecuteNonXML pricePerRecipient result: 31.50000
+
+----------------------------------------
+
+2025/05/12 10:53:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15636]:	Info
+DefaultPricingEngine -> ExecuteNonXML productSubtotal result: 31.50000
+
+----------------------------------------
+
+2025/05/12 10:53:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15636]:	Info
+DefaultPricingEngine -> ExecuteNonXML isCalculated result: True
+
+----------------------------------------
+
+2025/05/12 10:54:04
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[37416]:	Info
+Method: GetCart 
+Parameters: storeID=8, customerID=9565,  
+
+----------------------------------------
+
+2025/05/12 10:54:04
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[37416]:	Info
+Cart order ID is 27169
+
+----------------------------------------
+
+2025/05/12 10:54:04
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[37416]:	Info
+Method: AddOrderProduct 
+Parameters: orderID=27169, productID=7850, quantity=25, isDisplayAsDraft=,  
+
+----------------------------------------
+
+2025/05/12 10:54:04
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[37416]:	Info
+Added Order Product with ID 36645
+
+----------------------------------------
+
+2025/05/12 10:54:04
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[37416]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=21540, orderProductID=36645, dialValue= , optionID=29809, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:54:04
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[37416]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:54:04
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[37416]:	Info
+Method: AddDialValue 
+Parameters: dialID=21540, orderProductID=36645, dialValue= , optionID=29809, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:54:04
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[37416]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:54:04
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[37416]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=21541, orderProductID=36645, dialValue=True, optionID=29810, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:54:04
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[37416]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:54:04
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[37416]:	Info
+Method: AddDialValue 
+Parameters: dialID=21541, orderProductID=36645, dialValue=True, optionID=29810, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:54:04
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[37416]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:54:04
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[37416]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=21546, orderProductID=36645, dialValue=NC, optionID=29799, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:54:04
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[37416]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:54:04
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[37416]:	Info
+Method: AddDialValue 
+Parameters: dialID=21546, orderProductID=36645, dialValue=NC, optionID=29799, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:54:04
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[37416]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:54:04
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[3832]:	Info
+Method: GetCustomizationWizardDetailsByDocID 
+Parameters: docID=7850,  
+
+----------------------------------------
+
+2025/05/12 10:54:05
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[51440]:	Info
+Method: ExecuteNonXML 
+Parameters: orderProductID=36645, productId=7850, numRecipients=1, numCopies=25, recipientListPrice=0, deliveryMethodID=1, deliveryPrice=0, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32],  
+
+----------------------------------------
+
+2025/05/12 10:54:05
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[51440]:	Info
+DefaultPricingEngine -> ExecuteNonXML propertyValueDict parameter number of items: 3
+
+----------------------------------------
+
+2025/05/12 10:54:05
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[51440]:	Info
+DefaultPricingEngine -> ExecuteNonXML allPropertyValues parameter number of items: 3
+
+----------------------------------------
+
+2025/05/12 10:54:05
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[51440]:	Info
+DefaultPricingEngine -> ExecuteNonXML totalPrice result: 46.50000
+
+----------------------------------------
+
+2025/05/12 10:54:05
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[51440]:	Info
+DefaultPricingEngine -> ExecuteNonXML pricePerRecipient result: 46.50000
+
+----------------------------------------
+
+2025/05/12 10:54:05
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[51440]:	Info
+DefaultPricingEngine -> ExecuteNonXML productSubtotal result: 46.50000
+
+----------------------------------------
+
+2025/05/12 10:54:05
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[51440]:	Info
+DefaultPricingEngine -> ExecuteNonXML isCalculated result: True
+
+----------------------------------------
+
+2025/05/12 10:54:08
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[42964]:	Info
+Method: ExecuteNonXML 
+Parameters: orderProductID=36645, productId=7850, numRecipients=1, numCopies=100, recipientListPrice=0, deliveryMethodID=1, deliveryPrice=0, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32],  
+
+----------------------------------------
+
+2025/05/12 10:54:08
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[42964]:	Info
+DefaultPricingEngine -> ExecuteNonXML propertyValueDict parameter number of items: 1
+
+----------------------------------------
+
+2025/05/12 10:54:08
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[42964]:	Info
+DefaultPricingEngine -> ExecuteNonXML allPropertyValues parameter number of items: 1
+
+----------------------------------------
+
+2025/05/12 10:54:08
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[42964]:	Info
+DefaultPricingEngine -> ExecuteNonXML totalPrice result: 153.00000
+
+----------------------------------------
+
+2025/05/12 10:54:08
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[42964]:	Info
+DefaultPricingEngine -> ExecuteNonXML pricePerRecipient result: 153.00000
+
+----------------------------------------
+
+2025/05/12 10:54:08
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[42964]:	Info
+DefaultPricingEngine -> ExecuteNonXML productSubtotal result: 153.00000
+
+----------------------------------------
+
+2025/05/12 10:54:08
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[42964]:	Info
+DefaultPricingEngine -> ExecuteNonXML isCalculated result: True
+
+----------------------------------------
+
+2025/05/12 10:54:14
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[33784]:	Info
+Method: GetCustomizationWizardDetailsByDocID 
+Parameters: docID=7850,  
+
+----------------------------------------
+
+2025/05/12 10:54:14
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[33784]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=21541, orderProductID=36645, dialValue=True, optionID=29810, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:54:14
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[33784]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:54:14
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[33784]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=21546, orderProductID=36645, dialValue=NC, optionID=29799, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:54:14
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[33784]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:54:14
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[33784]:	Info
+Method: GetCustomizationWizardDetailsByDocID 
+Parameters: docID=7850,  
+
+----------------------------------------
+
+2025/05/12 10:54:15
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[53236]:	Info
+Method: GetCustomizationWizardDetailsByDocID 
+Parameters: docID=7850,  
+
+----------------------------------------
+
+2025/05/12 10:54:15
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[53236]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=21541, orderProductID=36645, dialValue=True, optionID=29810, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:54:15
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[53236]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:54:15
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[53236]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=21546, orderProductID=36645, dialValue=NC, optionID=29799, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:54:15
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[53236]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:54:15
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[53236]:	Info
+Method: GetCustomizationWizardDetailsByDocID 
+Parameters: docID=7850,  
+
+----------------------------------------
+
+2025/05/12 10:54:16
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[32624]:	Info
+Method: GetCart 
+Parameters: storeID=8, customerID=9565,  
+
+----------------------------------------
+
+2025/05/12 10:54:16
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[32624]:	Info
+Cart order ID is 27169
+
+----------------------------------------
+
+2025/05/12 10:54:16
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[32624]:	Info
+Method: ExecuteNonXML 
+Parameters: orderProductID=36645, productId=7850, numRecipients=1, numCopies=100, recipientListPrice=0, deliveryMethodID=1, deliveryPrice=0.00000, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32],  
+
+----------------------------------------
+
+2025/05/12 10:54:16
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[32624]:	Info
+DefaultPricingEngine -> ExecuteNonXML propertyValueDict parameter number of items: 3
+
+----------------------------------------
+
+2025/05/12 10:54:16
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[32624]:	Info
+DefaultPricingEngine -> ExecuteNonXML allPropertyValues parameter number of items: 3
+
+----------------------------------------
+
+2025/05/12 10:54:16
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[32624]:	Info
+DefaultPricingEngine -> ExecuteNonXML totalPrice result: 153.00000
+
+----------------------------------------
+
+2025/05/12 10:54:16
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[32624]:	Info
+DefaultPricingEngine -> ExecuteNonXML pricePerRecipient result: 153.00000
+
+----------------------------------------
+
+2025/05/12 10:54:16
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[32624]:	Info
+DefaultPricingEngine -> ExecuteNonXML productSubtotal result: 153.00000
+
+----------------------------------------
+
+2025/05/12 10:54:16
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[32624]:	Info
+DefaultPricingEngine -> ExecuteNonXML isCalculated result: True
+
+----------------------------------------
+
+2025/05/12 10:55:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[8180]:	Info
+Method: GetCustomizationWizardDetailsByDocID 
+Parameters: docID=7850,  
+
+----------------------------------------
+
+2025/05/12 10:55:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44716]:	Info
+Method: ExecuteNonXML 
+Parameters: orderProductID=36645, productId=7850, numRecipients=1, numCopies=100, recipientListPrice=0, deliveryMethodID=1, deliveryPrice=0, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32],  
+
+----------------------------------------
+
+2025/05/12 10:55:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44716]:	Info
+DefaultPricingEngine -> ExecuteNonXML propertyValueDict parameter number of items: 3
+
+----------------------------------------
+
+2025/05/12 10:55:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44716]:	Info
+DefaultPricingEngine -> ExecuteNonXML allPropertyValues parameter number of items: 3
+
+----------------------------------------
+
+2025/05/12 10:55:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44716]:	Info
+DefaultPricingEngine -> ExecuteNonXML totalPrice result: 153.00000
+
+----------------------------------------
+
+2025/05/12 10:55:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44716]:	Info
+DefaultPricingEngine -> ExecuteNonXML pricePerRecipient result: 153.00000
+
+----------------------------------------
+
+2025/05/12 10:55:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44716]:	Info
+DefaultPricingEngine -> ExecuteNonXML productSubtotal result: 153.00000
+
+----------------------------------------
+
+2025/05/12 10:55:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44716]:	Info
+DefaultPricingEngine -> ExecuteNonXML isCalculated result: True
+
+----------------------------------------
+
+2025/05/12 10:56:01
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50832]:	Info
+Method: ExecuteNonXML 
+Parameters: orderProductID=36645, productId=7850, numRecipients=1, numCopies=50, recipientListPrice=0, deliveryMethodID=1, deliveryPrice=0, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32],  
+
+----------------------------------------
+
+2025/05/12 10:56:01
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50832]:	Info
+DefaultPricingEngine -> ExecuteNonXML propertyValueDict parameter number of items: 1
+
+----------------------------------------
+
+2025/05/12 10:56:01
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50832]:	Info
+DefaultPricingEngine -> ExecuteNonXML allPropertyValues parameter number of items: 1
+
+----------------------------------------
+
+2025/05/12 10:56:01
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50832]:	Info
+DefaultPricingEngine -> ExecuteNonXML totalPrice result: 76.50000
+
+----------------------------------------
+
+2025/05/12 10:56:01
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50832]:	Info
+DefaultPricingEngine -> ExecuteNonXML pricePerRecipient result: 76.50000
+
+----------------------------------------
+
+2025/05/12 10:56:01
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50832]:	Info
+DefaultPricingEngine -> ExecuteNonXML productSubtotal result: 76.50000
+
+----------------------------------------
+
+2025/05/12 10:56:01
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50832]:	Info
+DefaultPricingEngine -> ExecuteNonXML isCalculated result: True
+
+----------------------------------------
+
+2025/05/12 10:56:01
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[56528]:	Info
+Method: ExecuteNonXML 
+Parameters: orderProductID=36645, productId=7850, numRecipients=1, numCopies=50, recipientListPrice=0, deliveryMethodID=1, deliveryPrice=0.00000, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32],  
+
+----------------------------------------
+
+2025/05/12 10:56:01
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[56528]:	Info
+DefaultPricingEngine -> ExecuteNonXML propertyValueDict parameter number of items: 3
+
+----------------------------------------
+
+2025/05/12 10:56:01
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[56528]:	Info
+DefaultPricingEngine -> ExecuteNonXML allPropertyValues parameter number of items: 3
+
+----------------------------------------
+
+2025/05/12 10:56:01
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[56528]:	Info
+DefaultPricingEngine -> ExecuteNonXML totalPrice result: 76.50000
+
+----------------------------------------
+
+2025/05/12 10:56:01
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[56528]:	Info
+DefaultPricingEngine -> ExecuteNonXML pricePerRecipient result: 76.50000
+
+----------------------------------------
+
+2025/05/12 10:56:01
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[56528]:	Info
+DefaultPricingEngine -> ExecuteNonXML productSubtotal result: 76.50000
+
+----------------------------------------
+
+2025/05/12 10:56:01
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[56528]:	Info
+DefaultPricingEngine -> ExecuteNonXML isCalculated result: True
+
+----------------------------------------
+
+2025/05/12 10:56:04
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[31384]:	Info
+Method: ExecuteNonXML 
+Parameters: orderProductID=36645, productId=7850, numRecipients=1, numCopies=1000, recipientListPrice=0, deliveryMethodID=1, deliveryPrice=0, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32],  
+
+----------------------------------------
+
+2025/05/12 10:56:04
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[31384]:	Info
+DefaultPricingEngine -> ExecuteNonXML propertyValueDict parameter number of items: 1
+
+----------------------------------------
+
+2025/05/12 10:56:04
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[31384]:	Info
+DefaultPricingEngine -> ExecuteNonXML allPropertyValues parameter number of items: 1
+
+----------------------------------------
+
+2025/05/12 10:56:04
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[31384]:	Info
+DefaultPricingEngine -> ExecuteNonXML totalPrice result: 1530.00000
+
+----------------------------------------
+
+2025/05/12 10:56:04
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[31384]:	Info
+DefaultPricingEngine -> ExecuteNonXML pricePerRecipient result: 1530.00000
+
+----------------------------------------
+
+2025/05/12 10:56:04
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[31384]:	Info
+DefaultPricingEngine -> ExecuteNonXML productSubtotal result: 1530.00000
+
+----------------------------------------
+
+2025/05/12 10:56:04
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[31384]:	Info
+DefaultPricingEngine -> ExecuteNonXML isCalculated result: True
+
+----------------------------------------
+
+2025/05/12 10:56:04
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[17344]:	Info
+Method: ExecuteNonXML 
+Parameters: orderProductID=36645, productId=7850, numRecipients=1, numCopies=1000, recipientListPrice=0, deliveryMethodID=1, deliveryPrice=0.00000, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32],  
+
+----------------------------------------
+
+2025/05/12 10:56:04
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[17344]:	Info
+DefaultPricingEngine -> ExecuteNonXML propertyValueDict parameter number of items: 3
+
+----------------------------------------
+
+2025/05/12 10:56:04
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[17344]:	Info
+DefaultPricingEngine -> ExecuteNonXML allPropertyValues parameter number of items: 3
+
+----------------------------------------
+
+2025/05/12 10:56:04
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[17344]:	Info
+DefaultPricingEngine -> ExecuteNonXML totalPrice result: 1530.00000
+
+----------------------------------------
+
+2025/05/12 10:56:05
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[17344]:	Info
+DefaultPricingEngine -> ExecuteNonXML pricePerRecipient result: 1530.00000
+
+----------------------------------------
+
+2025/05/12 10:56:05
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[17344]:	Info
+DefaultPricingEngine -> ExecuteNonXML productSubtotal result: 1530.00000
+
+----------------------------------------
+
+2025/05/12 10:56:05
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[17344]:	Info
+DefaultPricingEngine -> ExecuteNonXML isCalculated result: True
+
+----------------------------------------
+
+2025/05/12 10:56:08
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[40212]:	Info
+Method: ExecuteNonXML 
+Parameters: orderProductID=36645, productId=7850, numRecipients=1, numCopies=50, recipientListPrice=0, deliveryMethodID=1, deliveryPrice=0.00000, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32],  
+
+----------------------------------------
+
+2025/05/12 10:56:08
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[40212]:	Info
+DefaultPricingEngine -> ExecuteNonXML propertyValueDict parameter number of items: 3
+
+----------------------------------------
+
+2025/05/12 10:56:08
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[40212]:	Info
+DefaultPricingEngine -> ExecuteNonXML allPropertyValues parameter number of items: 3
+
+----------------------------------------
+
+2025/05/12 10:56:08
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[51000]:	Info
+Method: ExecuteNonXML 
+Parameters: orderProductID=36645, productId=7850, numRecipients=1, numCopies=50, recipientListPrice=0, deliveryMethodID=1, deliveryPrice=0, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32],  
+
+----------------------------------------
+
+2025/05/12 10:56:08
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[51000]:	Info
+DefaultPricingEngine -> ExecuteNonXML propertyValueDict parameter number of items: 1
+
+----------------------------------------
+
+2025/05/12 10:56:08
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[51000]:	Info
+DefaultPricingEngine -> ExecuteNonXML allPropertyValues parameter number of items: 1
+
+----------------------------------------
+
+2025/05/12 10:56:08
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[40212]:	Info
+DefaultPricingEngine -> ExecuteNonXML totalPrice result: 76.50000
+
+----------------------------------------
+
+2025/05/12 10:56:08
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[51000]:	Info
+DefaultPricingEngine -> ExecuteNonXML totalPrice result: 76.50000
+
+----------------------------------------
+
+2025/05/12 10:56:08
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[40212]:	Info
+DefaultPricingEngine -> ExecuteNonXML pricePerRecipient result: 76.50000
+
+----------------------------------------
+
+2025/05/12 10:56:08
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[51000]:	Info
+DefaultPricingEngine -> ExecuteNonXML pricePerRecipient result: 76.50000
+
+----------------------------------------
+
+2025/05/12 10:56:08
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[40212]:	Info
+DefaultPricingEngine -> ExecuteNonXML productSubtotal result: 76.50000
+
+----------------------------------------
+
+2025/05/12 10:56:08
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[51000]:	Info
+DefaultPricingEngine -> ExecuteNonXML productSubtotal result: 76.50000
+
+----------------------------------------
+
+2025/05/12 10:56:08
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[40212]:	Info
+DefaultPricingEngine -> ExecuteNonXML isCalculated result: True
+
+----------------------------------------
+
+2025/05/12 10:56:08
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[51000]:	Info
+DefaultPricingEngine -> ExecuteNonXML isCalculated result: True
+
+----------------------------------------
+
+2025/05/12 10:56:10
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[58896]:	Info
+Method: ExecuteNonXML 
+Parameters: orderProductID=36645, productId=7850, numRecipients=1, numCopies=100, recipientListPrice=0, deliveryMethodID=1, deliveryPrice=0, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32],  
+
+----------------------------------------
+
+2025/05/12 10:56:10
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[58896]:	Info
+DefaultPricingEngine -> ExecuteNonXML propertyValueDict parameter number of items: 1
+
+----------------------------------------
+
+2025/05/12 10:56:10
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[58896]:	Info
+DefaultPricingEngine -> ExecuteNonXML allPropertyValues parameter number of items: 1
+
+----------------------------------------
+
+2025/05/12 10:56:10
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[58896]:	Info
+DefaultPricingEngine -> ExecuteNonXML totalPrice result: 153.00000
+
+----------------------------------------
+
+2025/05/12 10:56:10
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[58896]:	Info
+DefaultPricingEngine -> ExecuteNonXML pricePerRecipient result: 153.00000
+
+----------------------------------------
+
+2025/05/12 10:56:10
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[58896]:	Info
+DefaultPricingEngine -> ExecuteNonXML productSubtotal result: 153.00000
+
+----------------------------------------
+
+2025/05/12 10:56:10
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[58896]:	Info
+DefaultPricingEngine -> ExecuteNonXML isCalculated result: True
+
+----------------------------------------
+
+2025/05/12 10:56:10
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[35444]:	Info
+Method: ExecuteNonXML 
+Parameters: orderProductID=36645, productId=7850, numRecipients=1, numCopies=100, recipientListPrice=0, deliveryMethodID=1, deliveryPrice=0.00000, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32],  
+
+----------------------------------------
+
+2025/05/12 10:56:10
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[35444]:	Info
+DefaultPricingEngine -> ExecuteNonXML propertyValueDict parameter number of items: 3
+
+----------------------------------------
+
+2025/05/12 10:56:10
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[35444]:	Info
+DefaultPricingEngine -> ExecuteNonXML allPropertyValues parameter number of items: 3
+
+----------------------------------------
+
+2025/05/12 10:56:10
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[35444]:	Info
+DefaultPricingEngine -> ExecuteNonXML totalPrice result: 153.00000
+
+----------------------------------------
+
+2025/05/12 10:56:10
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[35444]:	Info
+DefaultPricingEngine -> ExecuteNonXML pricePerRecipient result: 153.00000
+
+----------------------------------------
+
+2025/05/12 10:56:10
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[35444]:	Info
+DefaultPricingEngine -> ExecuteNonXML productSubtotal result: 153.00000
+
+----------------------------------------
+
+2025/05/12 10:56:10
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[35444]:	Info
+DefaultPricingEngine -> ExecuteNonXML isCalculated result: True
+
+----------------------------------------
+
+2025/05/12 11:07:56
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[52424]:	Error
+WebAPI.TokenValidator.ValidateToken: Security Token 'dcb243c09f1b47fbaf8359c2ef09818dc52380860ea37e63cfe72ab97a5813e7' doesn't exist
+
+----------------------------------------
+
+2025/05/12 11:07:56
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[52424]:	Fatal
+WebAPI error occured.
+Request: Method: GET, URL: https://us717.agstorefront.com/uStoreRestApi/v1/system/imageProxy?fileToken=4SiJJKQaJbUa+TnvW7QK3Aiv+ZXCbxGoNRR5sM7TArmreCPJ1gL0dlCdDe0ZoWPHCm3kDtv273k9jh4kPPVJahdQk626NE+WTLEVkff2Og0R3/T6L65Mu1l07FPaxtx2oFkt72hUoClkmFjfT1Jb2hW4JdDuhwn1W7UZlrwy/XoCTm3teo9toFPc8WJJ7G1AGeTQ0FwlNKCa8bRNJAOo+zmM2RHr9yG887zhuvAll3G4nkITFottI3p7Xo7H9GzbW3E2pFdYHxwf79ZvATiACpNH8gBvyg3sxTTR6Z4/ZMeMdMRngauL7BiA/wr/6kp1ZwOEcOpfHFSMTWHwkfkAssv/l4Kea4lY8Gqks2VlMl4yhqWDl3BMqb6JXRu+l4bl0lxVi1CSs3lEmcSqbewbgACQivoc1nt0JmEwKLn2eTo=
+Exception: uStore.Common.BLL.Exceptions.AccessDeniedException: Exception of type 'uStore.Common.BLL.Exceptions.AccessDeniedException' was thrown.
+   at uStore.WebAPI.Validators.TokenValidator.ValidateToken(String securityTokenID)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.ValidateAuthorizationToken(String authorizationToken)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.Execute(TRequest request)
+   at uStore.WebAPI.Controllers.SystemController.GetImage(String fileToken)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_0.<GetExecutor>b__2(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+TypeName: AccessDenied
+uStore.Common.BLL.Exceptions.AccessDeniedException: Exception of type 'uStore.Common.BLL.Exceptions.AccessDeniedException' was thrown.
+   at uStore.WebAPI.Validators.TokenValidator.ValidateToken(String securityTokenID)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.ValidateAuthorizationToken(String authorizationToken)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.Execute(TRequest request)
+   at uStore.WebAPI.Controllers.SystemController.GetImage(String fileToken)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_0.<GetExecutor>b__2(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+TypeName: AccessDenied
+
+----------------------------------------
+
+2025/05/12 11:07:57
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[31384]:	Error
+WebAPI.TokenValidator.ValidateToken: Security Token 'dcb243c09f1b47fbaf8359c2ef09818dc52380860ea37e63cfe72ab97a5813e7' doesn't exist
+
+----------------------------------------
+
+2025/05/12 11:07:57
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[31384]:	Fatal
+WebAPI error occured.
+Request: Method: GET, URL: https://us717.agstorefront.com/uStoreRestApi/v1/system/imageProxy?fileToken=4SiJJKQaJbUa+TnvW7QK3Aiv+ZXCbxGoNRR5sM7TArmreCPJ1gL0dlCdDe0ZoWPHCm3kDtv273k9jh4kPPVJahdQk626NE+WTLEVkff2Og0R3/T6L65Mu1l07FPaxtx2oFkt72hUoClkmFjfT1Jb2hW4JdDuhwn1W7UZlrwy/XoCTm3teo9toFPc8WJJ7G1AGeTQ0FwlNKCa8bRNJAOo+zmM2RHr9yG887zhuvAll3G4nkITFottI3p7Xo7H9GzbW3E2pFdYHxwf79ZvATiACpNH8gBvyg3sxTTR6Z4/ZMeMdMRngauL7BiA/wr/6kp1ZwOEcOpfHFSMTWHwkfkAssv/l4Kea4lY8Gqks2VlMl4yhqWDl3BMqb6JXRu+l4bl0lxVi1CSs3lEmcSqbewbgACQivoc1nt0JmEwKLn2eTo=
+Exception: uStore.Common.BLL.Exceptions.AccessDeniedException: Exception of type 'uStore.Common.BLL.Exceptions.AccessDeniedException' was thrown.
+   at uStore.WebAPI.Validators.TokenValidator.ValidateToken(String securityTokenID)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.ValidateAuthorizationToken(String authorizationToken)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.Execute(TRequest request)
+   at uStore.WebAPI.Controllers.SystemController.GetImage(String fileToken)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_0.<GetExecutor>b__2(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+TypeName: AccessDenied
+uStore.Common.BLL.Exceptions.AccessDeniedException: Exception of type 'uStore.Common.BLL.Exceptions.AccessDeniedException' was thrown.
+   at uStore.WebAPI.Validators.TokenValidator.ValidateToken(String securityTokenID)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.ValidateAuthorizationToken(String authorizationToken)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.Execute(TRequest request)
+   at uStore.WebAPI.Controllers.SystemController.GetImage(String fileToken)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_0.<GetExecutor>b__2(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+TypeName: AccessDenied
+
+----------------------------------------
+
+2025/05/12 12:24:15
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[7172]:	Error
+WebAPI.TokenValidator.ValidateToken: Security Token 'a4f26c6f14f44bb6af9e289dad2dba1b5ce253180be929042b1d0dbb0ede00fd' doesn't exist
+
+----------------------------------------
+
+2025/05/12 12:24:15
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[7172]:	Fatal
+WebAPI error occured.
+Request: Method: GET, URL: https://us717.agstorefront.com/uStoreRestApi/v1/system/imageProxy?fileToken=q8wb3+BHzB2vwvbHMg2ryLSMuz2cVWdjA6zNRLzx4npNPH11WlmlUEoufReIZ/T8yZxAvgr6xvjMXh79a7Wwd69orW0fZDqmNR+ZP+xxaJ9DvhEsfagwtthOl6vc2XqhzJBXkK7sbCpGjK+P09PJ/wr0kOTyjI6TdKjEdmxGfMGVxio5InhRYYxN8sReJW7UWpZ5ZPWiixUtsHjZ/4ZmOGVe5BM8PQcMSHnarxmGIFDwKt/+xLlbS1Gjgqj217G1DhwKPvfVJX0r32PsFHg82MXrMjgsxJoRAlCRuNef4cbsquz8lCmHU6mdP3IRydMagKEdpRTYnsfoaIQSM92hYhmpB5RNc6OafQ6x+uZ4kBJmjd8YBXxIIbgZk/z0JRUTR7BX7+V88WVSxqBLi44MiV2Lmpd1M5WPKqsTT56gHA0=
+Exception: uStore.Common.BLL.Exceptions.AccessDeniedException: Exception of type 'uStore.Common.BLL.Exceptions.AccessDeniedException' was thrown.
+   at uStore.WebAPI.Validators.TokenValidator.ValidateToken(String securityTokenID)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.ValidateAuthorizationToken(String authorizationToken)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.Execute(TRequest request)
+   at uStore.WebAPI.Controllers.SystemController.GetImage(String fileToken)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_0.<GetExecutor>b__2(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+TypeName: AccessDenied
+uStore.Common.BLL.Exceptions.AccessDeniedException: Exception of type 'uStore.Common.BLL.Exceptions.AccessDeniedException' was thrown.
+   at uStore.WebAPI.Validators.TokenValidator.ValidateToken(String securityTokenID)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.ValidateAuthorizationToken(String authorizationToken)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.Execute(TRequest request)
+   at uStore.WebAPI.Controllers.SystemController.GetImage(String fileToken)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_0.<GetExecutor>b__2(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+TypeName: AccessDenied
+
+----------------------------------------
+
+2025/05/12 12:30:37
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[18536]:	Error
+WebAPI.TokenValidator.ValidateToken: Security Token 'a4f26c6f14f44bb6af9e289dad2dba1b5ce253180be929042b1d0dbb0ede00fd' doesn't exist
+
+----------------------------------------
+
+2025/05/12 12:30:37
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[18536]:	Fatal
+WebAPI error occured.
+Request: Method: GET, URL: https://us717.agstorefront.com/uStoreRestApi/v1/system/imageProxy?fileToken=CUdsg12xVZf9RcuDpo1b7YmWFrcEyffRPjbue0q27XB3Bmu/Pu4i182Bhs7qumN13Dl5wIdWDgJ81zqtPUmqkztwmxeyDGpsS7/5b8UNtLV7EcFemxMT74rtjTXge59vFqpNf8gZDCpBQ8BASupuiY2ZEV1RBO+e9XSxryhMMU4Hl2ATzX4Hiq79YpQP0gyqTerzFK9wRyMNGp9TyppP8CVnA2nLYnOUsiO0XUqqG8UMiw/vuMNUcPKsnzJYcmssMfH7Hj6C22B2HjFZpFn7sv0Q2GeAa6Qj06w6/gKKmz/2RGcNHQdEfbIyTrwfB5gL8gUL2LjvGe5O60RwrBIDS40l2Q//vXX/NpBt4885b7nvLYJvkOjst7apiSXN9E8MSaz9gT+BQT6lQ7ikCtFzVBbDDmvVQkk3x0p8tXXim0A=
+Exception: uStore.Common.BLL.Exceptions.AccessDeniedException: Exception of type 'uStore.Common.BLL.Exceptions.AccessDeniedException' was thrown.
+   at uStore.WebAPI.Validators.TokenValidator.ValidateToken(String securityTokenID)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.ValidateAuthorizationToken(String authorizationToken)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.Execute(TRequest request)
+   at uStore.WebAPI.Controllers.SystemController.GetImage(String fileToken)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_0.<GetExecutor>b__2(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+TypeName: AccessDenied
+uStore.Common.BLL.Exceptions.AccessDeniedException: Exception of type 'uStore.Common.BLL.Exceptions.AccessDeniedException' was thrown.
+   at uStore.WebAPI.Validators.TokenValidator.ValidateToken(String securityTokenID)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.ValidateAuthorizationToken(String authorizationToken)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.Execute(TRequest request)
+   at uStore.WebAPI.Controllers.SystemController.GetImage(String fileToken)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_0.<GetExecutor>b__2(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+TypeName: AccessDenied
+
+----------------------------------------
+
+2025/05/12 12:31:08
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[7460]:	Error
+WebAPI.TokenValidator.ValidateToken: Security Token 'a4f26c6f14f44bb6af9e289dad2dba1b5ce253180be929042b1d0dbb0ede00fd' doesn't exist
+
+----------------------------------------
+
+2025/05/12 12:31:08
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[7460]:	Fatal
+WebAPI error occured.
+Request: Method: GET, URL: https://us717.agstorefront.com/uStoreRestApi/v1/system/imageProxy?fileToken=qQpPwNhl2Lxu7fWfPPhStEFjmJELa6U03DV3v3co9nVcP/6a0TAxpzK4/sPxzw87P1Ld5zWld3PWQnSyeBQ5QT+0e4HFqhZkVGj7aUjRDn4Xx0wokuaQYazv0J0K7HZJLkFSLLZ4+7NuXjXqQEz4xTUTNtpowI+IIe5oAS8QTlTt+H8XW03JRZjMjJ2pFJKU6CwdG9cYqPm87usgVIv+2iXRHbU6j3dt0jg0Mg2MSKT6W+AG/eFlDIuK3SSzaDCKdXRv91UtE0WJG3wbK+sRYR12+4MgLp58OsOxijRyiXOnFVPQkKAG76an79+6roiYJ3E2HgQw3fVMty2JKwvlPSQmKrnjywXKjRLHh7gN9dBnR3vBWUPnP0dNQxyYI/DlvbJ0oXDm+FzaG4aPIO293F4VRhPDBqp2mKC+16G/hxs=
+Exception: uStore.Common.BLL.Exceptions.AccessDeniedException: Exception of type 'uStore.Common.BLL.Exceptions.AccessDeniedException' was thrown.
+   at uStore.WebAPI.Validators.TokenValidator.ValidateToken(String securityTokenID)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.ValidateAuthorizationToken(String authorizationToken)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.Execute(TRequest request)
+   at uStore.WebAPI.Controllers.SystemController.GetImage(String fileToken)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_0.<GetExecutor>b__2(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+TypeName: AccessDenied
+uStore.Common.BLL.Exceptions.AccessDeniedException: Exception of type 'uStore.Common.BLL.Exceptions.AccessDeniedException' was thrown.
+   at uStore.WebAPI.Validators.TokenValidator.ValidateToken(String securityTokenID)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.ValidateAuthorizationToken(String authorizationToken)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.Execute(TRequest request)
+   at uStore.WebAPI.Controllers.SystemController.GetImage(String fileToken)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_0.<GetExecutor>b__2(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+TypeName: AccessDenied
+
+----------------------------------------
+

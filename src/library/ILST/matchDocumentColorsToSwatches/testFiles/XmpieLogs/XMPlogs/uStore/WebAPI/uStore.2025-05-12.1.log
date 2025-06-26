@@ -1,0 +1,3077 @@
+2025/05/12 09:22:17
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[55844]:	Error
+WebAPI.TokenValidator.ValidateToken: Security Token '7307fe1d1d8249a2b6a439ccd55fd93c708e2cc42b1749c2b2cff21d9312ecb7' doesn't exist
+
+----------------------------------------
+
+2025/05/12 09:22:17
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[55844]:	Fatal
+WebAPI error occured.
+Request: Method: GET, URL: https://us717.agstorefront.com/uStoreRestApi/v1/system/imageProxy?fileToken=e+D7b9LuXDr8xq3OKZrCEaEoFYr5AR05KlFVtkL132zYPEgFp8XvCi9DMCYpgBqkIXlfbAZ3wmNqmPODV8hx04WfTZxtQkmZJhMSvCGs7U41YKUgTCrVcr0FvnqVlgLvnw+njemMVvEJRQZ8d0JoTEVYa9zJYXsR+h7I/VSxjZD46IuS30oGfDg1s4sJChUrfutm2BeMIPYTnjOjgvDbTAaZn2002nx2JQYWBkA2LP5blQ4MBaYMH/aJ9JPFWyF/LP8M+kfcsruNehtAE/krVbO2ekbPLbMlV08a0iNilLSsxx8j9QBvKoKg0m0YOJABpsv9UywyUaHZQdpLaD0tP0+Kjqf59O6l/76964U+ZiAE+xwIvBiu1CPYtcm89onQYXQn7BdbrX0Y7wwJ+nepWO7K9gFq4fRY/szWxeTWvFo=
+Exception: uStore.Common.BLL.Exceptions.AccessDeniedException: Exception of type 'uStore.Common.BLL.Exceptions.AccessDeniedException' was thrown.
+   at uStore.WebAPI.Validators.TokenValidator.ValidateToken(String securityTokenID)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.ValidateAuthorizationToken(String authorizationToken)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.Execute(TRequest request)
+   at uStore.WebAPI.Controllers.SystemController.GetImage(String fileToken)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_0.<GetExecutor>b__2(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+TypeName: AccessDenied
+uStore.Common.BLL.Exceptions.AccessDeniedException: Exception of type 'uStore.Common.BLL.Exceptions.AccessDeniedException' was thrown.
+   at uStore.WebAPI.Validators.TokenValidator.ValidateToken(String securityTokenID)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.ValidateAuthorizationToken(String authorizationToken)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.Execute(TRequest request)
+   at uStore.WebAPI.Controllers.SystemController.GetImage(String fileToken)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_0.<GetExecutor>b__2(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+TypeName: AccessDenied
+
+----------------------------------------
+
+2025/05/12 09:22:18
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[10752]:	Error
+WebAPI.TokenValidator.ValidateToken: Security Token '7307fe1d1d8249a2b6a439ccd55fd93c708e2cc42b1749c2b2cff21d9312ecb7' doesn't exist
+
+----------------------------------------
+
+2025/05/12 09:22:18
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[10752]:	Fatal
+WebAPI error occured.
+Request: Method: GET, URL: https://us717.agstorefront.com/uStoreRestApi/v1/system/imageProxy?fileToken=UPfZQDmZSI4TGsKJd9DX6TxpuyoTr+D4uB1/dK8qLxVxZaPwf3nEZMUXRtGJ0jZwy8qpblXfyjLfqCsBaeIfom8TL4wlaOwi7H9DZFYrrkuHuXpt3tlv/2KO8T8D3lws+xNdqui+ohvbnaDR5YslabJsFKnBikF0HSivXcHPjnN2leAnlBjwxxPt3lrEYAs4o2DQezf4hZfrFQWMYH7oaUQ6RY8z7NsA+sAqrUaT7Kk7WlUhEgtPAMcA7zpIFdSJNBgVQ3iH2V8Mzk6RY9sqUk3hX2FzM0GAD25ljSMdcXEGHVk5mQUZFCnWdVXPea7rvMpqm3t3ihkabMs+jOo/1S4tON2PUV83hR9htUIP1UYcSdsKH+CHn+Yb6BX01nNMgY2zkPK4lYDNF10SPH+YeywmiKbMvOyHXzpRkkXehsU=
+Exception: uStore.Common.BLL.Exceptions.AccessDeniedException: Exception of type 'uStore.Common.BLL.Exceptions.AccessDeniedException' was thrown.
+   at uStore.WebAPI.Validators.TokenValidator.ValidateToken(String securityTokenID)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.ValidateAuthorizationToken(String authorizationToken)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.Execute(TRequest request)
+   at uStore.WebAPI.Controllers.SystemController.GetImage(String fileToken)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_0.<GetExecutor>b__2(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+TypeName: AccessDenied
+uStore.Common.BLL.Exceptions.AccessDeniedException: Exception of type 'uStore.Common.BLL.Exceptions.AccessDeniedException' was thrown.
+   at uStore.WebAPI.Validators.TokenValidator.ValidateToken(String securityTokenID)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.ValidateAuthorizationToken(String authorizationToken)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.Execute(TRequest request)
+   at uStore.WebAPI.Controllers.SystemController.GetImage(String fileToken)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_0.<GetExecutor>b__2(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+TypeName: AccessDenied
+
+----------------------------------------
+
+2025/05/12 09:22:18
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[28320]:	Error
+WebAPI.TokenValidator.ValidateToken: Security Token '7307fe1d1d8249a2b6a439ccd55fd93c708e2cc42b1749c2b2cff21d9312ecb7' doesn't exist
+
+----------------------------------------
+
+2025/05/12 09:22:18
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[28320]:	Fatal
+WebAPI error occured.
+Request: Method: GET, URL: https://us717.agstorefront.com/uStoreRestApi/v1/system/imageProxy?fileToken=UPfZQDmZSI4TGsKJd9DX6TxpuyoTr+D4uB1/dK8qLxVxZaPwf3nEZMUXRtGJ0jZwy8qpblXfyjLfqCsBaeIfom8TL4wlaOwi7H9DZFYrrkuHuXpt3tlv/2KO8T8D3lws+xNdqui+ohvbnaDR5YslabJsFKnBikF0HSivXcHPjnN2leAnlBjwxxPt3lrEYAs4o2DQezf4hZfrFQWMYH7oaUQ6RY8z7NsA+sAqrUaT7Kk7WlUhEgtPAMcA7zpIFdSJNBgVQ3iH2V8Mzk6RY9sqUk3hX2FzM0GAD25ljSMdcXEGHVk5mQUZFCnWdVXPea7rvMpqm3t3ihkabMs+jOo/1S4tON2PUV83hR9htUIP1UYcSdsKH+CHn+Yb6BX01nNMgY2zkPK4lYDNF10SPH+YeywmiKbMvOyHXzpRkkXehsU=
+Exception: uStore.Common.BLL.Exceptions.AccessDeniedException: Exception of type 'uStore.Common.BLL.Exceptions.AccessDeniedException' was thrown.
+   at uStore.WebAPI.Validators.TokenValidator.ValidateToken(String securityTokenID)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.ValidateAuthorizationToken(String authorizationToken)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.Execute(TRequest request)
+   at uStore.WebAPI.Controllers.SystemController.GetImage(String fileToken)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_0.<GetExecutor>b__2(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+TypeName: AccessDenied
+uStore.Common.BLL.Exceptions.AccessDeniedException: Exception of type 'uStore.Common.BLL.Exceptions.AccessDeniedException' was thrown.
+   at uStore.WebAPI.Validators.TokenValidator.ValidateToken(String securityTokenID)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.ValidateAuthorizationToken(String authorizationToken)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.Execute(TRequest request)
+   at uStore.WebAPI.Controllers.SystemController.GetImage(String fileToken)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_0.<GetExecutor>b__2(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+TypeName: AccessDenied
+
+----------------------------------------
+
+2025/05/12 09:22:18
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[26000]:	Error
+WebAPI.TokenValidator.ValidateToken: Security Token '7307fe1d1d8249a2b6a439ccd55fd93c708e2cc42b1749c2b2cff21d9312ecb7' doesn't exist
+
+----------------------------------------
+
+2025/05/12 09:22:18
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[26000]:	Fatal
+WebAPI error occured.
+Request: Method: GET, URL: https://us717.agstorefront.com/uStoreRestApi/v1/system/imageProxy?fileToken=e+D7b9LuXDr8xq3OKZrCEaEoFYr5AR05KlFVtkL132zYPEgFp8XvCi9DMCYpgBqkIXlfbAZ3wmNqmPODV8hx04WfTZxtQkmZJhMSvCGs7U41YKUgTCrVcr0FvnqVlgLvnw+njemMVvEJRQZ8d0JoTEVYa9zJYXsR+h7I/VSxjZD46IuS30oGfDg1s4sJChUrfutm2BeMIPYTnjOjgvDbTAaZn2002nx2JQYWBkA2LP5blQ4MBaYMH/aJ9JPFWyF/LP8M+kfcsruNehtAE/krVbO2ekbPLbMlV08a0iNilLSsxx8j9QBvKoKg0m0YOJABpsv9UywyUaHZQdpLaD0tP0+Kjqf59O6l/76964U+ZiAE+xwIvBiu1CPYtcm89onQYXQn7BdbrX0Y7wwJ+nepWO7K9gFq4fRY/szWxeTWvFo=
+Exception: uStore.Common.BLL.Exceptions.AccessDeniedException: Exception of type 'uStore.Common.BLL.Exceptions.AccessDeniedException' was thrown.
+   at uStore.WebAPI.Validators.TokenValidator.ValidateToken(String securityTokenID)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.ValidateAuthorizationToken(String authorizationToken)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.Execute(TRequest request)
+   at uStore.WebAPI.Controllers.SystemController.GetImage(String fileToken)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_0.<GetExecutor>b__2(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+TypeName: AccessDenied
+uStore.Common.BLL.Exceptions.AccessDeniedException: Exception of type 'uStore.Common.BLL.Exceptions.AccessDeniedException' was thrown.
+   at uStore.WebAPI.Validators.TokenValidator.ValidateToken(String securityTokenID)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.ValidateAuthorizationToken(String authorizationToken)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.Execute(TRequest request)
+   at uStore.WebAPI.Controllers.SystemController.GetImage(String fileToken)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_0.<GetExecutor>b__2(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+TypeName: AccessDenied
+
+----------------------------------------
+
+2025/05/12 09:22:19
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[28680]:	Error
+WebAPI.TokenValidator.ValidateToken: Security Token '7307fe1d1d8249a2b6a439ccd55fd93c708e2cc42b1749c2b2cff21d9312ecb7' doesn't exist
+
+----------------------------------------
+
+2025/05/12 09:22:19
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[28680]:	Fatal
+WebAPI error occured.
+Request: Method: GET, URL: https://us717.agstorefront.com/uStoreRestApi/v1/system/imageProxy?fileToken=YGo0Vko5LR8VAjiS6dzYU56TwbVq5Q1xcNTS79mLNOrFfU/XRdET4MBlcBXHEXv6eCe6ZPqGq+NbbdyfsCjlRVUBObBp8YIzcUs84NQHGy1DP9rRbfR4pIxKTRwzaizE72DEUD3ibSw6MFfzE3vQPq6SpIOneU/je4yzXqvSXVIi+o9W/kzoZn6gGAz/A4MzUDaHHoSJwVIUg3Yxthat8khr/DRGhIK0QY2hGwm3NleRK/gvEQJByWo9WqNaak+yOAeJRWhMGJc+cy3+38URhoLMntsHjAD67GW7Dszp+rUkvD7wCNnBR6mNfLhURm8DZcv5OQIbHEduGPducHsgtVc05KWSAOg9PIJjQOCgz8DjFESkgPJHRP0D3V4Prbl8crSC+XK91mUJMJ28KPAqWeUDSoclliipQblvgiwACkA=
+Exception: uStore.Common.BLL.Exceptions.AccessDeniedException: Exception of type 'uStore.Common.BLL.Exceptions.AccessDeniedException' was thrown.
+   at uStore.WebAPI.Validators.TokenValidator.ValidateToken(String securityTokenID)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.ValidateAuthorizationToken(String authorizationToken)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.Execute(TRequest request)
+   at uStore.WebAPI.Controllers.SystemController.GetImage(String fileToken)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_0.<GetExecutor>b__2(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+TypeName: AccessDenied
+uStore.Common.BLL.Exceptions.AccessDeniedException: Exception of type 'uStore.Common.BLL.Exceptions.AccessDeniedException' was thrown.
+   at uStore.WebAPI.Validators.TokenValidator.ValidateToken(String securityTokenID)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.ValidateAuthorizationToken(String authorizationToken)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.Execute(TRequest request)
+   at uStore.WebAPI.Controllers.SystemController.GetImage(String fileToken)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_0.<GetExecutor>b__2(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+TypeName: AccessDenied
+
+----------------------------------------
+
+2025/05/12 09:22:19
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[31152]:	Error
+WebAPI.TokenValidator.ValidateToken: Security Token '7307fe1d1d8249a2b6a439ccd55fd93c708e2cc42b1749c2b2cff21d9312ecb7' doesn't exist
+
+----------------------------------------
+
+2025/05/12 09:22:19
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[31152]:	Fatal
+WebAPI error occured.
+Request: Method: GET, URL: https://us717.agstorefront.com/uStoreRestApi/v1/system/imageProxy?fileToken=UPfZQDmZSI4TGsKJd9DX6TxpuyoTr+D4uB1/dK8qLxVxZaPwf3nEZMUXRtGJ0jZwy8qpblXfyjLfqCsBaeIfom8TL4wlaOwi7H9DZFYrrkuHuXpt3tlv/2KO8T8D3lws+xNdqui+ohvbnaDR5YslabJsFKnBikF0HSivXcHPjnN2leAnlBjwxxPt3lrEYAs4o2DQezf4hZfrFQWMYH7oaUQ6RY8z7NsA+sAqrUaT7Kk7WlUhEgtPAMcA7zpIFdSJNBgVQ3iH2V8Mzk6RY9sqUk3hX2FzM0GAD25ljSMdcXEGHVk5mQUZFCnWdVXPea7rvMpqm3t3ihkabMs+jOo/1S4tON2PUV83hR9htUIP1UYcSdsKH+CHn+Yb6BX01nNMgY2zkPK4lYDNF10SPH+YeywmiKbMvOyHXzpRkkXehsU=
+Exception: uStore.Common.BLL.Exceptions.AccessDeniedException: Exception of type 'uStore.Common.BLL.Exceptions.AccessDeniedException' was thrown.
+   at uStore.WebAPI.Validators.TokenValidator.ValidateToken(String securityTokenID)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.ValidateAuthorizationToken(String authorizationToken)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.Execute(TRequest request)
+   at uStore.WebAPI.Controllers.SystemController.GetImage(String fileToken)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_0.<GetExecutor>b__2(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+TypeName: AccessDenied
+uStore.Common.BLL.Exceptions.AccessDeniedException: Exception of type 'uStore.Common.BLL.Exceptions.AccessDeniedException' was thrown.
+   at uStore.WebAPI.Validators.TokenValidator.ValidateToken(String securityTokenID)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.ValidateAuthorizationToken(String authorizationToken)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.Execute(TRequest request)
+   at uStore.WebAPI.Controllers.SystemController.GetImage(String fileToken)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_0.<GetExecutor>b__2(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+TypeName: AccessDenied
+
+----------------------------------------
+
+2025/05/12 09:22:19
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[1248]:	Error
+WebAPI.TokenValidator.ValidateToken: Security Token '7307fe1d1d8249a2b6a439ccd55fd93c708e2cc42b1749c2b2cff21d9312ecb7' doesn't exist
+
+----------------------------------------
+
+2025/05/12 09:22:19
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[1248]:	Fatal
+WebAPI error occured.
+Request: Method: GET, URL: https://us717.agstorefront.com/uStoreRestApi/v1/system/imageProxy?fileToken=e+D7b9LuXDr8xq3OKZrCEaEoFYr5AR05KlFVtkL132zYPEgFp8XvCi9DMCYpgBqkIXlfbAZ3wmNqmPODV8hx04WfTZxtQkmZJhMSvCGs7U41YKUgTCrVcr0FvnqVlgLvnw+njemMVvEJRQZ8d0JoTEVYa9zJYXsR+h7I/VSxjZD46IuS30oGfDg1s4sJChUrfutm2BeMIPYTnjOjgvDbTAaZn2002nx2JQYWBkA2LP5blQ4MBaYMH/aJ9JPFWyF/LP8M+kfcsruNehtAE/krVbO2ekbPLbMlV08a0iNilLSsxx8j9QBvKoKg0m0YOJABpsv9UywyUaHZQdpLaD0tP0+Kjqf59O6l/76964U+ZiAE+xwIvBiu1CPYtcm89onQYXQn7BdbrX0Y7wwJ+nepWO7K9gFq4fRY/szWxeTWvFo=
+Exception: uStore.Common.BLL.Exceptions.AccessDeniedException: Exception of type 'uStore.Common.BLL.Exceptions.AccessDeniedException' was thrown.
+   at uStore.WebAPI.Validators.TokenValidator.ValidateToken(String securityTokenID)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.ValidateAuthorizationToken(String authorizationToken)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.Execute(TRequest request)
+   at uStore.WebAPI.Controllers.SystemController.GetImage(String fileToken)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_0.<GetExecutor>b__2(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+TypeName: AccessDenied
+uStore.Common.BLL.Exceptions.AccessDeniedException: Exception of type 'uStore.Common.BLL.Exceptions.AccessDeniedException' was thrown.
+   at uStore.WebAPI.Validators.TokenValidator.ValidateToken(String securityTokenID)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.ValidateAuthorizationToken(String authorizationToken)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.Execute(TRequest request)
+   at uStore.WebAPI.Controllers.SystemController.GetImage(String fileToken)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_0.<GetExecutor>b__2(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+TypeName: AccessDenied
+
+----------------------------------------
+
+2025/05/12 09:22:19
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[41276]:	Error
+WebAPI.TokenValidator.ValidateToken: Security Token '7307fe1d1d8249a2b6a439ccd55fd93c708e2cc42b1749c2b2cff21d9312ecb7' doesn't exist
+
+----------------------------------------
+
+2025/05/12 09:22:19
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[41276]:	Fatal
+WebAPI error occured.
+Request: Method: GET, URL: https://us717.agstorefront.com/uStoreRestApi/v1/system/imageProxy?fileToken=UPfZQDmZSI4TGsKJd9DX6TxpuyoTr+D4uB1/dK8qLxVxZaPwf3nEZMUXRtGJ0jZwy8qpblXfyjLfqCsBaeIfom8TL4wlaOwi7H9DZFYrrkuHuXpt3tlv/2KO8T8D3lws+xNdqui+ohvbnaDR5YslabJsFKnBikF0HSivXcHPjnN2leAnlBjwxxPt3lrEYAs4o2DQezf4hZfrFQWMYH7oaUQ6RY8z7NsA+sAqrUaT7Kk7WlUhEgtPAMcA7zpIFdSJNBgVQ3iH2V8Mzk6RY9sqUk3hX2FzM0GAD25ljSMdcXEGHVk5mQUZFCnWdVXPea7rvMpqm3t3ihkabMs+jOo/1S4tON2PUV83hR9htUIP1UYcSdsKH+CHn+Yb6BX01nNMgY2zkPK4lYDNF10SPH+YeywmiKbMvOyHXzpRkkXehsU=
+Exception: uStore.Common.BLL.Exceptions.AccessDeniedException: Exception of type 'uStore.Common.BLL.Exceptions.AccessDeniedException' was thrown.
+   at uStore.WebAPI.Validators.TokenValidator.ValidateToken(String securityTokenID)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.ValidateAuthorizationToken(String authorizationToken)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.Execute(TRequest request)
+   at uStore.WebAPI.Controllers.SystemController.GetImage(String fileToken)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_0.<GetExecutor>b__2(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+TypeName: AccessDenied
+uStore.Common.BLL.Exceptions.AccessDeniedException: Exception of type 'uStore.Common.BLL.Exceptions.AccessDeniedException' was thrown.
+   at uStore.WebAPI.Validators.TokenValidator.ValidateToken(String securityTokenID)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.ValidateAuthorizationToken(String authorizationToken)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.Execute(TRequest request)
+   at uStore.WebAPI.Controllers.SystemController.GetImage(String fileToken)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_0.<GetExecutor>b__2(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+TypeName: AccessDenied
+
+----------------------------------------
+
+2025/05/12 09:22:20
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[30868]:	Error
+WebAPI.TokenValidator.ValidateToken: Security Token '7307fe1d1d8249a2b6a439ccd55fd93c708e2cc42b1749c2b2cff21d9312ecb7' doesn't exist
+
+----------------------------------------
+
+2025/05/12 09:22:20
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[30868]:	Fatal
+WebAPI error occured.
+Request: Method: GET, URL: https://us717.agstorefront.com/uStoreRestApi/v1/system/imageProxy?fileToken=e+D7b9LuXDr8xq3OKZrCEaEoFYr5AR05KlFVtkL132zYPEgFp8XvCi9DMCYpgBqkIXlfbAZ3wmNqmPODV8hx04WfTZxtQkmZJhMSvCGs7U41YKUgTCrVcr0FvnqVlgLvnw+njemMVvEJRQZ8d0JoTEVYa9zJYXsR+h7I/VSxjZD46IuS30oGfDg1s4sJChUrfutm2BeMIPYTnjOjgvDbTAaZn2002nx2JQYWBkA2LP5blQ4MBaYMH/aJ9JPFWyF/LP8M+kfcsruNehtAE/krVbO2ekbPLbMlV08a0iNilLSsxx8j9QBvKoKg0m0YOJABpsv9UywyUaHZQdpLaD0tP0+Kjqf59O6l/76964U+ZiAE+xwIvBiu1CPYtcm89onQYXQn7BdbrX0Y7wwJ+nepWO7K9gFq4fRY/szWxeTWvFo=
+Exception: uStore.Common.BLL.Exceptions.AccessDeniedException: Exception of type 'uStore.Common.BLL.Exceptions.AccessDeniedException' was thrown.
+   at uStore.WebAPI.Validators.TokenValidator.ValidateToken(String securityTokenID)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.ValidateAuthorizationToken(String authorizationToken)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.Execute(TRequest request)
+   at uStore.WebAPI.Controllers.SystemController.GetImage(String fileToken)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_0.<GetExecutor>b__2(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+TypeName: AccessDenied
+uStore.Common.BLL.Exceptions.AccessDeniedException: Exception of type 'uStore.Common.BLL.Exceptions.AccessDeniedException' was thrown.
+   at uStore.WebAPI.Validators.TokenValidator.ValidateToken(String securityTokenID)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.ValidateAuthorizationToken(String authorizationToken)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.Execute(TRequest request)
+   at uStore.WebAPI.Controllers.SystemController.GetImage(String fileToken)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_0.<GetExecutor>b__2(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+TypeName: AccessDenied
+
+----------------------------------------
+
+2025/05/12 09:22:20
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[54360]:	Error
+WebAPI.TokenValidator.ValidateToken: Security Token '7307fe1d1d8249a2b6a439ccd55fd93c708e2cc42b1749c2b2cff21d9312ecb7' doesn't exist
+
+----------------------------------------
+
+2025/05/12 09:22:20
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[54360]:	Fatal
+WebAPI error occured.
+Request: Method: GET, URL: https://us717.agstorefront.com/uStoreRestApi/v1/system/imageProxy?fileToken=YGo0Vko5LR8VAjiS6dzYU56TwbVq5Q1xcNTS79mLNOrFfU/XRdET4MBlcBXHEXv6eCe6ZPqGq+NbbdyfsCjlRVUBObBp8YIzcUs84NQHGy1DP9rRbfR4pIxKTRwzaizE72DEUD3ibSw6MFfzE3vQPq6SpIOneU/je4yzXqvSXVIi+o9W/kzoZn6gGAz/A4MzUDaHHoSJwVIUg3Yxthat8khr/DRGhIK0QY2hGwm3NleRK/gvEQJByWo9WqNaak+yOAeJRWhMGJc+cy3+38URhoLMntsHjAD67GW7Dszp+rUkvD7wCNnBR6mNfLhURm8DZcv5OQIbHEduGPducHsgtVc05KWSAOg9PIJjQOCgz8DjFESkgPJHRP0D3V4Prbl8crSC+XK91mUJMJ28KPAqWeUDSoclliipQblvgiwACkA=
+Exception: uStore.Common.BLL.Exceptions.AccessDeniedException: Exception of type 'uStore.Common.BLL.Exceptions.AccessDeniedException' was thrown.
+   at uStore.WebAPI.Validators.TokenValidator.ValidateToken(String securityTokenID)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.ValidateAuthorizationToken(String authorizationToken)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.Execute(TRequest request)
+   at uStore.WebAPI.Controllers.SystemController.GetImage(String fileToken)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_0.<GetExecutor>b__2(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+TypeName: AccessDenied
+uStore.Common.BLL.Exceptions.AccessDeniedException: Exception of type 'uStore.Common.BLL.Exceptions.AccessDeniedException' was thrown.
+   at uStore.WebAPI.Validators.TokenValidator.ValidateToken(String securityTokenID)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.ValidateAuthorizationToken(String authorizationToken)
+   at uStore.WebAPI.Queries.Base.FileQuery.FileWithAuthorizationTokenBaseQuery`2.Execute(TRequest request)
+   at uStore.WebAPI.Controllers.SystemController.GetImage(String fileToken)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_0.<GetExecutor>b__2(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+TypeName: AccessDenied
+
+----------------------------------------
+
+2025/05/12 09:22:22
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[52264]:	Error
+WebAPI.TokenValidator.ValidateToken: Security Token '7307fe1d1d8249a2b6a439ccd55fd93c708e2cc42b1749c2b2cff21d9312ecb7' doesn't exist
+
+----------------------------------------
+
+2025/05/12 09:22:22
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[52264]:	Fatal
+WebAPI error occured.
+Request: Method: GET, URL: https://us717.agstorefront.com/uStoreRestApi/v1/store/categories/tree?depth=3
+Exception: uStore.Common.BLL.Exceptions.AccessDeniedException: Exception of type 'uStore.Common.BLL.Exceptions.AccessDeniedException' was thrown.
+   at uStore.WebAPI.Validators.TokenValidator.ValidateToken(String securityTokenID)
+   at uStore.WebAPI.AuthorizationValidator.ValidateToken()
+   at uStore.WebAPI.TokenAuthorizationFilterAttribute.OnAuthorization(HttpActionContext actionContext)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.OnAuthorizationAsync(HttpActionContext actionContext, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+TypeName: AccessDenied
+uStore.Common.BLL.Exceptions.AccessDeniedException: Exception of type 'uStore.Common.BLL.Exceptions.AccessDeniedException' was thrown.
+   at uStore.WebAPI.Validators.TokenValidator.ValidateToken(String securityTokenID)
+   at uStore.WebAPI.AuthorizationValidator.ValidateToken()
+   at uStore.WebAPI.TokenAuthorizationFilterAttribute.OnAuthorization(HttpActionContext actionContext)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.OnAuthorizationAsync(HttpActionContext actionContext, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+TypeName: AccessDenied
+
+----------------------------------------
+
+2025/05/12 09:22:22
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[26000]:	Error
+WebAPI.TokenValidator.ValidateToken: Security Token '7307fe1d1d8249a2b6a439ccd55fd93c708e2cc42b1749c2b2cff21d9312ecb7' doesn't exist
+
+----------------------------------------
+
+2025/05/12 09:22:22
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[26000]:	Fatal
+WebAPI error occured.
+Request: Method: GET, URL: https://us717.agstorefront.com/uStoreRestApi/v1/store/categories/id?friendlyID=3134
+Exception: uStore.Common.BLL.Exceptions.AccessDeniedException: Exception of type 'uStore.Common.BLL.Exceptions.AccessDeniedException' was thrown.
+   at uStore.WebAPI.Validators.TokenValidator.ValidateToken(String securityTokenID)
+   at uStore.WebAPI.AuthorizationValidator.ValidateToken()
+   at uStore.WebAPI.TokenAuthorizationFilterAttribute.OnAuthorization(HttpActionContext actionContext)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.OnAuthorizationAsync(HttpActionContext actionContext, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+TypeName: AccessDenied
+uStore.Common.BLL.Exceptions.AccessDeniedException: Exception of type 'uStore.Common.BLL.Exceptions.AccessDeniedException' was thrown.
+   at uStore.WebAPI.Validators.TokenValidator.ValidateToken(String securityTokenID)
+   at uStore.WebAPI.AuthorizationValidator.ValidateToken()
+   at uStore.WebAPI.TokenAuthorizationFilterAttribute.OnAuthorization(HttpActionContext actionContext)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.OnAuthorizationAsync(HttpActionContext actionContext, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+TypeName: AccessDenied
+
+----------------------------------------
+
+2025/05/12 10:57:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[51744]:	Info
+Method: GetCart 
+Parameters: storeID=8, customerID=8502,  
+
+----------------------------------------
+
+2025/05/12 10:57:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[51744]:	Info
+Cart order ID is 27205
+
+----------------------------------------
+
+2025/05/12 10:57:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[51744]:	Info
+Method: AddOrderProduct 
+Parameters: orderID=27205, productID=7849, quantity=25, isDisplayAsDraft=,  
+
+----------------------------------------
+
+2025/05/12 10:57:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[51744]:	Info
+Added Order Product with ID 36647
+
+----------------------------------------
+
+2025/05/12 10:57:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[51744]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=21532, orderProductID=36647, dialValue= , optionID=29776, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:57:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[51744]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:57:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[51744]:	Info
+Method: AddDialValue 
+Parameters: dialID=21532, orderProductID=36647, dialValue= , optionID=29776, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:57:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[51744]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:57:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[51744]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=21533, orderProductID=36647, dialValue=True, optionID=29777, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:57:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[51744]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:57:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[51744]:	Info
+Method: AddDialValue 
+Parameters: dialID=21533, orderProductID=36647, dialValue=True, optionID=29777, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:57:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[51744]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:57:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[51744]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=21538, orderProductID=36647, dialValue=NC, optionID=29766, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:57:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[51744]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:57:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[51744]:	Info
+Method: AddDialValue 
+Parameters: dialID=21538, orderProductID=36647, dialValue=NC, optionID=29766, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 10:57:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[51744]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 10:57:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[5444]:	Info
+Method: GetCustomizationWizardDetailsByDocID 
+Parameters: docID=7849,  
+
+----------------------------------------
+
+2025/05/12 10:57:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[34000]:	Info
+Method: ExecuteNonXML 
+Parameters: orderProductID=36647, productId=7849, numRecipients=1, numCopies=25, recipientListPrice=0, deliveryMethodID=1, deliveryPrice=0, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32],  
+
+----------------------------------------
+
+2025/05/12 10:57:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[34000]:	Info
+DefaultPricingEngine -> ExecuteNonXML propertyValueDict parameter number of items: 3
+
+----------------------------------------
+
+2025/05/12 10:57:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[34000]:	Info
+DefaultPricingEngine -> ExecuteNonXML allPropertyValues parameter number of items: 3
+
+----------------------------------------
+
+2025/05/12 10:57:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[34000]:	Info
+DefaultPricingEngine -> ExecuteNonXML totalPrice result: 31.50000
+
+----------------------------------------
+
+2025/05/12 10:57:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[34000]:	Info
+DefaultPricingEngine -> ExecuteNonXML pricePerRecipient result: 31.50000
+
+----------------------------------------
+
+2025/05/12 10:57:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[34000]:	Info
+DefaultPricingEngine -> ExecuteNonXML productSubtotal result: 31.50000
+
+----------------------------------------
+
+2025/05/12 10:57:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[34000]:	Info
+DefaultPricingEngine -> ExecuteNonXML isCalculated result: True
+
+----------------------------------------
+
+2025/05/12 11:12:09
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[28120]:	Error
+WebAPI.TokenValidator.ValidateToken: Security Token '59df01832def41749398d21444986d555a5b08b05b92586159bb3596693e719e' doesn't exist
+
+----------------------------------------
+
+2025/05/12 11:12:09
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[28120]:	Fatal
+WebAPI error occured.
+Request: Method: GET, URL: https://us717.agstorefront.com/uStoreRestApi/v1/store/currencies
+Exception: uStore.Common.BLL.Exceptions.AccessDeniedException: Exception of type 'uStore.Common.BLL.Exceptions.AccessDeniedException' was thrown.
+   at uStore.WebAPI.Validators.TokenValidator.ValidateToken(String securityTokenID)
+   at uStore.WebAPI.AuthorizationValidator.ValidateToken()
+   at uStore.WebAPI.TokenAuthorizationFilterAttribute.OnAuthorization(HttpActionContext actionContext)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.OnAuthorizationAsync(HttpActionContext actionContext, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+TypeName: AccessDenied
+uStore.Common.BLL.Exceptions.AccessDeniedException: Exception of type 'uStore.Common.BLL.Exceptions.AccessDeniedException' was thrown.
+   at uStore.WebAPI.Validators.TokenValidator.ValidateToken(String securityTokenID)
+   at uStore.WebAPI.AuthorizationValidator.ValidateToken()
+   at uStore.WebAPI.TokenAuthorizationFilterAttribute.OnAuthorization(HttpActionContext actionContext)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.OnAuthorizationAsync(HttpActionContext actionContext, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+TypeName: AccessDenied
+
+----------------------------------------
+
+2025/05/12 11:23:18
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[31276]:	Error
+WebAPI.TokenValidator.ValidateToken: Security Token 'd0f3d74ca9dd49738eecf0a3ad75f97c8daffa9b1c2a31cd99844f7f7acfc734' is expired
+
+----------------------------------------
+
+2025/05/12 11:23:18
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[31276]:	Fatal
+WebAPI error occured.
+Request: Method: GET, URL: https://us717.agstorefront.com/uStoreRestApi/v1/store/categories/tree?depth=3
+Exception: uStore.Common.BLL.Exceptions.AccessDeniedException: Exception of type 'uStore.Common.BLL.Exceptions.AccessDeniedException' was thrown.
+   at uStore.WebAPI.Validators.TokenValidator.ValidateToken(String securityTokenID)
+   at uStore.WebAPI.AuthorizationValidator.ValidateToken()
+   at uStore.WebAPI.TokenAuthorizationFilterAttribute.OnAuthorization(HttpActionContext actionContext)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.OnAuthorizationAsync(HttpActionContext actionContext, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+TypeName: AccessDenied
+uStore.Common.BLL.Exceptions.AccessDeniedException: Exception of type 'uStore.Common.BLL.Exceptions.AccessDeniedException' was thrown.
+   at uStore.WebAPI.Validators.TokenValidator.ValidateToken(String securityTokenID)
+   at uStore.WebAPI.AuthorizationValidator.ValidateToken()
+   at uStore.WebAPI.TokenAuthorizationFilterAttribute.OnAuthorization(HttpActionContext actionContext)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.OnAuthorizationAsync(HttpActionContext actionContext, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+TypeName: AccessDenied
+
+----------------------------------------
+
+2025/05/12 11:23:18
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[10268]:	Error
+WebAPI.TokenValidator.ValidateToken: Security Token 'd0f3d74ca9dd49738eecf0a3ad75f97c8daffa9b1c2a31cd99844f7f7acfc734' is expired
+
+----------------------------------------
+
+2025/05/12 11:23:18
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[10268]:	Fatal
+WebAPI error occured.
+Request: Method: GET, URL: https://us717.agstorefront.com/uStoreRestApi/v1/store/categories/id?friendlyID=3158
+Exception: uStore.Common.BLL.Exceptions.AccessDeniedException: Exception of type 'uStore.Common.BLL.Exceptions.AccessDeniedException' was thrown.
+   at uStore.WebAPI.Validators.TokenValidator.ValidateToken(String securityTokenID)
+   at uStore.WebAPI.AuthorizationValidator.ValidateToken()
+   at uStore.WebAPI.TokenAuthorizationFilterAttribute.OnAuthorization(HttpActionContext actionContext)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.OnAuthorizationAsync(HttpActionContext actionContext, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+TypeName: AccessDenied
+uStore.Common.BLL.Exceptions.AccessDeniedException: Exception of type 'uStore.Common.BLL.Exceptions.AccessDeniedException' was thrown.
+   at uStore.WebAPI.Validators.TokenValidator.ValidateToken(String securityTokenID)
+   at uStore.WebAPI.AuthorizationValidator.ValidateToken()
+   at uStore.WebAPI.TokenAuthorizationFilterAttribute.OnAuthorization(HttpActionContext actionContext)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.OnAuthorizationAsync(HttpActionContext actionContext, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+TypeName: AccessDenied
+
+----------------------------------------
+
+2025/05/12 11:24:21
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[29368]:	Info
+Method: GetCart 
+Parameters: storeID=8, customerID=5411,  
+
+----------------------------------------
+
+2025/05/12 11:24:21
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[29368]:	Info
+Cart order ID is 25891
+
+----------------------------------------
+
+2025/05/12 11:24:21
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[29368]:	Info
+Method: AddOrderProduct 
+Parameters: orderID=25891, productID=6755, quantity=50, isDisplayAsDraft=,  
+
+----------------------------------------
+
+2025/05/12 11:24:21
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[29368]:	Info
+Added Order Product with ID 36648
+
+----------------------------------------
+
+2025/05/12 11:24:22
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[29368]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=19883, orderProductID=36648, dialValue= , optionID=22462, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 11:24:22
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[29368]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 11:24:22
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[29368]:	Info
+Method: AddDialValue 
+Parameters: dialID=19883, orderProductID=36648, dialValue= , optionID=22462, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 11:24:22
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[29368]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 11:24:22
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[29368]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=19884, orderProductID=36648, dialValue=True, optionID=22463, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 11:24:22
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[29368]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 11:24:22
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[29368]:	Info
+Method: AddDialValue 
+Parameters: dialID=19884, orderProductID=36648, dialValue=True, optionID=22463, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 11:24:22
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[29368]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 11:24:22
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[29368]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=19888, orderProductID=36648, dialValue=Curana Health, optionID=26476, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 11:24:22
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[29368]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 11:24:22
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[29368]:	Info
+Method: AddDialValue 
+Parameters: dialID=19888, orderProductID=36648, dialValue=Curana Health, optionID=26476, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 11:24:22
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[29368]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 11:24:22
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[48864]:	Info
+Method: GetCustomizationWizardDetailsByDocID 
+Parameters: docID=6755,  
+
+----------------------------------------
+
+2025/05/12 11:24:23
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[51500]:	Info
+Method: ExecuteNonXML 
+Parameters: orderProductID=36648, productId=6755, numRecipients=1, numCopies=50, recipientListPrice=0, deliveryMethodID=1, deliveryPrice=0, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32],  
+
+----------------------------------------
+
+2025/05/12 11:24:23
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[51500]:	Info
+DefaultPricingEngine -> ExecuteNonXML propertyValueDict parameter number of items: 3
+
+----------------------------------------
+
+2025/05/12 11:24:23
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[51500]:	Info
+DefaultPricingEngine -> ExecuteNonXML allPropertyValues parameter number of items: 3
+
+----------------------------------------
+
+2025/05/12 11:24:23
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[51500]:	Info
+DefaultPricingEngine -> ExecuteNonXML totalPrice result: 42.24000
+
+----------------------------------------
+
+2025/05/12 11:24:23
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[51500]:	Info
+DefaultPricingEngine -> ExecuteNonXML pricePerRecipient result: 42.24000
+
+----------------------------------------
+
+2025/05/12 11:24:23
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[51500]:	Info
+DefaultPricingEngine -> ExecuteNonXML productSubtotal result: 42.24000
+
+----------------------------------------
+
+2025/05/12 11:24:23
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[51500]:	Info
+DefaultPricingEngine -> ExecuteNonXML isCalculated result: True
+
+----------------------------------------
+
+2025/05/12 11:33:32
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44960]:	Info
+Method: GetCart 
+Parameters: storeID=8, customerID=5411,  
+
+----------------------------------------
+
+2025/05/12 11:33:32
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44960]:	Info
+Cart order ID is 25891
+
+----------------------------------------
+
+2025/05/12 11:33:32
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44960]:	Info
+Method: AddOrderProduct 
+Parameters: orderID=25891, productID=6755, quantity=50, isDisplayAsDraft=,  
+
+----------------------------------------
+
+2025/05/12 11:33:32
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44960]:	Info
+Added Order Product with ID 36649
+
+----------------------------------------
+
+2025/05/12 11:33:32
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44960]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=19883, orderProductID=36649, dialValue= , optionID=22462, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 11:33:32
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44960]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 11:33:32
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44960]:	Info
+Method: AddDialValue 
+Parameters: dialID=19883, orderProductID=36649, dialValue= , optionID=22462, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 11:33:32
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44960]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 11:33:32
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44960]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=19884, orderProductID=36649, dialValue=True, optionID=22463, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 11:33:32
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44960]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 11:33:32
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44960]:	Info
+Method: AddDialValue 
+Parameters: dialID=19884, orderProductID=36649, dialValue=True, optionID=22463, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 11:33:32
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44960]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 11:33:32
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44960]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=19888, orderProductID=36649, dialValue=Curana Health, optionID=26476, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 11:33:32
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44960]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 11:33:32
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44960]:	Info
+Method: AddDialValue 
+Parameters: dialID=19888, orderProductID=36649, dialValue=Curana Health, optionID=26476, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 11:33:32
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44960]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 11:33:33
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[23120]:	Info
+Method: GetCustomizationWizardDetailsByDocID 
+Parameters: docID=6755,  
+
+----------------------------------------
+
+2025/05/12 11:33:33
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[41040]:	Info
+Method: ExecuteNonXML 
+Parameters: orderProductID=36649, productId=6755, numRecipients=1, numCopies=50, recipientListPrice=0, deliveryMethodID=1, deliveryPrice=0, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32],  
+
+----------------------------------------
+
+2025/05/12 11:33:33
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[41040]:	Info
+DefaultPricingEngine -> ExecuteNonXML propertyValueDict parameter number of items: 3
+
+----------------------------------------
+
+2025/05/12 11:33:33
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[41040]:	Info
+DefaultPricingEngine -> ExecuteNonXML allPropertyValues parameter number of items: 3
+
+----------------------------------------
+
+2025/05/12 11:33:33
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[41040]:	Info
+DefaultPricingEngine -> ExecuteNonXML totalPrice result: 42.24000
+
+----------------------------------------
+
+2025/05/12 11:33:33
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[41040]:	Info
+DefaultPricingEngine -> ExecuteNonXML pricePerRecipient result: 42.24000
+
+----------------------------------------
+
+2025/05/12 11:33:33
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[41040]:	Info
+DefaultPricingEngine -> ExecuteNonXML productSubtotal result: 42.24000
+
+----------------------------------------
+
+2025/05/12 11:33:33
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[41040]:	Info
+DefaultPricingEngine -> ExecuteNonXML isCalculated result: True
+
+----------------------------------------
+
+2025/05/12 11:41:44
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27992]:	Info
+Method: GetCart 
+Parameters: storeID=8, customerID=5411,  
+
+----------------------------------------
+
+2025/05/12 11:41:44
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27992]:	Info
+Cart order ID is 25891
+
+----------------------------------------
+
+2025/05/12 11:41:44
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27992]:	Info
+Method: AddOrderProduct 
+Parameters: orderID=25891, productID=6761, quantity=1, isDisplayAsDraft=,  
+
+----------------------------------------
+
+2025/05/12 11:41:44
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27992]:	Info
+Added Order Product with ID 36650
+
+----------------------------------------
+
+2025/05/12 11:41:44
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27992]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=19927, orderProductID=36650, dialValue= , optionID=22666, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 11:41:44
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27992]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 11:41:44
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27992]:	Info
+Method: AddDialValue 
+Parameters: dialID=19927, orderProductID=36650, dialValue= , optionID=22666, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 11:41:44
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27992]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 11:41:44
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27992]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=19928, orderProductID=36650, dialValue=True, optionID=22667, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 11:41:44
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27992]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 11:41:44
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27992]:	Info
+Method: AddDialValue 
+Parameters: dialID=19928, orderProductID=36650, dialValue=True, optionID=22667, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 11:41:44
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27992]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 11:41:44
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27992]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=19932, orderProductID=36650, dialValue=, optionID=, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 11:41:44
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27992]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 11:41:44
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27992]:	Info
+Method: AddDialValue 
+Parameters: dialID=19932, orderProductID=36650, dialValue=, optionID=, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 11:41:44
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27992]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 11:41:44
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27992]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=19960, orderProductID=36650, dialValue=, optionID=, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 11:41:44
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27992]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 11:41:44
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27992]:	Info
+Method: AddDialValue 
+Parameters: dialID=19960, orderProductID=36650, dialValue=, optionID=, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 11:41:44
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27992]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 11:41:44
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27992]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=19961, orderProductID=36650, dialValue=, optionID=, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 11:41:44
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27992]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 11:41:44
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27992]:	Info
+Method: AddDialValue 
+Parameters: dialID=19961, orderProductID=36650, dialValue=, optionID=, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 11:41:44
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27992]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 11:41:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[33380]:	Info
+Method: GetCustomizationWizardDetailsByDocID 
+Parameters: docID=6761,  
+
+----------------------------------------
+
+2025/05/12 11:41:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[33380]:	Info
+ExcelPricingEngine -> ExecuteNonXMLForVariableNumCopies Method. orderProductID=36650, productId=6761, numCopies=1, numRecipients=1, recipientListPrice=0, deliveryMethodID=1,deliveryPrice=0.00000
+
+----------------------------------------
+
+2025/05/12 11:41:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[33380]:	Info
+Method: GetCustomizationDialValueList 
+Parameters: orderProductId=36650,  
+
+----------------------------------------
+
+2025/05/12 11:41:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[33380]:	Info
+Method: GetOrderProductDetails 
+Parameters: orderProductId=36650,  
+
+----------------------------------------
+
+2025/05/12 11:41:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[33380]:	Info
+Return Value: StatusID=1, DocumentType=Static, FileSubmissionDocument=, PropertyValueList=System.Collections.Generic.List`1[uStore.PluginSDK.PricingEngine.IPropertyValuePricingItem], ForbidOrderProductHandlingStatusChange=False, ParentOrderProductID=, ParentOrderProduct=, OrderProductID=36650, OrderProductUniqueID=d004054a-3019-49ee-86d2-a51002bf6ce4, OrderID=25891, ProductID=6761, ManufacturerID=, IsChecked=, SubmissionListID=, ExecutionPriorityID=1, QuantityPerRecipient=1, NumRecipients=1, TotalQuantity=1, ProductPriceID=-1, PricePerRecipient=0.00000, ProductUnitPrice=0, RecipientType=RecipientNone, RecipientListID=0, ReplacedRecipientListID=, CurrentRecipientListID=0, RecipientDataSourceID=0, RecipientFilterID=0, RecipientDataSourceTableID=0, IsDraft=True, IsSavedDraft=False, IsDisplayAsDraft=True, SaveForLaterDisplayInCart=False, IsKitItem=False, QuantityPerKit=, KitOrderProductID=, DraftDescription=, ExtraParamsXML=, DateAdded=5/12/2025 11:41:44 AM, DateModified=5/12/2025 11:41:44 AM, OrderHandlingStatusID=-1, UProduceHandlingJobID=-1, SubmissionQueue=Pending, SubmissionQueueForPendingRL=PendingRecipientList_Print, RecipientListModelID=0, RecipientListModelSelectionXML=, DocumentXML=, PaymentMethodId=0, AggregationCriteria=, JobGroupID=1, DocAggregationCriteria=, FlatCSVXFilePath=, UProduceHandlingFlatJobID=-1, DeliveryMethod=Shipping, DeliveryMethodID=1, DeliveryServiceId=-1, DeliverySelectionXml=, JobID=0, ProofStatus=0, ProductPriceSubtotal=-1.00000, ProductPriceSubtotalForDiscount=-1.00000, ProductPriceSubtotalForDisplay=-1.00000, RecipientListPrice=0, DeliveryPrice=0.00000, TotalPrice=0.00000, ImpersonatorUserID=, ProductUnitID=1, ApprovalRejectNotes=, ApprovalResubmittedOrderID=, SelectedRecipientListModel=uStore.Common.BLL.RecipientListModel.RecipientListModel, ProductWeight=-1, NormalizedProductWeight=-1, ProductWeightUnitID=-1, TaxGroupID=1, Product=uStore.Common.BLL.StaticProduct, Cost=0.00000, PrepressWorkflowID=, AllCopiesProcessed=, CustomerNickName=, IsNicknameSetByCustomer=, UseColor=True, IsPurl=False, ReorderedFromOrderProductID=, ReorderedFromOrderID=, ModifiedFromOrderID=, PricingOutputXML=, TotalNumberOfPages=, ForceDisplayInOrderQueue=, CampaignID=-1, StoreId=8, UserId=5411, IncludeSubtotalInOrderProduct=False, RecipientListGdprDeleted=, GdprFilesDeleted=False, ReorderType=, DeductedInventory=0,  
+
+----------------------------------------
+
+2025/05/12 11:41:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[33380]:	Info
+Return Value: OrderProductID=36650, OrderID=25891, ProductID=6761, QuantityPerRecipient=1, NumRecipients=1, TotalQuantity=1, ProductUnitPrice=0, PricePerRecipient=0.00000, ProductPriceSubtotal=-1.00000, TotalPrice=0.00000, RecipientListID=-1, RecipientListGdprDeleted=False, RecipientDataSourceID=-1, RecipientFilterID=-1, RecipientDataSourceTableID=-1, IsDraft=True, IsSavedDraft=False, ExtraParamsXml=, DateAdded=5/12/2025 11:41:44 AM, OrderQueueID=-1, UproduceJobID=-1, StatusID=1, RecipientListModelID=-1, DocumentXml=, AggregationCriteria=, JobGroupID=1, DocAggregationCriteria=, FlatCsvxFilePath=, UproduceHandlingFlatJobID=-1, DeliveryMethod=1, DeliveryServiceID=-1, DeliveryPrice=0.00000, ParentOrderProductID=-1, Cost=0.00000, CircleInfo=, StoreID=8,  
+
+----------------------------------------
+
+2025/05/12 11:41:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[33380]:	Info
+GetCustomizationDialValueList returned 0 dial values
+
+----------------------------------------
+
+2025/05/12 11:41:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[33380]:	Info
+Method: GetCustomizationStepList 
+Parameters: productId=6761, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 11:41:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[33380]:	Info
+Method: GetProduct 
+Parameters: productId=6761, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 11:41:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[33380]:	Info
+Return Value: ProductID=6761, StoreID=8, Name=3928-1024 - Plans Benefit Guide, ShortDescrition=, Description=, HasPricing=True, EnableRecipientListModels=False, CreatedDate=11/25/2024 5:50:35 PM, CreatedLoginSessionID=-1, ModifiedDate=2/20/2025 12:59:42 PM, ModifiedLoginSessionID=-1, DisplayOrder=0, StatusID=1, PricingModelID=1, ExternalID=, EnableUedit=False, UeditHelpText=, UeditCustomerDisplayMode=-1, UeditCustomerViewMode=-1, EnableProofApproval=False, ProofApprovalText=, ProofApprovalError=, IsDeliveryManualProductAmount=True, DefaultProofType=0, DocumentID=6761, KeyWords=, EnableProofGeneration=False, TopNavigationButtonsVisible=True, ShowShortDesc=True, ShowMinPrice=False, ProductNameDisplayID=-1, CatalogNumber=3928-1024, UeditFontsUseSelected=False, ProductProfileID=-1, TaxGroupID=1,  
+
+----------------------------------------
+
+2025/05/12 11:41:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[33380]:	Info
+Method: GetCustomizationWizardDetailsByDocID 
+Parameters: docID=6761,  
+
+----------------------------------------
+
+2025/05/12 11:41:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[33380]:	Info
+GetCustomizationStepList returned 0 steps
+
+----------------------------------------
+
+2025/05/12 11:41:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[33380]:	Info
+Method: GetInfoFromExcel 
+Parameters: fileName=\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_6761.xlsx, excelEngineInputProperties=uStore.Common.BLL.OfficeTools.ExcelEngineInputProperties, debugDirectory=\\fsag\uStore_MT2_FR33\ExcelPricingEngine\DEBUG_Product_6761,  
+
+----------------------------------------
+
+2025/05/12 11:41:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[33380]:	Info
+XMPuStoreOfficeService ExcelPricing -> SaveDebugFile: Deleted debug file from: \\fsag\uStore_MT2_FR33\ExcelPricingEngine\DEBUG_Product_6761
+
+----------------------------------------
+
+2025/05/12 11:41:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[33380]:	Info
+XMPuStoreOfficeService ExcelPricing -> SaveDebugFile: Saving Excel debug file \\fsag\uStore_MT2_FR33\ExcelPricingEngine\DEBUG_Product_6761\6761_05-12-2025 11.41.46.6257.xlsx
+
+----------------------------------------
+
+2025/05/12 11:41:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[33380]:	Info
+ExcelPricingEngine -> ExecuteNonXMLForVariableNumCopies, isCalculated:True totalPrice: 14.85000, productSubtotal:14.85
+
+----------------------------------------
+
+2025/05/12 11:41:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[33380]:	Error
+Excel calculation error: Property 'State' is visible while no options found
+
+----------------------------------------
+
+2025/05/12 11:41:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[33380]:	Error
+Excel calculation error: Property 'Select Option' is visible while no options found
+
+----------------------------------------
+
+2025/05/12 11:41:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16064]:	Info
+ExcelPricingEngine -> ExecuteNonXMLForVariableNumCopies Method. orderProductID=36650, productId=6761, numCopies=1, numRecipients=1, recipientListPrice=0, deliveryMethodID=1,deliveryPrice=0
+
+----------------------------------------
+
+2025/05/12 11:41:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16064]:	Info
+Method: GetCustomizationDialValueList 
+Parameters: orderProductId=36650,  
+
+----------------------------------------
+
+2025/05/12 11:41:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16064]:	Info
+Method: GetOrderProductDetails 
+Parameters: orderProductId=36650,  
+
+----------------------------------------
+
+2025/05/12 11:41:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16064]:	Info
+Return Value: StatusID=1, DocumentType=Static, FileSubmissionDocument=, PropertyValueList=System.Collections.Generic.List`1[uStore.PluginSDK.PricingEngine.IPropertyValuePricingItem], ForbidOrderProductHandlingStatusChange=False, ParentOrderProductID=, ParentOrderProduct=, OrderProductID=36650, OrderProductUniqueID=d004054a-3019-49ee-86d2-a51002bf6ce4, OrderID=25891, ProductID=6761, ManufacturerID=, IsChecked=, SubmissionListID=, ExecutionPriorityID=1, QuantityPerRecipient=1, NumRecipients=1, TotalQuantity=1, ProductPriceID=-1, PricePerRecipient=0.00000, ProductUnitPrice=0, RecipientType=RecipientNone, RecipientListID=0, ReplacedRecipientListID=, CurrentRecipientListID=0, RecipientDataSourceID=0, RecipientFilterID=0, RecipientDataSourceTableID=0, IsDraft=True, IsSavedDraft=False, IsDisplayAsDraft=True, SaveForLaterDisplayInCart=False, IsKitItem=False, QuantityPerKit=, KitOrderProductID=, DraftDescription=, ExtraParamsXML=, DateAdded=5/12/2025 11:41:44 AM, DateModified=5/12/2025 11:41:44 AM, OrderHandlingStatusID=-1, UProduceHandlingJobID=-1, SubmissionQueue=Pending, SubmissionQueueForPendingRL=PendingRecipientList_Print, RecipientListModelID=0, RecipientListModelSelectionXML=, DocumentXML=, PaymentMethodId=0, AggregationCriteria=, JobGroupID=1, DocAggregationCriteria=, FlatCSVXFilePath=, UProduceHandlingFlatJobID=-1, DeliveryMethod=Shipping, DeliveryMethodID=1, DeliveryServiceId=-1, DeliverySelectionXml=, JobID=0, ProofStatus=0, ProductPriceSubtotal=-1.00000, ProductPriceSubtotalForDiscount=-1.00000, ProductPriceSubtotalForDisplay=-1.00000, RecipientListPrice=0, DeliveryPrice=0.00000, TotalPrice=0.00000, ImpersonatorUserID=, ProductUnitID=1, ApprovalRejectNotes=, ApprovalResubmittedOrderID=, SelectedRecipientListModel=uStore.Common.BLL.RecipientListModel.RecipientListModel, ProductWeight=-1, NormalizedProductWeight=-1, ProductWeightUnitID=-1, TaxGroupID=1, Product=uStore.Common.BLL.StaticProduct, Cost=0.00000, PrepressWorkflowID=, AllCopiesProcessed=, CustomerNickName=, IsNicknameSetByCustomer=, UseColor=True, IsPurl=False, ReorderedFromOrderProductID=, ReorderedFromOrderID=, ModifiedFromOrderID=, PricingOutputXML=, TotalNumberOfPages=, ForceDisplayInOrderQueue=, CampaignID=-1, StoreId=8, UserId=5411, IncludeSubtotalInOrderProduct=False, RecipientListGdprDeleted=, GdprFilesDeleted=False, ReorderType=, DeductedInventory=0,  
+
+----------------------------------------
+
+2025/05/12 11:41:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16064]:	Info
+Return Value: OrderProductID=36650, OrderID=25891, ProductID=6761, QuantityPerRecipient=1, NumRecipients=1, TotalQuantity=1, ProductUnitPrice=0, PricePerRecipient=0.00000, ProductPriceSubtotal=-1.00000, TotalPrice=0.00000, RecipientListID=-1, RecipientListGdprDeleted=False, RecipientDataSourceID=-1, RecipientFilterID=-1, RecipientDataSourceTableID=-1, IsDraft=True, IsSavedDraft=False, ExtraParamsXml=, DateAdded=5/12/2025 11:41:44 AM, OrderQueueID=-1, UproduceJobID=-1, StatusID=1, RecipientListModelID=-1, DocumentXml=, AggregationCriteria=, JobGroupID=1, DocAggregationCriteria=, FlatCsvxFilePath=, UproduceHandlingFlatJobID=-1, DeliveryMethod=1, DeliveryServiceID=-1, DeliveryPrice=0.00000, ParentOrderProductID=-1, Cost=0.00000, CircleInfo=, StoreID=8,  
+
+----------------------------------------
+
+2025/05/12 11:41:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16064]:	Info
+GetCustomizationDialValueList returned 0 dial values
+
+----------------------------------------
+
+2025/05/12 11:41:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16064]:	Info
+Method: GetCustomizationStepList 
+Parameters: productId=6761, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 11:41:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16064]:	Info
+Method: GetProduct 
+Parameters: productId=6761, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 11:41:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16064]:	Info
+Return Value: ProductID=6761, StoreID=8, Name=3928-1024 - Plans Benefit Guide, ShortDescrition=, Description=, HasPricing=True, EnableRecipientListModels=False, CreatedDate=11/25/2024 5:50:35 PM, CreatedLoginSessionID=-1, ModifiedDate=2/20/2025 12:59:42 PM, ModifiedLoginSessionID=-1, DisplayOrder=0, StatusID=1, PricingModelID=1, ExternalID=, EnableUedit=False, UeditHelpText=, UeditCustomerDisplayMode=-1, UeditCustomerViewMode=-1, EnableProofApproval=False, ProofApprovalText=, ProofApprovalError=, IsDeliveryManualProductAmount=True, DefaultProofType=0, DocumentID=6761, KeyWords=, EnableProofGeneration=False, TopNavigationButtonsVisible=True, ShowShortDesc=True, ShowMinPrice=False, ProductNameDisplayID=-1, CatalogNumber=3928-1024, UeditFontsUseSelected=False, ProductProfileID=-1, TaxGroupID=1,  
+
+----------------------------------------
+
+2025/05/12 11:41:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16064]:	Info
+Method: GetCustomizationWizardDetailsByDocID 
+Parameters: docID=6761,  
+
+----------------------------------------
+
+2025/05/12 11:41:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16064]:	Info
+GetCustomizationStepList returned 0 steps
+
+----------------------------------------
+
+2025/05/12 11:41:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16064]:	Info
+Method: GetInfoFromExcel 
+Parameters: fileName=\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_6761.xlsx, excelEngineInputProperties=uStore.Common.BLL.OfficeTools.ExcelEngineInputProperties, debugDirectory=\\fsag\uStore_MT2_FR33\ExcelPricingEngine\DEBUG_Product_6761,  
+
+----------------------------------------
+
+2025/05/12 11:41:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16064]:	Info
+XMPuStoreOfficeService ExcelPricing -> SaveDebugFile: Deleted debug file from: \\fsag\uStore_MT2_FR33\ExcelPricingEngine\DEBUG_Product_6761
+
+----------------------------------------
+
+2025/05/12 11:41:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16064]:	Info
+XMPuStoreOfficeService ExcelPricing -> SaveDebugFile: Saving Excel debug file \\fsag\uStore_MT2_FR33\ExcelPricingEngine\DEBUG_Product_6761\6761_05-12-2025 11.41.47.7970.xlsx
+
+----------------------------------------
+
+2025/05/12 11:41:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16064]:	Info
+ExcelPricingEngine -> ExecuteNonXMLForVariableNumCopies, isCalculated:True totalPrice: 14.85, productSubtotal:14.85
+
+----------------------------------------
+
+2025/05/12 11:48:09
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15992]:	Info
+Method: GetCart 
+Parameters: storeID=8, customerID=5411,  
+
+----------------------------------------
+
+2025/05/12 11:48:09
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15992]:	Info
+Cart order ID is 25891
+
+----------------------------------------
+
+2025/05/12 11:48:09
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15992]:	Info
+Method: AddOrderProduct 
+Parameters: orderID=25891, productID=6755, quantity=50, isDisplayAsDraft=,  
+
+----------------------------------------
+
+2025/05/12 11:48:09
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15992]:	Info
+Added Order Product with ID 36651
+
+----------------------------------------
+
+2025/05/12 11:48:09
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15992]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=19883, orderProductID=36651, dialValue= , optionID=22462, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 11:48:09
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15992]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 11:48:09
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15992]:	Info
+Method: AddDialValue 
+Parameters: dialID=19883, orderProductID=36651, dialValue= , optionID=22462, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 11:48:09
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15992]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 11:48:09
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15992]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=19884, orderProductID=36651, dialValue=True, optionID=22463, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 11:48:09
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15992]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 11:48:09
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15992]:	Info
+Method: AddDialValue 
+Parameters: dialID=19884, orderProductID=36651, dialValue=True, optionID=22463, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 11:48:09
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15992]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 11:48:09
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15992]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=19888, orderProductID=36651, dialValue=Curana Health, optionID=26476, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 11:48:09
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15992]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 11:48:09
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15992]:	Info
+Method: AddDialValue 
+Parameters: dialID=19888, orderProductID=36651, dialValue=Curana Health, optionID=26476, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 11:48:09
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15992]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 11:48:10
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15992]:	Info
+Method: GetCustomizationWizardDetailsByDocID 
+Parameters: docID=6755,  
+
+----------------------------------------
+
+2025/05/12 11:48:10
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[9340]:	Info
+Method: ExecuteNonXML 
+Parameters: orderProductID=36651, productId=6755, numRecipients=1, numCopies=50, recipientListPrice=0, deliveryMethodID=1, deliveryPrice=0, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32],  
+
+----------------------------------------
+
+2025/05/12 11:48:10
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[9340]:	Info
+DefaultPricingEngine -> ExecuteNonXML propertyValueDict parameter number of items: 3
+
+----------------------------------------
+
+2025/05/12 11:48:10
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[9340]:	Info
+DefaultPricingEngine -> ExecuteNonXML allPropertyValues parameter number of items: 3
+
+----------------------------------------
+
+2025/05/12 11:48:10
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[9340]:	Info
+DefaultPricingEngine -> ExecuteNonXML totalPrice result: 42.24000
+
+----------------------------------------
+
+2025/05/12 11:48:10
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[9340]:	Info
+DefaultPricingEngine -> ExecuteNonXML pricePerRecipient result: 42.24000
+
+----------------------------------------
+
+2025/05/12 11:48:10
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[9340]:	Info
+DefaultPricingEngine -> ExecuteNonXML productSubtotal result: 42.24000
+
+----------------------------------------
+
+2025/05/12 11:48:10
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[9340]:	Info
+DefaultPricingEngine -> ExecuteNonXML isCalculated result: True
+
+----------------------------------------
+
+2025/05/12 14:32:52
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[36572]:	Info
+Method: GetCart 
+Parameters: storeID=8, customerID=10661,  
+
+----------------------------------------
+
+2025/05/12 14:32:52
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[36572]:	Info
+Cart order ID is -1
+
+----------------------------------------
+
+2025/05/12 14:32:52
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[36572]:	Info
+Method: AddCart 
+Parameters: storeID=8, customerID=10661,  
+
+----------------------------------------
+
+2025/05/12 14:32:52
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[36572]:	Info
+Added cart with ID 27210
+
+----------------------------------------
+
+2025/05/12 14:32:52
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[36572]:	Info
+Method: AddOrderProduct 
+Parameters: orderID=27210, productID=6801, quantity=50, isDisplayAsDraft=,  
+
+----------------------------------------
+
+2025/05/12 14:32:52
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[36572]:	Info
+Added Order Product with ID 36662
+
+----------------------------------------
+
+2025/05/12 14:32:52
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[36572]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=20225, orderProductID=36662, dialValue= , optionID=23503, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 14:32:52
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[36572]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 14:32:52
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[36572]:	Info
+Method: AddDialValue 
+Parameters: dialID=20225, orderProductID=36662, dialValue= , optionID=23503, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 14:32:52
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[36572]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 14:32:52
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[36572]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=20226, orderProductID=36662, dialValue=True, optionID=23504, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 14:32:52
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[36572]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 14:32:52
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[36572]:	Info
+Method: AddDialValue 
+Parameters: dialID=20226, orderProductID=36662, dialValue=True, optionID=23504, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 14:32:52
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[36572]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 14:32:52
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[36572]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=20227, orderProductID=36662, dialValue=, optionID=, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 14:32:52
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[36572]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 14:32:52
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[36572]:	Info
+Method: AddDialValue 
+Parameters: dialID=20227, orderProductID=36662, dialValue=, optionID=, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 14:32:52
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[36572]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 14:32:53
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[26656]:	Info
+Method: GetCustomizationWizardDetailsByDocID 
+Parameters: docID=6801,  
+
+----------------------------------------
+
+2025/05/12 14:32:56
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[12584]:	Info
+Method: ExecuteNonXML 
+Parameters: orderProductID=36662, productId=6801, numRecipients=1, numCopies=50, recipientListPrice=0, deliveryMethodID=1, deliveryPrice=0, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32],  
+
+----------------------------------------
+
+2025/05/12 14:32:56
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[12584]:	Info
+DefaultPricingEngine -> ExecuteNonXML propertyValueDict parameter number of items: 2
+
+----------------------------------------
+
+2025/05/12 14:32:56
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[12584]:	Info
+DefaultPricingEngine -> ExecuteNonXML allPropertyValues parameter number of items: 3
+
+----------------------------------------
+
+2025/05/12 14:32:56
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[12584]:	Info
+DefaultPricingEngine -> ExecuteNonXML totalPrice result: 41.60000
+
+----------------------------------------
+
+2025/05/12 14:32:56
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[12584]:	Info
+DefaultPricingEngine -> ExecuteNonXML pricePerRecipient result: 41.60000
+
+----------------------------------------
+
+2025/05/12 14:32:56
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[12584]:	Info
+DefaultPricingEngine -> ExecuteNonXML productSubtotal result: 41.60000
+
+----------------------------------------
+
+2025/05/12 14:32:56
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[12584]:	Info
+DefaultPricingEngine -> ExecuteNonXML isCalculated result: True
+
+----------------------------------------
+
+2025/05/12 14:33:36
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[33744]:	Info
+Method: GetCustomizationWizardDetailsByDocID 
+Parameters: docID=6801,  
+
+----------------------------------------
+
+2025/05/12 14:33:37
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[33744]:	Info
+Method: GetCustomizationWizardDetailsByDocID 
+Parameters: docID=6801,  
+
+----------------------------------------
+
+2025/05/12 14:33:40
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[49596]:	Info
+Method: ExecuteNonXML 
+Parameters: orderProductID=36662, productId=6801, numRecipients=1, numCopies=50, recipientListPrice=0, deliveryMethodID=1, deliveryPrice=0, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32],  
+
+----------------------------------------
+
+2025/05/12 14:33:40
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[49596]:	Info
+DefaultPricingEngine -> ExecuteNonXML propertyValueDict parameter number of items: 1
+
+----------------------------------------
+
+2025/05/12 14:33:40
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[49596]:	Info
+DefaultPricingEngine -> ExecuteNonXML allPropertyValues parameter number of items: 1
+
+----------------------------------------
+
+2025/05/12 14:33:40
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[49596]:	Info
+DefaultPricingEngine -> ExecuteNonXML totalPrice result: 41.60000
+
+----------------------------------------
+
+2025/05/12 14:33:40
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[49596]:	Info
+DefaultPricingEngine -> ExecuteNonXML pricePerRecipient result: 41.60000
+
+----------------------------------------
+
+2025/05/12 14:33:40
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[49596]:	Info
+DefaultPricingEngine -> ExecuteNonXML productSubtotal result: 41.60000
+
+----------------------------------------
+
+2025/05/12 14:33:40
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[49596]:	Info
+DefaultPricingEngine -> ExecuteNonXML isCalculated result: True
+
+----------------------------------------
+
+2025/05/12 14:33:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[12584]:	Info
+Method: GetCustomizationWizardDetailsByDocID 
+Parameters: docID=6801,  
+
+----------------------------------------
+
+2025/05/12 14:33:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[12584]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=20226, orderProductID=36662, dialValue=True, optionID=23504, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 14:33:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[12584]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 14:33:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[12584]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=20227, orderProductID=36662, dialValue=Sharon Jacob, optionID=32499, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 14:33:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[12584]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 14:33:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[12584]:	Info
+Method: GetCustomizationWizardDetailsByDocID 
+Parameters: docID=6801,  
+
+----------------------------------------
+
+2025/05/12 14:33:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[23564]:	Info
+Method: GetCustomizationWizardDetailsByDocID 
+Parameters: docID=6801,  
+
+----------------------------------------
+
+2025/05/12 14:33:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[23564]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=20226, orderProductID=36662, dialValue=True, optionID=23504, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 14:33:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[23564]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 14:33:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[23564]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=20227, orderProductID=36662, dialValue=Sharon Jacob, optionID=32499, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 14:33:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[23564]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 14:33:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[23564]:	Info
+Method: GetCustomizationWizardDetailsByDocID 
+Parameters: docID=6801,  
+
+----------------------------------------
+
+2025/05/12 14:33:53
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[37740]:	Info
+Method: GetCart 
+Parameters: storeID=8, customerID=10661,  
+
+----------------------------------------
+
+2025/05/12 14:33:53
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[37740]:	Info
+Cart order ID is 27210
+
+----------------------------------------
+
+2025/05/12 14:33:53
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[37740]:	Info
+Method: ExecuteNonXML 
+Parameters: orderProductID=36662, productId=6801, numRecipients=1, numCopies=50, recipientListPrice=0, deliveryMethodID=1, deliveryPrice=0.00000, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32],  
+
+----------------------------------------
+
+2025/05/12 14:33:53
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[37740]:	Info
+DefaultPricingEngine -> ExecuteNonXML propertyValueDict parameter number of items: 3
+
+----------------------------------------
+
+2025/05/12 14:33:53
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[37740]:	Info
+DefaultPricingEngine -> ExecuteNonXML allPropertyValues parameter number of items: 3
+
+----------------------------------------
+
+2025/05/12 14:33:53
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[37740]:	Info
+DefaultPricingEngine -> ExecuteNonXML totalPrice result: 41.60000
+
+----------------------------------------
+
+2025/05/12 14:33:53
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[37740]:	Info
+DefaultPricingEngine -> ExecuteNonXML pricePerRecipient result: 41.60000
+
+----------------------------------------
+
+2025/05/12 14:33:53
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[37740]:	Info
+DefaultPricingEngine -> ExecuteNonXML productSubtotal result: 41.60000
+
+----------------------------------------
+
+2025/05/12 14:33:53
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[37740]:	Info
+DefaultPricingEngine -> ExecuteNonXML isCalculated result: True
+
+----------------------------------------
+

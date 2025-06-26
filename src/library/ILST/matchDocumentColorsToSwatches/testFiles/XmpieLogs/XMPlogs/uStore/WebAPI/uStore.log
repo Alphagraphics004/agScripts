@@ -1,0 +1,43 @@
+2025/05/12 16:53:05
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[58968]:	Error
+WebAPI.TokenValidator.ValidateToken: Security Token '8a6f3c76b069497983e2b68f744022b79a9f652a39f7ab5dc04a89b4de3560b3' doesn't exist
+
+----------------------------------------
+
+2025/05/12 16:53:05
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[58968]:	Fatal
+WebAPI error occured.
+Request: Method: GET, URL: https://us717.agstorefront.com/uStoreRestApi/v1/store/categories/tree?depth=3
+Exception: uStore.Common.BLL.Exceptions.AccessDeniedException: Exception of type 'uStore.Common.BLL.Exceptions.AccessDeniedException' was thrown.
+   at uStore.WebAPI.Validators.TokenValidator.ValidateToken(String securityTokenID)
+   at uStore.WebAPI.AuthorizationValidator.ValidateToken()
+   at uStore.WebAPI.TokenAuthorizationFilterAttribute.OnAuthorization(HttpActionContext actionContext)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.OnAuthorizationAsync(HttpActionContext actionContext, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+TypeName: AccessDenied
+uStore.Common.BLL.Exceptions.AccessDeniedException: Exception of type 'uStore.Common.BLL.Exceptions.AccessDeniedException' was thrown.
+   at uStore.WebAPI.Validators.TokenValidator.ValidateToken(String securityTokenID)
+   at uStore.WebAPI.AuthorizationValidator.ValidateToken()
+   at uStore.WebAPI.TokenAuthorizationFilterAttribute.OnAuthorization(HttpActionContext actionContext)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.OnAuthorizationAsync(HttpActionContext actionContext, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+TypeName: AccessDenied
+
+----------------------------------------
+

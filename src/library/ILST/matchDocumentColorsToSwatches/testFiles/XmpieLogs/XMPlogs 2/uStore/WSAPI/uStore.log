@@ -1,0 +1,276 @@
+2025/05/12 19:27:25
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[23380]:	Info
+Request URL: http://m2f33.xmpiecloud.com/uStoreWSAPI/ProxyWS.asmx/GetProxyData?securityToken=7E8A6298-41CA-49E4-B3C9-E1443B354306, Referrer: , UserAgent: , IP Address: 172.31.205.138, 
+
+----------------------------------------
+
+2025/05/12 19:27:26
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[23380]:	Info
+Start BLL.HeliconUtilsCreateMapDictionary
+
+----------------------------------------
+
+2025/05/12 19:27:26
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[23380]:	Info
+Start BLL.HeliconUtilsAddOtherProxyDomainsEntriesIfExist. hostsFileIPValue: 
+
+----------------------------------------
+
+2025/05/12 19:27:26
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[23380]:	Info
+AddOtherProxyDomainsEntriesIfExist: Domain list number of keys:  6
+
+----------------------------------------
+
+2025/05/12 19:27:26
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[23380]:	Info
+Start BLL.HeliconUtilsHandleHeliconThemesMigration
+
+----------------------------------------
+
+2025/05/12 19:27:26
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[23380]:	Error
+Failed to create an instance of UProduceConnection from DataRow
+System.ArgumentException: Column 'UProduceUser' does not belong to table Table.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at uStore.Common.BLL.UProduceConnection.InitFromDataRow(DataRow row)
+   at uStore.Common.BLL.UProduceConnection.CreateFromDataRow(DataRow row)
+
+----------------------------------------
+
+2025/05/12 19:27:26
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[23380]:	Error
+Failed to create an instance of UProduceConnection from DataRow
+System.ArgumentException: Column 'UProduceUser' does not belong to table Table.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at uStore.Common.BLL.UProduceConnection.InitFromDataRow(DataRow row)
+   at uStore.Common.BLL.UProduceConnection.CreateFromDataRow(DataRow row)
+
+----------------------------------------
+
+2025/05/12 19:27:26
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[23380]:	Error
+Failed to create an instance of UProduceConnection from DataRow
+System.ArgumentException: Column 'UProduceUser' does not belong to table Table.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at uStore.Common.BLL.UProduceConnection.InitFromDataRow(DataRow row)
+   at uStore.Common.BLL.UProduceConnection.CreateFromDataRow(DataRow row)
+
+----------------------------------------
+
+2025/05/12 19:27:27
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[23380]:	Info
+HandleHeliconThemesMigration: Domain list number of keys:  8
+
+----------------------------------------
+
+2025/05/12 19:27:27
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[23380]:	Info
+CreateHostDictionary: ELBConfiguration is activated, hosts file will not be updated
+
+----------------------------------------
+
+2025/05/12 19:27:27
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[23380]:	Info
+ Response: {"data":"%7b%22type%22%3a%22mapFile%22%2c%22lastUpdate%22%3a%225%2f12%2f2025+11%3a27%3a27+PM%22%2c%22data%22%3a%22%7b%5c%22mapData%5c%22%3a%7b%5c%22m2f33.xmpiecloud.com%5c%22%3a%5c%22m2f33.xmpiecloud.com%5c%22%2c%5c%22m2f33.xmpiecloud.com%40expose_services%5c%22%3a%5c%22m2f33.xmpiecloud.com%5c%22%2c%5c%22m2f33.xmpiecloud.com%40expose_services_https%5c%22%3a%5c%22True%5c%22%2c%5c%22us717.agstorefront.com%5c%22%3a%5c%22us717.agstorefront.com%5c%22%2c%5c%22us717.agstorefront.com%40expose_services%5c%22%3a%5c%22us717.agstorefront.com%5c%22%2c%5c%22us717.agstorefront.com%40expose_services_https%5c%22%3a%5c%22True%5c%22%2c%5c%22m2f33.xmpiecloud.com%2fAGOnline%40ng_themeNameUniqness%5c%22%3a%5c%22AGOnline_632266a6-9d19-4f23-b329-d14f64c1ea57%5c%22%2c%5c%22us717.agstorefront.com%2fAGOnline%40ng_themeNameUniqness%5c%22%3a%5c%22AGOnline_632266a6-9d19-4f23-b329-d14f64c1ea57%5c%22%7d%2c%5c%22hostData%5c%22%3a%7b%7d%2c%5c%22sectionTagName%5c%22%3a%5c%22USTORE_1c17f22f-ea8f-4664-a2da-bcaf5ff7bded%5c%22%2c%5c%22template%5c%22%3a%5c%22%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23Set+Map+Location%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%5c%5cr%5c%5cnRewriteMap+%7b%7bmapVariableName%7d%7d+txt%3a%7b%7bmapFileFullPath%7d%7d%5c%5cr%5c%5cn%5c%5cr%5c%5cn%3cHelicon%3e%5c%5cr%5c%5cn%5c%5ctProxyConnectTimeout+900%5c%5cr%5c%5cn%5c%5ctProxyReceiveTimeout+900%5c%5cr%5c%5cn%5c%5ctProxySendTimeout+900%5c%5cr%5c%5cn%3c%2fHelicon%3e%5c%5cr%5c%5cn%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteCond+%25%7bREQUEST_URI%7d+%5e((%3f!Global%2fGoogleIndexIndicators).)*%2fgoogle(%5ba-zA-Z0-9%5d%7b15%2c40%7d).html%24++%5bNC%5d%5c%5cr%5c%5cnRewriteProxy+++%5e(.*)google(.*).html%24+http(%3f%251s)%3a%2f%2f%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7d%2fuStoreThemes%2fGlobal%2fGoogleIndexIndicators%2fgoogle%242.html+%5bNC%2cH%2cL%5d%5c%5cr%5c%5cn%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%2f%241%40ng_themeNameUniqness%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteRule++%5e%2fuStoreThemes%2f(%5b%5e%2f%5d%2b)(%2f%7c%2f%5c%5c%5c%5cd%2b%2f)(%5ba-z%5d%7b2%7d-%5ba-z%5d%7b1%2c%7d)%2f(.*)%24+http(%3f%251s)%3a%2f%2f%25%7bHTTP_Host%7d%2fuStoreThemes%2f%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%2f%241%40ng_themeNameUniqness%7d%242%243%2f%244+%5bNC%2cH%2cL%2cR%2cA%2cCR%2cU%5d%5c%5cr%5c%5cn%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteCond+%25%7bREQUEST_URI%7d+%5e%2fuStoreThemes%2f(%5b%5e%2f%5d%2b)(%2f%7c%2f%5c%5c%5c%5cd%2b%2f)(%5ba-z%5d%7b2%7d-%5ba-z%5d%7b1%2c%7d)%2f%3f+%5bNC%5d%5c%5cr%5c%5cnRewriteProxy++%5e%2fuStoreThemes%2f(.*)%24+http(%3f%251s)%3a%2f%2f%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7d%2fuStoreThemes%2f%241+%5bNC%2cH%2cL%5d%5c%5cr%5c%5cn%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteCond+%25%7bREQUEST_URI%7d+%5e%2f(uStoreThemes%7cuStoreThemeCustomizations)%2f%3f+%5bNC%5d%5c%5cr%5c%5cnRewriteProxy++%5e(.*)%3f%2f(.*%5c%5c%5c%5c.%5ba-z0-9%5d%7b1%2c%7d)%24+http(%3f%251s)%3a%2f%2f%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7d%241%2f%242++%5bNC%2cL%5d%5c%5cr%5c%5cn%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteCond+%25%7bHTTP_Host%7d+(.*)%5c%5cr%5c%5cnRewriteProxy+%5e%2fuStoreRestApi(.*)%3f%24+http(%3f%251s)%3a%2f%2f%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7d%2fuStoreRestApi%2f%241+%5bNC%2cH%2cL%2cA%2cCR%5d%5c%5cr%5c%5cn%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+off%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%2f%241%40ng_themeName%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%2f%241%40ng_secured%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteRule+%5e%2f(%5b%5e%2f%5d%2b)%2f(%5ba-z%5d%7b2%7d-%5ba-z%5d%7b1%2c%7d)%2f(.*)%24+https%3a%2f%2f%25%7bHTTP_Host%7d%25%7bREQUEST_URI%7d+%5bNC%2cH%2cL%2cR%2cA%2cCR%2cU%5d%5c%5cr%5c%5cn%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+off%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%40ng_domain_themeName%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%40ng_secured%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteRule+%5e%2f(%5ba-z%5d%7b2%7d-%5ba-z%5d%7b1%2c%7d)%2f(.*)%24+https%3a%2f%2f%25%7bHTTP_Host%7d%25%7bREQUEST_URI%7d+%5bNC%2cH%2cL%2cR%2cA%2cCR%2cU%5d%5c%5cr%5c%5cn%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%40ng_domain_themeName%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteCond+%25%7bREQUEST_URI%7d+!%5e%2f(.*%5c%5c%5c%5c.%5ba-z%5d%7b2%2c%7d)%24+%5bNC%5d%5c%5cr%5c%5cnRewriteProxy+%5e%2f(%5ba-z%5d%7b2%7d-%5ba-z%5d%7b1%2c%7d)%2f(.*)%24+http(%3f%251s)%3a%2f%2f%25%7bHTTP_Host%7d%2fuStoreThemes%2f%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%40ng_domain_themeName%7d%2f%241%2f%242+%5bNC%2cH%2cL%2cA%2cCR%5d%5c%5cr%5c%5cn%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%2f%241%40ng_themeName%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteCond+%25%7bREQUEST_URI%7d+!%5e%2f(.*%5c%5c%5c%5c.%5ba-z%5d%7b2%2c%7d)%24+%5bNC%5d%5c%5cr%5c%5cnRewriteProxy+%5e%2f(%5b%5e%2f%5d%2b)%2f(%5ba-z%5d%7b2%7d-%5ba-z%5d%7b1%2c%7d)%2f(.*)%24+http(%3f%251s)%3a%2f%2f%25%7bHTTP_Host%7d%2fuStoreThemes%2f%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%2f%241%40ng_themeName%7d%2f%242%2f%243+%5bNC%2cH%2cL%2cA%2cCR%5d%5c%5cr%5c%5cn%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%40ng_routing%7cNOT_FOUND%7d+!NOT_FOUND+%5c%5cr%5c%5cnRewriteRule+%5e%2f%24+%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%40ng_routing%7d+%5bNC%2cH%2cL%2cR%5d%5c%5cr%5c%5cn%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%241%242%40ng_routing%7cNOT_FOUND%7d+!NOT_FOUND+%5c%5cr%5c%5cnRewriteRule+%5e(%2f.*)%2f(.*)++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%241%242%40ng_routing%7d+%5bNC%2cH%2cL%2cR%5d+%5c%5cr%5c%5cn%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%241%40ng_routing%7cNOT_FOUND%7d+!NOT_FOUND+%5c%5cr%5c%5cnRewriteRule+%5e(.*)%24+%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%241%40ng_routing%7d+%5bNC%2cH%2cL%2cR%5d%5c%5cr%5c%5cn%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%241%40ng_routing%7cNOT_FOUND%7d+!NOT_FOUND+%5c%5cr%5c%5cnRewriteRule+%5e(.*)%2f(%5ba-z%5d%7b2%7d-%5ba-z%5d%7b1%2c%7d%2f%3f.*)%24+http(%3f%251s)%3a%2f%2fwww.%25%7bHTTP_Host%7d%241%2f%242+%5bNC%2cH%2cL%2cR%5d%5c%5cr%5c%5cn%5c%5cr%5c%5cn%231.%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23Match+Friendly+ID+with+folder+to+Home+Page%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7cNOT_FOUND%7d+!NOT_FOUND+%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%25%7bREQUEST_URI%7d%7cNOT_FOUND%7d+!NOT_FOUND+%5c%5cr%5c%5cnRewriteCond++%25%7bQUERY_STRING%7d%7cNOT_FOUND+%3d%7cNOT_FOUND%5c%5cr%5c%5cnRewriteProxy++%5e(.*)%3f%24+http(%3f%251s)%3a%2f%2f%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7d%2fustore%2f%24%7b%7b%7bmapVariableName%7d%7d%3a(%25%7bHTTP_Host%7d%25%7bREQUEST_URI%7d)%7d%2fHome+%5bNC%2cH%2cL%5d%5c%5cr%5c%5cn%231.1+%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23Match+Friendly+ID+with+folder+and+Query+String%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%25%7bREQUEST_URI%7d%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteProxy+%5e(.*)%3f%24+http(%3f%251s)%3a%2f%2f%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7d%2fustore%241%3fStoreID%3d%24%7b%7b%7bmapVariableName%7d%7d%3a(%25%7bHTTP_Host%7d%241)%7d%26%25%7bQUERY_STRING%7d+%5bNC%2cH%2cL%5d%5c%5cr%5c%5cn%232.%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23Match+only+friendly+ID+to+Home+page%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%40domain_storeId%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteCond++%25%7bQUERY_STRING%7d%7cNOT_FOUND+%3d%7cNOT_FOUND%5c%5cr%5c%5cnRewriteProxy++%5e(%2f)%3f%24+http(%3f%251s)%3a%2f%2f%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7d%2fustore%2f%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%40domain_storeId%7d%2fHome+%5bNC%2cH%2cL%5d%5c%5cr%5c%5cn%233.%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23Match+friendly+ID+within+ustore+application+%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%5c%5cr%5c%5cn%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23without+referencing+the+friendly+folder+%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7cNOT_FOUND%7d+!NOT_FOUND+%5c%5cr%5c%5cnRewriteCond+%25%7bREQUEST_URI%7d+!%2f(uStore.CommonControls%2fservices.*)%24+%5bNC%5d%5c%5cr%5c%5cnRewriteProxy++%5e%2fustore((%5c%5c%5c%5c.%7c%2f).*)%3f%24+http(%3f%251s)%3a%2f%2f%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7d%2fustore%241+%5bNC%2cH%2cL%5d%5c%5cr%5c%5cn%234.%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23Match+2+levels+file+system+with+friendly+folder+name%23%23%23%23%23%23%23%23%23%23%23%23%23%23%5c%5cr%5c%5cn%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23Need+to+verify+correctness+of+%241+back+reference%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7cNOT_FOUND%7d+!NOT_FOUND+%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%241%7cNOT_FOUND%7d+!NOT_FOUND+%5c%5cr%5c%5cnRewriteProxy++%5e(%2f.*)%2f(.*)+http(%3f%251s)%3a%2f%2f%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7d%2fustore%2f%242+%5bNC%2cH%2cL%5d%5c%5cr%5c%5cn%235.%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23Support+with+an+additional+internal+level+of+folders%23%23%23%23%23%23%23%23%23%23%23%23%23%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7cNOT_FOUND%7d+!NOT_FOUND+%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%241%7cNOT_FOUND%7d+!NOT_FOUND+%5c%5cr%5c%5cnRewriteProxy++%5e(%2f.*)%2f(.*)%2f(.*)+http(%3f%251s)%3a%2f%2f%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7d%2fustore%2f%242%2f%243+%5bNC%2cH%2cL%5d%5c%5cr%5c%5cn%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%5c%5cr%5c%5cn%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+off%5c%5cr%5c%5cnRewriteCond+%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%40expose_services_https%7cNOT_FOUND%7d+!NOT_FOUND+%5c%5cr%5c%5cnRewriteCond+%25%7bREQUEST_URI%7d+%5e%2f(uStoreAdmin%7cuStoreWSAPI%7cuStoreUpdate%7cuStoreBackofficeAPI)%2f%3f+%5bNC%5d%5c%5cr%5c%5cnRewriteRule+%5e(.*)%24+https%3a%2f%2f%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%40expose_services%7d%241+%5bNC%2cH%2cL%2cR%2cA%2cCR%2cU%5d%5c%5cr%5c%5cn%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%40expose_services%7cNOT_FOUND%7d+!NOT_FOUND+%5c%5cr%5c%5cnRewriteCond+%25%7bREQUEST_URI%7d+%5e%2f(uStoreAdmin%7cuStoreWSAPI%7cuStoreUpdate%7cuStoreBackofficeRESTAPI)%2f%3f+%5bNC%5d%5c%5cr%5c%5cnRewriteProxy++%5e(.*)%24+http(%3f%251s)%3a%2f%2f%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%40expose_services%7d%241++%5bNC%2cH%2cL%2cA%2cCR%2cU%5d%5c%5cr%5c%5cn%5c%22%2c%5c%22mapFileName%5c%22%3a%5c%22ustoreMap.1c17f22f-ea8f-4664-a2da-bcaf5ff7bded.txt%5c%22%2c%5c%22mapFilePlaceholderName%5c%22%3a%5c%22%7b%7bmapFileFullPath%7d%7d%5c%22%2c%5c%22mapVariablePlaceholderName%5c%22%3a%5c%22%7b%7bmapVariableName%7d%7d%5c%22%2c%5c%22tenantId%5c%22%3a%5c%221c17f22f-ea8f-4664-a2da-bcaf5ff7bded%5c%22%2c%5c%22data%5c%22%3anull%2c%5c%22appName%5c%22%3a%5c%22uStore%5c%22%7d%22%2c%22appName%22%3anull%7d","appName":null}
+
+----------------------------------------
+
+2025/05/12 19:37:09
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44512]:	Info
+Request URL: http://m2f33.xmpiecloud.com/uStoreWSAPI/ProxyWS.asmx/GetProxyData?securityToken=7E8A6298-41CA-49E4-B3C9-E1443B354306, Referrer: , UserAgent: , IP Address: 172.31.204.29, 
+
+----------------------------------------
+
+2025/05/12 19:37:09
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44512]:	Info
+Start BLL.HeliconUtilsCreateMapDictionary
+
+----------------------------------------
+
+2025/05/12 19:37:09
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44512]:	Info
+Start BLL.HeliconUtilsAddOtherProxyDomainsEntriesIfExist. hostsFileIPValue: 
+
+----------------------------------------
+
+2025/05/12 19:37:09
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44512]:	Info
+AddOtherProxyDomainsEntriesIfExist: Domain list number of keys:  6
+
+----------------------------------------
+
+2025/05/12 19:37:09
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44512]:	Info
+Start BLL.HeliconUtilsHandleHeliconThemesMigration
+
+----------------------------------------
+
+2025/05/12 19:37:09
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44512]:	Error
+Failed to create an instance of UProduceConnection from DataRow
+System.ArgumentException: Column 'UProduceUser' does not belong to table Table.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at uStore.Common.BLL.UProduceConnection.InitFromDataRow(DataRow row)
+   at uStore.Common.BLL.UProduceConnection.CreateFromDataRow(DataRow row)
+
+----------------------------------------
+
+2025/05/12 19:37:09
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44512]:	Error
+Failed to create an instance of UProduceConnection from DataRow
+System.ArgumentException: Column 'UProduceUser' does not belong to table Table.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at uStore.Common.BLL.UProduceConnection.InitFromDataRow(DataRow row)
+   at uStore.Common.BLL.UProduceConnection.CreateFromDataRow(DataRow row)
+
+----------------------------------------
+
+2025/05/12 19:37:09
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44512]:	Error
+Failed to create an instance of UProduceConnection from DataRow
+System.ArgumentException: Column 'UProduceUser' does not belong to table Table.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at uStore.Common.BLL.UProduceConnection.InitFromDataRow(DataRow row)
+   at uStore.Common.BLL.UProduceConnection.CreateFromDataRow(DataRow row)
+
+----------------------------------------
+
+2025/05/12 19:37:11
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44512]:	Info
+HandleHeliconThemesMigration: Domain list number of keys:  8
+
+----------------------------------------
+
+2025/05/12 19:37:11
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44512]:	Info
+CreateHostDictionary: ELBConfiguration is activated, hosts file will not be updated
+
+----------------------------------------
+
+2025/05/12 19:37:11
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44512]:	Info
+ Response: {"data":"%7b%22type%22%3a%22mapFile%22%2c%22lastUpdate%22%3a%225%2f12%2f2025+11%3a37%3a11+PM%22%2c%22data%22%3a%22%7b%5c%22mapData%5c%22%3a%7b%5c%22m2f33.xmpiecloud.com%5c%22%3a%5c%22m2f33.xmpiecloud.com%5c%22%2c%5c%22m2f33.xmpiecloud.com%40expose_services%5c%22%3a%5c%22m2f33.xmpiecloud.com%5c%22%2c%5c%22m2f33.xmpiecloud.com%40expose_services_https%5c%22%3a%5c%22True%5c%22%2c%5c%22us717.agstorefront.com%5c%22%3a%5c%22us717.agstorefront.com%5c%22%2c%5c%22us717.agstorefront.com%40expose_services%5c%22%3a%5c%22us717.agstorefront.com%5c%22%2c%5c%22us717.agstorefront.com%40expose_services_https%5c%22%3a%5c%22True%5c%22%2c%5c%22m2f33.xmpiecloud.com%2fAGOnline%40ng_themeNameUniqness%5c%22%3a%5c%22AGOnline_632266a6-9d19-4f23-b329-d14f64c1ea57%5c%22%2c%5c%22us717.agstorefront.com%2fAGOnline%40ng_themeNameUniqness%5c%22%3a%5c%22AGOnline_632266a6-9d19-4f23-b329-d14f64c1ea57%5c%22%7d%2c%5c%22hostData%5c%22%3a%7b%7d%2c%5c%22sectionTagName%5c%22%3a%5c%22USTORE_1c17f22f-ea8f-4664-a2da-bcaf5ff7bded%5c%22%2c%5c%22template%5c%22%3a%5c%22%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23Set+Map+Location%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%5c%5cr%5c%5cnRewriteMap+%7b%7bmapVariableName%7d%7d+txt%3a%7b%7bmapFileFullPath%7d%7d%5c%5cr%5c%5cn%5c%5cr%5c%5cn%3cHelicon%3e%5c%5cr%5c%5cn%5c%5ctProxyConnectTimeout+900%5c%5cr%5c%5cn%5c%5ctProxyReceiveTimeout+900%5c%5cr%5c%5cn%5c%5ctProxySendTimeout+900%5c%5cr%5c%5cn%3c%2fHelicon%3e%5c%5cr%5c%5cn%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteCond+%25%7bREQUEST_URI%7d+%5e((%3f!Global%2fGoogleIndexIndicators).)*%2fgoogle(%5ba-zA-Z0-9%5d%7b15%2c40%7d).html%24++%5bNC%5d%5c%5cr%5c%5cnRewriteProxy+++%5e(.*)google(.*).html%24+http(%3f%251s)%3a%2f%2f%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7d%2fuStoreThemes%2fGlobal%2fGoogleIndexIndicators%2fgoogle%242.html+%5bNC%2cH%2cL%5d%5c%5cr%5c%5cn%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%2f%241%40ng_themeNameUniqness%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteRule++%5e%2fuStoreThemes%2f(%5b%5e%2f%5d%2b)(%2f%7c%2f%5c%5c%5c%5cd%2b%2f)(%5ba-z%5d%7b2%7d-%5ba-z%5d%7b1%2c%7d)%2f(.*)%24+http(%3f%251s)%3a%2f%2f%25%7bHTTP_Host%7d%2fuStoreThemes%2f%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%2f%241%40ng_themeNameUniqness%7d%242%243%2f%244+%5bNC%2cH%2cL%2cR%2cA%2cCR%2cU%5d%5c%5cr%5c%5cn%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteCond+%25%7bREQUEST_URI%7d+%5e%2fuStoreThemes%2f(%5b%5e%2f%5d%2b)(%2f%7c%2f%5c%5c%5c%5cd%2b%2f)(%5ba-z%5d%7b2%7d-%5ba-z%5d%7b1%2c%7d)%2f%3f+%5bNC%5d%5c%5cr%5c%5cnRewriteProxy++%5e%2fuStoreThemes%2f(.*)%24+http(%3f%251s)%3a%2f%2f%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7d%2fuStoreThemes%2f%241+%5bNC%2cH%2cL%5d%5c%5cr%5c%5cn%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteCond+%25%7bREQUEST_URI%7d+%5e%2f(uStoreThemes%7cuStoreThemeCustomizations)%2f%3f+%5bNC%5d%5c%5cr%5c%5cnRewriteProxy++%5e(.*)%3f%2f(.*%5c%5c%5c%5c.%5ba-z0-9%5d%7b1%2c%7d)%24+http(%3f%251s)%3a%2f%2f%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7d%241%2f%242++%5bNC%2cL%5d%5c%5cr%5c%5cn%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteCond+%25%7bHTTP_Host%7d+(.*)%5c%5cr%5c%5cnRewriteProxy+%5e%2fuStoreRestApi(.*)%3f%24+http(%3f%251s)%3a%2f%2f%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7d%2fuStoreRestApi%2f%241+%5bNC%2cH%2cL%2cA%2cCR%5d%5c%5cr%5c%5cn%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+off%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%2f%241%40ng_themeName%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%2f%241%40ng_secured%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteRule+%5e%2f(%5b%5e%2f%5d%2b)%2f(%5ba-z%5d%7b2%7d-%5ba-z%5d%7b1%2c%7d)%2f(.*)%24+https%3a%2f%2f%25%7bHTTP_Host%7d%25%7bREQUEST_URI%7d+%5bNC%2cH%2cL%2cR%2cA%2cCR%2cU%5d%5c%5cr%5c%5cn%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+off%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%40ng_domain_themeName%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%40ng_secured%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteRule+%5e%2f(%5ba-z%5d%7b2%7d-%5ba-z%5d%7b1%2c%7d)%2f(.*)%24+https%3a%2f%2f%25%7bHTTP_Host%7d%25%7bREQUEST_URI%7d+%5bNC%2cH%2cL%2cR%2cA%2cCR%2cU%5d%5c%5cr%5c%5cn%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%40ng_domain_themeName%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteCond+%25%7bREQUEST_URI%7d+!%5e%2f(.*%5c%5c%5c%5c.%5ba-z%5d%7b2%2c%7d)%24+%5bNC%5d%5c%5cr%5c%5cnRewriteProxy+%5e%2f(%5ba-z%5d%7b2%7d-%5ba-z%5d%7b1%2c%7d)%2f(.*)%24+http(%3f%251s)%3a%2f%2f%25%7bHTTP_Host%7d%2fuStoreThemes%2f%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%40ng_domain_themeName%7d%2f%241%2f%242+%5bNC%2cH%2cL%2cA%2cCR%5d%5c%5cr%5c%5cn%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%2f%241%40ng_themeName%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteCond+%25%7bREQUEST_URI%7d+!%5e%2f(.*%5c%5c%5c%5c.%5ba-z%5d%7b2%2c%7d)%24+%5bNC%5d%5c%5cr%5c%5cnRewriteProxy+%5e%2f(%5b%5e%2f%5d%2b)%2f(%5ba-z%5d%7b2%7d-%5ba-z%5d%7b1%2c%7d)%2f(.*)%24+http(%3f%251s)%3a%2f%2f%25%7bHTTP_Host%7d%2fuStoreThemes%2f%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%2f%241%40ng_themeName%7d%2f%242%2f%243+%5bNC%2cH%2cL%2cA%2cCR%5d%5c%5cr%5c%5cn%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%40ng_routing%7cNOT_FOUND%7d+!NOT_FOUND+%5c%5cr%5c%5cnRewriteRule+%5e%2f%24+%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%40ng_routing%7d+%5bNC%2cH%2cL%2cR%5d%5c%5cr%5c%5cn%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%241%242%40ng_routing%7cNOT_FOUND%7d+!NOT_FOUND+%5c%5cr%5c%5cnRewriteRule+%5e(%2f.*)%2f(.*)++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%241%242%40ng_routing%7d+%5bNC%2cH%2cL%2cR%5d+%5c%5cr%5c%5cn%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%241%40ng_routing%7cNOT_FOUND%7d+!NOT_FOUND+%5c%5cr%5c%5cnRewriteRule+%5e(.*)%24+%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%241%40ng_routing%7d+%5bNC%2cH%2cL%2cR%5d%5c%5cr%5c%5cn%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%241%40ng_routing%7cNOT_FOUND%7d+!NOT_FOUND+%5c%5cr%5c%5cnRewriteRule+%5e(.*)%2f(%5ba-z%5d%7b2%7d-%5ba-z%5d%7b1%2c%7d%2f%3f.*)%24+http(%3f%251s)%3a%2f%2fwww.%25%7bHTTP_Host%7d%241%2f%242+%5bNC%2cH%2cL%2cR%5d%5c%5cr%5c%5cn%5c%5cr%5c%5cn%231.%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23Match+Friendly+ID+with+folder+to+Home+Page%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7cNOT_FOUND%7d+!NOT_FOUND+%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%25%7bREQUEST_URI%7d%7cNOT_FOUND%7d+!NOT_FOUND+%5c%5cr%5c%5cnRewriteCond++%25%7bQUERY_STRING%7d%7cNOT_FOUND+%3d%7cNOT_FOUND%5c%5cr%5c%5cnRewriteProxy++%5e(.*)%3f%24+http(%3f%251s)%3a%2f%2f%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7d%2fustore%2f%24%7b%7b%7bmapVariableName%7d%7d%3a(%25%7bHTTP_Host%7d%25%7bREQUEST_URI%7d)%7d%2fHome+%5bNC%2cH%2cL%5d%5c%5cr%5c%5cn%231.1+%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23Match+Friendly+ID+with+folder+and+Query+String%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%25%7bREQUEST_URI%7d%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteProxy+%5e(.*)%3f%24+http(%3f%251s)%3a%2f%2f%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7d%2fustore%241%3fStoreID%3d%24%7b%7b%7bmapVariableName%7d%7d%3a(%25%7bHTTP_Host%7d%241)%7d%26%25%7bQUERY_STRING%7d+%5bNC%2cH%2cL%5d%5c%5cr%5c%5cn%232.%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23Match+only+friendly+ID+to+Home+page%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%40domain_storeId%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteCond++%25%7bQUERY_STRING%7d%7cNOT_FOUND+%3d%7cNOT_FOUND%5c%5cr%5c%5cnRewriteProxy++%5e(%2f)%3f%24+http(%3f%251s)%3a%2f%2f%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7d%2fustore%2f%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%40domain_storeId%7d%2fHome+%5bNC%2cH%2cL%5d%5c%5cr%5c%5cn%233.%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23Match+friendly+ID+within+ustore+application+%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%5c%5cr%5c%5cn%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23without+referencing+the+friendly+folder+%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7cNOT_FOUND%7d+!NOT_FOUND+%5c%5cr%5c%5cnRewriteCond+%25%7bREQUEST_URI%7d+!%2f(uStore.CommonControls%2fservices.*)%24+%5bNC%5d%5c%5cr%5c%5cnRewriteProxy++%5e%2fustore((%5c%5c%5c%5c.%7c%2f).*)%3f%24+http(%3f%251s)%3a%2f%2f%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7d%2fustore%241+%5bNC%2cH%2cL%5d%5c%5cr%5c%5cn%234.%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23Match+2+levels+file+system+with+friendly+folder+name%23%23%23%23%23%23%23%23%23%23%23%23%23%23%5c%5cr%5c%5cn%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23Need+to+verify+correctness+of+%241+back+reference%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7cNOT_FOUND%7d+!NOT_FOUND+%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%241%7cNOT_FOUND%7d+!NOT_FOUND+%5c%5cr%5c%5cnRewriteProxy++%5e(%2f.*)%2f(.*)+http(%3f%251s)%3a%2f%2f%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7d%2fustore%2f%242+%5bNC%2cH%2cL%5d%5c%5cr%5c%5cn%235.%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23Support+with+an+additional+internal+level+of+folders%23%23%23%23%23%23%23%23%23%23%23%23%23%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7cNOT_FOUND%7d+!NOT_FOUND+%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%241%7cNOT_FOUND%7d+!NOT_FOUND+%5c%5cr%5c%5cnRewriteProxy++%5e(%2f.*)%2f(.*)%2f(.*)+http(%3f%251s)%3a%2f%2f%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7d%2fustore%2f%242%2f%243+%5bNC%2cH%2cL%5d%5c%5cr%5c%5cn%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%5c%5cr%5c%5cn%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+off%5c%5cr%5c%5cnRewriteCond+%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%40expose_services_https%7cNOT_FOUND%7d+!NOT_FOUND+%5c%5cr%5c%5cnRewriteCond+%25%7bREQUEST_URI%7d+%5e%2f(uStoreAdmin%7cuStoreWSAPI%7cuStoreUpdate%7cuStoreBackofficeAPI)%2f%3f+%5bNC%5d%5c%5cr%5c%5cnRewriteRule+%5e(.*)%24+https%3a%2f%2f%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%40expose_services%7d%241+%5bNC%2cH%2cL%2cR%2cA%2cCR%2cU%5d%5c%5cr%5c%5cn%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%40expose_services%7cNOT_FOUND%7d+!NOT_FOUND+%5c%5cr%5c%5cnRewriteCond+%25%7bREQUEST_URI%7d+%5e%2f(uStoreAdmin%7cuStoreWSAPI%7cuStoreUpdate%7cuStoreBackofficeRESTAPI)%2f%3f+%5bNC%5d%5c%5cr%5c%5cnRewriteProxy++%5e(.*)%24+http(%3f%251s)%3a%2f%2f%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%40expose_services%7d%241++%5bNC%2cH%2cL%2cA%2cCR%2cU%5d%5c%5cr%5c%5cn%5c%22%2c%5c%22mapFileName%5c%22%3a%5c%22ustoreMap.1c17f22f-ea8f-4664-a2da-bcaf5ff7bded.txt%5c%22%2c%5c%22mapFilePlaceholderName%5c%22%3a%5c%22%7b%7bmapFileFullPath%7d%7d%5c%22%2c%5c%22mapVariablePlaceholderName%5c%22%3a%5c%22%7b%7bmapVariableName%7d%7d%5c%22%2c%5c%22tenantId%5c%22%3a%5c%221c17f22f-ea8f-4664-a2da-bcaf5ff7bded%5c%22%2c%5c%22data%5c%22%3anull%2c%5c%22appName%5c%22%3a%5c%22uStore%5c%22%7d%22%2c%22appName%22%3anull%7d","appName":null}
+
+----------------------------------------
+
+2025/05/12 19:53:31
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27040]:	Info
+Request URL: http://m2f33.xmpiecloud.com/uStoreWSAPI/ProxyWS.asmx/GetProxyData?securityToken=7E8A6298-41CA-49E4-B3C9-E1443B354306, Referrer: , UserAgent: , IP Address: 172.31.204.29, 
+
+----------------------------------------
+
+2025/05/12 19:53:31
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27040]:	Info
+Start BLL.HeliconUtilsCreateMapDictionary
+
+----------------------------------------
+
+2025/05/12 19:53:31
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27040]:	Info
+Start BLL.HeliconUtilsAddOtherProxyDomainsEntriesIfExist. hostsFileIPValue: 
+
+----------------------------------------
+
+2025/05/12 19:53:31
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27040]:	Info
+AddOtherProxyDomainsEntriesIfExist: Domain list number of keys:  6
+
+----------------------------------------
+
+2025/05/12 19:53:31
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27040]:	Info
+Start BLL.HeliconUtilsHandleHeliconThemesMigration
+
+----------------------------------------
+
+2025/05/12 19:53:31
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27040]:	Error
+Failed to create an instance of UProduceConnection from DataRow
+System.ArgumentException: Column 'UProduceUser' does not belong to table Table.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at uStore.Common.BLL.UProduceConnection.InitFromDataRow(DataRow row)
+   at uStore.Common.BLL.UProduceConnection.CreateFromDataRow(DataRow row)
+
+----------------------------------------
+
+2025/05/12 19:53:31
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27040]:	Error
+Failed to create an instance of UProduceConnection from DataRow
+System.ArgumentException: Column 'UProduceUser' does not belong to table Table.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at uStore.Common.BLL.UProduceConnection.InitFromDataRow(DataRow row)
+   at uStore.Common.BLL.UProduceConnection.CreateFromDataRow(DataRow row)
+
+----------------------------------------
+
+2025/05/12 19:53:31
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27040]:	Error
+Failed to create an instance of UProduceConnection from DataRow
+System.ArgumentException: Column 'UProduceUser' does not belong to table Table.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at uStore.Common.BLL.UProduceConnection.InitFromDataRow(DataRow row)
+   at uStore.Common.BLL.UProduceConnection.CreateFromDataRow(DataRow row)
+
+----------------------------------------
+
+2025/05/12 19:53:33
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27040]:	Info
+HandleHeliconThemesMigration: Domain list number of keys:  8
+
+----------------------------------------
+
+2025/05/12 19:53:33
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27040]:	Info
+CreateHostDictionary: ELBConfiguration is activated, hosts file will not be updated
+
+----------------------------------------
+
+2025/05/12 19:53:33
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27040]:	Info
+ Response: {"data":"%7b%22type%22%3a%22mapFile%22%2c%22lastUpdate%22%3a%225%2f12%2f2025+11%3a53%3a33+PM%22%2c%22data%22%3a%22%7b%5c%22mapData%5c%22%3a%7b%5c%22m2f33.xmpiecloud.com%5c%22%3a%5c%22m2f33.xmpiecloud.com%5c%22%2c%5c%22m2f33.xmpiecloud.com%40expose_services%5c%22%3a%5c%22m2f33.xmpiecloud.com%5c%22%2c%5c%22m2f33.xmpiecloud.com%40expose_services_https%5c%22%3a%5c%22True%5c%22%2c%5c%22us717.agstorefront.com%5c%22%3a%5c%22us717.agstorefront.com%5c%22%2c%5c%22us717.agstorefront.com%40expose_services%5c%22%3a%5c%22us717.agstorefront.com%5c%22%2c%5c%22us717.agstorefront.com%40expose_services_https%5c%22%3a%5c%22True%5c%22%2c%5c%22m2f33.xmpiecloud.com%2fAGOnline%40ng_themeNameUniqness%5c%22%3a%5c%22AGOnline_632266a6-9d19-4f23-b329-d14f64c1ea57%5c%22%2c%5c%22us717.agstorefront.com%2fAGOnline%40ng_themeNameUniqness%5c%22%3a%5c%22AGOnline_632266a6-9d19-4f23-b329-d14f64c1ea57%5c%22%7d%2c%5c%22hostData%5c%22%3a%7b%7d%2c%5c%22sectionTagName%5c%22%3a%5c%22USTORE_1c17f22f-ea8f-4664-a2da-bcaf5ff7bded%5c%22%2c%5c%22template%5c%22%3a%5c%22%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23Set+Map+Location%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%5c%5cr%5c%5cnRewriteMap+%7b%7bmapVariableName%7d%7d+txt%3a%7b%7bmapFileFullPath%7d%7d%5c%5cr%5c%5cn%5c%5cr%5c%5cn%3cHelicon%3e%5c%5cr%5c%5cn%5c%5ctProxyConnectTimeout+900%5c%5cr%5c%5cn%5c%5ctProxyReceiveTimeout+900%5c%5cr%5c%5cn%5c%5ctProxySendTimeout+900%5c%5cr%5c%5cn%3c%2fHelicon%3e%5c%5cr%5c%5cn%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteCond+%25%7bREQUEST_URI%7d+%5e((%3f!Global%2fGoogleIndexIndicators).)*%2fgoogle(%5ba-zA-Z0-9%5d%7b15%2c40%7d).html%24++%5bNC%5d%5c%5cr%5c%5cnRewriteProxy+++%5e(.*)google(.*).html%24+http(%3f%251s)%3a%2f%2f%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7d%2fuStoreThemes%2fGlobal%2fGoogleIndexIndicators%2fgoogle%242.html+%5bNC%2cH%2cL%5d%5c%5cr%5c%5cn%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%2f%241%40ng_themeNameUniqness%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteRule++%5e%2fuStoreThemes%2f(%5b%5e%2f%5d%2b)(%2f%7c%2f%5c%5c%5c%5cd%2b%2f)(%5ba-z%5d%7b2%7d-%5ba-z%5d%7b1%2c%7d)%2f(.*)%24+http(%3f%251s)%3a%2f%2f%25%7bHTTP_Host%7d%2fuStoreThemes%2f%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%2f%241%40ng_themeNameUniqness%7d%242%243%2f%244+%5bNC%2cH%2cL%2cR%2cA%2cCR%2cU%5d%5c%5cr%5c%5cn%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteCond+%25%7bREQUEST_URI%7d+%5e%2fuStoreThemes%2f(%5b%5e%2f%5d%2b)(%2f%7c%2f%5c%5c%5c%5cd%2b%2f)(%5ba-z%5d%7b2%7d-%5ba-z%5d%7b1%2c%7d)%2f%3f+%5bNC%5d%5c%5cr%5c%5cnRewriteProxy++%5e%2fuStoreThemes%2f(.*)%24+http(%3f%251s)%3a%2f%2f%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7d%2fuStoreThemes%2f%241+%5bNC%2cH%2cL%5d%5c%5cr%5c%5cn%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteCond+%25%7bREQUEST_URI%7d+%5e%2f(uStoreThemes%7cuStoreThemeCustomizations)%2f%3f+%5bNC%5d%5c%5cr%5c%5cnRewriteProxy++%5e(.*)%3f%2f(.*%5c%5c%5c%5c.%5ba-z0-9%5d%7b1%2c%7d)%24+http(%3f%251s)%3a%2f%2f%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7d%241%2f%242++%5bNC%2cL%5d%5c%5cr%5c%5cn%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteCond+%25%7bHTTP_Host%7d+(.*)%5c%5cr%5c%5cnRewriteProxy+%5e%2fuStoreRestApi(.*)%3f%24+http(%3f%251s)%3a%2f%2f%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7d%2fuStoreRestApi%2f%241+%5bNC%2cH%2cL%2cA%2cCR%5d%5c%5cr%5c%5cn%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+off%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%2f%241%40ng_themeName%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%2f%241%40ng_secured%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteRule+%5e%2f(%5b%5e%2f%5d%2b)%2f(%5ba-z%5d%7b2%7d-%5ba-z%5d%7b1%2c%7d)%2f(.*)%24+https%3a%2f%2f%25%7bHTTP_Host%7d%25%7bREQUEST_URI%7d+%5bNC%2cH%2cL%2cR%2cA%2cCR%2cU%5d%5c%5cr%5c%5cn%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+off%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%40ng_domain_themeName%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%40ng_secured%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteRule+%5e%2f(%5ba-z%5d%7b2%7d-%5ba-z%5d%7b1%2c%7d)%2f(.*)%24+https%3a%2f%2f%25%7bHTTP_Host%7d%25%7bREQUEST_URI%7d+%5bNC%2cH%2cL%2cR%2cA%2cCR%2cU%5d%5c%5cr%5c%5cn%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%40ng_domain_themeName%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteCond+%25%7bREQUEST_URI%7d+!%5e%2f(.*%5c%5c%5c%5c.%5ba-z%5d%7b2%2c%7d)%24+%5bNC%5d%5c%5cr%5c%5cnRewriteProxy+%5e%2f(%5ba-z%5d%7b2%7d-%5ba-z%5d%7b1%2c%7d)%2f(.*)%24+http(%3f%251s)%3a%2f%2f%25%7bHTTP_Host%7d%2fuStoreThemes%2f%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%40ng_domain_themeName%7d%2f%241%2f%242+%5bNC%2cH%2cL%2cA%2cCR%5d%5c%5cr%5c%5cn%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%2f%241%40ng_themeName%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteCond+%25%7bREQUEST_URI%7d+!%5e%2f(.*%5c%5c%5c%5c.%5ba-z%5d%7b2%2c%7d)%24+%5bNC%5d%5c%5cr%5c%5cnRewriteProxy+%5e%2f(%5b%5e%2f%5d%2b)%2f(%5ba-z%5d%7b2%7d-%5ba-z%5d%7b1%2c%7d)%2f(.*)%24+http(%3f%251s)%3a%2f%2f%25%7bHTTP_Host%7d%2fuStoreThemes%2f%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%2f%241%40ng_themeName%7d%2f%242%2f%243+%5bNC%2cH%2cL%2cA%2cCR%5d%5c%5cr%5c%5cn%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%40ng_routing%7cNOT_FOUND%7d+!NOT_FOUND+%5c%5cr%5c%5cnRewriteRule+%5e%2f%24+%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%40ng_routing%7d+%5bNC%2cH%2cL%2cR%5d%5c%5cr%5c%5cn%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%241%242%40ng_routing%7cNOT_FOUND%7d+!NOT_FOUND+%5c%5cr%5c%5cnRewriteRule+%5e(%2f.*)%2f(.*)++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%241%242%40ng_routing%7d+%5bNC%2cH%2cL%2cR%5d+%5c%5cr%5c%5cn%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%241%40ng_routing%7cNOT_FOUND%7d+!NOT_FOUND+%5c%5cr%5c%5cnRewriteRule+%5e(.*)%24+%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%241%40ng_routing%7d+%5bNC%2cH%2cL%2cR%5d%5c%5cr%5c%5cn%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%241%40ng_routing%7cNOT_FOUND%7d+!NOT_FOUND+%5c%5cr%5c%5cnRewriteRule+%5e(.*)%2f(%5ba-z%5d%7b2%7d-%5ba-z%5d%7b1%2c%7d%2f%3f.*)%24+http(%3f%251s)%3a%2f%2fwww.%25%7bHTTP_Host%7d%241%2f%242+%5bNC%2cH%2cL%2cR%5d%5c%5cr%5c%5cn%5c%5cr%5c%5cn%231.%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23Match+Friendly+ID+with+folder+to+Home+Page%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7cNOT_FOUND%7d+!NOT_FOUND+%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%25%7bREQUEST_URI%7d%7cNOT_FOUND%7d+!NOT_FOUND+%5c%5cr%5c%5cnRewriteCond++%25%7bQUERY_STRING%7d%7cNOT_FOUND+%3d%7cNOT_FOUND%5c%5cr%5c%5cnRewriteProxy++%5e(.*)%3f%24+http(%3f%251s)%3a%2f%2f%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7d%2fustore%2f%24%7b%7b%7bmapVariableName%7d%7d%3a(%25%7bHTTP_Host%7d%25%7bREQUEST_URI%7d)%7d%2fHome+%5bNC%2cH%2cL%5d%5c%5cr%5c%5cn%231.1+%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23Match+Friendly+ID+with+folder+and+Query+String%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%25%7bREQUEST_URI%7d%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteProxy+%5e(.*)%3f%24+http(%3f%251s)%3a%2f%2f%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7d%2fustore%241%3fStoreID%3d%24%7b%7b%7bmapVariableName%7d%7d%3a(%25%7bHTTP_Host%7d%241)%7d%26%25%7bQUERY_STRING%7d+%5bNC%2cH%2cL%5d%5c%5cr%5c%5cn%232.%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23Match+only+friendly+ID+to+Home+page%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%40domain_storeId%7cNOT_FOUND%7d+!NOT_FOUND%5c%5cr%5c%5cnRewriteCond++%25%7bQUERY_STRING%7d%7cNOT_FOUND+%3d%7cNOT_FOUND%5c%5cr%5c%5cnRewriteProxy++%5e(%2f)%3f%24+http(%3f%251s)%3a%2f%2f%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7d%2fustore%2f%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%40domain_storeId%7d%2fHome+%5bNC%2cH%2cL%5d%5c%5cr%5c%5cn%233.%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23Match+friendly+ID+within+ustore+application+%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%5c%5cr%5c%5cn%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23without+referencing+the+friendly+folder+%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7cNOT_FOUND%7d+!NOT_FOUND+%5c%5cr%5c%5cnRewriteCond+%25%7bREQUEST_URI%7d+!%2f(uStore.CommonControls%2fservices.*)%24+%5bNC%5d%5c%5cr%5c%5cnRewriteProxy++%5e%2fustore((%5c%5c%5c%5c.%7c%2f).*)%3f%24+http(%3f%251s)%3a%2f%2f%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7d%2fustore%241+%5bNC%2cH%2cL%5d%5c%5cr%5c%5cn%234.%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23Match+2+levels+file+system+with+friendly+folder+name%23%23%23%23%23%23%23%23%23%23%23%23%23%23%5c%5cr%5c%5cn%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23Need+to+verify+correctness+of+%241+back+reference%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7cNOT_FOUND%7d+!NOT_FOUND+%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%241%7cNOT_FOUND%7d+!NOT_FOUND+%5c%5cr%5c%5cnRewriteProxy++%5e(%2f.*)%2f(.*)+http(%3f%251s)%3a%2f%2f%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7d%2fustore%2f%242+%5bNC%2cH%2cL%5d%5c%5cr%5c%5cn%235.%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23Support+with+an+additional+internal+level+of+folders%23%23%23%23%23%23%23%23%23%23%23%23%23%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7cNOT_FOUND%7d+!NOT_FOUND+%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%241%7cNOT_FOUND%7d+!NOT_FOUND+%5c%5cr%5c%5cnRewriteProxy++%5e(%2f.*)%2f(.*)%2f(.*)+http(%3f%251s)%3a%2f%2f%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%7d%2fustore%2f%242%2f%243+%5bNC%2cH%2cL%5d%5c%5cr%5c%5cn%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%5c%5cr%5c%5cn%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+off%5c%5cr%5c%5cnRewriteCond+%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%40expose_services_https%7cNOT_FOUND%7d+!NOT_FOUND+%5c%5cr%5c%5cnRewriteCond+%25%7bREQUEST_URI%7d+%5e%2f(uStoreAdmin%7cuStoreWSAPI%7cuStoreUpdate%7cuStoreBackofficeAPI)%2f%3f+%5bNC%5d%5c%5cr%5c%5cnRewriteRule+%5e(.*)%24+https%3a%2f%2f%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%40expose_services%7d%241+%5bNC%2cH%2cL%2cR%2cA%2cCR%2cU%5d%5c%5cr%5c%5cn%5c%5cr%5c%5cnRewriteCond+%25%7bHTTPS%7d+(on)%3f%5c%5cr%5c%5cnRewriteCond++%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%40expose_services%7cNOT_FOUND%7d+!NOT_FOUND+%5c%5cr%5c%5cnRewriteCond+%25%7bREQUEST_URI%7d+%5e%2f(uStoreAdmin%7cuStoreWSAPI%7cuStoreUpdate%7cuStoreBackofficeRESTAPI)%2f%3f+%5bNC%5d%5c%5cr%5c%5cnRewriteProxy++%5e(.*)%24+http(%3f%251s)%3a%2f%2f%24%7b%7b%7bmapVariableName%7d%7d%3a%25%7bHTTP_Host%7d%40expose_services%7d%241++%5bNC%2cH%2cL%2cA%2cCR%2cU%5d%5c%5cr%5c%5cn%5c%22%2c%5c%22mapFileName%5c%22%3a%5c%22ustoreMap.1c17f22f-ea8f-4664-a2da-bcaf5ff7bded.txt%5c%22%2c%5c%22mapFilePlaceholderName%5c%22%3a%5c%22%7b%7bmapFileFullPath%7d%7d%5c%22%2c%5c%22mapVariablePlaceholderName%5c%22%3a%5c%22%7b%7bmapVariableName%7d%7d%5c%22%2c%5c%22tenantId%5c%22%3a%5c%221c17f22f-ea8f-4664-a2da-bcaf5ff7bded%5c%22%2c%5c%22data%5c%22%3anull%2c%5c%22appName%5c%22%3a%5c%22uStore%5c%22%7d%22%2c%22appName%22%3anull%7d","appName":null}
+
+----------------------------------------
+

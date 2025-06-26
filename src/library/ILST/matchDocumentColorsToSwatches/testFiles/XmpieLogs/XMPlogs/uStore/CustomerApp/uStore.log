@@ -1,0 +1,2437 @@
+2025/05/12 18:28:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[18448]:	Info
+Utils.BasePage.OnPreRender: IsClassicMode:False
+
+----------------------------------------
+
+2025/05/12 18:28:48
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[32760]:	Info
+Method: HandleEvent 
+Parameters: keyPoint=UserLoginInStorefront, xParameters=System.Xml.XmlDocument, mallID=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:02
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[52472]:	Info
+Method: GetCart 
+Parameters: storeID=8, customerID=9584,  
+
+----------------------------------------
+
+2025/05/12 18:29:02
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[52472]:	Info
+Cart order ID is 27057
+
+----------------------------------------
+
+2025/05/12 18:29:02
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[52472]:	Info
+Method: AddOrderProduct 
+Parameters: orderID=27057, productID=6792, quantity=150, isDisplayAsDraft=,  
+
+----------------------------------------
+
+2025/05/12 18:29:02
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[52472]:	Info
+Added Order Product with ID 36673
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Method: GetDialValidationType 
+Parameters: dialID=20114, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+GetDialValidationType returns 0 results
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Method: GetDialValidationType 
+Parameters: dialID=20114, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+GetDialValidationType returns 0 results
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Method: GetDialValidationType 
+Parameters: dialID=20115, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+GetDialValidationType returns 0 results
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Method: GetDialValidationType 
+Parameters: dialID=20115, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+GetDialValidationType returns 0 results
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Method: GetDialValidationType 
+Parameters: dialID=20116, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+GetDialValidationType returns 0 results
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Method: GetDialValidationType 
+Parameters: dialID=20116, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+GetDialValidationType returns 0 results
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Method: GetDialValidationType 
+Parameters: dialID=20117, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+GetDialValidationType returns 0 results
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Method: GetDialValidationType 
+Parameters: dialID=20117, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+GetDialValidationType returns 0 results
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Method: GetDialValidationType 
+Parameters: dialID=20118, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+GetDialValidationType returns 0 results
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Method: GetDialValidationType 
+Parameters: dialID=20118, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+GetDialValidationType returns 0 results
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Method: GetDialValidationType 
+Parameters: dialID=20119, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+GetDialValidationType returns 0 results
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Method: GetDialValidationType 
+Parameters: dialID=20119, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+GetDialValidationType returns 0 results
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Method: GetDialValidationType 
+Parameters: dialID=20120, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+GetDialValidationType returns 0 results
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Method: GetDialValidationType 
+Parameters: dialID=20120, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+GetDialValidationType returns 0 results
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Method: GetDialValidationType 
+Parameters: dialID=21432, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+GetDialValidationType returns 0 results
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Method: GetDialValidationType 
+Parameters: dialID=21432, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+GetDialValidationType returns 0 results
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Method: GetDialValidationType 
+Parameters: dialID=21433, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+GetDialValidationType returns 0 results
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Method: GetDialValidationType 
+Parameters: dialID=21433, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+GetDialValidationType returns 0 results
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Method: GetDialValidationType 
+Parameters: dialID=20121, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+GetDialValidationType returns 0 results
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Method: GetDialValidationType 
+Parameters: dialID=20121, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+GetDialValidationType returns 0 results
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Method: GetCustomizationWizardDetailsByDocID 
+Parameters: docID=6792,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=20114, orderProductID=36673, dialValue=Curana Health, optionID=23364, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Method: AddDialValue 
+Parameters: dialID=20114, orderProductID=36673, dialValue=Curana Health, optionID=23364, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=20115, orderProductID=36673, dialValue=, optionID=, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Method: AddDialValue 
+Parameters: dialID=20115, orderProductID=36673, dialValue=, optionID=, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=20116, orderProductID=36673, dialValue=, optionID=, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Method: AddDialValue 
+Parameters: dialID=20116, orderProductID=36673, dialValue=, optionID=, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=20117, orderProductID=36673, dialValue=O, optionID=, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Method: AddDialValue 
+Parameters: dialID=20117, orderProductID=36673, dialValue=O, optionID=, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=20118, orderProductID=36673, dialValue=, optionID=, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Method: AddDialValue 
+Parameters: dialID=20118, orderProductID=36673, dialValue=, optionID=, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=20119, orderProductID=36673, dialValue=C, optionID=, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Method: AddDialValue 
+Parameters: dialID=20119, orderProductID=36673, dialValue=C, optionID=, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=20120, orderProductID=36673, dialValue=, optionID=, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Method: AddDialValue 
+Parameters: dialID=20120, orderProductID=36673, dialValue=, optionID=, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=21432, orderProductID=36673, dialValue=F, optionID=, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Method: AddDialValue 
+Parameters: dialID=21432, orderProductID=36673, dialValue=F, optionID=, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=21433, orderProductID=36673, dialValue=, optionID=, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Method: AddDialValue 
+Parameters: dialID=21433, orderProductID=36673, dialValue=, optionID=, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=20121, orderProductID=36673, dialValue=, optionID=, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Method: AddDialValue 
+Parameters: dialID=20121, orderProductID=36673, dialValue=, optionID=, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 18:29:04
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+Utils.BasePage.OnPreRender: IsClassicMode:False
+
+----------------------------------------
+
+2025/05/12 18:29:05
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50460]:	Info
+DialController.GetCustomizationModel: CultureID=1, OrderProductID=36673, CustomizationStepID=System.Collections.Generic.List`1[System.Int32]
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: GetDialValidationType 
+Parameters: dialID=20114, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+GetDialValidationType returns 0 results
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: GetDialValidationType 
+Parameters: dialID=20114, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+GetDialValidationType returns 0 results
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: GetDialValidationType 
+Parameters: dialID=20115, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+GetDialValidationType returns 0 results
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: GetDialValidationType 
+Parameters: dialID=20115, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+GetDialValidationType returns 0 results
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: GetDialValidationType 
+Parameters: dialID=20116, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+GetDialValidationType returns 0 results
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: GetDialValidationType 
+Parameters: dialID=20116, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+GetDialValidationType returns 0 results
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: GetDialValidationType 
+Parameters: dialID=20117, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+GetDialValidationType returns 0 results
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: GetDialValidationType 
+Parameters: dialID=20117, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+GetDialValidationType returns 0 results
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: GetDialValidationType 
+Parameters: dialID=20118, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+GetDialValidationType returns 0 results
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: GetDialValidationType 
+Parameters: dialID=20118, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+GetDialValidationType returns 0 results
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: GetDialValidationType 
+Parameters: dialID=20119, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+GetDialValidationType returns 0 results
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: GetDialValidationType 
+Parameters: dialID=20119, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+GetDialValidationType returns 0 results
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: GetDialValidationType 
+Parameters: dialID=20120, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+GetDialValidationType returns 0 results
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: GetDialValidationType 
+Parameters: dialID=20120, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+GetDialValidationType returns 0 results
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: GetDialValidationType 
+Parameters: dialID=21432, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+GetDialValidationType returns 0 results
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: GetDialValidationType 
+Parameters: dialID=21432, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+GetDialValidationType returns 0 results
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: GetDialValidationType 
+Parameters: dialID=21433, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+GetDialValidationType returns 0 results
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: GetDialValidationType 
+Parameters: dialID=21433, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+GetDialValidationType returns 0 results
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: GetDialValidationType 
+Parameters: dialID=20121, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+GetDialValidationType returns 0 results
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: GetDialValidationType 
+Parameters: dialID=20121, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+GetDialValidationType returns 0 results
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=20114, orderProductID=36673, dialValue=Curana Health, optionID=23364, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=20115, orderProductID=36673, dialValue=Amanda Gillespie, MSN, ANP-C, optionID=, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=20116, orderProductID=36673, dialValue=Director, Clinical Technology Strategy, optionID=, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=20117, orderProductID=36673, dialValue=O, optionID=, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=20118, orderProductID=36673, dialValue=, optionID=, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=20119, orderProductID=36673, dialValue=C, optionID=, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=20120, orderProductID=36673, dialValue=, optionID=, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=21432, orderProductID=36673, dialValue=F, optionID=, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=21433, orderProductID=36673, dialValue=, optionID=, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=20121, orderProductID=36673, dialValue=amanda.gillespie@curanahealth.com, optionID=, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=20114, orderProductID=36673, dialValue=Curana Health, optionID=23364, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=20115, orderProductID=36673, dialValue=Amanda Gillespie, MSN, ANP-C, optionID=, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=20116, orderProductID=36673, dialValue=Director, Clinical Technology Strategy, optionID=, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=20117, orderProductID=36673, dialValue=O, optionID=, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=20118, orderProductID=36673, dialValue=, optionID=, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=20119, orderProductID=36673, dialValue=C, optionID=, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=20120, orderProductID=36673, dialValue=, optionID=, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=21432, orderProductID=36673, dialValue=F, optionID=, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=21433, orderProductID=36673, dialValue=, optionID=, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=20121, orderProductID=36673, dialValue=amanda.gillespie@curanahealth.com, optionID=, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 18:29:31
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[18448]:	Info
+Method: GetDialValidationType 
+Parameters: dialID=20112, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:31
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[18448]:	Info
+GetDialValidationType returns 0 results
+
+----------------------------------------
+
+2025/05/12 18:29:31
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[18448]:	Info
+Method: GetDialValidationType 
+Parameters: dialID=20112, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:31
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[18448]:	Info
+GetDialValidationType returns 0 results
+
+----------------------------------------
+
+2025/05/12 18:29:31
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[18448]:	Info
+Method: GetDialValidationType 
+Parameters: dialID=20113, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:31
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[18448]:	Info
+GetDialValidationType returns 0 results
+
+----------------------------------------
+
+2025/05/12 18:29:31
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[18448]:	Info
+Method: GetDialValidationType 
+Parameters: dialID=20113, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:31
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[18448]:	Info
+GetDialValidationType returns 0 results
+
+----------------------------------------
+
+2025/05/12 18:29:31
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[18448]:	Info
+Method: Execute 
+Parameters: orderProductID=36673, productId=6792, numRecipients=1, numCopies=150, recipientListPrice=0, deliveryMethodID=1, deliveryPrice=0, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32], allPropertyValues=System.Collections.Generic.Dictionary`2[System.Int32,System.String],  
+
+----------------------------------------
+
+2025/05/12 18:29:31
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[18448]:	Info
+Method: Execute 
+Parameters: orderProductID=36673, productId=6792, numRecipients=1, numCopies=150, recipientListPrice=0, deliveryMethodID=1, deliveryPrice=0, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32],  
+
+----------------------------------------
+
+2025/05/12 18:29:31
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[18448]:	Info
+PricingEngine -> Execute propertyValueDict parameter number of items: 2
+
+----------------------------------------
+
+2025/05/12 18:29:31
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[18448]:	Info
+PricingEngine -> Execute XmlDocument result: <PriceTags isCalculated="True"><TotalQuantity name="Total Quantity:" value="150 Items" price="-1" HideAbrv="true" /><PriceTag name="Fixed Price:" value="$0.00" price="0.00000" /><PricePerUnit name="Price Per Item:" value="$0.36" price="0.35527" /><DeliveryPrice name="Total Delivery Price:" value="Will be calculated during checkout" price="0" AddPriceExplanation="Price_Explain" /><TotalPrice name="Total Price:" value="$53.29" price="53.29050" /></PriceTags>
+
+----------------------------------------
+
+2025/05/12 18:29:31
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[18448]:	Info
+PricingEngine -> CalculateMinPrice minPrice result: 53.29050, bool result: False
+
+----------------------------------------
+
+2025/05/12 18:29:32
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[18448]:	Info
+Utils.BasePage.OnPreRender: IsClassicMode:False
+
+----------------------------------------
+
+2025/05/12 18:29:34
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[14908]:	Info
+DialController.GetPropertiesModel: CultureID=1, EncryptedOrderProductID=+hy/poxCasB4WsqCJgm/wKWpJ3ZLgYmFVT1cl2lzfRo=
+
+----------------------------------------
+
+2025/05/12 18:29:34
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[14908]:	Info
+DialController.GetPropertiesModel: CultureID=1, OrderProductID=36673
+
+----------------------------------------
+
+2025/05/12 18:29:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: GetDialValidationType 
+Parameters: dialID=20112, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+GetDialValidationType returns 0 results
+
+----------------------------------------
+
+2025/05/12 18:29:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: GetDialValidationType 
+Parameters: dialID=20112, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+GetDialValidationType returns 0 results
+
+----------------------------------------
+
+2025/05/12 18:29:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: GetDialValidationType 
+Parameters: dialID=20113, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+GetDialValidationType returns 0 results
+
+----------------------------------------
+
+2025/05/12 18:29:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: GetDialValidationType 
+Parameters: dialID=20113, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+GetDialValidationType returns 0 results
+
+----------------------------------------
+
+2025/05/12 18:29:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: Execute 
+Parameters: orderProductID=36673, productId=6792, numRecipients=1, numCopies=150, recipientListPrice=0, deliveryMethodID=1, deliveryPrice=0, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32], allPropertyValues=System.Collections.Generic.Dictionary`2[System.Int32,System.String],  
+
+----------------------------------------
+
+2025/05/12 18:29:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: Execute 
+Parameters: orderProductID=36673, productId=6792, numRecipients=1, numCopies=150, recipientListPrice=0, deliveryMethodID=1, deliveryPrice=0, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32],  
+
+----------------------------------------
+
+2025/05/12 18:29:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+PricingEngine -> Execute propertyValueDict parameter number of items: 2
+
+----------------------------------------
+
+2025/05/12 18:29:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+PricingEngine -> Execute XmlDocument result: <PriceTags isCalculated="True"><TotalQuantity name="Total Quantity:" value="150 Items" price="-1" HideAbrv="true" /><PriceTag name="Fixed Price:" value="$0.00" price="0.00000" /><PricePerUnit name="Price Per Item:" value="$0.36" price="0.35527" /><DeliveryPrice name="Total Delivery Price:" value="Will be calculated during checkout" price="0" AddPriceExplanation="Price_Explain" /><TotalPrice name="Total Price:" value="$53.29" price="53.29050" /></PriceTags>
+
+----------------------------------------
+
+2025/05/12 18:29:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+PricingEngine -> CalculateMinPrice minPrice result: 53.29050, bool result: False
+
+----------------------------------------
+
+2025/05/12 18:29:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=20112, orderProductID=36673, dialValue= , optionID=23351, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 18:29:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: AddDialValue 
+Parameters: dialID=20112, orderProductID=36673, dialValue= , optionID=23351, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 18:29:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: UpdateDialValue 
+Parameters: dialID=20113, orderProductID=36673, dialValue=True, optionID=23352, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Result isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 18:29:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: AddDialValue 
+Parameters: dialID=20113, orderProductID=36673, dialValue=True, optionID=23352, cultureID=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+DialValue ID isMaxValue=2147483647, MinValue=-2147483648,  
+
+----------------------------------------
+
+2025/05/12 18:29:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: GetCart 
+Parameters: storeID=8, customerID=9584,  
+
+----------------------------------------
+
+2025/05/12 18:29:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Cart order ID is 27057
+
+----------------------------------------
+
+2025/05/12 18:29:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Method: HandleEvent 
+Parameters: keyPoint=OrderProductEntersShoppingCart, xParameters=System.Xml.XmlDocument, mallID=1,  
+
+----------------------------------------
+
+2025/05/12 18:29:52
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[18448]:	Info
+Method: GetSaveForLater 
+Parameters: storeID=8, customerID=9584,  
+
+----------------------------------------
+
+2025/05/12 18:29:52
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[18448]:	Info
+SaveForLater cart order ID is 24559
+
+----------------------------------------
+
+2025/05/12 18:29:53
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[18448]:	Info
+Method: ExecuteNonXML 
+Parameters: orderProductID=36673, productId=6792, numRecipients=1, numCopies=150, recipientListPrice=0, deliveryMethodID=1, deliveryPrice=0, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32],  
+
+----------------------------------------
+
+2025/05/12 18:29:53
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[18448]:	Info
+DefaultPricingEngine -> ExecuteNonXML propertyValueDict parameter number of items: 2
+
+----------------------------------------
+
+2025/05/12 18:29:53
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[18448]:	Info
+DefaultPricingEngine -> ExecuteNonXML allPropertyValues parameter number of items: 2
+
+----------------------------------------
+
+2025/05/12 18:29:53
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[18448]:	Info
+DefaultPricingEngine -> ExecuteNonXML totalPrice result: 53.29050
+
+----------------------------------------
+
+2025/05/12 18:29:53
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[18448]:	Info
+DefaultPricingEngine -> ExecuteNonXML pricePerRecipient result: 53.29050
+
+----------------------------------------
+
+2025/05/12 18:29:53
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[18448]:	Info
+DefaultPricingEngine -> ExecuteNonXML productSubtotal result: 53.29050
+
+----------------------------------------
+
+2025/05/12 18:29:53
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[18448]:	Info
+DefaultPricingEngine -> ExecuteNonXML isCalculated result: True
+
+----------------------------------------
+
+2025/05/12 18:29:53
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[18448]:	Info
+Method: GetSaveForLater 
+Parameters: storeID=8, customerID=9584,  
+
+----------------------------------------
+
+2025/05/12 18:29:53
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[18448]:	Info
+SaveForLater cart order ID is 24559
+
+----------------------------------------
+
+2025/05/12 18:29:53
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[18448]:	Info
+Utils.BasePage.OnPreRender: IsClassicMode:False
+
+----------------------------------------
+
+2025/05/12 18:30:20
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[19332]:	Info
+Method: GetSaveForLater 
+Parameters: storeID=8, customerID=9584,  
+
+----------------------------------------
+
+2025/05/12 18:30:20
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[19332]:	Info
+SaveForLater cart order ID is 24559
+
+----------------------------------------
+
+2025/05/12 18:30:20
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[19332]:	Info
+Method: ExecuteNonXML 
+Parameters: orderProductID=36673, productId=6792, numRecipients=1, numCopies=150, recipientListPrice=0, deliveryMethodID=1, deliveryPrice=0, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32],  
+
+----------------------------------------
+
+2025/05/12 18:30:20
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[19332]:	Info
+DefaultPricingEngine -> ExecuteNonXML propertyValueDict parameter number of items: 2
+
+----------------------------------------
+
+2025/05/12 18:30:20
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[19332]:	Info
+DefaultPricingEngine -> ExecuteNonXML allPropertyValues parameter number of items: 2
+
+----------------------------------------
+
+2025/05/12 18:30:20
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[19332]:	Info
+DefaultPricingEngine -> ExecuteNonXML totalPrice result: 53.29050
+
+----------------------------------------
+
+2025/05/12 18:30:20
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[19332]:	Info
+DefaultPricingEngine -> ExecuteNonXML pricePerRecipient result: 53.29050
+
+----------------------------------------
+
+2025/05/12 18:30:20
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[19332]:	Info
+DefaultPricingEngine -> ExecuteNonXML productSubtotal result: 53.29050
+
+----------------------------------------
+
+2025/05/12 18:30:20
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[19332]:	Info
+DefaultPricingEngine -> ExecuteNonXML isCalculated result: True
+
+----------------------------------------
+
+2025/05/12 18:30:20
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[19332]:	Info
+Method: GetSaveForLater 
+Parameters: storeID=8, customerID=9584,  
+
+----------------------------------------
+
+2025/05/12 18:30:20
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[19332]:	Info
+SaveForLater cart order ID is 24559
+
+----------------------------------------
+
+2025/05/12 18:30:21
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[31008]:	Info
+Manual Shipping Price calculation per service:
+DeliveryService:Standard, fixedAddressID:-1, productID:6792, totalUnits:150, deliveryPrice:0.00000
+
+
+----------------------------------------
+
+2025/05/12 18:30:21
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57464]:	Info
+GetServicesAndPrices is done for Order ID=27057.
+
+----------------------------------------
+
+2025/05/12 18:30:21
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57464]:	Info
+Utils.BasePage.OnPreRender: IsClassicMode:False
+
+----------------------------------------
+
+2025/05/12 18:31:11
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[17976]:	Info
+Manual Shipping Price calculation per service:
+DeliveryService:Standard, fixedAddressID:-1, productID:6792, totalUnits:150, deliveryPrice:0.00000
+
+
+----------------------------------------
+
+2025/05/12 18:31:11
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[19332]:	Info
+GetServicesAndPrices is done for Order ID=27057.
+
+----------------------------------------
+
+2025/05/12 18:31:11
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[19332]:	Info
+Utils.BasePage.OnPreRender: IsClassicMode:False
+
+----------------------------------------
+
+2025/05/12 18:31:24
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[5308]:	Info
+Setting shipments for order #27057
+
+----------------------------------------
+
+2025/05/12 18:31:24
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[5308]:	Info
+Added new shipment
+
+----------------------------------------
+
+2025/05/12 18:31:24
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[5308]:	Info
+Added 1 shipments
+
+----------------------------------------
+
+2025/05/12 18:31:25
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57464]:	Info
+Method: ExecuteNonXML 
+Parameters: orderProductID=36673, productId=6792, numRecipients=1, numCopies=150, recipientListPrice=0, deliveryMethodID=1, deliveryPrice=0, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32],  
+
+----------------------------------------
+
+2025/05/12 18:31:25
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57464]:	Info
+DefaultPricingEngine -> ExecuteNonXML propertyValueDict parameter number of items: 2
+
+----------------------------------------
+
+2025/05/12 18:31:25
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57464]:	Info
+DefaultPricingEngine -> ExecuteNonXML allPropertyValues parameter number of items: 2
+
+----------------------------------------
+
+2025/05/12 18:31:25
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57464]:	Info
+DefaultPricingEngine -> ExecuteNonXML totalPrice result: 53.29050
+
+----------------------------------------
+
+2025/05/12 18:31:25
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57464]:	Info
+DefaultPricingEngine -> ExecuteNonXML pricePerRecipient result: 53.29050
+
+----------------------------------------
+
+2025/05/12 18:31:25
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57464]:	Info
+DefaultPricingEngine -> ExecuteNonXML productSubtotal result: 53.29050
+
+----------------------------------------
+
+2025/05/12 18:31:25
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57464]:	Info
+DefaultPricingEngine -> ExecuteNonXML isCalculated result: True
+
+----------------------------------------
+
+2025/05/12 18:31:25
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57464]:	Info
+Checkout Order Price:
+RecipientList=0, Discount=0, Subtotal=53.29050, Delivery=0.00, Total=53.29050, TotalTax=0, ShippingCharges=0.00, Cost=0.00000, RoundingAmount=0, Taxes=System.Collections.Generic.Dictionary`2+ValueCollection[System.Int32,uStore.Common.BLL.Tax+TaxInfo], TaxItems=System.Collections.Generic.Dictionary`2+ValueCollection[System.Int32,uStore.Common.BLL.Tax+TaxItem], TaxDetailsXML=System.Xml.XmlDocument, HasRounding=False,  
+
+----------------------------------------
+
+2025/05/12 18:31:25
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57464]:	Info
+Method: ExecuteNonXML 
+Parameters: orderProductID=36673, productId=6792, numRecipients=1, numCopies=150, recipientListPrice=0, deliveryMethodID=1, deliveryPrice=0, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32],  
+
+----------------------------------------
+
+2025/05/12 18:31:25
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57464]:	Info
+DefaultPricingEngine -> ExecuteNonXML propertyValueDict parameter number of items: 2
+
+----------------------------------------
+
+2025/05/12 18:31:25
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57464]:	Info
+DefaultPricingEngine -> ExecuteNonXML allPropertyValues parameter number of items: 2
+
+----------------------------------------
+
+2025/05/12 18:31:25
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57464]:	Info
+DefaultPricingEngine -> ExecuteNonXML totalPrice result: 53.29050
+
+----------------------------------------
+
+2025/05/12 18:31:25
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57464]:	Info
+DefaultPricingEngine -> ExecuteNonXML pricePerRecipient result: 53.29050
+
+----------------------------------------
+
+2025/05/12 18:31:25
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57464]:	Info
+DefaultPricingEngine -> ExecuteNonXML productSubtotal result: 53.29050
+
+----------------------------------------
+
+2025/05/12 18:31:25
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57464]:	Info
+DefaultPricingEngine -> ExecuteNonXML isCalculated result: True
+
+----------------------------------------
+
+2025/05/12 18:31:25
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57464]:	Info
+Method: GetLocalizedString 
+Parameters: stringId=PurchaseOrder_Clearing_Label, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 18:31:25
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57464]:	Info
+GetLocalizedString returned: Purchase Order:
+
+----------------------------------------
+
+2025/05/12 18:31:25
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57464]:	Info
+Utils.BasePage.OnPreRender: IsClassicMode:False
+
+----------------------------------------
+
+2025/05/12 18:31:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[31008]:	Info
+Method: ExecuteNonXML 
+Parameters: orderProductID=36673, productId=6792, numRecipients=1, numCopies=150, recipientListPrice=0, deliveryMethodID=1, deliveryPrice=0, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32],  
+
+----------------------------------------
+
+2025/05/12 18:31:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[31008]:	Info
+DefaultPricingEngine -> ExecuteNonXML propertyValueDict parameter number of items: 2
+
+----------------------------------------
+
+2025/05/12 18:31:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[31008]:	Info
+DefaultPricingEngine -> ExecuteNonXML allPropertyValues parameter number of items: 2
+
+----------------------------------------
+
+2025/05/12 18:31:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[31008]:	Info
+DefaultPricingEngine -> ExecuteNonXML totalPrice result: 53.29050
+
+----------------------------------------
+
+2025/05/12 18:31:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[31008]:	Info
+DefaultPricingEngine -> ExecuteNonXML pricePerRecipient result: 53.29050
+
+----------------------------------------
+
+2025/05/12 18:31:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[31008]:	Info
+DefaultPricingEngine -> ExecuteNonXML productSubtotal result: 53.29050
+
+----------------------------------------
+
+2025/05/12 18:31:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[31008]:	Info
+DefaultPricingEngine -> ExecuteNonXML isCalculated result: True
+
+----------------------------------------
+
+2025/05/12 18:31:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[31008]:	Info
+Checkout Order Price:
+RecipientList=0, Discount=0, Subtotal=53.29050, Delivery=0.00, Total=53.29050, TotalTax=0, ShippingCharges=0.00, Cost=0.00000, RoundingAmount=0, Taxes=System.Collections.Generic.Dictionary`2+ValueCollection[System.Int32,uStore.Common.BLL.Tax+TaxInfo], TaxItems=System.Collections.Generic.Dictionary`2+ValueCollection[System.Int32,uStore.Common.BLL.Tax+TaxItem], TaxDetailsXML=System.Xml.XmlDocument, HasRounding=False,  
+
+----------------------------------------
+
+2025/05/12 18:31:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[31008]:	Info
+Method: GetLocalizedString 
+Parameters: stringId=PurchaseOrder_Clearing_Label, cultureId=1,  
+
+----------------------------------------
+
+2025/05/12 18:31:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[31008]:	Info
+GetLocalizedString returned: Purchase Order:
+
+----------------------------------------
+
+2025/05/12 18:31:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[31008]:	Info
+Method: ExecuteNonXML 
+Parameters: orderProductID=36673, productId=6792, numRecipients=1, numCopies=150, recipientListPrice=0, deliveryMethodID=1, deliveryPrice=0, propertyValueDict=System.Collections.Generic.Dictionary`2[System.Int32,System.Int32],  
+
+----------------------------------------
+
+2025/05/12 18:31:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[31008]:	Info
+DefaultPricingEngine -> ExecuteNonXML propertyValueDict parameter number of items: 2
+
+----------------------------------------
+
+2025/05/12 18:31:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[31008]:	Info
+DefaultPricingEngine -> ExecuteNonXML allPropertyValues parameter number of items: 2
+
+----------------------------------------
+
+2025/05/12 18:31:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[31008]:	Info
+DefaultPricingEngine -> ExecuteNonXML totalPrice result: 53.29050
+
+----------------------------------------
+
+2025/05/12 18:31:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[31008]:	Info
+DefaultPricingEngine -> ExecuteNonXML pricePerRecipient result: 53.29050
+
+----------------------------------------
+
+2025/05/12 18:31:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[31008]:	Info
+DefaultPricingEngine -> ExecuteNonXML productSubtotal result: 53.29050
+
+----------------------------------------
+
+2025/05/12 18:31:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[31008]:	Info
+DefaultPricingEngine -> ExecuteNonXML isCalculated result: True
+
+----------------------------------------
+
+2025/05/12 18:31:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[31008]:	Info
+Starting to checkout order #27057
+
+----------------------------------------
+
+2025/05/12 18:31:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[31008]:	Info
+Adding 1 tentative deliveries to order #27057
+
+----------------------------------------
+
+2025/05/12 18:31:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[31008]:	Info
+Commited checkout of order #27057
+
+----------------------------------------
+
+2025/05/12 18:31:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[31008]:	Info
+Utils.BasePage.OnPreRender: IsClassicMode:False
+
+----------------------------------------
+
+2025/05/12 18:31:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15572]:	Info
+Method: HandleEvent 
+Parameters: keyPoint=StateTransition, xParameters=System.Xml.XmlDocument, mallID=1,  
+
+----------------------------------------
+
+2025/05/12 18:31:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15572]:	Info
+The following action rule is executed for event StateTransition: MallId=1, UserId=0, RuleName=Auto-Launch XM Campaigns, RuleDesc=, FilterPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, ActionPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, EventId=3, ActionRuleId=67, FilterPluginId=603, ActionPluginId=602, IsSystemRule=False, StatusId=1,  
+
+----------------------------------------
+
+2025/05/12 18:31:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15572]:	Info
+The following action rule is executed for event StateTransition: MallId=1, UserId=0, RuleName=Order Pending to Prepare, RuleDesc=, FilterPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, ActionPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, EventId=3, ActionRuleId=10000, FilterPluginId=10244, ActionPluginId=10243, IsSystemRule=False, StatusId=1,  
+
+----------------------------------------
+
+2025/05/12 18:31:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15572]:	Info
+Method: HandleEvent 
+Parameters: keyPoint=StateTransition, xParameters=System.Xml.XmlDocument, mallID=1,  
+
+----------------------------------------
+
+2025/05/12 18:31:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15572]:	Info
+The following action rule is executed for event StateTransition: MallId=1, UserId=0, RuleName=Auto-Launch XM Campaigns, RuleDesc=, FilterPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, ActionPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, EventId=3, ActionRuleId=67, FilterPluginId=603, ActionPluginId=602, IsSystemRule=False, StatusId=1,  
+
+----------------------------------------
+
+2025/05/12 18:31:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15572]:	Info
+The following action rule is executed for event StateTransition: MallId=1, UserId=0, RuleName=Order Pending to Prepare, RuleDesc=, FilterPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, ActionPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, EventId=3, ActionRuleId=10000, FilterPluginId=10244, ActionPluginId=10243, IsSystemRule=False, StatusId=1,  
+
+----------------------------------------
+
+2025/05/12 18:31:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15572]:	Info
+The following action rule is executed for event StateTransition: MallId=1, UserId=0, RuleName=Ready to Produce and Process, RuleDesc=, FilterPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, ActionPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, EventId=3, ActionRuleId=10001, FilterPluginId=10246, ActionPluginId=10245, IsSystemRule=False, StatusId=1,  
+
+----------------------------------------
+
+2025/05/12 18:31:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[14908]:	Info
+Utils.BasePage.OnPreRender: IsClassicMode:False
+
+----------------------------------------
+
+2025/05/12 18:31:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15572]:	Info
+Method: HandleEvent 
+Parameters: keyPoint=StateTransition, xParameters=System.Xml.XmlDocument, mallID=1,  
+
+----------------------------------------
+
+2025/05/12 18:31:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15572]:	Info
+The following action rule is executed for event StateTransition: MallId=1, UserId=0, RuleName=Auto-Launch XM Campaigns, RuleDesc=, FilterPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, ActionPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, EventId=3, ActionRuleId=67, FilterPluginId=603, ActionPluginId=602, IsSystemRule=False, StatusId=1,  
+
+----------------------------------------
+
+2025/05/12 18:31:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15572]:	Info
+The following action rule is executed for event StateTransition: MallId=1, UserId=0, RuleName=Order Pending to Prepare, RuleDesc=, FilterPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, ActionPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, EventId=3, ActionRuleId=10000, FilterPluginId=10244, ActionPluginId=10243, IsSystemRule=False, StatusId=1,  
+
+----------------------------------------
+
+2025/05/12 18:31:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15572]:	Info
+The following action rule is executed for event StateTransition: MallId=1, UserId=0, RuleName=Ready to Produce and Process, RuleDesc=, FilterPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, ActionPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, EventId=3, ActionRuleId=10001, FilterPluginId=10246, ActionPluginId=10245, IsSystemRule=False, StatusId=1,  
+
+----------------------------------------
+
+2025/05/12 18:31:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15572]:	Info
+The following action rule is executed for event StateTransition: MallId=1, UserId=0, RuleName=Order Move after delivery step 1, RuleDesc=, FilterPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, ActionPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, EventId=3, ActionRuleId=10002, FilterPluginId=10340, ActionPluginId=10339, IsSystemRule=False, StatusId=1,  
+
+----------------------------------------
+
+2025/05/12 18:31:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15572]:	Info
+The following action rule is executed for event StateTransition: MallId=1, UserId=0, RuleName=Order move after delivered step 2, RuleDesc=, FilterPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, ActionPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, EventId=3, ActionRuleId=10003, FilterPluginId=10342, ActionPluginId=10341, IsSystemRule=False, StatusId=1,  
+
+----------------------------------------
+
+2025/05/12 18:31:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15572]:	Info
+The following action rule is executed for event StateTransition: MallId=1, UserId=0, RuleName=Order Move after delivery step 1, RuleDesc=, FilterPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, ActionPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, EventId=3, ActionRuleId=10002, FilterPluginId=10340, ActionPluginId=10339, IsSystemRule=False, StatusId=1,  
+
+----------------------------------------
+
+2025/05/12 18:31:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15572]:	Info
+The following action rule is executed for event StateTransition: MallId=1, UserId=0, RuleName=Order move after delivered step 2, RuleDesc=, FilterPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, ActionPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, EventId=3, ActionRuleId=10003, FilterPluginId=10342, ActionPluginId=10341, IsSystemRule=False, StatusId=1,  
+
+----------------------------------------
+
+2025/05/12 18:31:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15572]:	Info
+The following action rule is executed for event StateTransition: MallId=1, UserId=0, RuleName=Ready to Produce and Process, RuleDesc=, FilterPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, ActionPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, EventId=3, ActionRuleId=10001, FilterPluginId=10246, ActionPluginId=10245, IsSystemRule=False, StatusId=1,  
+
+----------------------------------------
+
+2025/05/12 18:31:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15572]:	Info
+The following action rule is executed for event StateTransition: MallId=1, UserId=0, RuleName=Order Move after delivery step 1, RuleDesc=, FilterPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, ActionPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, EventId=3, ActionRuleId=10002, FilterPluginId=10340, ActionPluginId=10339, IsSystemRule=False, StatusId=1,  
+
+----------------------------------------
+
+2025/05/12 18:31:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15572]:	Info
+The following action rule is executed for event StateTransition: MallId=1, UserId=0, RuleName=Order move after delivered step 2, RuleDesc=, FilterPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, ActionPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, EventId=3, ActionRuleId=10003, FilterPluginId=10342, ActionPluginId=10341, IsSystemRule=False, StatusId=1,  
+
+----------------------------------------
+
+2025/05/12 18:31:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15572]:	Info
+Method: HandleEvent 
+Parameters: keyPoint=OrderReadyForFulfillment, xParameters=System.Xml.XmlDocument, mallID=1,  
+
+----------------------------------------
+
+2025/05/12 18:31:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15572]:	Info
+Method: HandleEvent 
+Parameters: keyPoint=CheckoutComplete, xParameters=System.Xml.XmlDocument, mallID=1,  
+
+----------------------------------------
+
+2025/05/12 18:31:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15572]:	Info
+The following action rule is executed for event CheckoutComplete: MallId=1, UserId=0, RuleName=Sending mail when an order submitted, RuleDesc=, FilterPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, ActionPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, EventId=4, ActionRuleId=41, FilterPluginId=333, ActionPluginId=332, IsSystemRule=False, StatusId=1,  
+
+----------------------------------------
+
+2025/05/12 18:31:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15572]:	Info
+The following action rule is executed for event CheckoutComplete: MallId=1, UserId=0, RuleName=PrintSmith Integration New, RuleDesc=, FilterPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, ActionPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, EventId=4, ActionRuleId=10010, FilterPluginId=10583, ActionPluginId=10582, IsSystemRule=False, StatusId=1,  
+
+----------------------------------------
+
+2025/05/12 18:31:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[15572]:	Info
+The following action rule is executed for event CheckoutComplete: MallId=1, UserId=0, RuleName=Monday Trigger - Curana Health, RuleDesc=Trigger to Monday for Curana orders only, FilterPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, ActionPlugin=uStore.Common.BLL.Plugin.ConfiguredPluginDef, EventId=4, ActionRuleId=10011, FilterPluginId=14611, ActionPluginId=14610, IsSystemRule=False, StatusId=1,  
+
+----------------------------------------
+
+2025/05/12 18:31:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[18448]:	Info
+Sending email using uStore SMTP server.
+
+----------------------------------------
+
+2025/05/12 18:31:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[18448]:	Info
+Method: AddEmailRecipient 
+Parameters: emailParams=com.xmpie.uStore.EmailSender.EmailParams, emailRecipients=, eMailAddress=christin.wallace@curanahealth.com, displayName=christin.wallace@curanahealth.com, addressType=ToAddressee,  
+
+----------------------------------------
+
+2025/05/12 18:31:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[18448]:	Info
+Method: AddEmailRecipient 
+Parameters: emailParams=com.xmpie.uStore.EmailSender.EmailParams, emailRecipients=, eMailAddress=lswitzer@alphagraphics.com, displayName=lswitzer@alphagraphics.com, addressType=ToAddressee,  
+
+----------------------------------------
+
+2025/05/12 18:31:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[18448]:	Info
+Method: AddEmailRecipient 
+Parameters: emailParams=com.xmpie.uStore.EmailSender.EmailParams, emailRecipients=, eMailAddress=tjenkins@alphagraphics.com, displayName=tjenkins@alphagraphics.com, addressType=ToAddressee,  
+
+----------------------------------------
+
+2025/05/12 18:31:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[18448]:	Info
+Method: AddEmailRecipient 
+Parameters: emailParams=com.xmpie.uStore.EmailSender.EmailParams, emailRecipients=, eMailAddress=admin@uStoreDomain.com, displayName=admin@uStoreDomain.com, addressType=ToAddressee,  
+
+----------------------------------------
+
+2025/05/12 18:31:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[18448]:	Info
+Method: AddEmailRecipient 
+Parameters: emailParams=com.xmpie.uStore.EmailSender.EmailParams, emailRecipients=, eMailAddress=us717@alphagraphics.com, displayName=us717@alphagraphics.com, addressType=ToAddressee,  
+
+----------------------------------------
+
+2025/05/12 18:31:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[18448]:	Info
+Method: AddEmailRecipient 
+Parameters: emailParams=com.xmpie.uStore.EmailSender.EmailParams, emailRecipients=, eMailAddress=cpeterson@alphagraphics.com, displayName=cpeterson@alphagraphics.com, addressType=ToAddressee,  
+
+----------------------------------------
+
+2025/05/12 18:31:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[18448]:	Info
+Method: AddEmailRecipient 
+Parameters: emailParams=com.xmpie.uStore.EmailSender.EmailParams, emailRecipients=, eMailAddress=adam.runyon@alphagraphics.com, displayName=adam.runyon@alphagraphics.com, addressType=ToAddressee,  
+
+----------------------------------------
+
+2025/05/12 18:31:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[18448]:	Info
+Method: AddEmailRecipient 
+Parameters: emailParams=com.xmpie.uStore.EmailSender.EmailParams, emailRecipients=, eMailAddress=lswitzer@alphagraphics.com, displayName=lswitzer@alphagraphics.com, addressType=ToAddressee,  
+
+----------------------------------------
+
+2025/05/12 18:31:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[18448]:	Info
+Method: SendEmail 
+Parameters: inEmailParams=com.xmpie.uStore.EmailSender.EmailParams, inSendParams=com.xmpie.uStore.EmailSender.SendParams, inEmailBody=Dear
+    Christin Wallace, <br><br>Thank you for
+    your order at Curana Health.
+    <br><br>We have received your order. <br>Your order number is:
+    475072.	<br><br><strong>For any PDF download items, please <a href="https://us717.agstorefront.com/uStore/8/Home"><span style="color: #ff0000;">click here</span></a> to login and view your order history.</strong><br><br>Sincerely Yours, <br>The
+    Curana Health team., inEmailSubject=New order #475072 at Curana Health, inSenderEmailAddress=us717@alphagraphics.com, inSenderDisplayName=uStore Admin, fileAttachmentPath=,  
+
+----------------------------------------
+
+2025/05/12 18:31:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[18448]:	Info
+Email params: StoreID=8, TemplateTypeID=1, EmailFormatID=2, CultureID=1, HasRecipients=True, FromAddress=us717@alphagraphics.com, FromName=uStore Admin,  
+
+----------------------------------------
+
+2025/05/12 18:31:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[18448]:	Info
+Send params: SmtpServer=FFC1MT1, Port=25, UserName=, Password=*****, SMTPEnableSSL=False,  
+
+----------------------------------------
+
+2025/05/12 18:31:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[14908]:	Info
+Sending email using uStore SMTP server.
+
+----------------------------------------
+
+2025/05/12 18:31:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[14908]:	Info
+Method: AddEmailRecipient 
+Parameters: emailParams=com.xmpie.uStore.EmailSender.EmailParams, emailRecipients=, eMailAddress=adam.runyon@alphagraphics.com, displayName=adam.runyon@alphagraphics.com, addressType=ToAddressee,  
+
+----------------------------------------
+
+2025/05/12 18:31:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[14908]:	Info
+Method: SendEmail 
+Parameters: inEmailParams=com.xmpie.uStore.EmailSender.EmailParams, inSendParams=com.xmpie.uStore.EmailSender.SendParams, inEmailBody=Dear ChristinWallace,<br><br>
+Thank you for your order. <br><br>
+Your order number is: 475072. <br><br>
+The product(s) you ordered are: <br><table border="1" cellpadding="4" cellspacing="2" style="border-collapse:collapse">
+  <tbody>
+    <tr style="background-color:#eeeeee;">
+      <td>Item #</td>
+      <td>Product Name</td>
+      <td>Quantity</td>
+      <td>Total Price</td>
+    </tr>
+    <tr>
+      <td>36673</td>
+      <td>3928-1078 - Business Cards - Curana - Amanda Gillespie, MSN, ANP-C</td>
+      <td>150  Items</td>
+      <td>$53.29</td>
+    </tr>
+  </tbody>
+</table><br><table border="1" cellpadding="4" cellspacing="2" style="border-collapse:collapse;">
+  <tbody>
+    <tr>
+      <td style="background-color:#eeeeee;">Subtotal Price:</td>
+      <td>$53.29</td>
+    </tr>
+    <tr>
+      <td style="background-color:#eeeeee;">Tax:</td>
+      <td>$0.00</td>
+    </tr>
+    <tr>
+      <td style="background-color:#eeeeee;">Total Price:</td>
+      <td>$53.29</td>
+    </tr>
+  </tbody>
+</table><br><b>Payment Details:</b>  Cost Center Selection<br><br>
+Sincerely Yours, <br>
+The Curana Health team. , inEmailSubject=Curana Monday.com - 475072, Christin Wallace, Amanda Gillespie, , inSenderEmailAddress=us717@alphagraphics.com, inSenderDisplayName=AG Suwanee, fileAttachmentPath=,  
+
+----------------------------------------
+
+2025/05/12 18:31:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[14908]:	Info
+Email params: StoreID=8, TemplateTypeID=1, EmailFormatID=2, CultureID=1, HasRecipients=True, FromAddress=us717@alphagraphics.com, FromName=AG Suwanee,  
+
+----------------------------------------
+
+2025/05/12 18:31:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[14908]:	Info
+Send params: SmtpServer=FFC1MT1, Port=25, UserName=, Password=*****, SMTPEnableSSL=False,  
+
+----------------------------------------
+
+2025/05/12 18:31:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[32760]:	Info
+Order details Xml sent to https://ustorepsvprod.alphagraphics.com/PrintSmithIntegration/api/integration result: ""
+
+----------------------------------------
+
+2025/05/12 18:31:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[32760]:	Info
+Order XML was generated for Item 0.
+
+----------------------------------------
+

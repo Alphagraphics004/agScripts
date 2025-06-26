@@ -1,0 +1,1050 @@
+2025/05/12 08:57:19
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[3668]:	Info
+GetPrepressWorkflows from http://FFC1MT1:7751
+
+----------------------------------------
+
+2025/05/12 08:57:19
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[3668]:	Info
+GetPrepressWorkflows response: <?xml version="1.0" encoding="UTF-8"?><JMF xmlns="http://www.CIP4.org/JDFSchema_1_1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ICSVersions="Base_L2-1.5 IDP_L1-1.5 JMF_L1-1.5 MIS_L2-1.5 Base_L2-1.3 IDP_L1-1.3 JMF_L2-1.3 MIS_L1-1.3" MaxVersion="1.7" SenderID="FreeFlow Core" TimeStamp="2025-05-12T08:57:19.844-04:00" Version="1.3">
+<Response Acknowledged="false" AgentName="FreeFlow Core" AgentVersion="7.0.11" ID="ID_151136" ReturnCode="0" Time="2025-05-12T08:57:19.844-04:00" Type="KnownControllers" refID="4b87402f-0ac2-4635-9a0d-4b35a6e7c0c2" xsi:type="ResponseKnownControllers">
+<JDFController ControllerID="Pass Through" URL="http://FFC1MT1:7751/FreeFlowCore/Pass+Through"/>
+<JDFController ControllerID="Impose 4-up On 19x13" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+4-up+On+19x13"/>
+<JDFController ControllerID="Impose N-up" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+N-up"/>
+<JDFController ControllerID="NoneImposed" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed"/>
+<JDFController ControllerID="XMPieTest" URL="http://FFC1MT1:7751/FreeFlowCore/XMPieTest"/>
+<JDFController ControllerID="Impose 8.5x11 4 Page Flyer On 11x17" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+8.5x11+4+Page+Flyer+On+11x17"/>
+<JDFController ControllerID="Impose 3-up On 19x13" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+3-up+On+19x13"/>
+<JDFController ControllerID="Impose 2-up On 19x13" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+2-up+On+19x13"/>
+<JDFController ControllerID="NoneImposed to iGen" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+iGen"/>
+<JDFController ControllerID="NoneImposed to Color1000" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Color1000"/>
+<JDFController ControllerID="NoneImposed to Nuvera" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Nuvera"/>
+<JDFController ControllerID="NoneImposed to Xerox700" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Xerox700"/>
+<JDFController ControllerID="12x18 21up BC 0.25 in Gutter" URL="http://FFC1MT1:7751/FreeFlowCore/12x18+21up+BC+0.25+in+Gutter"/>
+<JDFController ControllerID="NoneImposed to Sub-Folder By Store Name" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Sub-Folder+By+Store+Name"/>
+<JDFController ControllerID="XMPIEPreflight" URL="http://FFC1MT1:7751/FreeFlowCore/XMPIEPreflight"/>
+<JDFController ControllerID="12x18 6up 2s Door Hanger" URL="http://FFC1MT1:7751/FreeFlowCore/12x18+6up+2s+Door+Hanger"/>
+<JDFController ControllerID="2 up Letter on 11x17" URL="http://FFC1MT1:7751/FreeFlowCore/2+up+Letter+on+11x17"/>
+<JDFController ControllerID="Z_Test" URL="http://FFC1MT1:7751/FreeFlowCore/Z_Test"/>
+<JDFController ControllerID="NationalEcomTOcenter" URL="http://FFC1MT1:7751/FreeFlowCore/NationalEcomTOcenter"/>
+<JDFController ControllerID="XMPie Test 2" URL="http://FFC1MT1:7751/FreeFlowCore/XMPie+Test+2"/>
+<JDFController ControllerID="File upload checker 300DPI" URL="http://FFC1MT1:7751/FreeFlowCore/File+upload+checker+300DPI"/>
+<JDFController ControllerID="File upload check 11_8half" URL="http://FFC1MT1:7751/FreeFlowCore/File+upload+check+11_8half"/>
+<JDFController ControllerID="Upload SF_Anncment_5x7_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Anncment_5x7_1s"/>
+<JDFController ControllerID="Upload SF_BC_3.5x2_1S" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_BC_3.5x2_1S"/>
+<JDFController ControllerID="Upload SF_Bkmark_2x6_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Bkmark_2x6_1s"/>
+<JDFController ControllerID="Upload SF_Booklet_8.5x11_2S" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Booklet_8.5x11_2S"/>
+<JDFController ControllerID="Upload SF_Brochure" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Brochure"/>
+<JDFController ControllerID="Upload SF_Card_5x7_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Card_5x7_1s"/>
+<JDFController ControllerID="Upload SF_Cert_11x8.5" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Cert_11x8.5"/>
+<JDFController ControllerID="Upload SF_fldCard_5x7" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_fldCard_5x7"/>
+<JDFController ControllerID="Upload SF_Flyer_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Flyer_8.5x11"/>
+<JDFController ControllerID="Upload SF_Invitation_5x7" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Invitation_5x7"/>
+<JDFController ControllerID="Upload SF_Letterhead_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Letterhead_8.5x11"/>
+<JDFController ControllerID="Upload SF_Menu_3.67x8.5" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Menu_3.67x8.5"/>
+<JDFController ControllerID="Upload SF_Menu_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Menu_8.5x11"/>
+<JDFController ControllerID="Upload SF_Notecard_4.25x5.25" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Notecard_4.25x5.25"/>
+<JDFController ControllerID="Upload SF_PC_5x7" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_PC_5x7"/>
+<JDFController ControllerID="Upload SF_RackCard_4x9" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_RackCard_4x9"/>
+<JDFController ControllerID="Upload SF_Resume_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Resume_8.5x11"/>
+<JDFController ControllerID="Upload SF_SellSheet_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_SellSheet_1s"/>
+<JDFController ControllerID="Upload SF_SellSheet_2s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_SellSheet_2s"/>
+<JDFController ControllerID="Standard Preflight upload check" URL="http://FFC1MT1:7751/FreeFlowCore/Standard+Preflight+upload+check"/>
+<JDFController ControllerID="Upload SF_BC_3.5x2_1S (with Margin) test" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_BC_3.5x2_1S+%28with+Margin%29+test"/>
+<JDFController ControllerID="XMPie Test - New1" URL="http://FFC1MT1:7751/FreeFlowCore/XMPie+Test+-+New1"/>
+<JDFController ControllerID="XMPieTestChris" URL="http://FFC1MT1:7751/FreeFlowCore/XMPieTestChris"/>
+<JDFController ControllerID="Impose 3-up on a 7.875in x4.33in" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+3-up+on+a+7.875in+x4.33in"/>
+<JDFController ControllerID="Upload LF_Banner_4x2_1S" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+LF_Banner_4x2_1S"/>
+</Response>
+</JMF>
+
+
+
+----------------------------------------
+
+2025/05/12 09:03:29
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44148]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: 4FbEk
+
+
+----------------------------------------
+
+2025/05/12 09:03:34
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16768]:	Info
+GetPrepressWorkflows from http://FFC1MT1:7751
+
+----------------------------------------
+
+2025/05/12 09:03:34
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16768]:	Info
+GetPrepressWorkflows response: <?xml version="1.0" encoding="UTF-8"?><JMF xmlns="http://www.CIP4.org/JDFSchema_1_1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ICSVersions="Base_L2-1.5 IDP_L1-1.5 JMF_L1-1.5 MIS_L2-1.5 Base_L2-1.3 IDP_L1-1.3 JMF_L2-1.3 MIS_L1-1.3" MaxVersion="1.7" SenderID="FreeFlow Core" TimeStamp="2025-05-12T09:03:34.711-04:00" Version="1.3">
+<Response Acknowledged="false" AgentName="FreeFlow Core" AgentVersion="7.0.11" ID="ID_151191" ReturnCode="0" Time="2025-05-12T09:03:34.711-04:00" Type="KnownControllers" refID="056ad993-6d4e-4989-8333-ecfeb5ef4f7f" xsi:type="ResponseKnownControllers">
+<JDFController ControllerID="Pass Through" URL="http://FFC1MT1:7751/FreeFlowCore/Pass+Through"/>
+<JDFController ControllerID="Impose 4-up On 19x13" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+4-up+On+19x13"/>
+<JDFController ControllerID="Impose N-up" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+N-up"/>
+<JDFController ControllerID="NoneImposed" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed"/>
+<JDFController ControllerID="XMPieTest" URL="http://FFC1MT1:7751/FreeFlowCore/XMPieTest"/>
+<JDFController ControllerID="Impose 8.5x11 4 Page Flyer On 11x17" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+8.5x11+4+Page+Flyer+On+11x17"/>
+<JDFController ControllerID="Impose 3-up On 19x13" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+3-up+On+19x13"/>
+<JDFController ControllerID="Impose 2-up On 19x13" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+2-up+On+19x13"/>
+<JDFController ControllerID="NoneImposed to iGen" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+iGen"/>
+<JDFController ControllerID="NoneImposed to Color1000" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Color1000"/>
+<JDFController ControllerID="NoneImposed to Nuvera" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Nuvera"/>
+<JDFController ControllerID="NoneImposed to Xerox700" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Xerox700"/>
+<JDFController ControllerID="12x18 21up BC 0.25 in Gutter" URL="http://FFC1MT1:7751/FreeFlowCore/12x18+21up+BC+0.25+in+Gutter"/>
+<JDFController ControllerID="NoneImposed to Sub-Folder By Store Name" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Sub-Folder+By+Store+Name"/>
+<JDFController ControllerID="XMPIEPreflight" URL="http://FFC1MT1:7751/FreeFlowCore/XMPIEPreflight"/>
+<JDFController ControllerID="12x18 6up 2s Door Hanger" URL="http://FFC1MT1:7751/FreeFlowCore/12x18+6up+2s+Door+Hanger"/>
+<JDFController ControllerID="2 up Letter on 11x17" URL="http://FFC1MT1:7751/FreeFlowCore/2+up+Letter+on+11x17"/>
+<JDFController ControllerID="Z_Test" URL="http://FFC1MT1:7751/FreeFlowCore/Z_Test"/>
+<JDFController ControllerID="NationalEcomTOcenter" URL="http://FFC1MT1:7751/FreeFlowCore/NationalEcomTOcenter"/>
+<JDFController ControllerID="XMPie Test 2" URL="http://FFC1MT1:7751/FreeFlowCore/XMPie+Test+2"/>
+<JDFController ControllerID="File upload checker 300DPI" URL="http://FFC1MT1:7751/FreeFlowCore/File+upload+checker+300DPI"/>
+<JDFController ControllerID="File upload check 11_8half" URL="http://FFC1MT1:7751/FreeFlowCore/File+upload+check+11_8half"/>
+<JDFController ControllerID="Upload SF_Anncment_5x7_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Anncment_5x7_1s"/>
+<JDFController ControllerID="Upload SF_BC_3.5x2_1S" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_BC_3.5x2_1S"/>
+<JDFController ControllerID="Upload SF_Bkmark_2x6_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Bkmark_2x6_1s"/>
+<JDFController ControllerID="Upload SF_Booklet_8.5x11_2S" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Booklet_8.5x11_2S"/>
+<JDFController ControllerID="Upload SF_Brochure" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Brochure"/>
+<JDFController ControllerID="Upload SF_Card_5x7_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Card_5x7_1s"/>
+<JDFController ControllerID="Upload SF_Cert_11x8.5" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Cert_11x8.5"/>
+<JDFController ControllerID="Upload SF_fldCard_5x7" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_fldCard_5x7"/>
+<JDFController ControllerID="Upload SF_Flyer_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Flyer_8.5x11"/>
+<JDFController ControllerID="Upload SF_Invitation_5x7" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Invitation_5x7"/>
+<JDFController ControllerID="Upload SF_Letterhead_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Letterhead_8.5x11"/>
+<JDFController ControllerID="Upload SF_Menu_3.67x8.5" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Menu_3.67x8.5"/>
+<JDFController ControllerID="Upload SF_Menu_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Menu_8.5x11"/>
+<JDFController ControllerID="Upload SF_Notecard_4.25x5.25" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Notecard_4.25x5.25"/>
+<JDFController ControllerID="Upload SF_PC_5x7" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_PC_5x7"/>
+<JDFController ControllerID="Upload SF_RackCard_4x9" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_RackCard_4x9"/>
+<JDFController ControllerID="Upload SF_Resume_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Resume_8.5x11"/>
+<JDFController ControllerID="Upload SF_SellSheet_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_SellSheet_1s"/>
+<JDFController ControllerID="Upload SF_SellSheet_2s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_SellSheet_2s"/>
+<JDFController ControllerID="Standard Preflight upload check" URL="http://FFC1MT1:7751/FreeFlowCore/Standard+Preflight+upload+check"/>
+<JDFController ControllerID="Upload SF_BC_3.5x2_1S (with Margin) test" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_BC_3.5x2_1S+%28with+Margin%29+test"/>
+<JDFController ControllerID="XMPie Test - New1" URL="http://FFC1MT1:7751/FreeFlowCore/XMPie+Test+-+New1"/>
+<JDFController ControllerID="XMPieTestChris" URL="http://FFC1MT1:7751/FreeFlowCore/XMPieTestChris"/>
+<JDFController ControllerID="Impose 3-up on a 7.875in x4.33in" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+3-up+on+a+7.875in+x4.33in"/>
+<JDFController ControllerID="Upload LF_Banner_4x2_1S" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+LF_Banner_4x2_1S"/>
+</Response>
+</JMF>
+
+
+
+----------------------------------------
+
+2025/05/12 09:03:37
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44148]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: nwlOd
+
+
+----------------------------------------
+
+2025/05/12 09:10:44
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[9504]:	Info
+GetPrepressWorkflows from http://FFC1MT1:7751
+
+----------------------------------------
+
+2025/05/12 09:10:44
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[9504]:	Info
+GetPrepressWorkflows response: <?xml version="1.0" encoding="UTF-8"?><JMF xmlns="http://www.CIP4.org/JDFSchema_1_1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ICSVersions="Base_L2-1.5 IDP_L1-1.5 JMF_L1-1.5 MIS_L2-1.5 Base_L2-1.3 IDP_L1-1.3 JMF_L2-1.3 MIS_L1-1.3" MaxVersion="1.7" SenderID="FreeFlow Core" TimeStamp="2025-05-12T09:10:44.461-04:00" Version="1.3">
+<Response Acknowledged="false" AgentName="FreeFlow Core" AgentVersion="7.0.11" ID="ID_151416" ReturnCode="0" Time="2025-05-12T09:10:44.451-04:00" Type="KnownControllers" refID="e15c4fcb-4dd9-4555-b857-f37a82f5b185" xsi:type="ResponseKnownControllers">
+<JDFController ControllerID="Pass Through" URL="http://FFC1MT1:7751/FreeFlowCore/Pass+Through"/>
+<JDFController ControllerID="Impose 4-up On 19x13" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+4-up+On+19x13"/>
+<JDFController ControllerID="Impose N-up" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+N-up"/>
+<JDFController ControllerID="NoneImposed" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed"/>
+<JDFController ControllerID="XMPieTest" URL="http://FFC1MT1:7751/FreeFlowCore/XMPieTest"/>
+<JDFController ControllerID="Impose 8.5x11 4 Page Flyer On 11x17" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+8.5x11+4+Page+Flyer+On+11x17"/>
+<JDFController ControllerID="Impose 3-up On 19x13" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+3-up+On+19x13"/>
+<JDFController ControllerID="Impose 2-up On 19x13" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+2-up+On+19x13"/>
+<JDFController ControllerID="NoneImposed to iGen" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+iGen"/>
+<JDFController ControllerID="NoneImposed to Color1000" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Color1000"/>
+<JDFController ControllerID="NoneImposed to Nuvera" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Nuvera"/>
+<JDFController ControllerID="NoneImposed to Xerox700" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Xerox700"/>
+<JDFController ControllerID="12x18 21up BC 0.25 in Gutter" URL="http://FFC1MT1:7751/FreeFlowCore/12x18+21up+BC+0.25+in+Gutter"/>
+<JDFController ControllerID="NoneImposed to Sub-Folder By Store Name" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Sub-Folder+By+Store+Name"/>
+<JDFController ControllerID="XMPIEPreflight" URL="http://FFC1MT1:7751/FreeFlowCore/XMPIEPreflight"/>
+<JDFController ControllerID="12x18 6up 2s Door Hanger" URL="http://FFC1MT1:7751/FreeFlowCore/12x18+6up+2s+Door+Hanger"/>
+<JDFController ControllerID="2 up Letter on 11x17" URL="http://FFC1MT1:7751/FreeFlowCore/2+up+Letter+on+11x17"/>
+<JDFController ControllerID="Z_Test" URL="http://FFC1MT1:7751/FreeFlowCore/Z_Test"/>
+<JDFController ControllerID="NationalEcomTOcenter" URL="http://FFC1MT1:7751/FreeFlowCore/NationalEcomTOcenter"/>
+<JDFController ControllerID="XMPie Test 2" URL="http://FFC1MT1:7751/FreeFlowCore/XMPie+Test+2"/>
+<JDFController ControllerID="File upload checker 300DPI" URL="http://FFC1MT1:7751/FreeFlowCore/File+upload+checker+300DPI"/>
+<JDFController ControllerID="File upload check 11_8half" URL="http://FFC1MT1:7751/FreeFlowCore/File+upload+check+11_8half"/>
+<JDFController ControllerID="Upload SF_Anncment_5x7_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Anncment_5x7_1s"/>
+<JDFController ControllerID="Upload SF_BC_3.5x2_1S" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_BC_3.5x2_1S"/>
+<JDFController ControllerID="Upload SF_Bkmark_2x6_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Bkmark_2x6_1s"/>
+<JDFController ControllerID="Upload SF_Booklet_8.5x11_2S" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Booklet_8.5x11_2S"/>
+<JDFController ControllerID="Upload SF_Brochure" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Brochure"/>
+<JDFController ControllerID="Upload SF_Card_5x7_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Card_5x7_1s"/>
+<JDFController ControllerID="Upload SF_Cert_11x8.5" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Cert_11x8.5"/>
+<JDFController ControllerID="Upload SF_fldCard_5x7" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_fldCard_5x7"/>
+<JDFController ControllerID="Upload SF_Flyer_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Flyer_8.5x11"/>
+<JDFController ControllerID="Upload SF_Invitation_5x7" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Invitation_5x7"/>
+<JDFController ControllerID="Upload SF_Letterhead_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Letterhead_8.5x11"/>
+<JDFController ControllerID="Upload SF_Menu_3.67x8.5" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Menu_3.67x8.5"/>
+<JDFController ControllerID="Upload SF_Menu_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Menu_8.5x11"/>
+<JDFController ControllerID="Upload SF_Notecard_4.25x5.25" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Notecard_4.25x5.25"/>
+<JDFController ControllerID="Upload SF_PC_5x7" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_PC_5x7"/>
+<JDFController ControllerID="Upload SF_RackCard_4x9" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_RackCard_4x9"/>
+<JDFController ControllerID="Upload SF_Resume_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Resume_8.5x11"/>
+<JDFController ControllerID="Upload SF_SellSheet_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_SellSheet_1s"/>
+<JDFController ControllerID="Upload SF_SellSheet_2s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_SellSheet_2s"/>
+<JDFController ControllerID="Standard Preflight upload check" URL="http://FFC1MT1:7751/FreeFlowCore/Standard+Preflight+upload+check"/>
+<JDFController ControllerID="Upload SF_BC_3.5x2_1S (with Margin) test" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_BC_3.5x2_1S+%28with+Margin%29+test"/>
+<JDFController ControllerID="XMPie Test - New1" URL="http://FFC1MT1:7751/FreeFlowCore/XMPie+Test+-+New1"/>
+<JDFController ControllerID="XMPieTestChris" URL="http://FFC1MT1:7751/FreeFlowCore/XMPieTestChris"/>
+<JDFController ControllerID="Impose 3-up on a 7.875in x4.33in" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+3-up+on+a+7.875in+x4.33in"/>
+<JDFController ControllerID="Upload LF_Banner_4x2_1S" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+LF_Banner_4x2_1S"/>
+</Response>
+</JMF>
+
+
+
+----------------------------------------
+
+2025/05/12 09:11:14
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20284]:	Audit
+ From IP: 172.31.204.29
+Loading SecureToken: 7wnYv
+
+
+----------------------------------------
+
+2025/05/12 09:11:21
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[22304]:	Info
+GetPrepressWorkflows from http://FFC1MT1:7751
+
+----------------------------------------
+
+2025/05/12 09:11:21
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[22304]:	Info
+GetPrepressWorkflows response: <?xml version="1.0" encoding="UTF-8"?><JMF xmlns="http://www.CIP4.org/JDFSchema_1_1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ICSVersions="Base_L2-1.5 IDP_L1-1.5 JMF_L1-1.5 MIS_L2-1.5 Base_L2-1.3 IDP_L1-1.3 JMF_L2-1.3 MIS_L1-1.3" MaxVersion="1.7" SenderID="FreeFlow Core" TimeStamp="2025-05-12T09:11:21.509-04:00" Version="1.3">
+<Response Acknowledged="false" AgentName="FreeFlow Core" AgentVersion="7.0.11" ID="ID_151417" ReturnCode="0" Time="2025-05-12T09:11:21.493-04:00" Type="KnownControllers" refID="07762cf8-2349-458f-b86f-8395b6b28a29" xsi:type="ResponseKnownControllers">
+<JDFController ControllerID="Pass Through" URL="http://FFC1MT1:7751/FreeFlowCore/Pass+Through"/>
+<JDFController ControllerID="Impose 4-up On 19x13" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+4-up+On+19x13"/>
+<JDFController ControllerID="Impose N-up" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+N-up"/>
+<JDFController ControllerID="NoneImposed" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed"/>
+<JDFController ControllerID="XMPieTest" URL="http://FFC1MT1:7751/FreeFlowCore/XMPieTest"/>
+<JDFController ControllerID="Impose 8.5x11 4 Page Flyer On 11x17" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+8.5x11+4+Page+Flyer+On+11x17"/>
+<JDFController ControllerID="Impose 3-up On 19x13" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+3-up+On+19x13"/>
+<JDFController ControllerID="Impose 2-up On 19x13" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+2-up+On+19x13"/>
+<JDFController ControllerID="NoneImposed to iGen" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+iGen"/>
+<JDFController ControllerID="NoneImposed to Color1000" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Color1000"/>
+<JDFController ControllerID="NoneImposed to Nuvera" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Nuvera"/>
+<JDFController ControllerID="NoneImposed to Xerox700" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Xerox700"/>
+<JDFController ControllerID="12x18 21up BC 0.25 in Gutter" URL="http://FFC1MT1:7751/FreeFlowCore/12x18+21up+BC+0.25+in+Gutter"/>
+<JDFController ControllerID="NoneImposed to Sub-Folder By Store Name" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Sub-Folder+By+Store+Name"/>
+<JDFController ControllerID="XMPIEPreflight" URL="http://FFC1MT1:7751/FreeFlowCore/XMPIEPreflight"/>
+<JDFController ControllerID="12x18 6up 2s Door Hanger" URL="http://FFC1MT1:7751/FreeFlowCore/12x18+6up+2s+Door+Hanger"/>
+<JDFController ControllerID="2 up Letter on 11x17" URL="http://FFC1MT1:7751/FreeFlowCore/2+up+Letter+on+11x17"/>
+<JDFController ControllerID="Z_Test" URL="http://FFC1MT1:7751/FreeFlowCore/Z_Test"/>
+<JDFController ControllerID="NationalEcomTOcenter" URL="http://FFC1MT1:7751/FreeFlowCore/NationalEcomTOcenter"/>
+<JDFController ControllerID="XMPie Test 2" URL="http://FFC1MT1:7751/FreeFlowCore/XMPie+Test+2"/>
+<JDFController ControllerID="File upload checker 300DPI" URL="http://FFC1MT1:7751/FreeFlowCore/File+upload+checker+300DPI"/>
+<JDFController ControllerID="File upload check 11_8half" URL="http://FFC1MT1:7751/FreeFlowCore/File+upload+check+11_8half"/>
+<JDFController ControllerID="Upload SF_Anncment_5x7_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Anncment_5x7_1s"/>
+<JDFController ControllerID="Upload SF_BC_3.5x2_1S" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_BC_3.5x2_1S"/>
+<JDFController ControllerID="Upload SF_Bkmark_2x6_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Bkmark_2x6_1s"/>
+<JDFController ControllerID="Upload SF_Booklet_8.5x11_2S" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Booklet_8.5x11_2S"/>
+<JDFController ControllerID="Upload SF_Brochure" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Brochure"/>
+<JDFController ControllerID="Upload SF_Card_5x7_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Card_5x7_1s"/>
+<JDFController ControllerID="Upload SF_Cert_11x8.5" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Cert_11x8.5"/>
+<JDFController ControllerID="Upload SF_fldCard_5x7" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_fldCard_5x7"/>
+<JDFController ControllerID="Upload SF_Flyer_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Flyer_8.5x11"/>
+<JDFController ControllerID="Upload SF_Invitation_5x7" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Invitation_5x7"/>
+<JDFController ControllerID="Upload SF_Letterhead_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Letterhead_8.5x11"/>
+<JDFController ControllerID="Upload SF_Menu_3.67x8.5" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Menu_3.67x8.5"/>
+<JDFController ControllerID="Upload SF_Menu_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Menu_8.5x11"/>
+<JDFController ControllerID="Upload SF_Notecard_4.25x5.25" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Notecard_4.25x5.25"/>
+<JDFController ControllerID="Upload SF_PC_5x7" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_PC_5x7"/>
+<JDFController ControllerID="Upload SF_RackCard_4x9" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_RackCard_4x9"/>
+<JDFController ControllerID="Upload SF_Resume_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Resume_8.5x11"/>
+<JDFController ControllerID="Upload SF_SellSheet_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_SellSheet_1s"/>
+<JDFController ControllerID="Upload SF_SellSheet_2s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_SellSheet_2s"/>
+<JDFController ControllerID="Standard Preflight upload check" URL="http://FFC1MT1:7751/FreeFlowCore/Standard+Preflight+upload+check"/>
+<JDFController ControllerID="Upload SF_BC_3.5x2_1S (with Margin) test" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_BC_3.5x2_1S+%28with+Margin%29+test"/>
+<JDFController ControllerID="XMPie Test - New1" URL="http://FFC1MT1:7751/FreeFlowCore/XMPie+Test+-+New1"/>
+<JDFController ControllerID="XMPieTestChris" URL="http://FFC1MT1:7751/FreeFlowCore/XMPieTestChris"/>
+<JDFController ControllerID="Impose 3-up on a 7.875in x4.33in" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+3-up+on+a+7.875in+x4.33in"/>
+<JDFController ControllerID="Upload LF_Banner_4x2_1S" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+LF_Banner_4x2_1S"/>
+</Response>
+</JMF>
+
+
+
+----------------------------------------
+
+2025/05/12 09:11:24
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[22940]:	Audit
+ From IP: 172.31.204.29
+Loading SecureToken: afh5H
+
+
+----------------------------------------
+
+2025/05/12 09:11:31
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16768]:	Info
+GetPrepressWorkflows from http://FFC1MT1:7751
+
+----------------------------------------
+
+2025/05/12 09:11:31
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16768]:	Info
+GetPrepressWorkflows response: <?xml version="1.0" encoding="UTF-8"?><JMF xmlns="http://www.CIP4.org/JDFSchema_1_1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ICSVersions="Base_L2-1.5 IDP_L1-1.5 JMF_L1-1.5 MIS_L2-1.5 Base_L2-1.3 IDP_L1-1.3 JMF_L2-1.3 MIS_L1-1.3" MaxVersion="1.7" SenderID="FreeFlow Core" TimeStamp="2025-05-12T09:11:31.458-04:00" Version="1.3">
+<Response Acknowledged="false" AgentName="FreeFlow Core" AgentVersion="7.0.11" ID="ID_151418" ReturnCode="0" Time="2025-05-12T09:11:31.458-04:00" Type="KnownControllers" refID="30e28807-f693-42f6-a677-f17902eff872" xsi:type="ResponseKnownControllers">
+<JDFController ControllerID="Pass Through" URL="http://FFC1MT1:7751/FreeFlowCore/Pass+Through"/>
+<JDFController ControllerID="Impose 4-up On 19x13" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+4-up+On+19x13"/>
+<JDFController ControllerID="Impose N-up" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+N-up"/>
+<JDFController ControllerID="NoneImposed" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed"/>
+<JDFController ControllerID="XMPieTest" URL="http://FFC1MT1:7751/FreeFlowCore/XMPieTest"/>
+<JDFController ControllerID="Impose 8.5x11 4 Page Flyer On 11x17" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+8.5x11+4+Page+Flyer+On+11x17"/>
+<JDFController ControllerID="Impose 3-up On 19x13" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+3-up+On+19x13"/>
+<JDFController ControllerID="Impose 2-up On 19x13" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+2-up+On+19x13"/>
+<JDFController ControllerID="NoneImposed to iGen" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+iGen"/>
+<JDFController ControllerID="NoneImposed to Color1000" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Color1000"/>
+<JDFController ControllerID="NoneImposed to Nuvera" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Nuvera"/>
+<JDFController ControllerID="NoneImposed to Xerox700" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Xerox700"/>
+<JDFController ControllerID="12x18 21up BC 0.25 in Gutter" URL="http://FFC1MT1:7751/FreeFlowCore/12x18+21up+BC+0.25+in+Gutter"/>
+<JDFController ControllerID="NoneImposed to Sub-Folder By Store Name" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Sub-Folder+By+Store+Name"/>
+<JDFController ControllerID="XMPIEPreflight" URL="http://FFC1MT1:7751/FreeFlowCore/XMPIEPreflight"/>
+<JDFController ControllerID="12x18 6up 2s Door Hanger" URL="http://FFC1MT1:7751/FreeFlowCore/12x18+6up+2s+Door+Hanger"/>
+<JDFController ControllerID="2 up Letter on 11x17" URL="http://FFC1MT1:7751/FreeFlowCore/2+up+Letter+on+11x17"/>
+<JDFController ControllerID="Z_Test" URL="http://FFC1MT1:7751/FreeFlowCore/Z_Test"/>
+<JDFController ControllerID="NationalEcomTOcenter" URL="http://FFC1MT1:7751/FreeFlowCore/NationalEcomTOcenter"/>
+<JDFController ControllerID="XMPie Test 2" URL="http://FFC1MT1:7751/FreeFlowCore/XMPie+Test+2"/>
+<JDFController ControllerID="File upload checker 300DPI" URL="http://FFC1MT1:7751/FreeFlowCore/File+upload+checker+300DPI"/>
+<JDFController ControllerID="File upload check 11_8half" URL="http://FFC1MT1:7751/FreeFlowCore/File+upload+check+11_8half"/>
+<JDFController ControllerID="Upload SF_Anncment_5x7_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Anncment_5x7_1s"/>
+<JDFController ControllerID="Upload SF_BC_3.5x2_1S" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_BC_3.5x2_1S"/>
+<JDFController ControllerID="Upload SF_Bkmark_2x6_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Bkmark_2x6_1s"/>
+<JDFController ControllerID="Upload SF_Booklet_8.5x11_2S" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Booklet_8.5x11_2S"/>
+<JDFController ControllerID="Upload SF_Brochure" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Brochure"/>
+<JDFController ControllerID="Upload SF_Card_5x7_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Card_5x7_1s"/>
+<JDFController ControllerID="Upload SF_Cert_11x8.5" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Cert_11x8.5"/>
+<JDFController ControllerID="Upload SF_fldCard_5x7" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_fldCard_5x7"/>
+<JDFController ControllerID="Upload SF_Flyer_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Flyer_8.5x11"/>
+<JDFController ControllerID="Upload SF_Invitation_5x7" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Invitation_5x7"/>
+<JDFController ControllerID="Upload SF_Letterhead_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Letterhead_8.5x11"/>
+<JDFController ControllerID="Upload SF_Menu_3.67x8.5" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Menu_3.67x8.5"/>
+<JDFController ControllerID="Upload SF_Menu_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Menu_8.5x11"/>
+<JDFController ControllerID="Upload SF_Notecard_4.25x5.25" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Notecard_4.25x5.25"/>
+<JDFController ControllerID="Upload SF_PC_5x7" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_PC_5x7"/>
+<JDFController ControllerID="Upload SF_RackCard_4x9" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_RackCard_4x9"/>
+<JDFController ControllerID="Upload SF_Resume_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Resume_8.5x11"/>
+<JDFController ControllerID="Upload SF_SellSheet_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_SellSheet_1s"/>
+<JDFController ControllerID="Upload SF_SellSheet_2s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_SellSheet_2s"/>
+<JDFController ControllerID="Standard Preflight upload check" URL="http://FFC1MT1:7751/FreeFlowCore/Standard+Preflight+upload+check"/>
+<JDFController ControllerID="Upload SF_BC_3.5x2_1S (with Margin) test" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_BC_3.5x2_1S+%28with+Margin%29+test"/>
+<JDFController ControllerID="XMPie Test - New1" URL="http://FFC1MT1:7751/FreeFlowCore/XMPie+Test+-+New1"/>
+<JDFController ControllerID="XMPieTestChris" URL="http://FFC1MT1:7751/FreeFlowCore/XMPieTestChris"/>
+<JDFController ControllerID="Impose 3-up on a 7.875in x4.33in" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+3-up+on+a+7.875in+x4.33in"/>
+<JDFController ControllerID="Upload LF_Banner_4x2_1S" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+LF_Banner_4x2_1S"/>
+</Response>
+</JMF>
+
+
+
+----------------------------------------
+
+2025/05/12 09:11:34
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[42740]:	Audit
+ From IP: 172.31.204.29
+Loading SecureToken: s Piv
+
+
+----------------------------------------
+
+2025/05/12 09:11:40
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[42740]:	Info
+GetPrepressWorkflows from http://FFC1MT1:7751
+
+----------------------------------------
+
+2025/05/12 09:11:40
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[42740]:	Info
+GetPrepressWorkflows response: <?xml version="1.0" encoding="UTF-8"?><JMF xmlns="http://www.CIP4.org/JDFSchema_1_1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ICSVersions="Base_L2-1.5 IDP_L1-1.5 JMF_L1-1.5 MIS_L2-1.5 Base_L2-1.3 IDP_L1-1.3 JMF_L2-1.3 MIS_L1-1.3" MaxVersion="1.7" SenderID="FreeFlow Core" TimeStamp="2025-05-12T09:11:40.503-04:00" Version="1.3">
+<Response Acknowledged="false" AgentName="FreeFlow Core" AgentVersion="7.0.11" ID="ID_151419" ReturnCode="0" Time="2025-05-12T09:11:40.503-04:00" Type="KnownControllers" refID="7cd5fddb-e8cb-49fe-90b5-5c8bda53c8c0" xsi:type="ResponseKnownControllers">
+<JDFController ControllerID="Pass Through" URL="http://FFC1MT1:7751/FreeFlowCore/Pass+Through"/>
+<JDFController ControllerID="Impose 4-up On 19x13" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+4-up+On+19x13"/>
+<JDFController ControllerID="Impose N-up" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+N-up"/>
+<JDFController ControllerID="NoneImposed" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed"/>
+<JDFController ControllerID="XMPieTest" URL="http://FFC1MT1:7751/FreeFlowCore/XMPieTest"/>
+<JDFController ControllerID="Impose 8.5x11 4 Page Flyer On 11x17" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+8.5x11+4+Page+Flyer+On+11x17"/>
+<JDFController ControllerID="Impose 3-up On 19x13" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+3-up+On+19x13"/>
+<JDFController ControllerID="Impose 2-up On 19x13" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+2-up+On+19x13"/>
+<JDFController ControllerID="NoneImposed to iGen" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+iGen"/>
+<JDFController ControllerID="NoneImposed to Color1000" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Color1000"/>
+<JDFController ControllerID="NoneImposed to Nuvera" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Nuvera"/>
+<JDFController ControllerID="NoneImposed to Xerox700" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Xerox700"/>
+<JDFController ControllerID="12x18 21up BC 0.25 in Gutter" URL="http://FFC1MT1:7751/FreeFlowCore/12x18+21up+BC+0.25+in+Gutter"/>
+<JDFController ControllerID="NoneImposed to Sub-Folder By Store Name" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Sub-Folder+By+Store+Name"/>
+<JDFController ControllerID="XMPIEPreflight" URL="http://FFC1MT1:7751/FreeFlowCore/XMPIEPreflight"/>
+<JDFController ControllerID="12x18 6up 2s Door Hanger" URL="http://FFC1MT1:7751/FreeFlowCore/12x18+6up+2s+Door+Hanger"/>
+<JDFController ControllerID="2 up Letter on 11x17" URL="http://FFC1MT1:7751/FreeFlowCore/2+up+Letter+on+11x17"/>
+<JDFController ControllerID="Z_Test" URL="http://FFC1MT1:7751/FreeFlowCore/Z_Test"/>
+<JDFController ControllerID="NationalEcomTOcenter" URL="http://FFC1MT1:7751/FreeFlowCore/NationalEcomTOcenter"/>
+<JDFController ControllerID="XMPie Test 2" URL="http://FFC1MT1:7751/FreeFlowCore/XMPie+Test+2"/>
+<JDFController ControllerID="File upload checker 300DPI" URL="http://FFC1MT1:7751/FreeFlowCore/File+upload+checker+300DPI"/>
+<JDFController ControllerID="File upload check 11_8half" URL="http://FFC1MT1:7751/FreeFlowCore/File+upload+check+11_8half"/>
+<JDFController ControllerID="Upload SF_Anncment_5x7_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Anncment_5x7_1s"/>
+<JDFController ControllerID="Upload SF_BC_3.5x2_1S" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_BC_3.5x2_1S"/>
+<JDFController ControllerID="Upload SF_Bkmark_2x6_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Bkmark_2x6_1s"/>
+<JDFController ControllerID="Upload SF_Booklet_8.5x11_2S" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Booklet_8.5x11_2S"/>
+<JDFController ControllerID="Upload SF_Brochure" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Brochure"/>
+<JDFController ControllerID="Upload SF_Card_5x7_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Card_5x7_1s"/>
+<JDFController ControllerID="Upload SF_Cert_11x8.5" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Cert_11x8.5"/>
+<JDFController ControllerID="Upload SF_fldCard_5x7" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_fldCard_5x7"/>
+<JDFController ControllerID="Upload SF_Flyer_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Flyer_8.5x11"/>
+<JDFController ControllerID="Upload SF_Invitation_5x7" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Invitation_5x7"/>
+<JDFController ControllerID="Upload SF_Letterhead_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Letterhead_8.5x11"/>
+<JDFController ControllerID="Upload SF_Menu_3.67x8.5" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Menu_3.67x8.5"/>
+<JDFController ControllerID="Upload SF_Menu_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Menu_8.5x11"/>
+<JDFController ControllerID="Upload SF_Notecard_4.25x5.25" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Notecard_4.25x5.25"/>
+<JDFController ControllerID="Upload SF_PC_5x7" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_PC_5x7"/>
+<JDFController ControllerID="Upload SF_RackCard_4x9" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_RackCard_4x9"/>
+<JDFController ControllerID="Upload SF_Resume_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Resume_8.5x11"/>
+<JDFController ControllerID="Upload SF_SellSheet_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_SellSheet_1s"/>
+<JDFController ControllerID="Upload SF_SellSheet_2s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_SellSheet_2s"/>
+<JDFController ControllerID="Standard Preflight upload check" URL="http://FFC1MT1:7751/FreeFlowCore/Standard+Preflight+upload+check"/>
+<JDFController ControllerID="Upload SF_BC_3.5x2_1S (with Margin) test" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_BC_3.5x2_1S+%28with+Margin%29+test"/>
+<JDFController ControllerID="XMPie Test - New1" URL="http://FFC1MT1:7751/FreeFlowCore/XMPie+Test+-+New1"/>
+<JDFController ControllerID="XMPieTestChris" URL="http://FFC1MT1:7751/FreeFlowCore/XMPieTestChris"/>
+<JDFController ControllerID="Impose 3-up on a 7.875in x4.33in" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+3-up+on+a+7.875in+x4.33in"/>
+<JDFController ControllerID="Upload LF_Banner_4x2_1S" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+LF_Banner_4x2_1S"/>
+</Response>
+</JMF>
+
+
+
+----------------------------------------
+
+2025/05/12 09:24:33
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[26736]:	Audit
+ From IP: 172.31.204.29
+Loading SecureToken: nNyTx
+
+
+----------------------------------------
+
+2025/05/12 09:24:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[42740]:	Info
+GetPrepressWorkflows from http://FFC1MT1:7751
+
+----------------------------------------
+
+2025/05/12 09:24:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[42740]:	Info
+GetPrepressWorkflows response: <?xml version="1.0" encoding="UTF-8"?><JMF xmlns="http://www.CIP4.org/JDFSchema_1_1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ICSVersions="Base_L2-1.5 IDP_L1-1.5 JMF_L1-1.5 MIS_L2-1.5 Base_L2-1.3 IDP_L1-1.3 JMF_L2-1.3 MIS_L1-1.3" MaxVersion="1.7" SenderID="FreeFlow Core" TimeStamp="2025-05-12T09:24:45.517-04:00" Version="1.3">
+<Response Acknowledged="false" AgentName="FreeFlow Core" AgentVersion="7.0.11" ID="ID_151433" ReturnCode="0" Time="2025-05-12T09:24:45.517-04:00" Type="KnownControllers" refID="9c717445-b6e9-4a28-bd4a-0c9a429e2551" xsi:type="ResponseKnownControllers">
+<JDFController ControllerID="Pass Through" URL="http://FFC1MT1:7751/FreeFlowCore/Pass+Through"/>
+<JDFController ControllerID="Impose 4-up On 19x13" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+4-up+On+19x13"/>
+<JDFController ControllerID="Impose N-up" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+N-up"/>
+<JDFController ControllerID="NoneImposed" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed"/>
+<JDFController ControllerID="XMPieTest" URL="http://FFC1MT1:7751/FreeFlowCore/XMPieTest"/>
+<JDFController ControllerID="Impose 8.5x11 4 Page Flyer On 11x17" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+8.5x11+4+Page+Flyer+On+11x17"/>
+<JDFController ControllerID="Impose 3-up On 19x13" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+3-up+On+19x13"/>
+<JDFController ControllerID="Impose 2-up On 19x13" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+2-up+On+19x13"/>
+<JDFController ControllerID="NoneImposed to iGen" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+iGen"/>
+<JDFController ControllerID="NoneImposed to Color1000" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Color1000"/>
+<JDFController ControllerID="NoneImposed to Nuvera" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Nuvera"/>
+<JDFController ControllerID="NoneImposed to Xerox700" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Xerox700"/>
+<JDFController ControllerID="12x18 21up BC 0.25 in Gutter" URL="http://FFC1MT1:7751/FreeFlowCore/12x18+21up+BC+0.25+in+Gutter"/>
+<JDFController ControllerID="NoneImposed to Sub-Folder By Store Name" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Sub-Folder+By+Store+Name"/>
+<JDFController ControllerID="XMPIEPreflight" URL="http://FFC1MT1:7751/FreeFlowCore/XMPIEPreflight"/>
+<JDFController ControllerID="12x18 6up 2s Door Hanger" URL="http://FFC1MT1:7751/FreeFlowCore/12x18+6up+2s+Door+Hanger"/>
+<JDFController ControllerID="2 up Letter on 11x17" URL="http://FFC1MT1:7751/FreeFlowCore/2+up+Letter+on+11x17"/>
+<JDFController ControllerID="Z_Test" URL="http://FFC1MT1:7751/FreeFlowCore/Z_Test"/>
+<JDFController ControllerID="NationalEcomTOcenter" URL="http://FFC1MT1:7751/FreeFlowCore/NationalEcomTOcenter"/>
+<JDFController ControllerID="XMPie Test 2" URL="http://FFC1MT1:7751/FreeFlowCore/XMPie+Test+2"/>
+<JDFController ControllerID="File upload checker 300DPI" URL="http://FFC1MT1:7751/FreeFlowCore/File+upload+checker+300DPI"/>
+<JDFController ControllerID="File upload check 11_8half" URL="http://FFC1MT1:7751/FreeFlowCore/File+upload+check+11_8half"/>
+<JDFController ControllerID="Upload SF_Anncment_5x7_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Anncment_5x7_1s"/>
+<JDFController ControllerID="Upload SF_BC_3.5x2_1S" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_BC_3.5x2_1S"/>
+<JDFController ControllerID="Upload SF_Bkmark_2x6_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Bkmark_2x6_1s"/>
+<JDFController ControllerID="Upload SF_Booklet_8.5x11_2S" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Booklet_8.5x11_2S"/>
+<JDFController ControllerID="Upload SF_Brochure" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Brochure"/>
+<JDFController ControllerID="Upload SF_Card_5x7_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Card_5x7_1s"/>
+<JDFController ControllerID="Upload SF_Cert_11x8.5" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Cert_11x8.5"/>
+<JDFController ControllerID="Upload SF_fldCard_5x7" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_fldCard_5x7"/>
+<JDFController ControllerID="Upload SF_Flyer_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Flyer_8.5x11"/>
+<JDFController ControllerID="Upload SF_Invitation_5x7" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Invitation_5x7"/>
+<JDFController ControllerID="Upload SF_Letterhead_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Letterhead_8.5x11"/>
+<JDFController ControllerID="Upload SF_Menu_3.67x8.5" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Menu_3.67x8.5"/>
+<JDFController ControllerID="Upload SF_Menu_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Menu_8.5x11"/>
+<JDFController ControllerID="Upload SF_Notecard_4.25x5.25" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Notecard_4.25x5.25"/>
+<JDFController ControllerID="Upload SF_PC_5x7" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_PC_5x7"/>
+<JDFController ControllerID="Upload SF_RackCard_4x9" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_RackCard_4x9"/>
+<JDFController ControllerID="Upload SF_Resume_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Resume_8.5x11"/>
+<JDFController ControllerID="Upload SF_SellSheet_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_SellSheet_1s"/>
+<JDFController ControllerID="Upload SF_SellSheet_2s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_SellSheet_2s"/>
+<JDFController ControllerID="Standard Preflight upload check" URL="http://FFC1MT1:7751/FreeFlowCore/Standard+Preflight+upload+check"/>
+<JDFController ControllerID="Upload SF_BC_3.5x2_1S (with Margin) test" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_BC_3.5x2_1S+%28with+Margin%29+test"/>
+<JDFController ControllerID="XMPie Test - New1" URL="http://FFC1MT1:7751/FreeFlowCore/XMPie+Test+-+New1"/>
+<JDFController ControllerID="XMPieTestChris" URL="http://FFC1MT1:7751/FreeFlowCore/XMPieTestChris"/>
+<JDFController ControllerID="Impose 3-up on a 7.875in x4.33in" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+3-up+on+a+7.875in+x4.33in"/>
+<JDFController ControllerID="Upload LF_Banner_4x2_1S" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+LF_Banner_4x2_1S"/>
+</Response>
+</JMF>
+
+
+
+----------------------------------------
+
+2025/05/12 09:24:48
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[36872]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: 5mEiE
+
+
+----------------------------------------
+
+2025/05/12 09:25:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[9700]:	Info
+GetPrepressWorkflows from http://FFC1MT1:7751
+
+----------------------------------------
+
+2025/05/12 09:25:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[9700]:	Info
+GetPrepressWorkflows response: <?xml version="1.0" encoding="UTF-8"?><JMF xmlns="http://www.CIP4.org/JDFSchema_1_1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ICSVersions="Base_L2-1.5 IDP_L1-1.5 JMF_L1-1.5 MIS_L2-1.5 Base_L2-1.3 IDP_L1-1.3 JMF_L2-1.3 MIS_L1-1.3" MaxVersion="1.7" SenderID="FreeFlow Core" TimeStamp="2025-05-12T09:25:03.851-04:00" Version="1.3">
+<Response Acknowledged="false" AgentName="FreeFlow Core" AgentVersion="7.0.11" ID="ID_151436" ReturnCode="0" Time="2025-05-12T09:25:03.851-04:00" Type="KnownControllers" refID="e8357ef8-8ecf-4893-b61e-5b9a7a67e618" xsi:type="ResponseKnownControllers">
+<JDFController ControllerID="Pass Through" URL="http://FFC1MT1:7751/FreeFlowCore/Pass+Through"/>
+<JDFController ControllerID="Impose 4-up On 19x13" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+4-up+On+19x13"/>
+<JDFController ControllerID="Impose N-up" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+N-up"/>
+<JDFController ControllerID="NoneImposed" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed"/>
+<JDFController ControllerID="XMPieTest" URL="http://FFC1MT1:7751/FreeFlowCore/XMPieTest"/>
+<JDFController ControllerID="Impose 8.5x11 4 Page Flyer On 11x17" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+8.5x11+4+Page+Flyer+On+11x17"/>
+<JDFController ControllerID="Impose 3-up On 19x13" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+3-up+On+19x13"/>
+<JDFController ControllerID="Impose 2-up On 19x13" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+2-up+On+19x13"/>
+<JDFController ControllerID="NoneImposed to iGen" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+iGen"/>
+<JDFController ControllerID="NoneImposed to Color1000" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Color1000"/>
+<JDFController ControllerID="NoneImposed to Nuvera" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Nuvera"/>
+<JDFController ControllerID="NoneImposed to Xerox700" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Xerox700"/>
+<JDFController ControllerID="12x18 21up BC 0.25 in Gutter" URL="http://FFC1MT1:7751/FreeFlowCore/12x18+21up+BC+0.25+in+Gutter"/>
+<JDFController ControllerID="NoneImposed to Sub-Folder By Store Name" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Sub-Folder+By+Store+Name"/>
+<JDFController ControllerID="XMPIEPreflight" URL="http://FFC1MT1:7751/FreeFlowCore/XMPIEPreflight"/>
+<JDFController ControllerID="12x18 6up 2s Door Hanger" URL="http://FFC1MT1:7751/FreeFlowCore/12x18+6up+2s+Door+Hanger"/>
+<JDFController ControllerID="2 up Letter on 11x17" URL="http://FFC1MT1:7751/FreeFlowCore/2+up+Letter+on+11x17"/>
+<JDFController ControllerID="Z_Test" URL="http://FFC1MT1:7751/FreeFlowCore/Z_Test"/>
+<JDFController ControllerID="NationalEcomTOcenter" URL="http://FFC1MT1:7751/FreeFlowCore/NationalEcomTOcenter"/>
+<JDFController ControllerID="XMPie Test 2" URL="http://FFC1MT1:7751/FreeFlowCore/XMPie+Test+2"/>
+<JDFController ControllerID="File upload checker 300DPI" URL="http://FFC1MT1:7751/FreeFlowCore/File+upload+checker+300DPI"/>
+<JDFController ControllerID="File upload check 11_8half" URL="http://FFC1MT1:7751/FreeFlowCore/File+upload+check+11_8half"/>
+<JDFController ControllerID="Upload SF_Anncment_5x7_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Anncment_5x7_1s"/>
+<JDFController ControllerID="Upload SF_BC_3.5x2_1S" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_BC_3.5x2_1S"/>
+<JDFController ControllerID="Upload SF_Bkmark_2x6_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Bkmark_2x6_1s"/>
+<JDFController ControllerID="Upload SF_Booklet_8.5x11_2S" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Booklet_8.5x11_2S"/>
+<JDFController ControllerID="Upload SF_Brochure" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Brochure"/>
+<JDFController ControllerID="Upload SF_Card_5x7_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Card_5x7_1s"/>
+<JDFController ControllerID="Upload SF_Cert_11x8.5" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Cert_11x8.5"/>
+<JDFController ControllerID="Upload SF_fldCard_5x7" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_fldCard_5x7"/>
+<JDFController ControllerID="Upload SF_Flyer_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Flyer_8.5x11"/>
+<JDFController ControllerID="Upload SF_Invitation_5x7" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Invitation_5x7"/>
+<JDFController ControllerID="Upload SF_Letterhead_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Letterhead_8.5x11"/>
+<JDFController ControllerID="Upload SF_Menu_3.67x8.5" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Menu_3.67x8.5"/>
+<JDFController ControllerID="Upload SF_Menu_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Menu_8.5x11"/>
+<JDFController ControllerID="Upload SF_Notecard_4.25x5.25" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Notecard_4.25x5.25"/>
+<JDFController ControllerID="Upload SF_PC_5x7" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_PC_5x7"/>
+<JDFController ControllerID="Upload SF_RackCard_4x9" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_RackCard_4x9"/>
+<JDFController ControllerID="Upload SF_Resume_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Resume_8.5x11"/>
+<JDFController ControllerID="Upload SF_SellSheet_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_SellSheet_1s"/>
+<JDFController ControllerID="Upload SF_SellSheet_2s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_SellSheet_2s"/>
+<JDFController ControllerID="Standard Preflight upload check" URL="http://FFC1MT1:7751/FreeFlowCore/Standard+Preflight+upload+check"/>
+<JDFController ControllerID="Upload SF_BC_3.5x2_1S (with Margin) test" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_BC_3.5x2_1S+%28with+Margin%29+test"/>
+<JDFController ControllerID="XMPie Test - New1" URL="http://FFC1MT1:7751/FreeFlowCore/XMPie+Test+-+New1"/>
+<JDFController ControllerID="XMPieTestChris" URL="http://FFC1MT1:7751/FreeFlowCore/XMPieTestChris"/>
+<JDFController ControllerID="Impose 3-up on a 7.875in x4.33in" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+3-up+on+a+7.875in+x4.33in"/>
+<JDFController ControllerID="Upload LF_Banner_4x2_1S" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+LF_Banner_4x2_1S"/>
+</Response>
+</JMF>
+
+
+
+----------------------------------------
+
+2025/05/12 09:27:54
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20284]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: jxyLb
+
+
+----------------------------------------
+
+2025/05/12 12:14:06
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20284]:	Info
+GetPrepressWorkflows from http://FFC1MT1:7751
+
+----------------------------------------
+
+2025/05/12 12:14:07
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[20284]:	Info
+GetPrepressWorkflows response: <?xml version="1.0" encoding="UTF-8"?><JMF xmlns="http://www.CIP4.org/JDFSchema_1_1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ICSVersions="Base_L2-1.5 IDP_L1-1.5 JMF_L1-1.5 MIS_L2-1.5 Base_L2-1.3 IDP_L1-1.3 JMF_L2-1.3 MIS_L1-1.3" MaxVersion="1.7" SenderID="FreeFlow Core" TimeStamp="2025-05-12T12:14:07.101-04:00" Version="1.3">
+<Response Acknowledged="false" AgentName="FreeFlow Core" AgentVersion="7.0.11" ID="ID_154413" ReturnCode="0" Time="2025-05-12T12:14:07.101-04:00" Type="KnownControllers" refID="a70ac87f-d5c4-4f80-bd6b-4dd3b4ce4c76" xsi:type="ResponseKnownControllers">
+<JDFController ControllerID="Pass Through" URL="http://FFC1MT1:7751/FreeFlowCore/Pass+Through"/>
+<JDFController ControllerID="Impose 4-up On 19x13" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+4-up+On+19x13"/>
+<JDFController ControllerID="Impose N-up" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+N-up"/>
+<JDFController ControllerID="NoneImposed" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed"/>
+<JDFController ControllerID="XMPieTest" URL="http://FFC1MT1:7751/FreeFlowCore/XMPieTest"/>
+<JDFController ControllerID="Impose 8.5x11 4 Page Flyer On 11x17" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+8.5x11+4+Page+Flyer+On+11x17"/>
+<JDFController ControllerID="Impose 3-up On 19x13" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+3-up+On+19x13"/>
+<JDFController ControllerID="Impose 2-up On 19x13" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+2-up+On+19x13"/>
+<JDFController ControllerID="NoneImposed to iGen" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+iGen"/>
+<JDFController ControllerID="NoneImposed to Color1000" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Color1000"/>
+<JDFController ControllerID="NoneImposed to Nuvera" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Nuvera"/>
+<JDFController ControllerID="NoneImposed to Xerox700" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Xerox700"/>
+<JDFController ControllerID="12x18 21up BC 0.25 in Gutter" URL="http://FFC1MT1:7751/FreeFlowCore/12x18+21up+BC+0.25+in+Gutter"/>
+<JDFController ControllerID="NoneImposed to Sub-Folder By Store Name" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Sub-Folder+By+Store+Name"/>
+<JDFController ControllerID="XMPIEPreflight" URL="http://FFC1MT1:7751/FreeFlowCore/XMPIEPreflight"/>
+<JDFController ControllerID="12x18 6up 2s Door Hanger" URL="http://FFC1MT1:7751/FreeFlowCore/12x18+6up+2s+Door+Hanger"/>
+<JDFController ControllerID="2 up Letter on 11x17" URL="http://FFC1MT1:7751/FreeFlowCore/2+up+Letter+on+11x17"/>
+<JDFController ControllerID="Z_Test" URL="http://FFC1MT1:7751/FreeFlowCore/Z_Test"/>
+<JDFController ControllerID="NationalEcomTOcenter" URL="http://FFC1MT1:7751/FreeFlowCore/NationalEcomTOcenter"/>
+<JDFController ControllerID="XMPie Test 2" URL="http://FFC1MT1:7751/FreeFlowCore/XMPie+Test+2"/>
+<JDFController ControllerID="File upload checker 300DPI" URL="http://FFC1MT1:7751/FreeFlowCore/File+upload+checker+300DPI"/>
+<JDFController ControllerID="File upload check 11_8half" URL="http://FFC1MT1:7751/FreeFlowCore/File+upload+check+11_8half"/>
+<JDFController ControllerID="Upload SF_Anncment_5x7_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Anncment_5x7_1s"/>
+<JDFController ControllerID="Upload SF_BC_3.5x2_1S" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_BC_3.5x2_1S"/>
+<JDFController ControllerID="Upload SF_Bkmark_2x6_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Bkmark_2x6_1s"/>
+<JDFController ControllerID="Upload SF_Booklet_8.5x11_2S" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Booklet_8.5x11_2S"/>
+<JDFController ControllerID="Upload SF_Brochure" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Brochure"/>
+<JDFController ControllerID="Upload SF_Card_5x7_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Card_5x7_1s"/>
+<JDFController ControllerID="Upload SF_Cert_11x8.5" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Cert_11x8.5"/>
+<JDFController ControllerID="Upload SF_fldCard_5x7" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_fldCard_5x7"/>
+<JDFController ControllerID="Upload SF_Flyer_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Flyer_8.5x11"/>
+<JDFController ControllerID="Upload SF_Invitation_5x7" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Invitation_5x7"/>
+<JDFController ControllerID="Upload SF_Letterhead_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Letterhead_8.5x11"/>
+<JDFController ControllerID="Upload SF_Menu_3.67x8.5" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Menu_3.67x8.5"/>
+<JDFController ControllerID="Upload SF_Menu_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Menu_8.5x11"/>
+<JDFController ControllerID="Upload SF_Notecard_4.25x5.25" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Notecard_4.25x5.25"/>
+<JDFController ControllerID="Upload SF_PC_5x7" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_PC_5x7"/>
+<JDFController ControllerID="Upload SF_RackCard_4x9" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_RackCard_4x9"/>
+<JDFController ControllerID="Upload SF_Resume_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Resume_8.5x11"/>
+<JDFController ControllerID="Upload SF_SellSheet_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_SellSheet_1s"/>
+<JDFController ControllerID="Upload SF_SellSheet_2s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_SellSheet_2s"/>
+<JDFController ControllerID="Standard Preflight upload check" URL="http://FFC1MT1:7751/FreeFlowCore/Standard+Preflight+upload+check"/>
+<JDFController ControllerID="Upload SF_BC_3.5x2_1S (with Margin) test" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_BC_3.5x2_1S+%28with+Margin%29+test"/>
+<JDFController ControllerID="XMPie Test - New1" URL="http://FFC1MT1:7751/FreeFlowCore/XMPie+Test+-+New1"/>
+<JDFController ControllerID="XMPieTestChris" URL="http://FFC1MT1:7751/FreeFlowCore/XMPieTestChris"/>
+<JDFController ControllerID="Impose 3-up on a 7.875in x4.33in" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+3-up+on+a+7.875in+x4.33in"/>
+<JDFController ControllerID="Upload LF_Banner_4x2_1S" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+LF_Banner_4x2_1S"/>
+</Response>
+</JMF>
+
+
+
+----------------------------------------
+
+2025/05/12 12:14:33
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[22940]:	Audit
+ From IP: 172.31.204.29
+Loading SecureToken: 0fzXd
+
+
+----------------------------------------
+
+2025/05/12 12:14:39
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[48232]:	Info
+GetPrepressWorkflows from http://FFC1MT1:7751
+
+----------------------------------------
+
+2025/05/12 12:14:40
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[48232]:	Info
+GetPrepressWorkflows response: <?xml version="1.0" encoding="UTF-8"?><JMF xmlns="http://www.CIP4.org/JDFSchema_1_1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ICSVersions="Base_L2-1.5 IDP_L1-1.5 JMF_L1-1.5 MIS_L2-1.5 Base_L2-1.3 IDP_L1-1.3 JMF_L2-1.3 MIS_L1-1.3" MaxVersion="1.7" SenderID="FreeFlow Core" TimeStamp="2025-05-12T12:14:40.023-04:00" Version="1.3">
+<Response Acknowledged="false" AgentName="FreeFlow Core" AgentVersion="7.0.11" ID="ID_154414" ReturnCode="0" Time="2025-05-12T12:14:40.023-04:00" Type="KnownControllers" refID="4805d0f8-c57d-4bb9-8090-83f84def7c17" xsi:type="ResponseKnownControllers">
+<JDFController ControllerID="Pass Through" URL="http://FFC1MT1:7751/FreeFlowCore/Pass+Through"/>
+<JDFController ControllerID="Impose 4-up On 19x13" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+4-up+On+19x13"/>
+<JDFController ControllerID="Impose N-up" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+N-up"/>
+<JDFController ControllerID="NoneImposed" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed"/>
+<JDFController ControllerID="XMPieTest" URL="http://FFC1MT1:7751/FreeFlowCore/XMPieTest"/>
+<JDFController ControllerID="Impose 8.5x11 4 Page Flyer On 11x17" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+8.5x11+4+Page+Flyer+On+11x17"/>
+<JDFController ControllerID="Impose 3-up On 19x13" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+3-up+On+19x13"/>
+<JDFController ControllerID="Impose 2-up On 19x13" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+2-up+On+19x13"/>
+<JDFController ControllerID="NoneImposed to iGen" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+iGen"/>
+<JDFController ControllerID="NoneImposed to Color1000" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Color1000"/>
+<JDFController ControllerID="NoneImposed to Nuvera" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Nuvera"/>
+<JDFController ControllerID="NoneImposed to Xerox700" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Xerox700"/>
+<JDFController ControllerID="12x18 21up BC 0.25 in Gutter" URL="http://FFC1MT1:7751/FreeFlowCore/12x18+21up+BC+0.25+in+Gutter"/>
+<JDFController ControllerID="NoneImposed to Sub-Folder By Store Name" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Sub-Folder+By+Store+Name"/>
+<JDFController ControllerID="XMPIEPreflight" URL="http://FFC1MT1:7751/FreeFlowCore/XMPIEPreflight"/>
+<JDFController ControllerID="12x18 6up 2s Door Hanger" URL="http://FFC1MT1:7751/FreeFlowCore/12x18+6up+2s+Door+Hanger"/>
+<JDFController ControllerID="2 up Letter on 11x17" URL="http://FFC1MT1:7751/FreeFlowCore/2+up+Letter+on+11x17"/>
+<JDFController ControllerID="Z_Test" URL="http://FFC1MT1:7751/FreeFlowCore/Z_Test"/>
+<JDFController ControllerID="NationalEcomTOcenter" URL="http://FFC1MT1:7751/FreeFlowCore/NationalEcomTOcenter"/>
+<JDFController ControllerID="XMPie Test 2" URL="http://FFC1MT1:7751/FreeFlowCore/XMPie+Test+2"/>
+<JDFController ControllerID="File upload checker 300DPI" URL="http://FFC1MT1:7751/FreeFlowCore/File+upload+checker+300DPI"/>
+<JDFController ControllerID="File upload check 11_8half" URL="http://FFC1MT1:7751/FreeFlowCore/File+upload+check+11_8half"/>
+<JDFController ControllerID="Upload SF_Anncment_5x7_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Anncment_5x7_1s"/>
+<JDFController ControllerID="Upload SF_BC_3.5x2_1S" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_BC_3.5x2_1S"/>
+<JDFController ControllerID="Upload SF_Bkmark_2x6_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Bkmark_2x6_1s"/>
+<JDFController ControllerID="Upload SF_Booklet_8.5x11_2S" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Booklet_8.5x11_2S"/>
+<JDFController ControllerID="Upload SF_Brochure" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Brochure"/>
+<JDFController ControllerID="Upload SF_Card_5x7_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Card_5x7_1s"/>
+<JDFController ControllerID="Upload SF_Cert_11x8.5" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Cert_11x8.5"/>
+<JDFController ControllerID="Upload SF_fldCard_5x7" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_fldCard_5x7"/>
+<JDFController ControllerID="Upload SF_Flyer_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Flyer_8.5x11"/>
+<JDFController ControllerID="Upload SF_Invitation_5x7" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Invitation_5x7"/>
+<JDFController ControllerID="Upload SF_Letterhead_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Letterhead_8.5x11"/>
+<JDFController ControllerID="Upload SF_Menu_3.67x8.5" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Menu_3.67x8.5"/>
+<JDFController ControllerID="Upload SF_Menu_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Menu_8.5x11"/>
+<JDFController ControllerID="Upload SF_Notecard_4.25x5.25" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Notecard_4.25x5.25"/>
+<JDFController ControllerID="Upload SF_PC_5x7" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_PC_5x7"/>
+<JDFController ControllerID="Upload SF_RackCard_4x9" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_RackCard_4x9"/>
+<JDFController ControllerID="Upload SF_Resume_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Resume_8.5x11"/>
+<JDFController ControllerID="Upload SF_SellSheet_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_SellSheet_1s"/>
+<JDFController ControllerID="Upload SF_SellSheet_2s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_SellSheet_2s"/>
+<JDFController ControllerID="Standard Preflight upload check" URL="http://FFC1MT1:7751/FreeFlowCore/Standard+Preflight+upload+check"/>
+<JDFController ControllerID="Upload SF_BC_3.5x2_1S (with Margin) test" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_BC_3.5x2_1S+%28with+Margin%29+test"/>
+<JDFController ControllerID="XMPie Test - New1" URL="http://FFC1MT1:7751/FreeFlowCore/XMPie+Test+-+New1"/>
+<JDFController ControllerID="XMPieTestChris" URL="http://FFC1MT1:7751/FreeFlowCore/XMPieTestChris"/>
+<JDFController ControllerID="Impose 3-up on a 7.875in x4.33in" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+3-up+on+a+7.875in+x4.33in"/>
+<JDFController ControllerID="Upload LF_Banner_4x2_1S" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+LF_Banner_4x2_1S"/>
+</Response>
+</JMF>
+
+
+
+----------------------------------------
+
+2025/05/12 12:14:42
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16768]:	Audit
+ From IP: 172.31.204.29
+Loading SecureToken: 7J3AO
+
+
+----------------------------------------
+
+2025/05/12 12:14:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[47484]:	Info
+GetPrepressWorkflows from http://FFC1MT1:7751
+
+----------------------------------------
+
+2025/05/12 12:14:48
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[47484]:	Info
+GetPrepressWorkflows response: <?xml version="1.0" encoding="UTF-8"?><JMF xmlns="http://www.CIP4.org/JDFSchema_1_1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ICSVersions="Base_L2-1.5 IDP_L1-1.5 JMF_L1-1.5 MIS_L2-1.5 Base_L2-1.3 IDP_L1-1.3 JMF_L2-1.3 MIS_L1-1.3" MaxVersion="1.7" SenderID="FreeFlow Core" TimeStamp="2025-05-12T12:14:48.127-04:00" Version="1.3">
+<Response Acknowledged="false" AgentName="FreeFlow Core" AgentVersion="7.0.11" ID="ID_154415" ReturnCode="0" Time="2025-05-12T12:14:48.127-04:00" Type="KnownControllers" refID="146672b3-75e4-4e17-a992-b97840077011" xsi:type="ResponseKnownControllers">
+<JDFController ControllerID="Pass Through" URL="http://FFC1MT1:7751/FreeFlowCore/Pass+Through"/>
+<JDFController ControllerID="Impose 4-up On 19x13" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+4-up+On+19x13"/>
+<JDFController ControllerID="Impose N-up" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+N-up"/>
+<JDFController ControllerID="NoneImposed" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed"/>
+<JDFController ControllerID="XMPieTest" URL="http://FFC1MT1:7751/FreeFlowCore/XMPieTest"/>
+<JDFController ControllerID="Impose 8.5x11 4 Page Flyer On 11x17" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+8.5x11+4+Page+Flyer+On+11x17"/>
+<JDFController ControllerID="Impose 3-up On 19x13" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+3-up+On+19x13"/>
+<JDFController ControllerID="Impose 2-up On 19x13" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+2-up+On+19x13"/>
+<JDFController ControllerID="NoneImposed to iGen" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+iGen"/>
+<JDFController ControllerID="NoneImposed to Color1000" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Color1000"/>
+<JDFController ControllerID="NoneImposed to Nuvera" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Nuvera"/>
+<JDFController ControllerID="NoneImposed to Xerox700" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Xerox700"/>
+<JDFController ControllerID="12x18 21up BC 0.25 in Gutter" URL="http://FFC1MT1:7751/FreeFlowCore/12x18+21up+BC+0.25+in+Gutter"/>
+<JDFController ControllerID="NoneImposed to Sub-Folder By Store Name" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Sub-Folder+By+Store+Name"/>
+<JDFController ControllerID="XMPIEPreflight" URL="http://FFC1MT1:7751/FreeFlowCore/XMPIEPreflight"/>
+<JDFController ControllerID="12x18 6up 2s Door Hanger" URL="http://FFC1MT1:7751/FreeFlowCore/12x18+6up+2s+Door+Hanger"/>
+<JDFController ControllerID="2 up Letter on 11x17" URL="http://FFC1MT1:7751/FreeFlowCore/2+up+Letter+on+11x17"/>
+<JDFController ControllerID="Z_Test" URL="http://FFC1MT1:7751/FreeFlowCore/Z_Test"/>
+<JDFController ControllerID="NationalEcomTOcenter" URL="http://FFC1MT1:7751/FreeFlowCore/NationalEcomTOcenter"/>
+<JDFController ControllerID="XMPie Test 2" URL="http://FFC1MT1:7751/FreeFlowCore/XMPie+Test+2"/>
+<JDFController ControllerID="File upload checker 300DPI" URL="http://FFC1MT1:7751/FreeFlowCore/File+upload+checker+300DPI"/>
+<JDFController ControllerID="File upload check 11_8half" URL="http://FFC1MT1:7751/FreeFlowCore/File+upload+check+11_8half"/>
+<JDFController ControllerID="Upload SF_Anncment_5x7_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Anncment_5x7_1s"/>
+<JDFController ControllerID="Upload SF_BC_3.5x2_1S" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_BC_3.5x2_1S"/>
+<JDFController ControllerID="Upload SF_Bkmark_2x6_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Bkmark_2x6_1s"/>
+<JDFController ControllerID="Upload SF_Booklet_8.5x11_2S" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Booklet_8.5x11_2S"/>
+<JDFController ControllerID="Upload SF_Brochure" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Brochure"/>
+<JDFController ControllerID="Upload SF_Card_5x7_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Card_5x7_1s"/>
+<JDFController ControllerID="Upload SF_Cert_11x8.5" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Cert_11x8.5"/>
+<JDFController ControllerID="Upload SF_fldCard_5x7" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_fldCard_5x7"/>
+<JDFController ControllerID="Upload SF_Flyer_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Flyer_8.5x11"/>
+<JDFController ControllerID="Upload SF_Invitation_5x7" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Invitation_5x7"/>
+<JDFController ControllerID="Upload SF_Letterhead_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Letterhead_8.5x11"/>
+<JDFController ControllerID="Upload SF_Menu_3.67x8.5" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Menu_3.67x8.5"/>
+<JDFController ControllerID="Upload SF_Menu_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Menu_8.5x11"/>
+<JDFController ControllerID="Upload SF_Notecard_4.25x5.25" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Notecard_4.25x5.25"/>
+<JDFController ControllerID="Upload SF_PC_5x7" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_PC_5x7"/>
+<JDFController ControllerID="Upload SF_RackCard_4x9" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_RackCard_4x9"/>
+<JDFController ControllerID="Upload SF_Resume_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Resume_8.5x11"/>
+<JDFController ControllerID="Upload SF_SellSheet_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_SellSheet_1s"/>
+<JDFController ControllerID="Upload SF_SellSheet_2s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_SellSheet_2s"/>
+<JDFController ControllerID="Standard Preflight upload check" URL="http://FFC1MT1:7751/FreeFlowCore/Standard+Preflight+upload+check"/>
+<JDFController ControllerID="Upload SF_BC_3.5x2_1S (with Margin) test" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_BC_3.5x2_1S+%28with+Margin%29+test"/>
+<JDFController ControllerID="XMPie Test - New1" URL="http://FFC1MT1:7751/FreeFlowCore/XMPie+Test+-+New1"/>
+<JDFController ControllerID="XMPieTestChris" URL="http://FFC1MT1:7751/FreeFlowCore/XMPieTestChris"/>
+<JDFController ControllerID="Impose 3-up on a 7.875in x4.33in" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+3-up+on+a+7.875in+x4.33in"/>
+<JDFController ControllerID="Upload LF_Banner_4x2_1S" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+LF_Banner_4x2_1S"/>
+</Response>
+</JMF>
+
+
+
+----------------------------------------
+
+2025/05/12 12:14:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[48232]:	Audit
+ From IP: 172.31.204.29
+Loading SecureToken: AB9kV
+
+
+----------------------------------------
+
+2025/05/12 12:14:58
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[36872]:	Info
+GetPrepressWorkflows from http://FFC1MT1:7751
+
+----------------------------------------
+
+2025/05/12 12:14:58
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[36872]:	Info
+GetPrepressWorkflows response: <?xml version="1.0" encoding="UTF-8"?><JMF xmlns="http://www.CIP4.org/JDFSchema_1_1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ICSVersions="Base_L2-1.5 IDP_L1-1.5 JMF_L1-1.5 MIS_L2-1.5 Base_L2-1.3 IDP_L1-1.3 JMF_L2-1.3 MIS_L1-1.3" MaxVersion="1.7" SenderID="FreeFlow Core" TimeStamp="2025-05-12T12:14:58.804-04:00" Version="1.3">
+<Response Acknowledged="false" AgentName="FreeFlow Core" AgentVersion="7.0.11" ID="ID_154442" ReturnCode="0" Time="2025-05-12T12:14:58.797-04:00" Type="KnownControllers" refID="b8e3f7cd-0c77-48d7-b0f5-74407e0d9fcc" xsi:type="ResponseKnownControllers">
+<JDFController ControllerID="Pass Through" URL="http://FFC1MT1:7751/FreeFlowCore/Pass+Through"/>
+<JDFController ControllerID="Impose 4-up On 19x13" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+4-up+On+19x13"/>
+<JDFController ControllerID="Impose N-up" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+N-up"/>
+<JDFController ControllerID="NoneImposed" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed"/>
+<JDFController ControllerID="XMPieTest" URL="http://FFC1MT1:7751/FreeFlowCore/XMPieTest"/>
+<JDFController ControllerID="Impose 8.5x11 4 Page Flyer On 11x17" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+8.5x11+4+Page+Flyer+On+11x17"/>
+<JDFController ControllerID="Impose 3-up On 19x13" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+3-up+On+19x13"/>
+<JDFController ControllerID="Impose 2-up On 19x13" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+2-up+On+19x13"/>
+<JDFController ControllerID="NoneImposed to iGen" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+iGen"/>
+<JDFController ControllerID="NoneImposed to Color1000" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Color1000"/>
+<JDFController ControllerID="NoneImposed to Nuvera" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Nuvera"/>
+<JDFController ControllerID="NoneImposed to Xerox700" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Xerox700"/>
+<JDFController ControllerID="12x18 21up BC 0.25 in Gutter" URL="http://FFC1MT1:7751/FreeFlowCore/12x18+21up+BC+0.25+in+Gutter"/>
+<JDFController ControllerID="NoneImposed to Sub-Folder By Store Name" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Sub-Folder+By+Store+Name"/>
+<JDFController ControllerID="XMPIEPreflight" URL="http://FFC1MT1:7751/FreeFlowCore/XMPIEPreflight"/>
+<JDFController ControllerID="12x18 6up 2s Door Hanger" URL="http://FFC1MT1:7751/FreeFlowCore/12x18+6up+2s+Door+Hanger"/>
+<JDFController ControllerID="2 up Letter on 11x17" URL="http://FFC1MT1:7751/FreeFlowCore/2+up+Letter+on+11x17"/>
+<JDFController ControllerID="Z_Test" URL="http://FFC1MT1:7751/FreeFlowCore/Z_Test"/>
+<JDFController ControllerID="NationalEcomTOcenter" URL="http://FFC1MT1:7751/FreeFlowCore/NationalEcomTOcenter"/>
+<JDFController ControllerID="XMPie Test 2" URL="http://FFC1MT1:7751/FreeFlowCore/XMPie+Test+2"/>
+<JDFController ControllerID="File upload checker 300DPI" URL="http://FFC1MT1:7751/FreeFlowCore/File+upload+checker+300DPI"/>
+<JDFController ControllerID="File upload check 11_8half" URL="http://FFC1MT1:7751/FreeFlowCore/File+upload+check+11_8half"/>
+<JDFController ControllerID="Upload SF_Anncment_5x7_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Anncment_5x7_1s"/>
+<JDFController ControllerID="Upload SF_BC_3.5x2_1S" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_BC_3.5x2_1S"/>
+<JDFController ControllerID="Upload SF_Bkmark_2x6_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Bkmark_2x6_1s"/>
+<JDFController ControllerID="Upload SF_Booklet_8.5x11_2S" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Booklet_8.5x11_2S"/>
+<JDFController ControllerID="Upload SF_Brochure" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Brochure"/>
+<JDFController ControllerID="Upload SF_Card_5x7_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Card_5x7_1s"/>
+<JDFController ControllerID="Upload SF_Cert_11x8.5" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Cert_11x8.5"/>
+<JDFController ControllerID="Upload SF_fldCard_5x7" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_fldCard_5x7"/>
+<JDFController ControllerID="Upload SF_Flyer_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Flyer_8.5x11"/>
+<JDFController ControllerID="Upload SF_Invitation_5x7" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Invitation_5x7"/>
+<JDFController ControllerID="Upload SF_Letterhead_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Letterhead_8.5x11"/>
+<JDFController ControllerID="Upload SF_Menu_3.67x8.5" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Menu_3.67x8.5"/>
+<JDFController ControllerID="Upload SF_Menu_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Menu_8.5x11"/>
+<JDFController ControllerID="Upload SF_Notecard_4.25x5.25" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Notecard_4.25x5.25"/>
+<JDFController ControllerID="Upload SF_PC_5x7" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_PC_5x7"/>
+<JDFController ControllerID="Upload SF_RackCard_4x9" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_RackCard_4x9"/>
+<JDFController ControllerID="Upload SF_Resume_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Resume_8.5x11"/>
+<JDFController ControllerID="Upload SF_SellSheet_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_SellSheet_1s"/>
+<JDFController ControllerID="Upload SF_SellSheet_2s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_SellSheet_2s"/>
+<JDFController ControllerID="Standard Preflight upload check" URL="http://FFC1MT1:7751/FreeFlowCore/Standard+Preflight+upload+check"/>
+<JDFController ControllerID="Upload SF_BC_3.5x2_1S (with Margin) test" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_BC_3.5x2_1S+%28with+Margin%29+test"/>
+<JDFController ControllerID="XMPie Test - New1" URL="http://FFC1MT1:7751/FreeFlowCore/XMPie+Test+-+New1"/>
+<JDFController ControllerID="XMPieTestChris" URL="http://FFC1MT1:7751/FreeFlowCore/XMPieTestChris"/>
+<JDFController ControllerID="Impose 3-up on a 7.875in x4.33in" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+3-up+on+a+7.875in+x4.33in"/>
+<JDFController ControllerID="Upload LF_Banner_4x2_1S" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+LF_Banner_4x2_1S"/>
+</Response>
+</JMF>
+
+
+
+----------------------------------------
+
+2025/05/12 12:15:05
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16768]:	Audit
+ From IP: 172.31.204.29
+Loading SecureToken: gp 5Q
+
+
+----------------------------------------
+
+2025/05/12 12:15:11
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[22304]:	Info
+GetPrepressWorkflows from http://FFC1MT1:7751
+
+----------------------------------------
+
+2025/05/12 12:15:11
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[22304]:	Info
+GetPrepressWorkflows response: <?xml version="1.0" encoding="UTF-8"?><JMF xmlns="http://www.CIP4.org/JDFSchema_1_1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ICSVersions="Base_L2-1.5 IDP_L1-1.5 JMF_L1-1.5 MIS_L2-1.5 Base_L2-1.3 IDP_L1-1.3 JMF_L2-1.3 MIS_L1-1.3" MaxVersion="1.7" SenderID="FreeFlow Core" TimeStamp="2025-05-12T12:15:11.515-04:00" Version="1.3">
+<Response Acknowledged="false" AgentName="FreeFlow Core" AgentVersion="7.0.11" ID="ID_154443" ReturnCode="0" Time="2025-05-12T12:15:11.500-04:00" Type="KnownControllers" refID="3850256c-2856-42a6-8812-ce0fb988d8cf" xsi:type="ResponseKnownControllers">
+<JDFController ControllerID="Pass Through" URL="http://FFC1MT1:7751/FreeFlowCore/Pass+Through"/>
+<JDFController ControllerID="Impose 4-up On 19x13" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+4-up+On+19x13"/>
+<JDFController ControllerID="Impose N-up" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+N-up"/>
+<JDFController ControllerID="NoneImposed" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed"/>
+<JDFController ControllerID="XMPieTest" URL="http://FFC1MT1:7751/FreeFlowCore/XMPieTest"/>
+<JDFController ControllerID="Impose 8.5x11 4 Page Flyer On 11x17" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+8.5x11+4+Page+Flyer+On+11x17"/>
+<JDFController ControllerID="Impose 3-up On 19x13" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+3-up+On+19x13"/>
+<JDFController ControllerID="Impose 2-up On 19x13" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+2-up+On+19x13"/>
+<JDFController ControllerID="NoneImposed to iGen" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+iGen"/>
+<JDFController ControllerID="NoneImposed to Color1000" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Color1000"/>
+<JDFController ControllerID="NoneImposed to Nuvera" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Nuvera"/>
+<JDFController ControllerID="NoneImposed to Xerox700" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Xerox700"/>
+<JDFController ControllerID="12x18 21up BC 0.25 in Gutter" URL="http://FFC1MT1:7751/FreeFlowCore/12x18+21up+BC+0.25+in+Gutter"/>
+<JDFController ControllerID="NoneImposed to Sub-Folder By Store Name" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Sub-Folder+By+Store+Name"/>
+<JDFController ControllerID="XMPIEPreflight" URL="http://FFC1MT1:7751/FreeFlowCore/XMPIEPreflight"/>
+<JDFController ControllerID="12x18 6up 2s Door Hanger" URL="http://FFC1MT1:7751/FreeFlowCore/12x18+6up+2s+Door+Hanger"/>
+<JDFController ControllerID="2 up Letter on 11x17" URL="http://FFC1MT1:7751/FreeFlowCore/2+up+Letter+on+11x17"/>
+<JDFController ControllerID="Z_Test" URL="http://FFC1MT1:7751/FreeFlowCore/Z_Test"/>
+<JDFController ControllerID="NationalEcomTOcenter" URL="http://FFC1MT1:7751/FreeFlowCore/NationalEcomTOcenter"/>
+<JDFController ControllerID="XMPie Test 2" URL="http://FFC1MT1:7751/FreeFlowCore/XMPie+Test+2"/>
+<JDFController ControllerID="File upload checker 300DPI" URL="http://FFC1MT1:7751/FreeFlowCore/File+upload+checker+300DPI"/>
+<JDFController ControllerID="File upload check 11_8half" URL="http://FFC1MT1:7751/FreeFlowCore/File+upload+check+11_8half"/>
+<JDFController ControllerID="Upload SF_Anncment_5x7_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Anncment_5x7_1s"/>
+<JDFController ControllerID="Upload SF_BC_3.5x2_1S" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_BC_3.5x2_1S"/>
+<JDFController ControllerID="Upload SF_Bkmark_2x6_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Bkmark_2x6_1s"/>
+<JDFController ControllerID="Upload SF_Booklet_8.5x11_2S" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Booklet_8.5x11_2S"/>
+<JDFController ControllerID="Upload SF_Brochure" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Brochure"/>
+<JDFController ControllerID="Upload SF_Card_5x7_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Card_5x7_1s"/>
+<JDFController ControllerID="Upload SF_Cert_11x8.5" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Cert_11x8.5"/>
+<JDFController ControllerID="Upload SF_fldCard_5x7" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_fldCard_5x7"/>
+<JDFController ControllerID="Upload SF_Flyer_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Flyer_8.5x11"/>
+<JDFController ControllerID="Upload SF_Invitation_5x7" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Invitation_5x7"/>
+<JDFController ControllerID="Upload SF_Letterhead_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Letterhead_8.5x11"/>
+<JDFController ControllerID="Upload SF_Menu_3.67x8.5" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Menu_3.67x8.5"/>
+<JDFController ControllerID="Upload SF_Menu_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Menu_8.5x11"/>
+<JDFController ControllerID="Upload SF_Notecard_4.25x5.25" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Notecard_4.25x5.25"/>
+<JDFController ControllerID="Upload SF_PC_5x7" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_PC_5x7"/>
+<JDFController ControllerID="Upload SF_RackCard_4x9" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_RackCard_4x9"/>
+<JDFController ControllerID="Upload SF_Resume_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Resume_8.5x11"/>
+<JDFController ControllerID="Upload SF_SellSheet_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_SellSheet_1s"/>
+<JDFController ControllerID="Upload SF_SellSheet_2s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_SellSheet_2s"/>
+<JDFController ControllerID="Standard Preflight upload check" URL="http://FFC1MT1:7751/FreeFlowCore/Standard+Preflight+upload+check"/>
+<JDFController ControllerID="Upload SF_BC_3.5x2_1S (with Margin) test" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_BC_3.5x2_1S+%28with+Margin%29+test"/>
+<JDFController ControllerID="XMPie Test - New1" URL="http://FFC1MT1:7751/FreeFlowCore/XMPie+Test+-+New1"/>
+<JDFController ControllerID="XMPieTestChris" URL="http://FFC1MT1:7751/FreeFlowCore/XMPieTestChris"/>
+<JDFController ControllerID="Impose 3-up on a 7.875in x4.33in" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+3-up+on+a+7.875in+x4.33in"/>
+<JDFController ControllerID="Upload LF_Banner_4x2_1S" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+LF_Banner_4x2_1S"/>
+</Response>
+</JMF>
+
+
+
+----------------------------------------
+
+2025/05/12 12:15:13
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[47484]:	Audit
+ From IP: 172.31.204.29
+Loading SecureToken: dCB J
+
+
+----------------------------------------
+
+2025/05/12 12:15:19
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[9700]:	Info
+GetPrepressWorkflows from http://FFC1MT1:7751
+
+----------------------------------------
+
+2025/05/12 12:15:20
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[9700]:	Info
+GetPrepressWorkflows response: <?xml version="1.0" encoding="UTF-8"?><JMF xmlns="http://www.CIP4.org/JDFSchema_1_1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ICSVersions="Base_L2-1.5 IDP_L1-1.5 JMF_L1-1.5 MIS_L2-1.5 Base_L2-1.3 IDP_L1-1.3 JMF_L2-1.3 MIS_L1-1.3" MaxVersion="1.7" SenderID="FreeFlow Core" TimeStamp="2025-05-12T12:15:20.258-04:00" Version="1.3">
+<Response Acknowledged="false" AgentName="FreeFlow Core" AgentVersion="7.0.11" ID="ID_154444" ReturnCode="0" Time="2025-05-12T12:15:20.243-04:00" Type="KnownControllers" refID="be3bc727-0ec9-4e3f-818e-6754a011ea25" xsi:type="ResponseKnownControllers">
+<JDFController ControllerID="Pass Through" URL="http://FFC1MT1:7751/FreeFlowCore/Pass+Through"/>
+<JDFController ControllerID="Impose 4-up On 19x13" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+4-up+On+19x13"/>
+<JDFController ControllerID="Impose N-up" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+N-up"/>
+<JDFController ControllerID="NoneImposed" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed"/>
+<JDFController ControllerID="XMPieTest" URL="http://FFC1MT1:7751/FreeFlowCore/XMPieTest"/>
+<JDFController ControllerID="Impose 8.5x11 4 Page Flyer On 11x17" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+8.5x11+4+Page+Flyer+On+11x17"/>
+<JDFController ControllerID="Impose 3-up On 19x13" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+3-up+On+19x13"/>
+<JDFController ControllerID="Impose 2-up On 19x13" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+2-up+On+19x13"/>
+<JDFController ControllerID="NoneImposed to iGen" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+iGen"/>
+<JDFController ControllerID="NoneImposed to Color1000" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Color1000"/>
+<JDFController ControllerID="NoneImposed to Nuvera" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Nuvera"/>
+<JDFController ControllerID="NoneImposed to Xerox700" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Xerox700"/>
+<JDFController ControllerID="12x18 21up BC 0.25 in Gutter" URL="http://FFC1MT1:7751/FreeFlowCore/12x18+21up+BC+0.25+in+Gutter"/>
+<JDFController ControllerID="NoneImposed to Sub-Folder By Store Name" URL="http://FFC1MT1:7751/FreeFlowCore/NoneImposed+to+Sub-Folder+By+Store+Name"/>
+<JDFController ControllerID="XMPIEPreflight" URL="http://FFC1MT1:7751/FreeFlowCore/XMPIEPreflight"/>
+<JDFController ControllerID="12x18 6up 2s Door Hanger" URL="http://FFC1MT1:7751/FreeFlowCore/12x18+6up+2s+Door+Hanger"/>
+<JDFController ControllerID="2 up Letter on 11x17" URL="http://FFC1MT1:7751/FreeFlowCore/2+up+Letter+on+11x17"/>
+<JDFController ControllerID="Z_Test" URL="http://FFC1MT1:7751/FreeFlowCore/Z_Test"/>
+<JDFController ControllerID="NationalEcomTOcenter" URL="http://FFC1MT1:7751/FreeFlowCore/NationalEcomTOcenter"/>
+<JDFController ControllerID="XMPie Test 2" URL="http://FFC1MT1:7751/FreeFlowCore/XMPie+Test+2"/>
+<JDFController ControllerID="File upload checker 300DPI" URL="http://FFC1MT1:7751/FreeFlowCore/File+upload+checker+300DPI"/>
+<JDFController ControllerID="File upload check 11_8half" URL="http://FFC1MT1:7751/FreeFlowCore/File+upload+check+11_8half"/>
+<JDFController ControllerID="Upload SF_Anncment_5x7_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Anncment_5x7_1s"/>
+<JDFController ControllerID="Upload SF_BC_3.5x2_1S" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_BC_3.5x2_1S"/>
+<JDFController ControllerID="Upload SF_Bkmark_2x6_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Bkmark_2x6_1s"/>
+<JDFController ControllerID="Upload SF_Booklet_8.5x11_2S" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Booklet_8.5x11_2S"/>
+<JDFController ControllerID="Upload SF_Brochure" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Brochure"/>
+<JDFController ControllerID="Upload SF_Card_5x7_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Card_5x7_1s"/>
+<JDFController ControllerID="Upload SF_Cert_11x8.5" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Cert_11x8.5"/>
+<JDFController ControllerID="Upload SF_fldCard_5x7" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_fldCard_5x7"/>
+<JDFController ControllerID="Upload SF_Flyer_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Flyer_8.5x11"/>
+<JDFController ControllerID="Upload SF_Invitation_5x7" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Invitation_5x7"/>
+<JDFController ControllerID="Upload SF_Letterhead_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Letterhead_8.5x11"/>
+<JDFController ControllerID="Upload SF_Menu_3.67x8.5" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Menu_3.67x8.5"/>
+<JDFController ControllerID="Upload SF_Menu_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Menu_8.5x11"/>
+<JDFController ControllerID="Upload SF_Notecard_4.25x5.25" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Notecard_4.25x5.25"/>
+<JDFController ControllerID="Upload SF_PC_5x7" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_PC_5x7"/>
+<JDFController ControllerID="Upload SF_RackCard_4x9" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_RackCard_4x9"/>
+<JDFController ControllerID="Upload SF_Resume_8.5x11" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_Resume_8.5x11"/>
+<JDFController ControllerID="Upload SF_SellSheet_1s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_SellSheet_1s"/>
+<JDFController ControllerID="Upload SF_SellSheet_2s" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_SellSheet_2s"/>
+<JDFController ControllerID="Standard Preflight upload check" URL="http://FFC1MT1:7751/FreeFlowCore/Standard+Preflight+upload+check"/>
+<JDFController ControllerID="Upload SF_BC_3.5x2_1S (with Margin) test" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+SF_BC_3.5x2_1S+%28with+Margin%29+test"/>
+<JDFController ControllerID="XMPie Test - New1" URL="http://FFC1MT1:7751/FreeFlowCore/XMPie+Test+-+New1"/>
+<JDFController ControllerID="XMPieTestChris" URL="http://FFC1MT1:7751/FreeFlowCore/XMPieTestChris"/>
+<JDFController ControllerID="Impose 3-up on a 7.875in x4.33in" URL="http://FFC1MT1:7751/FreeFlowCore/Impose+3-up+on+a+7.875in+x4.33in"/>
+<JDFController ControllerID="Upload LF_Banner_4x2_1S" URL="http://FFC1MT1:7751/FreeFlowCore/Upload+LF_Banner_4x2_1S"/>
+</Response>
+</JMF>
+
+
+
+----------------------------------------
+
+2025/05/12 12:26:21
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[36872]:	Audit
+ From IP: 172.31.204.29
+Loading SecureToken: um5hI
+
+
+----------------------------------------
+

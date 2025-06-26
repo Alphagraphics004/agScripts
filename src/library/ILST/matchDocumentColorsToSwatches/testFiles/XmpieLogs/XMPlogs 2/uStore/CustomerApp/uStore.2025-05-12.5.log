@@ -1,0 +1,216 @@
+2025/05/12 15:36:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[52416]:	Info
+Utils.BasePage.OnPreRender: IsClassicMode:False
+
+----------------------------------------
+
+2025/05/12 15:39:33
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[51240]:	Info
+Utils.BasePage.OnPreRender: IsClassicMode:False
+
+----------------------------------------
+
+2025/05/12 15:39:41
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[42304]:	Info
+Method: HandleEvent 
+Parameters: keyPoint=UserLoginInStorefront, xParameters=System.Xml.XmlDocument, mallID=1,  
+
+----------------------------------------
+
+2025/05/12 15:39:42
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[42304]:	Info
+Method: GetCart 
+Parameters: storeID=8, customerID=8473,  
+
+----------------------------------------
+
+2025/05/12 15:39:42
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[42304]:	Info
+Cart order ID is 22028
+
+----------------------------------------
+
+2025/05/12 15:55:19
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[22656]:	Info
+Method: HandleEvent 
+Parameters: keyPoint=UserLoginInStorefront, xParameters=System.Xml.XmlDocument, mallID=1,  
+
+----------------------------------------
+
+2025/05/12 15:55:19
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[22656]:	Info
+Method: GetCart 
+Parameters: storeID=8, customerID=7439,  
+
+----------------------------------------
+
+2025/05/12 15:55:19
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[22656]:	Info
+Cart order ID is 27201
+
+----------------------------------------
+
+2025/05/12 15:56:10
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[27836]:	Info
+Utils.BasePage.OnPreRender: IsClassicMode:False
+
+----------------------------------------
+
+2025/05/12 15:56:14
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[19252]:	Info
+Method: HandleEvent 
+Parameters: keyPoint=UserLoginInStorefront, xParameters=System.Xml.XmlDocument, mallID=1,  
+
+----------------------------------------
+
+2025/05/12 16:53:07
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[34184]:	Info
+Utils.BasePage.OnPreRender: IsClassicMode:False
+
+----------------------------------------
+
+2025/05/12 16:53:10
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[39808]:	Info
+Method: HandleEvent 
+Parameters: keyPoint=UserLoginInStorefront, xParameters=System.Xml.XmlDocument, mallID=1,  
+
+----------------------------------------
+
+2025/05/12 16:53:11
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[39808]:	Info
+Method: GetCart 
+Parameters: storeID=8, customerID=5411,  
+
+----------------------------------------
+
+2025/05/12 16:53:11
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[39808]:	Info
+Cart order ID is 25891
+
+----------------------------------------
+
+2025/05/12 17:04:06
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[60160]:	Fatal
+Application_Error occured at /ustore/login.aspx?ReturnUrl=%2fustore%2f8%2fHome&StoreId=8
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at uStore.GenParams.get_IsMobile()
+   at uStore.PageUtils.SetSkin(Page page, String defaultMasterPageSkinFile, Func`1 getMasterPage)
+   at uStore.Utils.BasePage.OnPreInit(EventArgs e)
+   at uStore.Login.OnPreInit(EventArgs e)
+   at System.Web.UI.Page.PerformPreInit()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+----------------------------------------
+
+2025/05/12 17:04:06
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[60160]:	Fatal
+Application_Error occured at /ustore/login.aspx?ReturnUrl=%2fustore%2f8%2fHome&StoreId=8
+Inner Exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uStore.GenParams.get_IsMobile()
+   at uStore.PageUtils.SetSkin(Page page, String defaultMasterPageSkinFile, Func`1 getMasterPage)
+   at uStore.Utils.BasePage.OnPreInit(EventArgs e)
+   at uStore.Login.OnPreInit(EventArgs e)
+   at System.Web.UI.Page.PerformPreInit()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+----------------------------------------
+
+2025/05/12 17:05:29
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[53484]:	Fatal
+Application_Error occured at /ustore/login.aspx?ReturnUrl=%2fustore%2f8%2fHome&StoreId=8
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at uStore.GenParams.get_IsMobile()
+   at uStore.PageUtils.SetSkin(Page page, String defaultMasterPageSkinFile, Func`1 getMasterPage)
+   at uStore.Utils.BasePage.OnPreInit(EventArgs e)
+   at uStore.Login.OnPreInit(EventArgs e)
+   at System.Web.UI.Page.PerformPreInit()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+----------------------------------------
+
+2025/05/12 17:05:29
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[53484]:	Fatal
+Application_Error occured at /ustore/login.aspx?ReturnUrl=%2fustore%2f8%2fHome&StoreId=8
+Inner Exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uStore.GenParams.get_IsMobile()
+   at uStore.PageUtils.SetSkin(Page page, String defaultMasterPageSkinFile, Func`1 getMasterPage)
+   at uStore.Utils.BasePage.OnPreInit(EventArgs e)
+   at uStore.Login.OnPreInit(EventArgs e)
+   at System.Web.UI.Page.PerformPreInit()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+----------------------------------------
+
+2025/05/12 17:20:05
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[6676]:	Info
+Utils.BasePage.OnPreRender: IsClassicMode:False
+
+----------------------------------------
+
+2025/05/12 18:03:52
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[39808]:	Info
+Utils.BasePage.OnPreRender: IsClassicMode:False
+
+----------------------------------------
+
+2025/05/12 18:03:58
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[39808]:	Info
+Method: HandleEvent 
+Parameters: keyPoint=UserLoginInStorefront, xParameters=System.Xml.XmlDocument, mallID=1,  
+
+----------------------------------------
+
+2025/05/12 18:03:58
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[39808]:	Info
+Method: GetCart 
+Parameters: storeID=8, customerID=5411,  
+
+----------------------------------------
+
+2025/05/12 18:03:58
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[39808]:	Info
+Cart order ID is 25891
+
+----------------------------------------
+

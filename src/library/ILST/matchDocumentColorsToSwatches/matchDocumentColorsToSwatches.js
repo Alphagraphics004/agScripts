@@ -1,3 +1,18 @@
+/**
+ *
+ * This was unfinished. It's still usable, but at the moment you need to manually define a CMYK
+ * swatch as a hardcoded value, then run a check on it individually (i.e. runTest() method)
+ *
+ * Ideally, it could create textframes of match name with the correct swatch assigned as fill
+ * above a selected piece, or write to a JSON file like on the desktop as the result.
+ *
+ * This is pretty high priority to finish, since Caesar is gone and now I'll need to do all
+ * color matching myself.
+ *
+ * Maybe it wouldn't be a bad idea to steal that PMS Swatch creator script from that small freelance
+ * gig on Github and just swap out the title of the card / value with the intended result?
+ */
+
 var CONFIG = {
   options: {
     areaThreshold: 8,
@@ -21212,18 +21227,63 @@ function convertCMYKToRGB(cmyk) {
   };
 }
 
+function runTest() {
+  try {
+    var COLOR_1 = {
+      cyan: 12,
+      magenta: 22,
+      yellow: 69,
+      black: 0,
+      name: "Light Yellow",
+    };
+
+    var COLOR_2 = {
+      cyan: 12,
+      magenta: 22,
+      yellow: 69,
+      black: 25,
+      name: "Dark Gold",
+    };
+
+    var COLOR_3 = {
+      cyan: 80,
+      magenta: 71,
+      yellow: 52,
+      black: 51,
+      name: "Navy",
+    };
+
+    var colorList = [COLOR_1, COLOR_2, COLOR_3];
+    for (var i = 0; i < colorList.length; i++) {
+      var tempColor = colorList[i];
+      var real = convertCMYKToRGB(tempColor);
+      alert(JSON.stringify(real));
+      var BXMatch = findClosestRGB(real, PMSSwatchList);
+      alert("MATCH:");
+      // alert(BXMatch);
+      alert(JSON.stringify(BXMatch.match));
+      // alert("Match: " + BXMatch)
+      // var PMSmatch = findClosestRGB(real, PMSSwatchList);
+      // alert("Matches: BX=" + BXMatch.name + " + PMS=" + PMSmatch.name);
+    }
+  } catch (err) {
+    alert(err);
+  }
+}
+
 function init() {
+  runTest();
   // var real = convertCMYKToRGB(PMS7457);
   // var match = findClosestRGB(real, PMSSwatchList);
   // alert(match);
   // alert(match.name);
-  var colorList = getUniqueColorsInDocument();
-  writeFile(CONFIG.path.debug, JSON.stringify(colorList));
+  // var colorList = getUniqueColorsInDocument();
+  // writeFile(CONFIG.path.debug, JSON.stringify(colorList));
 
-  for (var i = 0; i < colorList.length; i++) {
-    var temp = colorList[i];
-    unfoldColorValue(temp);
-  }
+  // for (var i = 0; i < colorList.length; i++) {
+  //   var temp = colorList[i];
+  //   unfoldColorValue(temp);
+  // }
   // alert("Done");
 }
 
@@ -21302,9 +21362,10 @@ function findClosestRGB(targetRGB, rgbArray) {
   var minDistance = null;
   var closestColor = null;
   for (var i = 0; i < rgbArray.length; i++) {
-    // var rgb = convertCMYKToRGB(rgbArray[i].color);
+    var rgb = convertCMYKToRGB(rgbArray[i].color);
+    // alert(JSON.stringify(rgb));
     // var rgb = convertCMYKToRGB();
-    var rgb = rgbArray[i].color.toRGB();
+    // var rgb = rgbArray[i].color.toRGB();
     var distance = Math.sqrt(
       Math.pow(targetRGB.r - rgb.r, 2) +
         Math.pow(targetRGB.g - rgb.g, 2) +

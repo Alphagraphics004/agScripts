@@ -1,0 +1,132 @@
+2025/05/12 15:13:55
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[14908]:	Info
+Utils.BasePage.OnPreRender: IsClassicMode:True
+
+----------------------------------------
+
+2025/05/12 15:55:18
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[42656]:	Info
+Utils.BasePage.OnPreRender: IsClassicMode:False
+
+----------------------------------------
+
+2025/05/12 17:04:07
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[14908]:	Info
+Utils.BasePage.OnPreRender: IsClassicMode:False
+
+----------------------------------------
+
+2025/05/12 17:04:09
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[5308]:	Info
+Method: HandleEvent 
+Parameters: keyPoint=UserLoginInStorefront, xParameters=System.Xml.XmlDocument, mallID=1,  
+
+----------------------------------------
+
+2025/05/12 17:04:09
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[5308]:	Info
+Method: GetCart 
+Parameters: storeID=8, customerID=9555,  
+
+----------------------------------------
+
+2025/05/12 17:04:09
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[5308]:	Info
+Cart order ID is -1
+
+----------------------------------------
+
+2025/05/12 17:04:09
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[5308]:	Info
+Method: AddCart 
+Parameters: storeID=8, customerID=9555,  
+
+----------------------------------------
+
+2025/05/12 17:04:09
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[5308]:	Info
+Added cart with ID 27212
+
+----------------------------------------
+
+2025/05/12 17:05:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[16776]:	Info
+Utils.BasePage.OnPreRender: IsClassicMode:False
+
+----------------------------------------
+
+2025/05/12 17:05:33
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[42656]:	Info
+Method: HandleEvent 
+Parameters: keyPoint=UserLoginInStorefront, xParameters=System.Xml.XmlDocument, mallID=1,  
+
+----------------------------------------
+
+2025/05/12 17:05:34
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[42656]:	Info
+Method: GetCart 
+Parameters: storeID=8, customerID=9555,  
+
+----------------------------------------
+
+2025/05/12 17:05:34
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[42656]:	Info
+Cart order ID is 27212
+
+----------------------------------------
+
+2025/05/12 17:05:55
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[14908]:	Info
+Method: GetCart 
+Parameters: storeID=8, customerID=9555,  
+
+----------------------------------------
+
+2025/05/12 17:05:55
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[14908]:	Info
+Cart order ID is 27212
+
+----------------------------------------
+
+2025/05/12 17:05:55
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[14908]:	Info
+Utils.BasePage.OnPreRender: IsClassicMode:False
+
+----------------------------------------
+
+2025/05/12 17:05:55
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[14908]:	Info
+Couldn't find placeholder for 'WaitingDiv' control, review Master page for its existence.
+
+----------------------------------------
+
+2025/05/12 17:06:10
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[17976]:	Info
+Utils.BasePage.OnPreRender: IsClassicMode:False
+
+----------------------------------------
+
+2025/05/12 17:06:10
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[17976]:	Info
+Couldn't find placeholder for 'WaitingDiv' control, review Master page for its existence.
+
+----------------------------------------
+

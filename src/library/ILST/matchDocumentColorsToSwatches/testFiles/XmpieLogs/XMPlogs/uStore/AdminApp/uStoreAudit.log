@@ -1,0 +1,1899 @@
+2025/05/07 19:49:31
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[52924]:	Audit
+ From IP: 172.31.204.182
+User: us717@alphagraphics.com-> SecureToken was created: YEvUk
+
+
+----------------------------------------
+
+2025/05/07 19:49:42
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[38916]:	Audit
+ From IP: 172.31.204.182
+User: us717@alphagraphics.com-> SecureToken was created: yCi4w
+
+
+----------------------------------------
+
+2025/05/07 19:49:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44328]:	Audit
+Made by userID: 3 From IP: 172.31.204.182
+Product 6828 in Store 8 was duplicated to create Product 8860.
+
+
+----------------------------------------
+
+2025/05/07 19:49:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[52924]:	Audit
+ From IP: 172.31.204.182
+User: us717@alphagraphics.com-> SecureToken was created: r74W8
+
+
+----------------------------------------
+
+2025/05/08 10:34:54
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[57732]:	Audit
+ From IP: 172.31.205.100
+Loading SecureToken: k 394
+
+
+----------------------------------------
+
+2025/05/08 10:35:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[56584]:	Audit
+ From IP: 172.31.205.100
+Loading SecureToken: C5J8b
+
+
+----------------------------------------
+
+2025/05/08 10:53:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[53812]:	Audit
+ From IP: 172.31.204.138
+Loading SecureToken: Vpebf
+
+
+----------------------------------------
+
+2025/05/08 10:54:44
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[58848]:	Audit
+ From IP: 172.31.204.138
+Loading SecureToken: r2TDg
+
+
+----------------------------------------
+
+2025/05/08 10:54:58
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[59332]:	Audit
+ From IP: 172.31.204.138
+Loading SecureToken: xf94a
+
+
+----------------------------------------
+
+2025/05/08 10:56:11
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[51640]:	Audit
+ From IP: 172.31.204.138
+Loading SecureToken: NkB/H
+
+
+----------------------------------------
+
+2025/05/08 11:02:41
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[50432]:	Audit
+ From IP: 172.31.205.100
+Loading SecureToken: Kd2hr
+
+
+----------------------------------------
+
+2025/05/08 11:02:54
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[59332]:	Audit
+ From IP: 172.31.205.100
+Loading SecureToken: hdJ4Y
+
+
+----------------------------------------
+
+2025/05/08 11:25:19
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[48276]:	Audit
+ From IP: 172.31.204.138
+Loading SecureToken: VX530
+
+
+----------------------------------------
+
+2025/05/08 13:03:08
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[55100]:	Audit
+Made by userID: 3 From IP: 172.31.204.138
+Report 'Itemized Orders - AG' was generated.
+
+
+----------------------------------------
+
+2025/05/08 13:03:13
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[60188]:	Audit
+Made by userID: 3 From IP: 172.31.204.138
+Report 'Itemized Orders - AG' was generated.
+
+
+----------------------------------------
+
+2025/05/08 13:06:22
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[39380]:	Audit
+Made by userID: 3 From IP: 172.31.204.138
+Report 'Itemized Orders - AG' file was downloaded.
+
+
+----------------------------------------
+
+2025/05/08 14:31:04
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[32652]:	Audit
+ From IP: 172.31.204.138
+Loading SecureToken: 4toHD
+
+
+----------------------------------------
+
+2025/05/08 14:31:25
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[30436]:	Audit
+Made by userID: 3 From IP: 172.31.204.138
+Action 'Resubmit to PrintSmith' was activated by the user on Item 36320 from Order 472172.
+
+
+----------------------------------------
+
+2025/05/08 14:31:25
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[42464]:	Audit
+ From IP: 172.31.204.138
+Loading SecureToken: HW0ky
+
+
+----------------------------------------
+
+2025/05/08 14:31:29
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[32144]:	Audit
+ From IP: 172.31.204.138
+Action 'Process (1 Copy)' was activated by a predefined trigger on Item 36320 from Order 472172.
+
+
+----------------------------------------
+
+2025/05/08 14:31:29
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[32144]:	Audit
+ From IP: 172.31.204.138
+Action 'Prepare' was activated by a predefined trigger on Item 36320 from Order 472172.
+
+
+----------------------------------------
+
+2025/05/08 14:31:29
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[32144]:	Audit
+Made by userID: 3 From IP: 172.31.204.138
+Action 'Return to Pending' was activated by the user on Item 36320 from Order 472172.
+
+
+----------------------------------------
+
+2025/05/08 14:31:29
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[42464]:	Audit
+ From IP: 172.31.204.138
+Loading SecureToken: rrdqD
+
+
+----------------------------------------
+
+2025/05/08 14:31:58
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[31860]:	Audit
+ From IP: 172.31.204.138
+Loading SecureToken: 7l0T/
+
+
+----------------------------------------
+
+2025/05/08 14:32:01
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[31496]:	Audit
+Made by userID: 3 From IP: 172.31.204.138
+Action 'Resubmit to PrintSmith' was activated by the user on Item 36394 from Order 199952.
+
+
+----------------------------------------
+
+2025/05/08 14:32:02
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[23344]:	Audit
+ From IP: 172.31.204.138
+Loading SecureToken: C2SYB
+
+
+----------------------------------------
+
+2025/05/08 14:32:04
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[31496]:	Audit
+ From IP: 172.31.204.138
+Action 'Process (1 Copy)' was activated by a predefined trigger on Item 36394 from Order 199952.
+
+
+----------------------------------------
+
+2025/05/08 14:32:04
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[31496]:	Audit
+ From IP: 172.31.204.138
+Action 'Prepare' was activated by a predefined trigger on Item 36394 from Order 199952.
+
+
+----------------------------------------
+
+2025/05/08 14:32:05
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[31496]:	Audit
+Made by userID: 3 From IP: 172.31.204.138
+Action 'Return to Pending' was activated by the user on Item 36394 from Order 199952.
+
+
+----------------------------------------
+
+2025/05/08 14:32:05
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[42144]:	Audit
+ From IP: 172.31.204.138
+Loading SecureToken: ONMGM
+
+
+----------------------------------------
+
+2025/05/08 14:32:28
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[42144]:	Audit
+ From IP: 172.31.204.138
+User: us717@alphagraphics.com-> SecureToken was created: ddG6F
+
+
+----------------------------------------
+
+2025/05/08 14:33:59
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[23344]:	Audit
+ From IP: 172.31.204.138
+Loading SecureToken: S/X/c
+
+
+----------------------------------------
+
+2025/05/08 14:35:23
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[31496]:	Audit
+ From IP: 172.31.204.138
+Loading SecureToken: IeQdZ
+
+
+----------------------------------------
+
+2025/05/08 14:35:26
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[31496]:	Audit
+ From IP: 172.31.204.138
+Action 'Process (1 Copy)' was activated by a predefined trigger on Item 36549 from Order 157172.
+
+
+----------------------------------------
+
+2025/05/08 14:35:26
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[31496]:	Audit
+Made by userID: 3 From IP: 172.31.204.138
+Action 'Resubmit' was activated by the user on Item 36549 from Order 157172.
+
+
+----------------------------------------
+
+2025/05/08 14:35:27
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[32652]:	Audit
+ From IP: 172.31.204.138
+Loading SecureToken: kFjfo
+
+
+----------------------------------------
+
+2025/05/08 14:35:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[30436]:	Audit
+ From IP: 172.31.204.138
+Action 'Process (1 Copy)' was activated by a predefined trigger on Item 36549 from Order 157172.
+
+
+----------------------------------------
+
+2025/05/08 14:35:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[30436]:	Audit
+ From IP: 172.31.204.138
+Action 'Prepare' was activated by a predefined trigger on Item 36549 from Order 157172.
+
+
+----------------------------------------
+
+2025/05/08 14:35:30
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[30436]:	Audit
+Made by userID: 3 From IP: 172.31.204.138
+Action 'Revert' was activated by the user on Item 36549 from Order 157172.
+
+
+----------------------------------------
+
+2025/05/08 14:35:31
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[32144]:	Audit
+ From IP: 172.31.204.138
+Loading SecureToken: 0ELqr
+
+
+----------------------------------------
+
+2025/05/08 14:35:33
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[23344]:	Audit
+Made by userID: 3 From IP: 172.31.204.138
+Action 'Resubmit to PrintSmith' was activated by the user on Item 36549 from Order 157172.
+
+
+----------------------------------------
+
+2025/05/08 14:35:33
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[32144]:	Audit
+ From IP: 172.31.204.138
+Loading SecureToken: oSPVF
+
+
+----------------------------------------
+
+2025/05/08 14:35:37
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[31496]:	Audit
+ From IP: 172.31.204.138
+Action 'Process (1 Copy)' was activated by a predefined trigger on Item 36549 from Order 157172.
+
+
+----------------------------------------
+
+2025/05/08 14:35:37
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[31496]:	Audit
+ From IP: 172.31.204.138
+Action 'Prepare' was activated by a predefined trigger on Item 36549 from Order 157172.
+
+
+----------------------------------------
+
+2025/05/08 14:35:37
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[31496]:	Audit
+Made by userID: 3 From IP: 172.31.204.138
+Action 'Return to Pending' was activated by the user on Item 36549 from Order 157172.
+
+
+----------------------------------------
+
+2025/05/08 14:35:37
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[31860]:	Audit
+ From IP: 172.31.204.138
+Loading SecureToken: QNTPp
+
+
+----------------------------------------
+
+2025/05/08 14:36:21
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[31860]:	Audit
+ From IP: 172.31.204.138
+Loading SecureToken: s3qPJ
+
+
+----------------------------------------
+
+2025/05/08 14:36:21
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[30436]:	Audit
+ From IP: 172.31.204.138
+Loading SecureToken: F4YqT
+
+
+----------------------------------------
+
+2025/05/08 14:37:52
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[32144]:	Audit
+ From IP: 172.31.204.138
+Loading SecureToken: g tdq
+
+
+----------------------------------------
+
+2025/05/08 14:50:08
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[2816]:	Audit
+ From IP: 172.31.205.100
+Loading SecureToken: DhBBh
+
+
+----------------------------------------
+
+2025/05/08 17:01:34
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[55800]:	Audit
+ From IP: 172.31.205.100
+User: us717@alphagraphics.com-> SecureToken was created: TNGWA
+
+
+----------------------------------------
+
+2025/05/08 17:01:35
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[11776]:	Audit
+ From IP: 172.31.204.138
+User: us717@alphagraphics.com-> SecureToken was created: bDVTn
+
+
+----------------------------------------
+
+2025/05/12 13:56:09
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[43692]:	Audit
+ From IP: 172.31.205.138
+User: us717@alphagraphics.com-> SecureToken was created: p4RbN
+
+
+----------------------------------------
+
+2025/05/12 13:56:17
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[43692]:	Audit
+ From IP: 172.31.205.138
+User: us717@alphagraphics.com-> SecureToken was created: 7UUdB
+
+
+----------------------------------------
+
+2025/05/12 13:56:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[34208]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: jKXnA
+
+
+----------------------------------------
+
+2025/05/12 13:56:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[37192]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+Product 6801 in Store 8 was set offline.
+
+
+----------------------------------------
+
+2025/05/12 13:57:16
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[49920]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+Product Property 20227 of Product 6801 in Store 8 was updated.
+
+
+----------------------------------------
+
+2025/05/12 13:57:23
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[3992]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: 0TafI
+
+
+----------------------------------------
+
+2025/05/12 13:57:25
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[37192]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+Product 6801 in Store 8 was set online.
+
+
+----------------------------------------
+
+2025/05/12 13:57:26
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[34208]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken:  DrjV
+
+
+----------------------------------------
+
+2025/05/12 13:57:28
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[49920]:	Audit
+ From IP: 172.31.205.138
+User: us717@alphagraphics.com-> SecureToken was created: EseOY
+
+
+----------------------------------------
+
+2025/05/12 19:32:05
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[21444]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken:  Xwh0
+
+
+----------------------------------------
+
+2025/05/12 19:32:06
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[28468]:	Audit
+ From IP: 172.31.204.29
+Loading SecureToken: qtHoI
+
+
+----------------------------------------
+
+2025/05/12 19:34:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[45116]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: FMIut
+
+
+----------------------------------------
+
+2025/05/12 19:34:04
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[56036]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: / 91u
+
+
+----------------------------------------
+
+2025/05/12 19:34:04
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[21444]:	Audit
+Made by userID: 3 From IP: 172.31.204.29
+BillingAddress tax method was selected for Product 8855 in Store 8.
+
+
+----------------------------------------
+
+2025/05/12 19:34:05
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[45116]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: l9VsR
+
+
+----------------------------------------
+
+2025/05/12 19:34:05
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[45116]:	Audit
+ From IP: 172.31.204.29
+Loading SecureToken:  AM4o
+
+
+----------------------------------------
+
+2025/05/12 19:34:06
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[5464]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: X69y4
+
+
+----------------------------------------
+
+2025/05/12 19:34:07
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[5464]:	Audit
+ From IP: 172.31.204.29
+Loading SecureToken: GSeuz
+
+
+----------------------------------------
+
+2025/05/12 19:34:07
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[45116]:	Audit
+Made by userID: 3 From IP: 172.31.204.29
+BillingAddress tax method was selected for Product 8854 in Store 8.
+
+
+----------------------------------------
+
+2025/05/12 19:34:08
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[56036]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: xcaop
+
+
+----------------------------------------
+
+2025/05/12 19:34:08
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[45116]:	Audit
+ From IP: 172.31.204.29
+Loading SecureToken: pZ3wi
+
+
+----------------------------------------
+
+2025/05/12 19:34:09
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[45116]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: dXaGM
+
+
+----------------------------------------
+
+2025/05/12 19:34:09
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[56036]:	Audit
+ From IP: 172.31.204.29
+Loading SecureToken: 3vs8h
+
+
+----------------------------------------
+
+2025/05/12 19:34:10
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[5464]:	Audit
+Made by userID: 3 From IP: 172.31.204.29
+BillingAddress tax method was selected for Product 8853 in Store 8.
+
+
+----------------------------------------
+
+2025/05/12 19:34:10
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[5464]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: 5EY00
+
+
+----------------------------------------
+
+2025/05/12 19:34:11
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[45116]:	Audit
+ From IP: 172.31.204.29
+Loading SecureToken: 5oSlN
+
+
+----------------------------------------
+
+2025/05/12 19:34:11
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[45116]:	Audit
+Made by userID: 3 From IP: 172.31.204.29
+GetExcelData- read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_8852.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:34:11
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[45116]:	Audit
+Made by userID: 3 From IP: 172.31.204.29
+ReadTemplate -> read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_8852.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:34:12
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[21444]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: e6Xts
+
+
+----------------------------------------
+
+2025/05/12 19:34:12
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[28468]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+GetExcelData- read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_8852.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:34:12
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[28468]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+ReadTemplate -> read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_8852.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:34:12
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[21444]:	Audit
+ From IP: 172.31.204.29
+Loading SecureToken: 02Tet
+
+
+----------------------------------------
+
+2025/05/12 19:34:13
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[56036]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+BillingAddress tax method was selected for Product 8852 in Store 8.
+
+
+----------------------------------------
+
+2025/05/12 19:34:13
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[28468]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+GetExcelData- read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_8852.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:34:13
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[28468]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+ReadTemplate -> read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_8852.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:34:14
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[56036]:	Audit
+ From IP: 172.31.204.29
+Loading SecureToken: vcPUr
+
+
+----------------------------------------
+
+2025/05/12 19:34:14
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[28468]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: W9KSp
+
+
+----------------------------------------
+
+2025/05/12 19:34:14
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[21444]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+GetExcelData- read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7852.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:34:14
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[21444]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+ReadTemplate -> read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7852.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:34:14
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[21444]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+GetExcelData- read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7852.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:34:14
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[21444]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+ReadTemplate -> read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7852.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:34:15
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[21444]:	Audit
+ From IP: 172.31.204.29
+Loading SecureToken: kryXC
+
+
+----------------------------------------
+
+2025/05/12 19:34:15
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[28468]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+GetExcelData- read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7852.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:34:15
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[28468]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+ReadTemplate -> read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7852.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:34:15
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[28468]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+GetExcelData- read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7852.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:34:15
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[28468]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+ReadTemplate -> read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7852.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:34:15
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[56036]:	Audit
+ From IP: 172.31.204.29
+Loading SecureToken: N5R81
+
+
+----------------------------------------
+
+2025/05/12 19:34:16
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[56036]:	Audit
+Made by userID: 3 From IP: 172.31.204.29
+BillingAddress tax method was selected for Product 7852 in Store 8.
+
+
+----------------------------------------
+
+2025/05/12 19:34:16
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[56036]:	Audit
+Made by userID: 3 From IP: 172.31.204.29
+GetExcelData- read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7852.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:34:16
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[56036]:	Audit
+Made by userID: 3 From IP: 172.31.204.29
+ReadTemplate -> read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7852.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:34:16
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[56036]:	Audit
+Made by userID: 3 From IP: 172.31.204.29
+GetExcelData- read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7852.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:34:16
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[56036]:	Audit
+Made by userID: 3 From IP: 172.31.204.29
+ReadTemplate -> read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7852.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:34:16
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[21444]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: mNoj0
+
+
+----------------------------------------
+
+2025/05/12 19:49:40
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[11424]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: uJRy2
+
+
+----------------------------------------
+
+2025/05/12 19:49:41
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[6452]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: jpYfc
+
+
+----------------------------------------
+
+2025/05/12 19:49:41
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[6452]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: POr9B
+
+
+----------------------------------------
+
+2025/05/12 19:49:42
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[24244]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+Product 8855 in Store 8 was set online.
+
+
+----------------------------------------
+
+2025/05/12 19:49:42
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44096]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: cgrkw
+
+
+----------------------------------------
+
+2025/05/12 19:49:43
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44096]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: yxAWn
+
+
+----------------------------------------
+
+2025/05/12 19:49:43
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[6452]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: bZh1i
+
+
+----------------------------------------
+
+2025/05/12 19:49:44
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44096]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: ckyuH
+
+
+----------------------------------------
+
+2025/05/12 19:49:44
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[11424]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+Product 8854 in Store 8 was set online.
+
+
+----------------------------------------
+
+2025/05/12 19:49:44
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44096]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: J4896
+
+
+----------------------------------------
+
+2025/05/12 19:49:45
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[11424]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: d1JUS
+
+
+----------------------------------------
+
+2025/05/12 19:49:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44096]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: yMmNT
+
+
+----------------------------------------
+
+2025/05/12 19:49:46
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[24244]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: pOj/0
+
+
+----------------------------------------
+
+2025/05/12 19:49:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44096]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+Product 8853 in Store 8 was set online.
+
+
+----------------------------------------
+
+2025/05/12 19:49:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[11424]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: WbiQF
+
+
+----------------------------------------
+
+2025/05/12 19:49:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44096]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+GetExcelData- read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_8852.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:49:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44096]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+ReadTemplate -> read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_8852.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:49:47
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[11424]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: o4n7S
+
+
+----------------------------------------
+
+2025/05/12 19:49:48
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44096]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+GetExcelData- read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_8852.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:49:48
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44096]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+ReadTemplate -> read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_8852.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:49:48
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44096]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: 2yIRf
+
+
+----------------------------------------
+
+2025/05/12 19:49:48
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[11424]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+GetExcelData- read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_8852.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:49:48
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[11424]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+ReadTemplate -> read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_8852.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:49:48
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[11424]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: 6a9Sg
+
+
+----------------------------------------
+
+2025/05/12 19:49:49
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44096]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+Product 8852 in Store 8 was set online.
+
+
+----------------------------------------
+
+2025/05/12 19:49:49
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[24244]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: MkfIT
+
+
+----------------------------------------
+
+2025/05/12 19:49:49
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[11424]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+GetExcelData- read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7852.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:49:49
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[11424]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+ReadTemplate -> read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7852.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:49:49
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[11424]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+GetExcelData- read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7852.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:49:49
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[11424]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+ReadTemplate -> read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7852.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:49:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44096]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: KFPrC
+
+
+----------------------------------------
+
+2025/05/12 19:49:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[24244]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+GetExcelData- read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7852.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:49:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[24244]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+ReadTemplate -> read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7852.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:49:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[24244]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+GetExcelData- read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7852.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:49:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[24244]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+ReadTemplate -> read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7852.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:49:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[6452]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: ov1D3
+
+
+----------------------------------------
+
+2025/05/12 19:49:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[24244]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+GetExcelData- read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7852.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:49:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[24244]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+ReadTemplate -> read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7852.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:49:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[24244]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+GetExcelData- read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7852.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:49:50
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[24244]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+ReadTemplate -> read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7852.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:49:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44096]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: e/hnP
+
+
+----------------------------------------
+
+2025/05/12 19:49:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[6452]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+Product 7852 in Store 8 was set online.
+
+
+----------------------------------------
+
+2025/05/12 19:49:51
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[24244]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: VV2fH
+
+
+----------------------------------------
+
+2025/05/12 19:49:52
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[11424]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+GetExcelData- read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7851.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:49:52
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[11424]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+ReadTemplate -> read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7851.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:49:52
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[11424]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+GetExcelData- read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7851.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:49:52
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[11424]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+ReadTemplate -> read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7851.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:49:52
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[6452]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken:  YoiU
+
+
+----------------------------------------
+
+2025/05/12 19:49:52
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[11424]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+GetExcelData- read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7851.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:49:52
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[11424]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+ReadTemplate -> read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7851.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:49:52
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[11424]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+GetExcelData- read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7851.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:49:52
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[11424]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+ReadTemplate -> read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7851.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:49:53
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44096]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: 0ZJqm
+
+
+----------------------------------------
+
+2025/05/12 19:49:53
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44096]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: ujQq2
+
+
+----------------------------------------
+
+2025/05/12 19:49:53
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[24244]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: TPb1f
+
+
+----------------------------------------
+
+2025/05/12 19:49:54
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[24244]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: 5KF8Q
+
+
+----------------------------------------
+
+2025/05/12 19:49:54
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[11424]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: H01Tp
+
+
+----------------------------------------
+
+2025/05/12 19:49:55
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44096]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+GetExcelData- read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7848.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:49:55
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44096]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+ReadTemplate -> read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7848.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:49:55
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44096]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+GetExcelData- read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7848.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:49:55
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44096]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+ReadTemplate -> read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7848.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:49:55
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44096]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: yCGzC
+
+
+----------------------------------------
+
+2025/05/12 19:49:55
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[11424]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+GetExcelData- read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7848.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:49:55
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[11424]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+ReadTemplate -> read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7848.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:49:55
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[11424]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+GetExcelData- read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7848.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:49:55
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[11424]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+ReadTemplate -> read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7848.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:49:55
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44096]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: 7F58M
+
+
+----------------------------------------
+
+2025/05/12 19:49:56
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44096]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: wFXMa
+
+
+----------------------------------------
+
+2025/05/12 19:49:56
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[6452]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: 9KGS9
+
+
+----------------------------------------
+
+2025/05/12 19:49:57
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[11424]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+GetExcelData- read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7846.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:49:57
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[11424]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+ReadTemplate -> read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7846.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:49:57
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[6452]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: CVdCj
+
+
+----------------------------------------
+
+2025/05/12 19:49:57
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44096]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+GetExcelData- read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7846.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:49:57
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44096]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+ReadTemplate -> read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7846.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:49:57
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[11424]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken:  fgDx
+
+
+----------------------------------------
+
+2025/05/12 19:49:58
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[24244]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+GetExcelData- read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7845.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:49:58
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[24244]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+ReadTemplate -> read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7845.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:49:58
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[11424]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: xxURu
+
+
+----------------------------------------
+
+2025/05/12 19:49:58
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44096]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+GetExcelData- read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7845.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:49:58
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44096]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+ReadTemplate -> read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7845.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:49:58
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[11424]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: TFeO 
+
+
+----------------------------------------
+
+2025/05/12 19:49:59
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[11424]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: 0O9Io
+
+
+----------------------------------------
+
+2025/05/12 19:49:59
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[11424]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: Evz9F
+
+
+----------------------------------------
+
+2025/05/12 19:50:00
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44096]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: iwy/q
+
+
+----------------------------------------
+
+2025/05/12 19:50:00
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[6452]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: m5BZK
+
+
+----------------------------------------
+
+2025/05/12 19:50:01
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44096]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: u5L/8
+
+
+----------------------------------------
+
+2025/05/12 19:50:01
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[11424]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: cB4ee
+
+
+----------------------------------------
+
+2025/05/12 19:50:01
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44096]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: wzIh1
+
+
+----------------------------------------
+
+2025/05/12 19:50:02
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44096]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: nuEtX
+
+
+----------------------------------------
+
+2025/05/12 19:50:02
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44096]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: IQ Rc
+
+
+----------------------------------------
+
+2025/05/12 19:50:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[11424]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: DoaUX
+
+
+----------------------------------------
+
+2025/05/12 19:50:03
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44096]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: PoSjp
+
+
+----------------------------------------
+
+2025/05/12 19:50:04
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[24244]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: wkUAg
+
+
+----------------------------------------
+
+2025/05/12 19:50:04
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44096]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+GetExcelData- read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7838.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:50:04
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44096]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+ReadTemplate -> read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7838.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:50:04
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44096]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+GetExcelData- read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7838.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:50:04
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44096]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+ReadTemplate -> read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7838.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:50:04
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44096]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: 40LGa
+
+
+----------------------------------------
+
+2025/05/12 19:50:04
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[6452]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+GetExcelData- read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7838.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:50:04
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[6452]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+ReadTemplate -> read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7838.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:50:04
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[6452]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+GetExcelData- read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7838.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:50:04
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[6452]:	Audit
+Made by userID: 3 From IP: 172.31.205.138
+ReadTemplate -> read excel from disk for file '\\fsag\uStore_MT2_FR33\ExcelPricingEngine\Store_8\PricesData_Product_7838.xlsx'
+
+
+----------------------------------------
+
+2025/05/12 19:50:05
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44096]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: S1j8d
+
+
+----------------------------------------
+
+2025/05/12 19:50:05
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[6452]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: P2pL2
+
+
+----------------------------------------
+
+2025/05/12 19:50:06
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[11424]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: 6eLsi
+
+
+----------------------------------------
+
+2025/05/12 19:50:06
+[TenantUniqueId: 1c17f22f-ea8f-4664-a2da-bcaf5ff7bded]
+[44096]:	Audit
+ From IP: 172.31.205.138
+Loading SecureToken: UCuZM
+
+
+----------------------------------------
+
