@@ -21230,40 +21230,67 @@ function convertCMYKToRGB(cmyk) {
 function runTest() {
   try {
     var COLOR_1 = {
-      cyan: 12,
-      magenta: 22,
-      yellow: 69,
+      cyan: 46,
+      magenta: 0,
+      yellow: 13,
       black: 0,
-      name: "Light Yellow",
+      name: "Sky Blue",
     };
 
     var COLOR_2 = {
-      cyan: 12,
-      magenta: 22,
-      yellow: 69,
-      black: 25,
+      cyan: 89,
+      magenta: 35,
+      yellow: 73,
+      black: 24,
       name: "Dark Gold",
     };
 
     var COLOR_3 = {
-      cyan: 80,
-      magenta: 71,
-      yellow: 52,
-      black: 51,
-      name: "Navy",
+      cyan: 15,
+      magenta: 20,
+      yellow: 41,
+      black: 0,
+      name: "Natural",
     };
 
-    var colorList = [COLOR_1, COLOR_2, COLOR_3];
+    var COLOR_4 = {
+      cyan: 36,
+      magenta: 78,
+      yellow: 79,
+      black: 43,
+      name: "Brown",
+    };
+
+    var COLOR_5 = {
+      cyan: 13,
+      magenta: 100,
+      yellow: 90,
+      black: 3,
+      name: "Red",
+    };
+
+    var COLOR_6 = {
+      cyan: 0,
+      magenta: 22,
+      yellow: 97,
+      black: 0,
+      name: "Yellow",
+    };
+
+    var colorList = [COLOR_1, COLOR_2, COLOR_3, COLOR_4, COLOR_5, COLOR_6];
     for (var i = 0; i < colorList.length; i++) {
       var tempColor = colorList[i];
       var real = convertCMYKToRGB(tempColor);
+      //
       alert(JSON.stringify(real));
-      var BXMatch = findClosestRGB(real, PMSSwatchList);
-      alert("MATCH:");
-      // alert(BXMatch);
-      alert(JSON.stringify(BXMatch.match));
+      // var BXMatch = findClosestRGB(real, BPXSwatchList);
+      // alert("MATCH:");
+      // alert(JSON.stringify(BXMatch.match));
+
       // alert("Match: " + BXMatch)
-      // var PMSmatch = findClosestRGB(real, PMSSwatchList);
+      var PMSmatch = findClosestRGB(real, PMSSwatchList);
+      alert("MATCH:");
+      alert(JSON.stringify(PMSmatch.match));
       // alert("Matches: BX=" + BXMatch.name + " + PMS=" + PMSmatch.name);
     }
   } catch (err) {
