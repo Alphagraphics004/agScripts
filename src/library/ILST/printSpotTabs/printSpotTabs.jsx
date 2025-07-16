@@ -22,7 +22,7 @@ var options = {
   text: {
     height: 30, // Amount of pixels added to bottom of Tab to make room for text
     size: 12, // Size of font
-    font: "ACaslonPro-Bold", // Name of fontface used
+    // font: "ACaslonPro-Bold", // Name of fontface used
     // ^ Fonts in AI use metadata name, not what appears in the menu. You can run a script containing this to see the string required here when you have text with the desired font selected:
     // alert(app.selection[0].textRange.characterAttributes.textFont)
     name: "Label",
@@ -200,9 +200,9 @@ function createSwatchLabel(xOrigin, yOrigin) {
   item.top = offsets[0][1];
   item.contents = "Lorem ipsum".toUpperCase();
   item.textRange.characterAttributes.size = options.text.size;
-  item.textRange.characterAttributes.textFont = findFontFromString(
-    options.text.font
-  );
+  // item.textRange.characterAttributes.textFont = findFontFromString(
+  //   options.text.font
+  // );
   item.strokeColor = new NoColor();
   item.closed = true;
   return item;
@@ -329,19 +329,25 @@ function getObjectiveBounds(item) {
 
 // Main function and auto-execution section
 function main() {
-  var items = getArtworkItemColors();
-  if (!items.length) {
-    alert("There are no Spot or CMYK Colors in this document");
-    return null;
+  try {
+    var items = getArtworkItemColors();
+    if (!items.length) {
+      alert("There are no Spot or CMYK Colors in this document");
+      return null;
+    }
+    items.forEach(function (item, i) {
+      createSwatchTabGroup(
+        options.origin[0] +
+          (options.swatch.width +
+            options.swatch.padding * 2 +
+            options.spacing) *
+            i,
+        options.origin[1],
+        item
+      );
+    });
+  } catch (err) {
+    alert(err);
   }
-  items.forEach(function (item, i) {
-    createSwatchTabGroup(
-      options.origin[0] +
-        (options.swatch.width + options.swatch.padding * 2 + options.spacing) *
-          i,
-      options.origin[1],
-      item
-    );
-  });
 }
 main();

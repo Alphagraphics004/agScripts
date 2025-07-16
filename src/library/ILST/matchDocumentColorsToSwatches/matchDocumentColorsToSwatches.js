@@ -21227,70 +21227,63 @@ function convertCMYKToRGB(cmyk) {
   };
 }
 
+function getShallowSelectionPaths() {
+  var list = [];
+  //
+  if (!app.selection || !app.selection.length) {
+    alert("Must have objects selected for script to work");
+  }
+  for (var i = 0; i < app.selection.length; i++) {
+    var temp = app.selection[i];
+    if (/^pathitem$/i.test(temp.typename) && temp.filled) {
+      list.push(temp.fillColor);
+    }
+  }
+  if (!list.length) {
+    alert(
+      "Script cannot read complex hierarchies. Please use simple top-level paths: rectangles not grouped or in compound paths, etc."
+    );
+  }
+  alert(list.length);
+  return list;
+}
+
 function runTest() {
   try {
+    getShallowSelectionPaths();
+
+    return null;
+
     var COLOR_1 = {
-      cyan: 46,
-      magenta: 0,
-      yellow: 13,
+      cyan: 1,
+      magenta: 27,
+      yellow: 14,
       black: 0,
-      name: "Sky Blue",
+      name: "Light Red",
     };
 
     var COLOR_2 = {
-      cyan: 89,
-      magenta: 35,
-      yellow: 73,
-      black: 24,
-      name: "Dark Gold",
-    };
-
-    var COLOR_3 = {
-      cyan: 15,
-      magenta: 20,
-      yellow: 41,
+      cyan: 6,
+      magenta: 96,
+      yellow: 86,
       black: 0,
-      name: "Natural",
-    };
-
-    var COLOR_4 = {
-      cyan: 36,
-      magenta: 78,
-      yellow: 79,
-      black: 43,
-      name: "Brown",
-    };
-
-    var COLOR_5 = {
-      cyan: 13,
-      magenta: 100,
-      yellow: 90,
-      black: 3,
       name: "Red",
     };
 
-    var COLOR_6 = {
-      cyan: 0,
-      magenta: 22,
-      yellow: 97,
-      black: 0,
-      name: "Yellow",
-    };
-
-    var colorList = [COLOR_1, COLOR_2, COLOR_3, COLOR_4, COLOR_5, COLOR_6];
+    var colorList = [COLOR_1, COLOR_2];
     for (var i = 0; i < colorList.length; i++) {
       var tempColor = colorList[i];
       var real = convertCMYKToRGB(tempColor);
       //
       alert(JSON.stringify(real));
-      // var BXMatch = findClosestRGB(real, BPXSwatchList);
-      // alert("MATCH:");
-      // alert(JSON.stringify(BXMatch.match));
+      var BXMatch = findClosestRGB(real, BPXSwatchList);
+      alert("MATCH:");
+      alert(JSON.stringify(BXMatch.match));
 
       // alert("Match: " + BXMatch)
-      var PMSmatch = findClosestRGB(real, PMSSwatchList);
-      alert("MATCH:");
-      alert(JSON.stringify(PMSmatch.match));
+      // var PMSmatch = findClosestRGB(real, PMSSwatchList);
+      // alert("MATCH:");
+      // alert(JSON.stringify(PMSmatch.match));
       // alert("Matches: BX=" + BXMatch.name + " + PMS=" + PMSmatch.name);
     }
   } catch (err) {
