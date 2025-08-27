@@ -146,6 +146,25 @@
     "ag4CustomStyle": { "display": "inline-block" }
   },
   {
+    "centerNumber": "US714",
+    "centerURL": "https://www.alphagraphics.com/us-arizona-chandler-us714",
+    "centerVanityURL": "us714.alphagraphics.com",
+    "centerName": "AlphaGraphics Chandler",
+    "centerEmail": "us714@alphagraphics.com",
+    "centerPhone": "480-870-1274",
+    "centerAddress": "2221 W. Pecos Rd. #10",
+    "centerCity": "Chandler",
+    "centerState": "AZ",
+    "centerZip": "85224",
+    "centerFacebook": "https://www.facebook.com/AlphaGraphicsChandler/",
+    "centerTwitter": "",
+    "centerLinkedIn": "",
+    "centerInstagram": "",
+    "centerBlog": "https://blogs.alphagraphics.com/blog",
+    "centerRefundPolicy": true,
+    "centerTermsConditions": ""
+  },
+  {
     "centerNumber": "US749",
     "centerURL": "https://www.alphagraphics.com/centers/rockwall-texas-us749.html",
     "centerVanityURL": "us749.alphagraphics.com",
