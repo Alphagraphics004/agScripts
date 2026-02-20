@@ -373,6 +373,27 @@
     "ag4CustomStyle": { "display": "inline-block" }
   },
   {
+    "centerNumber": "US607",
+    "centerURL": "https://www.alphagraphics.com/us-texas-weatherford-us607",
+    "centerVanityURL": "us607.alphagraphics.com",
+    "centerName": "AlphaGraphics Weatherford",
+    "centerEmail": "us607@alphagraphics.com",
+    "centerPhone": "(682) 435-1992",
+    "centerAddress": "608 South Main",
+    "centerCity": "Weatherford",
+    "centerState": "TX",
+    "centerZip": "76086",
+    "centerFacebook": "http://www.facebook.com/Alphagraphics.NorthCenTex",
+    "centerTwitter": "http://twitter.com/AGNorthCenTex",
+    "centerLinkedIn": "",
+    "centerInstagram": "",
+    "centerBlog": "https://blogs.alphagraphics.com/blog/weatherford-texas-us607/",
+    "centerRefundPolicy": "",
+    "centerTermsConditions": "",
+    "footerDisplay": { "display": "initial" },
+    "ag4CustomStyle": { "display": "inline-block" }
+  },  
+  {
     "centerNumber": "US765",
     "centerURL": "https://www.alphagraphics.com/us-wyoming-sheridan-us765",
     "centerVanityURL": "us765.alphagraphics.com",
